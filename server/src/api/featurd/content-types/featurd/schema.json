@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "featurds",
+  "info": {
+    "singularName": "featurd",
+    "pluralName": "featurds",
+    "displayName": "featured",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "cars": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::car.car",
+      "mappedBy": "featureds"
+    }
+  }
+}

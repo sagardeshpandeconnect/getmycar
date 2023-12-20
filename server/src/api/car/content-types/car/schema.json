@@ -1,0 +1,84 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cars",
+  "info": {
+    "singularName": "car",
+    "pluralName": "cars",
+    "displayName": "car",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "version": {
+      "type": "string"
+    },
+    "mileage": {
+      "type": "decimal"
+    },
+    "engine": {
+      "type": "integer"
+    },
+    "body_types": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::body-type.body-type",
+      "inversedBy": "cars"
+    },
+    "brands": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::brand.brand",
+      "inversedBy": "cars"
+    },
+    "fuels": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::fuel.fuel",
+      "inversedBy": "cars"
+    },
+    "seatings": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::seating.seating",
+      "mappedBy": "cars"
+    },
+    "transmissions": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::transmission.transmission",
+      "inversedBy": "cars"
+    },
+    "featureds": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::featurd.featurd",
+      "inversedBy": "cars"
+    },
+    "summary2": {
+      "type": "richtext"
+    }
+  }
+}

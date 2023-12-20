@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transmissions",
+  "info": {
+    "singularName": "transmission",
+    "pluralName": "transmissions",
+    "displayName": "transmission"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "cars": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::car.car",
+      "mappedBy": "transmissions"
+    }
+  }
+}

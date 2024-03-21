@@ -1,0 +1,58 @@
+[
+  {
+    "title": "SUV",
+    "bodyTypeSlug": "best-suvs",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1695314552/carwale/bodyTypes/suv_clr_cve551.svg"
+  },
+  {
+    "title": "Compact SUV",
+    "bodyTypeSlug": "best-compact-suvs",
+
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1695314555/carwale/bodyTypes/suv_clr_rnbtlk.svg"
+  },
+  {
+    "title": "Convertible",
+    "bodyTypeSlug": "best-convertibles",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1695314561/carwale/bodyTypes/convertible_clr_c7oc8f.svg"
+  },
+  {
+    "title": "Minivan",
+    "bodyTypeSlug": "best-minivans",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1695314565/carwale/bodyTypes/van_clr_ih5qb2.svg"
+  },
+  {
+    "title": "Sedan",
+    "bodyTypeSlug": "best-sedans",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1695314570/carwale/bodyTypes/sedan_clr_towtxz.svg"
+  },
+  {
+    "title": "Compact Sedan",
+    "bodyTypeSlug": "best-compact-sedans",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1695314574/carwale/bodyTypes/compactsedan_clr_jp6coa.svg"
+  },
+  {
+    "title": "Coupe",
+    "bodyTypeSlug": "best-coupes",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1695314579/carwale/bodyTypes/coupe_clr_dbmpig.svg"
+  },
+  {
+    "title": "Truck",
+    "bodyTypeSlug": "best-trucks",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1695314583/carwale/bodyTypes/truck_clr_wkoatl.svg"
+  },
+  {
+    "title": "Hatchback",
+    "bodyTypeSlug": "best-hatchbacks",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1695314588/carwale/bodyTypes/hatchback_clr_gvbj51.svg"
+  },
+  {
+    "title": "MUV",
+    "bodyTypeSlug": "best-muvs",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1695314591/carwale/bodyTypes/suv_clr_bbsrw7.svg"
+  },
+  {
+    "title": "Station Wagon",
+    "bodyTypeSlug": "best-station-wagons",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1695314601/carwale/bodyTypes/wagon_clr_rk61bu.svg"
+  }
+]

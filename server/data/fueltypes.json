@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Petrol",
+    "fuelSlug": "best-petrol-cars",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1695402628/carwale/fuelTypes/petrol_k1tdu6.svg"
+  },
+  {
+    "title": "Diesel",
+    "fuelSlug": "diesel",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1695402638/carwale/fuelTypes/diesel_hmtmm8.svg"
+  },
+  {
+    "title": "CNG",
+    "fuelSlug": "cng",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1695402648/carwale/fuelTypes/cng_a6c9jz.svg"
+  },
+  {
+    "title": "Electric",
+    "fuelSlug": "best-electric-cars",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1695402632/carwale/fuelTypes/electric_sekqam.svg"
+  },
+  {
+    "title": "Hybrid",
+    "fuelSlug": "best-hybrid-cars",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1695402646/carwale/fuelTypes/h-filter-without-background_fptyj0.svg"
+  }
+]

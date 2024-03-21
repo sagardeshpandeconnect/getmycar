@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Automatic",
+    "transmissionSlug": "best-automatic-cars",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1696008978/carwale/transmission/automatic_clr_igzlyo.svg"
+  },
+  {
+    "title": "Manual",
+    "transmissionSlug": "best-manual-cars",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1696008995/carwale/transmission/manual_clr_rasirc.svg"
+  }
+]

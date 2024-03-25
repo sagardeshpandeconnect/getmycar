@@ -4,7 +4,6 @@ import ComparionCardChild from "./ComparionCardChild";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addToComparison } from "@features/comparison/comparisonSlice";
-import axios from "axios";
 import { useEffect } from "react";
 import { getData } from "@services/apiClient";
 
@@ -20,8 +19,8 @@ const ComparionCardParent = ({ titleSlugs }) => {
 
   useEffect(() => {
     Promise.all(requests).then((responses) => {
-      setAllData(responses);
-      // console.log(responses);
+      setAllData(responses.map((innerArray) => innerArray[0]));
+      console.log(responses);
     });
   }, []);
   console.log(allData);
@@ -41,7 +40,7 @@ const ComparionCardParent = ({ titleSlugs }) => {
         <Flex justifyContent={"center"}>
           {allData &&
             allData?.map((car) => {
-              const carData = car[0];
+              const carData = car;
               return (
                 <Box key={carData._id}>
                   <ComparionCardChild

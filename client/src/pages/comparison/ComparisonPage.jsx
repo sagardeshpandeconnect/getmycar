@@ -20,16 +20,24 @@ import {
   Button,
   Grid,
   Flex,
+  Text,
 } from "@chakra-ui/react";
+// import { textCombiner } from "@utils/textCombiner";
+import { convertPrice } from "@utils/convertPrice";
+import TextComparison from "./components/TextComparison";
+import CardRow from "./components/CardRow";
+import SelectCar from "./components/SelectCar";
+import ComparisonCard from "./components/ComparisonCard";
+
 const ComparisonPage = () => {
   const comparisonStore = useSelector((state) => state.entities.comparison);
   const dispatch = useDispatch();
 
   useEffect(() => {
-    console.log("Effect is running");
+    // console.log("Effect is running");
     return () => {
       dispatch(resetStore());
-      console.log("i am resetting the state");
+      // console.log("i am resetting the state");
     };
   }, [dispatch]);
   console.log(comparisonStore);
@@ -40,9 +48,33 @@ const ComparisonPage = () => {
     setShow((showing) => !showing);
   };
 
+  // const handleRemove = function (carId) {
+  //   console.log(carId);
+  // };
   const handleRemove = function (carId) {
     dispatch(removeFromComparison(carId));
+    console.log(`${carId} is removed from comparison`);
+    console.log(comparisonStore.length);
   };
+
+  //   const handleRemove = function (carId) {
+  //     console.log(carId);
+  //   };
+
+  const fixedValue = 4;
+  let dynamicValue = comparisonStore.length;
+  const numberOfOccurrences = fixedValue - dynamicValue;
+
+  // Array to store the dynamically created components
+  const components = [];
+
+  // Render the component dynamically based on the number of occurrences
+  for (let i = 0; i < numberOfOccurrences; i++) {
+    components.push(<SelectCar key={i} />); // Add your component to the array
+  }
+
+  // const titleText = textCombiner(comparisonStore, "title");
+  // console.log(titleText);
 
   return (
     <div>
@@ -50,11 +82,11 @@ const ComparisonPage = () => {
         <HStack>
           {comparisonStore &&
             comparisonStore.map((car, index) => {
-              const carData = car[0];
+              // const carData = car[0];
               return (
                 <Box key={index}>
                   <Heading as="h1" size="lg">
-                    {carData.title}
+                    {car.title}
                     {index < comparisonStore.length - 1 ? " Vs" : ""}
                   </Heading>
                 </Box>
@@ -62,89 +94,14 @@ const ComparisonPage = () => {
             })}
         </HStack>
 
-        <Collapse startingHeight={20} in={show}>
-          <Box>
-            {/* <Text>
-              CarWale brings you comparison of
-              {carText}. The
-              {comparison &&
-                comparison.map((car, index) => {
-                  return index === comparison.length - 1
-                    ? ` and ${car.title} price is Rs.${car.specifications.price} Lakh.`
-                    : ` ${car.title} price is Rs.${car.specifications.price} Lakh.`;
-                })}
-              .The Hyundai Exter is available in 1197 cc engine with 2 fuel type
-              options: Petrol and CNG and Tata Punch is available in 1199 cc
-              engine with 1 fuel type options: Petrol. Exter provides the
-              mileage of 19.4 kmpl and Punch provides the mileage of 20.09 kmpl.
-            </Text> */}
-          </Box>
-          <Heading as="h2" fontSize="1.5rem">
-            Exter vs Punch Comparison Overview
-          </Heading>
-          <TableContainer
-            border={"1px"}
-            borderColor="gray.200"
-            borderRadius={"md"}
-            marginTop={"4"}
-          >
-            <Table variant="simple">
-              <Thead backgroundColor={"#f9f9f9"}>
-                <Tr>
-                  <Th>Key Highlights</Th>
-                  <Th>Exter</Th>
-                  <Th>Punch</Th>
-                </Tr>
-              </Thead>
-              <Tbody>
-                <Tr>
-                  <Td>Price</Td>
-                  <Td>Rs. 6.00 Lakh</Td>
-                  <Td>Rs. 6.00 Lakh</Td>
-                </Tr>
-                <Tr>
-                  <Td>Engine Capacity</Td>
-                  <Td>1197 cc</Td>
-                  <Td>1199 cc</Td>
-                </Tr>
-                <Tr>
-                  <Td>Power</Td>
-                  <Td>82 bhp</Td>
-                  <Td>87 bhp</Td>
-                </Tr>
-                <Tr>
-                  <Td>Transmission</Td>
-                  <Td>Manual</Td>
-                  <Td>Manual</Td>
-                </Tr>
-                <Tr>
-                  <Td>Fuel Type</Td>
-                  <Td>Petrol</Td>
-                  <Td>Petrol</Td>
-                </Tr>
-              </Tbody>
-            </Table>
-          </TableContainer>
-        </Collapse>
-        <Flex justifyContent={"flex-end"}>
-          <Button
-            colorScheme="messenger"
-            variant="link"
-            size="sm"
-            onClick={handleToggle}
-            marginTop="0.25rem"
-            marginBottom="1rem"
-            backgroundColor={"white"}
-          >
-            {show ? "Collapse" : "Read More"}
-          </Button>
-        </Flex>
+        {/* <TextComparison /> */}
+
         <Grid templateColumns="repeat(4, 1fr)">
-          {/* {comparisonStore &&
+          {comparisonStore &&
             comparisonStore.map((car) => {
+              // let car = sinlgeCar[0];
               return (
-                <Card2
-                
+                <ComparisonCard
                   title={car.title}
                   price={car?.specifications?.price}
                   img={car.image}
@@ -153,16 +110,12 @@ const ComparisonPage = () => {
                   handleRemove={handleRemove}
                 />
               );
-            })} */}
+            })}
           <Flex>
-            {/* {comparisonStore.length < 4 && (
+            {comparisonStore.length < 4 && (
               <Flex width={"100%"}>{components}</Flex>
-            )} */}
+            )}
           </Flex>
-
-          {/* <SelectCar /> */}
-          {/* <SelectCar /> */}
-          {/* <SelectCar />  */}
         </Grid>
       </Wrapper>
       {/* <ComparionCardChild /> */}

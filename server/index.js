@@ -2,6 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const cors = require("cors");
+const path = require("path");
 const brandRoute = require("./routes/brands");
 const newCarRoute = require("./routes/newcars");
 const featuredCarRoute = require("./routes/featuredcars");
@@ -11,8 +12,11 @@ const fuelTypeRoute = require("./routes/fueltypes");
 const transmissionRoute = require("./routes/transmissions");
 const comparisonRoute = require("./routes/comparison");
 
+// Specify the path to your .env.development file
+const envPath = path.resolve(__dirname, ".env.development");
+
 // !CONFIGURATIONS
-dotenv.config();
+dotenv.config({ path: envPath });
 const app = express();
 app.use(express.json());
 app.use(cors());

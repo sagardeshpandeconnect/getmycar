@@ -10,7 +10,7 @@ const comparisonSlice = createSlice({
       state.push(action.payload);
     },
     removeFromComparison: (state, action) => {
-      state = state.filter((car) => car._id !== action.payload);
+      return (state = state.filter((car) => car._id !== action.payload));
     },
     resetStore: () => {
       return initialState;

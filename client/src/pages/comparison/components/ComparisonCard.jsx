@@ -1,8 +1,15 @@
-import { Flex, Box, Heading, Text, Image, HStack } from "@chakra-ui/react";
-import { CloseIcon } from "@chakra-ui/icons";
+import {
+  Flex,
+  Box,
+  Heading,
+  Text,
+  Image,
+  HStack,
+  Icon,
+  Button,
+} from "@chakra-ui/react";
 import { MdClose } from "react-icons/md";
-import { remove } from "../../comparisonStore/compareSlice";
-import { useDispatch } from "react-redux";
+import { removeFromComparison } from "@features/comparison/comparisonSlice";
 
 const ComparisonCard = ({ title, price, img, handleRemove, carId }) => {
   return (
@@ -38,6 +45,7 @@ const ComparisonCard = ({ title, price, img, handleRemove, carId }) => {
             right={"1.5"}
             top={"1.5"}
             cursor={"pointer"}
+            // onClick={() => handleRemove(carId)}
             onClick={() => handleRemove(carId)}
           />
         </HStack>

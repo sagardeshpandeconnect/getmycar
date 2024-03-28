@@ -9,9 +9,6 @@ const CardRow = () => {
   console.log(comparisonStore);
   const dispatch = useDispatch();
 
-  //   const handleRemove = function (carId) {
-  //     console.log(carId);
-  //   };
   const handleRemove = function (carId) {
     dispatch(removeFromComparison(carId));
   };
@@ -29,18 +26,21 @@ const CardRow = () => {
   }
 
   return (
-    <Grid templateColumns="repeat(4, 1fr)">
+    <Grid
+      templateColumns={{
+        base: "repeat(2, 1fr)",
+        md: "repeat(2, 1fr)",
+        lg: "repeat(4, 1fr)",
+      }}
+    >
       {comparisonStore &&
-        comparisonStore.map((sinlgeCar) => {
-          let car = sinlgeCar[0];
+        comparisonStore.map((car) => {
           return (
             <ComparisonCard
-              title={car.title}
-              price={car?.specifications?.price}
-              img={car.image}
               key={car._id}
-              carId={car._id}
+              price={car?.specifications?.price}
               handleRemove={handleRemove}
+              carData={car}
             />
           );
         })}

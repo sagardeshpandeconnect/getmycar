@@ -11,7 +11,9 @@ import {
 import { MdClose } from "react-icons/md";
 import { removeFromComparison } from "@features/comparison/comparisonSlice";
 
-const ComparisonCard = ({ title, price, img, handleRemove, carId }) => {
+// const ComparisonCard = ({ title, price, img, handleRemove, carId }) => {
+const ComparisonCard = ({ carData, price, handleRemove }) => {
+  const { title, image, _id } = carData;
   return (
     <Flex
       // p={5}
@@ -36,7 +38,7 @@ const ComparisonCard = ({ title, price, img, handleRemove, carId }) => {
             // w="md"
             objectFit="contain"
             rounded="lg"
-            src={img}
+            src={image}
             alt={title}
           />
           <Icon
@@ -46,7 +48,7 @@ const ComparisonCard = ({ title, price, img, handleRemove, carId }) => {
             top={"1.5"}
             cursor={"pointer"}
             // onClick={() => handleRemove(carId)}
-            onClick={() => handleRemove(carId)}
+            onClick={() => handleRemove(_id)}
           />
         </HStack>
         <Box px={4} py={2} bg="#f9f9f9" roundedBottom="md">

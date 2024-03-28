@@ -35,54 +35,54 @@ const TextComparison = () => {
             CarWale brings you comparison of
             {titleText}.
             {comparisonStore.map((car, index) => {
-              const convertedPrice = convertPrice(car[0].specifications.price);
+              const convertedPrice = convertPrice(car.specifications.price);
               return index === 0
-                ? ` The ${car[0].title} price is Rs. ${convertedPrice}`
+                ? ` The ${car.title} price is Rs. ${convertedPrice}`
                 : index === comparisonStore.length - 1
-                ? ` and the ${car[0].title} price is ${convertedPrice}.`
-                : `, the ${car[0].title} price is ${convertedPrice}`;
+                ? ` and the ${car.title} price is ${convertedPrice}.`
+                : `, the ${car.title} price is ${convertedPrice}`;
             })}
             {comparisonStore.map((car, index) => {
               return index === 0
-                ? ` The ${car[0].title} is available in ${
-                    car[0].specifications.engine
+                ? ` The ${car.title} is available in ${
+                    car.specifications.engine
                   }
                    cc engine with ${
-                     car[0].specifications.fueltype.length
-                   } fuel type options: ${car[0].specifications.fueltype.map(
+                     car.specifications.fueltype.length
+                   } fuel type options: ${car.specifications.fueltype.map(
                     (fuel, index) => {
                       return index === 0
                         ? `  ${fuel}`
-                        : index === car[0].specifications.fueltype.length - 1
+                        : index === car.specifications.fueltype.length - 1
                         ? ` and ${fuel}`
                         : `, ${fuel}`;
                     }
                   )} `
                 : index === comparisonStore.length - 1
-                ? ` and the ${car[0].title} is available in ${
-                    car[0].specifications.engine
+                ? ` and the ${car.title} is available in ${
+                    car.specifications.engine
                   }
                    cc engine with ${
-                     car[0].specifications.fueltype.length
-                   } fuel type options: ${car[0].specifications.fueltype.map(
+                     car.specifications.fueltype.length
+                   } fuel type options: ${car.specifications.fueltype.map(
                     (fuel, index) => {
                       return index === 0
                         ? `  ${fuel}`
-                        : index === car[0].specifications.fueltype.length - 1
+                        : index === car.specifications.fueltype.length - 1
                         ? ` and ${fuel}.`
                         : `, ${fuel}`;
                     }
                   )} `
-                : ` , the ${car[0].title} is available in ${
-                    car[0].specifications.engine
+                : ` , the ${car.title} is available in ${
+                    car.specifications.engine
                   }
                    cc engine with ${
-                     car[0].specifications.fueltype.length
-                   } fuel type options: ${car[0].specifications.fueltype.map(
+                     car.specifications.fueltype.length
+                   } fuel type options: ${car.specifications.fueltype.map(
                     (fuel, index) => {
                       return index === 0
                         ? `  ${fuel}`
-                        : index === car[0].specifications.fueltype.length - 1
+                        : index === car.specifications.fueltype.length - 1
                         ? ` and ${fuel}.`
                         : `, ${fuel}`;
                     }
@@ -90,10 +90,10 @@ const TextComparison = () => {
             })}
             {comparisonStore.map((car, index) => {
               return index === 0
-                ? `. ${car[0].title} provides the mileage of ${car[0].specifications.mileage}`
+                ? `. ${car.title} provides the mileage of ${car.specifications.mileage}`
                 : index === comparisonStore.length - 1
-                ? ` and ${car[0].title} provides the mileage of ${car[0].specifications.mileage}.`
-                : ` ,${car[0].title} provides the mileage of ${car[0].specifications.mileage}`;
+                ? ` and ${car.title} provides the mileage of ${car.specifications.mileage}.`
+                : ` ,${car.title} provides the mileage of ${car.specifications.mileage}`;
             })}
           </Text>
         </Box>

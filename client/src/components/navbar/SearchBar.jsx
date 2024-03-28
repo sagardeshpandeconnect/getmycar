@@ -56,14 +56,13 @@ const SearchBar = forwardRef((props, ref) => {
   const clearSearchQuery = function () {
     setSearchQuery("");
   };
+  useOnClickOutside(ref, clearSearchQuery);
 
   const goToDetailsPage = function () {
     navigate(
       `/${searchedCars[focusedIndex].brandSlug}/${searchedCars[focusedIndex].titleSlug}`
     );
   };
-
-  useOnClickOutside(ref, clearSearchQuery);
 
   // Destructure props to get additional props
   const { autoFocus } = props;

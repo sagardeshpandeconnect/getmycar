@@ -94,9 +94,11 @@ const ComparisonPage = () => {
             })}
         </HStack>
 
-        {/* <TextComparison /> */}
+        <TextComparison />
 
-        <Grid templateColumns="repeat(4, 1fr)">
+        <CardRow />
+
+        {/* <Grid templateColumns="repeat(4, 1fr)">
           {comparisonStore &&
             comparisonStore.map((car) => {
               // let car = sinlgeCar[0];
@@ -116,7 +118,7 @@ const ComparisonPage = () => {
               <Flex width={"100%"}>{components}</Flex>
             )}
           </Flex>
-        </Grid>
+        </Grid> */}
       </Wrapper>
       {/* <ComparionCardChild /> */}
       {/* {comparison.map((car, index) => {

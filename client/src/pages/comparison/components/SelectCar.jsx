@@ -1,7 +1,7 @@
 import { Box, Flex, Image, Text, useDisclosure } from "@chakra-ui/react";
 // import selectCar from "../../assets/select-car.svg";
-import { SearchCarIcon } from "@assets/Icons";
-// import SelectCarModal from "./SelectCarModal";
+import SelectCarIcon from "@assets/select-car.svg";
+import SelectCarModal from "./SelectCarModal";
 
 const SelectCar = ({ addData, newSlug }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -13,26 +13,26 @@ const SelectCar = ({ addData, newSlug }) => {
         border={"1px"}
         borderColor="gray.200"
         borderRadius={"md"}
-        height={"60"}
         onClick={onOpen}
         // width={"100%"}
         minWidth={"100%"}
+        minHeight={"72"}
       >
         <Flex justifyContent={"center"} alignItems={"center"}>
           <Box>
-            <Image src="SearchCarIcon" marginInline={"auto"} />
+            <Image src={SelectCarIcon} marginInline={"auto"} />
             <Text fontSize="1rem" color="messenger.400" textAlign={"center"}>
               Select Car
             </Text>
           </Box>
         </Flex>
       </Box>
-      {/* <SelectCarModal
+      <SelectCarModal
         isOpen={isOpen}
         onClose={onClose}
         addData={addData}
-        newSlug={newSlug}
-      /> */}
+        // newSlug={newSlug}
+      />
     </>
   );
 };

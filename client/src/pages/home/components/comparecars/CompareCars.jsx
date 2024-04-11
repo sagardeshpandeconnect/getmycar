@@ -1,4 +1,3 @@
-import { Heading } from "@chakra-ui/react";
 import ComponentHeading from "@components/ComponentHeading";
 import Wrapper from "@components/Wrapper";
 import ComparionCardParent from "./ComparionCardParent";
@@ -8,6 +7,7 @@ const CompareCars = () => {
     <Wrapper>
       <ComponentHeading>Compare Cars</ComponentHeading>
       <ComparionCardParent titleSlugs={["swift", "fronx"]} />
+      <ComparionCardParent titleSlugs={["brezza", "exter"]} />
     </Wrapper>
   );
 };

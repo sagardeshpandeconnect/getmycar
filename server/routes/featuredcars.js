@@ -1,14 +1,14 @@
 const express = require("express");
 const {
   getPopularCars,
-  getJustLaunchedCars,
+  getTrendingCars,
   getUpcomingCars,
 } = require("../controllers/featuredcar");
 
 const router = express.Router();
 
 router.get("/popular", getPopularCars);
-router.get("/just-launched", getJustLaunchedCars);
+router.get("/trending", getTrendingCars);
 router.get("/upcoming", getUpcomingCars);
 
 module.exports = router;

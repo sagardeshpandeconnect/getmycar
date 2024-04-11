@@ -75,9 +75,7 @@ const SearchBar = forwardRef((props, ref) => {
       <Box ref={ref}>
         <InputGroup>
           <Input
-            // ref={ref}
             autoFocus={autoFocus}
-            // type="search"
             placeholder="Search"
             value={searchQuery}
             onChange={handleSearchQueryChange}
@@ -103,7 +101,7 @@ const SearchBar = forwardRef((props, ref) => {
             </Box>
           </InputRightElement>
         </InputGroup>
-        <div onClick={clearSearchQuery}>
+        <div>
           {searchQuery.length > 0 && (
             <Flex
               width={{ base: "100%", md: "100%", lg: "305px" }}
@@ -120,7 +118,6 @@ const SearchBar = forwardRef((props, ref) => {
               {searchedCars.map((car, index) => {
                 return (
                   <Box
-                    // key={crypto.randomUUID()}
                     key={index}
                     ref={index === focusedIndex ? resultContainer : null}
                     backgroundColor={

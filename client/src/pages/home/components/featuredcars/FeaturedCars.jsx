@@ -1,0 +1,44 @@
+import ComponentHeading from "@components/ComponentHeading";
+import TabsContainer from "@components/TabsContainer";
+import Wrapper from "@components/Wrapper";
+import FeaturedCarType from "./FeaturedCarType";
+
+const FeaturedCars = () => {
+  const tabData = [
+    // {
+    //   tabHeading: "TRENDING",
+    //   // tabContent: <TrandingCars />,
+    // },
+    // {
+    //   tabHeading: "POPULAR",
+    //   tabContent: <PopularCars />,
+    // },
+
+    // {
+    //   tabHeading: "UPCOMING",
+    //   // tabContent: <UpcomingCars />,
+    // },
+    {
+      tabHeading: "TRENDING",
+      tabContent: <FeaturedCarType featuredType="trending" />,
+    },
+    {
+      tabHeading: "POPULAR",
+      tabContent: <FeaturedCarType featuredType="popular" />,
+    },
+
+    {
+      tabHeading: "UPCOMING",
+      tabContent: <FeaturedCarType featuredType="upcoming" />,
+    },
+  ];
+
+  return (
+    <Wrapper>
+      <ComponentHeading>Featured Cars</ComponentHeading>
+      <TabsContainer tabData={tabData} />
+    </Wrapper>
+  );
+};
+
+export default FeaturedCars;

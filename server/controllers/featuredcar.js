@@ -9,10 +9,10 @@ const getPopularCars = async (req, res) => {
   }
 };
 
-const getJustLaunchedCars = async (req, res) => {
+const getTrendingCars = async (req, res) => {
   try {
-    const justLaunchedCars = await NewCar.find({ featured: "just launched" });
-    res.status(200).json(justLaunchedCars);
+    const trendingCars = await NewCar.find({ featured: "trending" });
+    res.status(200).json(trendingCars);
   } catch (err) {
     res.status(404).json({ message: err.message });
   }
@@ -29,6 +29,6 @@ const getUpcomingCars = async (req, res) => {
 
 module.exports = {
   getPopularCars,
-  getJustLaunchedCars,
+  getTrendingCars,
   getUpcomingCars,
 };

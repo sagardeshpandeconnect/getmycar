@@ -19,37 +19,16 @@ import { SearchIcon } from "@assets/Icons";
 import { getData } from "@services/apiClient";
 import useDebounce from "@hooks/useDebounce";
 import useOnClickOutside from "@hooks/useOnClickOutside";
-import axios from "axios";
-// import useDebounce from "../../hooks/useDebounce";
 import SelectCarModalAccordion from "./SelectCarModalAccordion";
-// import SearchSuggestion2 from "../SearchSuggestion2";
 import ComparisonSearchSuggestion from "./ComparisonSearchSuggestion";
-// import { LOCALHOSTURL } from "../../Constants";
 
-const SelectCarModal = ({ isOpen, onClose, addData }) => {
+const SelectCarModal = ({ isOpen, onClose }) => {
   const inputRef = useRef();
 
   const [query, setQuery] = useState("");
   const [searchedCar, setSearchedCar] = useState([]);
   const searchQuery = useDebounce(query, 400);
   const handleChange = (e) => setQuery(e.target.value.toLowerCase());
-
-  useEffect(() => {
-    const fetchSuggestions = async () => {
-      const res = await axios.get(`${LOCALHOSTURL}:3001/search`, {
-        params: {
-          title: query,
-        },
-      });
-      console.log(res.data);
-
-      // setData(res.data.data);
-      //   setData(res.data);
-      setSearchedCar(res.data);
-    };
-    if (query.length > 0) fetchSuggestions();
-  }, [query]);
-  // }, [searchQuery]);
 
   useEffect(() => {
     const fetchSuggestions = async () => {

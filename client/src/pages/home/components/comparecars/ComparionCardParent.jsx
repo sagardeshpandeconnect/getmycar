@@ -13,17 +13,17 @@ const ComparionCardParent = ({ titleSlugs }) => {
   let URLArray = titleSlugs.map((titleSlug) => {
     return `/comparison/${titleSlug}`;
   });
-  console.log(URLArray);
+  // console.log(URLArray);
 
   const requests = URLArray.map((url) => getData(url));
 
   useEffect(() => {
     Promise.all(requests).then((responses) => {
       setAllData(responses.map((innerArray) => innerArray[0]));
-      console.log(responses);
+      // console.log(responses);
     });
   }, []);
-  console.log(allData);
+  // console.log(allData);
 
   // ********************
   const dispatch = useDispatch();

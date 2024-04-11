@@ -7,7 +7,7 @@ const getSearchedCars = async (req, res) => {
     const aggregator = [
       {
         $search: {
-          index: "default",
+          index: "carwale",
           autocomplete: {
             query: title,
             path: "title",

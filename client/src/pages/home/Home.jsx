@@ -4,6 +4,7 @@ import heroMobile from "@assets/heroMobile.jpg";
 import AllBrands from "./components/AllBrands";
 import FindTheCarOfYourChoice from "./components/find-the-car-of-your-choice/FindTheCarOfYourChoice";
 import CompareCars from "./components/comparecars/CompareCars";
+import FeaturedCars from "./components/featuredcars/FeaturedCars";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
           alt="couple sitting lakeside with a car at sunset time"
         />
       </picture>
+      <FeaturedCars />
       <AllBrands />
       <FindTheCarOfYourChoice />
       <CompareCars />

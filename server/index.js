@@ -11,6 +11,11 @@ const bodyTypeRoute = require("./routes/bodytypes");
 const fuelTypeRoute = require("./routes/fueltypes");
 const transmissionRoute = require("./routes/transmissions");
 const comparisonRoute = require("./routes/comparison");
+const {
+  start,
+  modifyDbData,
+  uploadDataToDatabase,
+} = require("./services/uploadData");
 
 // Specify the path to your .env.development file
 const envPath = path.resolve(__dirname, ".env.development");
@@ -43,3 +48,8 @@ mongoose
     app.listen(PORT, () => console.log(`Server Started on Port: ${PORT}`));
   })
   .catch((error) => console.log(`${error} did not connect`));
+
+// Run your scripts
+start();
+modifyDbData();
+// uploadDataToDatabase();

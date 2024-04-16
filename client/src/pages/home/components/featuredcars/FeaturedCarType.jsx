@@ -1,5 +1,5 @@
-// import useFetch from "../hooks/useFetch";
 import { useQuery } from "@tanstack/react-query";
+import { useBreakpointValue } from "@chakra-ui/react";
 
 import Carousel from "@components/Carousel";
 import { getData } from "@services/apiClient";
@@ -14,12 +14,14 @@ const FeaturedCarType = ({ featuredType }) => {
     queryFn: getFeaturedCars,
   });
 
+  const noOfSlidesInView = useBreakpointValue({ base: 2, lg: 3 });
+
   return (
     <Carousel
       data={data}
       error={error}
       isLoading={isLoading}
-      noOfSlidesInView={3}
+      noOfSlidesInView={noOfSlidesInView}
     />
   );
 };

@@ -17,6 +17,7 @@ import Modal from "./Modal";
 import EMICalculator from "./EMICalculator/EMICalculator";
 import { calculateEMI } from "./EMICalculator/calculateEMI";
 import useOnClickOutside from "@hooks/useOnClickOutside";
+import { convertPrice } from "@utils/convertPrice";
 
 const Hero = ({ data }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -83,7 +84,8 @@ const Hero = ({ data }) => {
         >
           <Box>
             <Text fontSize="2xl">
-              Rs. {Number(exShowRoomPrice / 100000).toFixed(2)} Lakh
+              {/* Rs. {Number(exShowRoomPrice / 100000).toFixed(2)} Lakh Rs.{" "} */}
+              Rs. {convertPrice(exShowRoomPrice)}
             </Text>
             <Text color="#6F6F6F" fontSize="md">
               Avg. Ex-Showroom price

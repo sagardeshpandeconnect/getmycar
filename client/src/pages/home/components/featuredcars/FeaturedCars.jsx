@@ -5,19 +5,6 @@ import FeaturedCarType from "./FeaturedCarType";
 
 const FeaturedCars = () => {
   const tabData = [
-    // {
-    //   tabHeading: "TRENDING",
-    //   // tabContent: <TrandingCars />,
-    // },
-    // {
-    //   tabHeading: "POPULAR",
-    //   tabContent: <PopularCars />,
-    // },
-
-    // {
-    //   tabHeading: "UPCOMING",
-    //   // tabContent: <UpcomingCars />,
-    // },
     {
       tabHeading: "TRENDING",
       tabContent: <FeaturedCarType featuredType="trending" />,

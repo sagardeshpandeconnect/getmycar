@@ -48,25 +48,27 @@ const Carousel = ({ noOfSlidesInView, data, error, isLoading }) => {
 
   const hasNext = (currentSlide + 1).toFixed(2) !== slidesCount.toFixed(2);
   const hasPrev = currentSlide !== 0;
-  // console.log(currentSlide + 1);
-  // console.log(slidesCount);
-  // console.log(hasNext);
-  // console.log(hasPrev);
-
-  // console.log(data?.length == 4);
 
   return (
     <Flex
-      // w="full"
       bg="#edf3f8"
       _dark={{
         bg: "#3e3e3e",
       }}
-      // p={"-1"}
       alignItems="center"
-      // justifyContent="center"
     >
-      <Flex width="full" overflow="hidden" position="relative">
+      <Flex
+        width="full"
+        overflowX={{ base: "scroll", md: "scroll", lg: "hidden" }}
+        position="relative"
+        css={{
+          "::-webkit-scrollbar": {
+            display: "none",
+          },
+          "-ms-overflow-style": "none" /* IE and Edge */,
+          "scrollbar-width": "none" /* Firefox */,
+        }}
+      >
         <Flex width={`${dynamicWidth}%`} {...carouselStyle}>
           {error
             ? "Something went wrong!"
@@ -76,9 +78,9 @@ const Carousel = ({ noOfSlidesInView, data, error, isLoading }) => {
                 <Box
                   key={item._id}
                   boxSize="full"
-                  // shadow="md"
                   flex="none"
                   padding={2}
+                  width={{ base: "15em", md: "15em", lg: "full" }}
                 >
                   <VCard
                     title={item.title}
@@ -90,13 +92,23 @@ const Carousel = ({ noOfSlidesInView, data, error, isLoading }) => {
               ))}
         </Flex>
         {hasPrev && (
-          <Text {...arrowStyles} left="0" onClick={prevSlide}>
+          <Text
+            {...arrowStyles}
+            left="0"
+            onClick={prevSlide}
+            display={{ base: "none", md: "none", lg: "block" }}
+          >
             &#10094;
           </Text>
         )}
 
         {hasNext && (
-          <Text {...arrowStyles} right="0" onClick={nextSlide}>
+          <Text
+            {...arrowStyles}
+            right="0"
+            onClick={nextSlide}
+            display={{ base: "none", md: "none", lg: "block" }}
+          >
             &#10095;
           </Text>
         )}

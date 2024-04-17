@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Accordion,
   AccordionButton,
@@ -6,7 +5,6 @@ import {
   AccordionItem,
   AccordionPanel,
   Box,
-  Divider,
   Text,
 } from "@chakra-ui/react";
 import { v4 as uuid } from "uuid";
@@ -27,7 +25,6 @@ const FAQs = ({ data }) => {
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4}>
-            {/* {data[0].faq[0].price[0].question} */}
             {faqArray[0].price.map((faq) => {
               return (
                 <Box key={uuid()}>

@@ -34,7 +34,41 @@
       "LED DRLs",
       "Leather wrapped steering"
     ],
-    "summary": "<p></p>",
+    "summary": [
+      {
+        "question": "Latest Update",
+        "answer": "Maruti Suzuki has revised the prices for select models. The Grand Vitara and Swift have become dearer by up to Rs.25,000."
+      },
+
+      {
+        "question": "Price",
+        "answer": "Maruti Swift price ranges between Rs. 7.28 Lakh - Rs. 10.88 Lakh depending on the variant selected."
+      },
+      {
+        "question": "When was the Maruti Swift launched?",
+        "answer": "The updated Swift was launched in India on 1 April, 2023."
+      },
+      {
+        "question": "What variants does it get? ",
+        "answer": "The Maruti Swift is available in four variants – LXi, VXi, ZXi, and ZXi+."
+      },
+      {
+        "question": "What features are available in the Maruti Swift?",
+        "answer": "Exterior highlights of the Swift include LED DRLs, LED headlamps, 15-inch dual-tone alloy wheels, LED tail lights, fog lights, blacked-out ORVMs, C-pillar-mounted rear door handles, a rear wiper and washer, a conventional antenna, and an optional blacked-out roof. Inside, the hatchback gets features in the form of cruise control, an idle start-stop function, a SmartPlay Studio touchscreen infotainment system, steering-mounted controls, keyless entry, an engine start-stop button, dual airbags, ABS with EBD, and a reverse parking camera. The model has a seating capacity of five occupants."
+      },
+      {
+        "question": "What are the engine, performance, and specifications of the Maruti Swift?",
+        "answer": "The Swift is powered by the K12 series Dual Jet, Dual VVT engine that is tuned to generate an output of 89bhp and 113Nm of torque, and comes paired with a five-speed manual unit or an AMT unit. This motor has been updated and now complies with the latest emission norms"
+      },
+      {
+        "question": "Is the Maruti Swift a safe car?",
+        "answer": "The Swift hatchback has scored a one-star safety rating in the Global NCAP crash test."
+      },
+      {
+        "question": "What are the rivals to the Maruti Swift? ",
+        "answer": "Rivals to the Swift include the Hyundai Grand i10 Nios, Tata Tigor, and Renault Triber."
+      }
+    ],
     "prosandcons": [
       {
         "pros": [
@@ -110,7 +144,7 @@
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1693210238/carwale/carImages/maruti/invicto-exterior-right-front-three-quarter-2_dwz1ux.webp",
     "specifications": {
-      "price": 24.79,
+      "price": 2530500,
       "mileage": 23.24,
       "engine": 1987,
       "fueltype": ["Hybrid"],
@@ -193,7 +227,7 @@
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1693211094/carwale/carImages/maruti/vitara-brezza-2022-exterior-right-front-three-quarter_mf8fph.webp",
     "specifications": {
-      "price": 8.29,
+      "price": 834000,
       "engine": 1462,
       "fueltype": ["Petrol", "CNG"],
       "transmission": ["Manual", "Automatic"],
@@ -664,7 +698,7 @@
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1703422808/carwale/carImages/tata/harrier-facelift-exterior-right-front-three-quarter-5_h71bnf.webp",
     "specifications": {
-      "price": 15.2,
+      "price": 1549000,
       "engine": 1956,
       "fueltype": ["Diesel"],
       "transmission": ["Manual", "Automatic"],

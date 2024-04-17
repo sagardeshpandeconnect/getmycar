@@ -1,10 +1,14 @@
 import { useState } from "react";
-import { Box, Button, UnorderedList, ListItem } from "@chakra-ui/react";
+import { Box, Button, List, ListItem, ListIcon } from "@chakra-ui/react";
 import { v4 as uuid } from "uuid";
+import { GoDotFill } from "react-icons/go";
 
-const ReadMore = ({ children, maxLength = 100, arrayLimit = 3 }) => {
-  // console.log(typeof children);
-  const text = children;
+const ReadMore = ({
+  children,
+  maxLength = 100,
+  arrayLimit = 3,
+  shouldShowDots,
+}) => {
   const [shouldShowAllContent, setShouldShowAllContent] = useState(false);
   const toggleReadMore = function () {
     setShouldShowAllContent((showing) => !showing);
@@ -17,26 +21,18 @@ const ReadMore = ({ children, maxLength = 100, arrayLimit = 3 }) => {
     }
   };
   return (
-    <Box
-      backgroundColor={"var(--color-background)"}
-      // backgroundColor={"#F5F5F5"}
-      position={"relative"}
-      //   width={"50vh"}
-      // height={shouldShowAllContent ? "" : "20vh"}
-    >
+    <Box backgroundColor={"var(--color-background)"} position={"relative"}>
       <Box margin={"2"} padding={"4"} paddingBottom={"12"}>
         {Array.isArray(children) ? (
           // If children is an array, limit the number of items displayed
-          <UnorderedList spacing={1}>
+          <List spacing={1}>
             {renderArrayItems().map((item) => (
-              <ListItem key={uuid()}>{item}</ListItem>
+              <ListItem key={uuid()}>
+                {shouldShowDots ? <ListIcon as={GoDotFill} /> : null}
+                {item}
+              </ListItem>
             ))}
-            {/* {children.length > arrayLimit && (
-              <button onClick={toggleReadMore}>
-                {isExpanded ? "Read Less" : "Read More"}
-              </button>
-            )} */}
-          </UnorderedList>
+          </List>
         ) : typeof children === "string" ? (
           // If children is a string (text), show the substring based on maxLength
           <p>

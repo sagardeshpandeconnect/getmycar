@@ -22,7 +22,7 @@ const newCarSchema = new mongoose.Schema(
     keyfeatures: { type: Array, required: true },
     prosandcons: [{ pros: Array }, { cons: Array }],
     verdict: { type: String, required: true },
-    summary: { type: String },
+    summary: { type: Array },
     faq: [
       { price: [{ question: String, answer: String }] },
       { performance: [{ question: String, answer: String }] },

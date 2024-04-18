@@ -5,10 +5,8 @@ const TabsContainer = ({ tabData }) => {
     <Tabs isLazy>
       <TabList
         overflowX={{ base: "scroll" }}
-        // overflowY={"hidden}
         whiteSpace={"nowrap"}
         paddingY={"3"}
-        // // scrollBehavior={"smooth"}
         style={{
           scrollbarWidth: "none",
         }}

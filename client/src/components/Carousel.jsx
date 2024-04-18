@@ -1,12 +1,11 @@
 import { useState } from "react";
-import { Flex, Text, Box } from "@chakra-ui/react";
-import VCard from "./VCard";
+import { Flex, Text } from "@chakra-ui/react";
 
-const Carousel = ({ noOfSlidesInView, data, error, isLoading }) => {
+const Carousel = ({ noOfSlidesInView, dataArrLength, children }) => {
   console.log(noOfSlidesInView);
   const dynamicWidth = 100 / noOfSlidesInView;
   const [currentSlide, setCurrentSlide] = useState(0);
-  console.log(data);
+  // console.log(data);
   const arrowStyles = {
     cursor: "pointer",
     pos: "absolute",
@@ -26,7 +25,7 @@ const Carousel = ({ noOfSlidesInView, data, error, isLoading }) => {
     },
   };
 
-  const slidesCount = data?.length / 1 / noOfSlidesInView;
+  const slidesCount = dataArrLength / 1 / noOfSlidesInView;
   // const slidesCount = 0;
 
   const prevSlide = () => {
@@ -70,26 +69,7 @@ const Carousel = ({ noOfSlidesInView, data, error, isLoading }) => {
         }}
       >
         <Flex width={`${dynamicWidth}%`} {...carouselStyle}>
-          {error
-            ? "Something went wrong!"
-            : isLoading
-            ? "loading.........."
-            : data?.map((item) => (
-                <Box
-                  key={item._id}
-                  boxSize="full"
-                  flex="none"
-                  padding={2}
-                  width={{ base: "15em", md: "15em", lg: "full" }}
-                >
-                  <VCard
-                    title={item.title}
-                    price={item.specifications.price}
-                    image={item.image}
-                    detailsURL={`/${item.brandSlug}/${item.titleSlug}`}
-                  />
-                </Box>
-              ))}
+          {children}
         </Flex>
         {hasPrev && (
           <Text

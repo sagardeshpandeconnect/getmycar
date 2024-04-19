@@ -9,12 +9,14 @@ import {
 } from "@assets/Icons";
 import { textCombiner } from "@utils/textCombiner";
 import SpecsWrapper from "./SpecsWrapper";
+import { convertPrice } from "@utils/convertPrice";
 
 const Specifications = ({ data }) => {
-  const fuelText = textCombiner(data[0].specifications?.fueltype);
+  const fuelText = textCombiner(data[0]?.specifications?.fueltype);
+  // const fuelText = textCombiner(["petrol", "diesle"]);
   const transmissionText = textCombiner(data[0].specifications?.transmission);
   // console.log(data[0].keyfeatures);
-  // console.log(data[0]);
+  console.log(data);
 
   return (
     <Flex direction={"column"}>
@@ -32,8 +34,7 @@ const Specifications = ({ data }) => {
           </Flex>
 
           <Text fontSize="md">
-            Rs. {Number(data[0].specifications?.price / 100000).toFixed(2)} Lakh
-            onwards
+            Rs. {convertPrice(data[0].specifications.price)} onwards
           </Text>
         </SpecsWrapper>
 
@@ -52,7 +53,7 @@ const Specifications = ({ data }) => {
             <Text fontSize="sm">Mileage</Text>
           </Flex>
 
-          <Text fontSize="md"> {data?.attributes?.engine} kmpl</Text>
+          <Text fontSize="md"> {data[0].specifications?.mileage} kmpl</Text>
         </SpecsWrapper>
 
         <SpecsWrapper>

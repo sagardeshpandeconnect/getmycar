@@ -6,11 +6,12 @@ const ComparionCardChild = ({ carData, price }) => {
   return (
     <Card boxShadow="none">
       <Image
-        objectFit="contain"
-        maxW={{ base: "150px" }}
+        objectFit="covcr"
+        // maxW={{ base: "150px" }}
         boxSize="100%"
         src={image}
         alt={title}
+        width={"38"}
       />
       <CardBody>
         <Text fontSize="xs" color="GrayText">

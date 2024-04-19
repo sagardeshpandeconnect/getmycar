@@ -1,19 +1,26 @@
-import React from "react";
+import { useQuery } from "@tanstack/react-query";
 import { Accordion } from "@chakra-ui/react";
-// import useFetch from "../../hooks/useFetch";
+import { getData } from "@services/apiClient";
 import SelectCarModalAccordionSubHeading from "./SelectCarModalAccordionSubHeading";
-// import { LOCALHOSTURL } from "../../Constants";
 
 const SelectCarModalAccordion = () => {
-  // const { data, loading, error } = useFetch(`${LOCALHOSTURL}:3001/brands`);
+  const getAllBrands = async function () {
+    return getData(`/brands`);
+  };
+
+  const { data, error, isLoading } = useQuery({
+    queryKey: [`brands`],
+    queryFn: getAllBrands,
+  });
+
   return (
     <div>
       <Accordion allowToggle>
-        {/* {error
+        {error
           ? "Something went wrong!"
-          : loading
+          : isLoading
           ? "loading.........."
-          : data?.map((brand, sid) => {
+          : data?.map((brand) => {
               return (
                 <SelectCarModalAccordionSubHeading
                   key={brand._id}
@@ -27,7 +34,7 @@ const SelectCarModalAccordion = () => {
                   img={brand.image}
                 />
               );
-            })} */}
+            })}
       </Accordion>
     </div>
   );

@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { Flex, Text } from "@chakra-ui/react";
+import { Box, Flex, Text } from "@chakra-ui/react";
 
 const Carousel = ({ noOfSlidesInView, dataArrLength, children }) => {
-  console.log(noOfSlidesInView);
+  // console.log(noOfSlidesInView);
   const dynamicWidth = 100 / noOfSlidesInView;
   const [currentSlide, setCurrentSlide] = useState(0);
   // console.log(data);
@@ -64,8 +64,8 @@ const Carousel = ({ noOfSlidesInView, dataArrLength, children }) => {
           "::-webkit-scrollbar": {
             display: "none",
           },
-          "-ms-overflow-style": "none" /* IE and Edge */,
-          "scrollbar-width": "none" /* Firefox */,
+          msOverflowStyle: "none" /* IE and Edge */,
+          scrollbarWidth: "none" /* Firefox */,
         }}
       >
         <Flex width={`${dynamicWidth}%`} {...carouselStyle}>

@@ -1,3 +1,7 @@
+import { useDispatch } from "react-redux";
+import { useQuery } from "@tanstack/react-query";
+import { getData } from "@services/apiClient";
+
 import {
   AccordionItem,
   AccordionPanel,
@@ -8,21 +12,23 @@ import {
   Text,
   Image,
 } from "@chakra-ui/react";
-// import useFetch from "../../hooks/useFetch";
-import { useDispatch } from "react-redux";
 import { addToComparison } from "@features/comparison/comparisonSlice";
-// import { LOCALHOSTURL } from "../../Constants";
 
 const SelectCarModalAccordionSubHeading = ({ title, img, id, brandSlug }) => {
-  const { data, loading, error } = useFetch(
-    // `http://localhost:1337/api/cars?[filters][brands][id][$eq]=${id}&populate=*`
-    `${LOCALHOSTURL}:3001/newcars/${brandSlug}`
-  );
+  const getSpecificBrandCars = async function () {
+    return getData(`/newcars/${brandSlug}`);
+  };
+
+  const { data, error, isLoading } = useQuery({
+    queryKey: [`${brandSlug}`],
+    queryFn: getSpecificBrandCars,
+  });
 
   const dispatch = useDispatch();
   const addToCompare = (car) => {
-    dispatch(add(car));
+    dispatch(addToComparison(car));
   };
+
   return (
     <AccordionItem>
       <h2>
@@ -39,7 +45,7 @@ const SelectCarModalAccordionSubHeading = ({ title, img, id, brandSlug }) => {
       <AccordionPanel pb={4}>
         {error
           ? "Something went wrong!"
-          : loading
+          : isLoading
           ? "loading.........."
           : data?.map((car, sid) => {
               return (

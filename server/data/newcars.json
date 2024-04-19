@@ -11,6 +11,7 @@
     "specifications": {
       "price": 599450,
       "engine": 1197,
+      "mileage": 22.38,
       "safety": 2,
       "fueltype": ["Petrol", "CNG"],
       "transmission": ["Manual", "Automatic"],

@@ -4,7 +4,7 @@ import ReadMore from "./ReadMore";
 
 const Summary = ({ data }) => {
   const content = data[0].summary;
-  console.log(data);
+  // console.log(data);
 
   return (
     <>

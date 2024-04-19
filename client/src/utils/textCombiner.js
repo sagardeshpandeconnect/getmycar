@@ -1,10 +1,9 @@
 // This functions helps to construct the string to show various types of fuels and transmission etc
 
-export const textCombiner = function (dataArray, propName) {
+export const textCombiner = function (dataArray) {
   const reducedText = dataArray.reduce((accumulator, car, index, array) => {
     // Extract property value
-    // const textToBeCombined = car[0][propName];
-    const textToBeCombined = car[propName];
+    const textToBeCombined = car;
 
     // The first element (no comma)
     if (index === 0) {

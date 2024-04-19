@@ -1,10 +1,9 @@
-import React, { useState } from "react";
-import { Flex, Button, Box, VStack } from "@chakra-ui/react";
-import ComparionCardChild from "./ComparionCardChild";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
+import { Flex, Button, Box, VStack } from "@chakra-ui/react";
+import ComparionCardChild from "./ComparionCardChild";
 import { addToComparison } from "@features/comparison/comparisonSlice";
-import { useEffect } from "react";
 import { getData } from "@services/apiClient";
 
 const ComparionCardParent = ({ titleSlugs }) => {
@@ -36,7 +35,9 @@ const ComparionCardParent = ({ titleSlugs }) => {
   // ***********************************************
   return (
     <Box border="4px" borderColor="gray.200">
-      <VStack>
+      <VStack
+      // width={"80"}
+      >
         <Flex justifyContent={"center"}>
           {allData &&
             allData?.map((car) => {
@@ -55,8 +56,9 @@ const ComparionCardParent = ({ titleSlugs }) => {
           <Button
             colorScheme="red"
             size="lg"
-            paddingX={100}
+            paddingX={84}
             onClick={handleAddToCompare}
+            // marginX={10}
           >
             Compare Now
           </Button>

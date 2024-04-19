@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import HorizontalCard from "@components/HorizontalCard";
 import { useQuery } from "@tanstack/react-query";
 import { getData } from "@services/apiClient";
-import { Box, Flex } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 
 const SpecificBrandPage = () => {
   const brandSlug = useParams().brandSlug;

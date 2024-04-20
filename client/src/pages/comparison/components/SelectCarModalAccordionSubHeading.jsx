@@ -1,6 +1,5 @@
 import { useDispatch } from "react-redux";
 import { useQuery } from "@tanstack/react-query";
-import { getData } from "@services/apiClient";
 
 import {
   AccordionItem,
@@ -11,10 +10,15 @@ import {
   Flex,
   Text,
   Image,
+  useDisclosure,
 } from "@chakra-ui/react";
+
+import { getData } from "@services/apiClient";
 import { addToComparison } from "@features/comparison/comparisonSlice";
 
-const SelectCarModalAccordionSubHeading = ({ title, img, id, brandSlug }) => {
+const SelectCarModalAccordionSubHeading = ({ brandData, isOpen }) => {
+  const { title, image, brandSlug } = brandData;
+
   const getSpecificBrandCars = async function () {
     return getData(`/newcars/${brandSlug}`);
   };
@@ -27,6 +31,7 @@ const SelectCarModalAccordionSubHeading = ({ title, img, id, brandSlug }) => {
   const dispatch = useDispatch();
   const addToCompare = (car) => {
     dispatch(addToComparison(car));
+    isOpen(false);
   };
 
   return (
@@ -35,7 +40,7 @@ const SelectCarModalAccordionSubHeading = ({ title, img, id, brandSlug }) => {
         <AccordionButton _hover={{ backgroundColor: "white" }}>
           <Box as="span" flex="1" textAlign="left">
             <Flex>
-              <Image width={"10"} src={img} alt={title} />
+              <Image width={"10"} src={image} alt={title} />
               <Text>{title}</Text>
             </Flex>
           </Box>
@@ -47,27 +52,14 @@ const SelectCarModalAccordionSubHeading = ({ title, img, id, brandSlug }) => {
           ? "Something went wrong!"
           : isLoading
           ? "loading.........."
-          : data?.map((car, sid) => {
+          : data?.map((car) => {
               return (
                 <Box
                   key={car._id}
                   onClick={() => addToCompare(car)}
                   cursor={"pointer"}
                 >
-                  <Text
-                    title={car.title}
-                    // id={data[sid].id}
-                    // price={car.attributes.price}
-                    price={car.specifications.price}
-                    // img={
-                    //   "http://localhost:1337" +
-                    //   data[sid]?.attributes?.image?.data[0]?.attributes?.url
-                    // }
-                    // clickHandler={() => addToCompare(car)}
-                    // buttonPlaceholder="Add to Compare"
-                  >
-                    {car.title}
-                  </Text>
+                  <Text>{car.title}</Text>
                 </Box>
               );
             })}

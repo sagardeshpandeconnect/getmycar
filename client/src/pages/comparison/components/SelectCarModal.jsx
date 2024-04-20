@@ -125,7 +125,7 @@ const SelectCarModal = ({ isOpen, onClose }) => {
             >
               Popular Brands
             </Text>
-            <SelectCarModalAccordion />
+            <SelectCarModalAccordion onClose={onClose} />
           </Box>
         </ModalBody>
 

@@ -6,25 +6,15 @@ import {
   Image,
   HStack,
   Icon,
-  Button,
 } from "@chakra-ui/react";
+import { convertPrice } from "@utils/convertPrice";
 import { MdClose } from "react-icons/md";
-import { removeFromComparison } from "@features/comparison/comparisonSlice";
 
-// const ComparisonCard = ({ title, price, img, handleRemove, carId }) => {
 const ComparisonCard = ({ carData, price, handleRemove }) => {
   const { title, image, _id } = carData;
   return (
-    <Flex
-      // p={5}
-
-      // w="full"
-      alignItems="center"
-      justifyContent="center"
-    >
+    <Flex alignItems="center" justifyContent="center">
       <Box
-        // maxW="3xl"
-        // mx="auto"
         bg="white"
         _dark={{
           bg: "gray.800",
@@ -35,7 +25,6 @@ const ComparisonCard = ({ carData, price, handleRemove }) => {
         <HStack position={"relative"}>
           <Image
             h={48}
-            // w="md"
             objectFit="contain"
             rounded="lg"
             src={image}
@@ -47,7 +36,6 @@ const ComparisonCard = ({ carData, price, handleRemove }) => {
             right={"1.5"}
             top={"1.5"}
             cursor={"pointer"}
-            // onClick={() => handleRemove(carId)}
             onClick={() => handleRemove(_id)}
           />
         </HStack>
@@ -73,7 +61,7 @@ const ComparisonCard = ({ carData, price, handleRemove }) => {
               color: "gray.400",
             }}
           >
-            ₹ {price} Lakh onward
+            ₹ {convertPrice(price)} onward
           </Text>
           <Text
             mt={1}

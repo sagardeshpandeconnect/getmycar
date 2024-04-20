@@ -1,9 +1,8 @@
 import { Box, Flex, Image, Text, useDisclosure } from "@chakra-ui/react";
-// import selectCar from "../../assets/select-car.svg";
 import SelectCarIcon from "@assets/select-car.svg";
 import SelectCarModal from "./SelectCarModal";
 
-const SelectCar = ({ addData, newSlug }) => {
+const SelectCar = ({ addData }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   // console.log(newSlug);
   return (

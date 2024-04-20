@@ -3,7 +3,7 @@ import { Accordion } from "@chakra-ui/react";
 import { getData } from "@services/apiClient";
 import SelectCarModalAccordionSubHeading from "./SelectCarModalAccordionSubHeading";
 
-const SelectCarModalAccordion = () => {
+const SelectCarModalAccordion = ({ onClose }) => {
   const getAllBrands = async function () {
     return getData(`/brands`);
   };
@@ -24,14 +24,8 @@ const SelectCarModalAccordion = () => {
               return (
                 <SelectCarModalAccordionSubHeading
                   key={brand._id}
-                  // id={data[sid].id}
-                  title={brand.title}
-                  brandSlug={brand.brandSlug}
-                  // img={
-                  //   "http://localhost:1337" +
-                  //   data[sid]?.attributes?.image?.data?.attributes?.url
-                  // }
-                  img={brand.image}
+                  brandData={brand}
+                  onClose={onClose}
                 />
               );
             })}

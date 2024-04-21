@@ -6,7 +6,6 @@ import { removeFromComparison } from "@features/comparison/comparisonSlice";
 
 const CardRow = () => {
   const comparisonStore = useSelector((state) => state.entities.comparison);
-  console.log(comparisonStore);
   const dispatch = useDispatch();
 
   const handleRemove = function (carId) {

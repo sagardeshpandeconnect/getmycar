@@ -1,7 +1,8 @@
-import { Flex, Grid, Heading, Image, Text } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
+import { Flex, Grid, Heading, Image, Text } from "@chakra-ui/react";
+import { convertPrice } from "@utils/convertPrice";
 
-const HC = ({ carData, price }) => {
+const HorizontalCard = ({ carData, price }) => {
   const { title, image, brandSlug, titleSlug } = carData;
 
   return (
@@ -33,7 +34,6 @@ const HC = ({ carData, price }) => {
             mt={1}
             fontWeight="400"
             fontSize="13px"
-            fontFamily="LatoGoogle, Lato, LatoWeb, sans-serif"
             color="#6F6F6F"
             _dark={{
               color: "gray.400",
@@ -45,13 +45,12 @@ const HC = ({ carData, price }) => {
             mt={1}
             fontWeight="700"
             fontSize="16px"
-            fontFamily="LatoGoogle, Lato, LatoWeb, sans-serif"
             color="#484848"
             _dark={{
               color: "gray.400",
             }}
           >
-            ₹ {price} Lakh Onward
+            Rs. {convertPrice(price)} Onward
           </Text>
           <Text
             mt={1}
@@ -68,7 +67,6 @@ const HC = ({ carData, price }) => {
             mt={1}
             fontWeight="500"
             fontSize="14px"
-            fontFamily="LatoGoogle, Lato, LatoWeb, sans-serif"
             color="#0288D1"
             _dark={{
               color: "gray.400",
@@ -82,4 +80,4 @@ const HC = ({ carData, price }) => {
   );
 };
 
-export default HC;
+export default HorizontalCard;

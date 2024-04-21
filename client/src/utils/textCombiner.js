@@ -1,6 +1,6 @@
 // This functions helps to construct the string to show various types of fuels and transmission etc
 
-export const textCombiner = function (dataArray) {
+export const textCombiner = function (dataArray, car) {
   const reducedText = dataArray.reduce((accumulator, car, index, array) => {
     // Extract property value
     const textToBeCombined = car;

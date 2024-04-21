@@ -16,7 +16,7 @@ import {
 import { getData } from "@services/apiClient";
 import { addToComparison } from "@features/comparison/comparisonSlice";
 
-const SelectCarModalAccordionSubHeading = ({ brandData, isOpen }) => {
+const SelectCarModalAccordionSubHeading = ({ brandData, onClose }) => {
   const { title, image, brandSlug } = brandData;
 
   const getSpecificBrandCars = async function () {
@@ -31,7 +31,7 @@ const SelectCarModalAccordionSubHeading = ({ brandData, isOpen }) => {
   const dispatch = useDispatch();
   const addToCompare = (car) => {
     dispatch(addToComparison(car));
-    isOpen(false);
+    onClose();
   };
 
   return (

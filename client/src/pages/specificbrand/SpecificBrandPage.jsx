@@ -31,14 +31,8 @@ const SpecificBrandPage = () => {
                   <HorizontalCard
                     carData={car}
                     key={car._id}
-                    // title={car.attributes.title}
-                    titleSlug={car.titleSlug}
-                    brandSlug={car.brandSlug}
-                    title={car.title}
-                    id={car._id}
                     price={car.specifications.price}
-                    img={car.image}
-                    clickHandler={() => addToCompare(car)}
+                    // clickHandler={() => addToCompare(car)}
                     buttonPlaceholder="Add to Compare"
                   />
                 </Flex>

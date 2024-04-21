@@ -26,6 +26,7 @@ const TextComparison = () => {
     setShow((showing) => !showing);
   };
   const titleText = textCombiner(comparisonStore, "title");
+  console.log(titleText);
 
   return (
     <>

@@ -448,7 +448,7 @@
       "Onboard voice assistant",
       "Wireless charging",
       "Fast charging USB -Type A and C (Rear)",
-      "Suzuki Connect",
+      "Hyundai Connect",
       "Steering adjust - tilt and telescopic",
       "Engine push start/stop button",
       "Ambient interior lights",
@@ -486,10 +486,12 @@
             "answer": "The on-road price of Maruti Suzuki Brezza top model is Rs. 14.14 Lakh which includes a registration cost of Rs. 142230, insurance premium of Rs. 56100 and additional charges of Rs. 2000."
           }
         ],
-        "performance": {
-          "question": "What is the real world versus claimed mileage of Maruti Suzuki Brezza?",
-          "answer": "The company claimed mileage of Maruti Suzuki Brezza is 17.38 to 25.51 kmpl. As per users, the mileage came to be 0 to 19.45 kmpl in the real world."
-        },
+        "performance": [
+          {
+            "question": "What is the real world versus claimed mileage of Maruti Suzuki Brezza?",
+            "answer": "The company claimed mileage of Maruti Suzuki Brezza is 17.38 to 25.51 kmpl. As per users, the mileage came to be 0 to 19.45 kmpl in the real world."
+          }
+        ],
         "specifications": [
           {
             "question": "What is the seating capacity in Maruti Suzuki Brezza?",
@@ -571,10 +573,12 @@
             "answer": "The on-road price of Hyundai Exter top model is Rs. 10.10 Lakh which includes a registration cost of Rs. 108999, insurance premium of Rs. 51193 and additional charges of Rs. 2000."
           }
         ],
-        "performance": {
-          "question": "What is the real world versus claimed mileage of Hyundai Exter?",
-          "answer": "The company claimed mileage of Hyundai Exter is 19.2 to 27.1 kmpl. As per users, the mileage came to be 18.33 to 26 kmpl in the real world."
-        },
+        "performance": [
+          {
+            "question": "What is the real world versus claimed mileage of Hyundai Exter?",
+            "answer": "The company claimed mileage of Hyundai Exter is 19.2 to 27.1 kmpl. As per users, the mileage came to be 18.33 to 26 kmpl in the real world."
+          }
+        ],
         "specifications": [
           {
             "question": "What is the seating capacity in Hyundai Exter?",
@@ -650,10 +654,12 @@
             "answer": "The on road price of Hyundai Creta top model is Rs. 25.30 Lakh which includes a registration cost of Rs. 403578, insurance premium of Rs. 88982 and additional charges of Rs. 2000."
           }
         ],
-        "performance": {
-          "question": "What is the real world mileage of Hyundai Creta?",
-          "answer": "As per users, the mileage came to be 18 kmpl in the real world."
-        },
+        "performance": [
+          {
+            "question": "What is the real world mileage of Hyundai Creta?",
+            "answer": "As per users, the mileage came to be 18 kmpl in the real world."
+          }
+        ],
         "specifications": [
           {
             "question": "What is the seating capacity in Hyundai Creta?",
@@ -764,10 +770,12 @@
             "answer": "The on-road price of Tata Harrier top model is Rs. 24.27 Lakh which includes a registration cost of Rs. 315362, insurance premium of Rs. 125040 and additional charges of Rs. 2000."
           }
         ],
-        "performance": {
-          "question": "What is the ARAI mileage of Tata Harrier?",
-          "answer": "The ARAI mileage of Tata Harrier is 14.6 to 16.35 kmpl."
-        },
+        "performance": [
+          {
+            "question": "What is the ARAI mileage of Tata Harrier?",
+            "answer": "The ARAI mileage of Tata Harrier is 14.6 to 16.35 kmpl."
+          }
+        ],
         "specifications": [
           {
             "question": "What is the seating capacity in Tata Harrier?",
@@ -872,10 +880,12 @@
             "answer": "The on road price of Tata Nexon top model is Rs. 19.55 Lakh which includes a registration cost of Rs. 295370, insurance premium of Rs. 78848 and additional charges of Rs. 1900."
           }
         ],
-        "performance": {
-          "question": "What is the real world versus claimed mileage of Tata Nexon??",
-          "answer": "The company claimed mileage of Tata Nexon is 17.01 to 24.08 kmpl. As per users, the mileage came to be 17.5 kmpl in the real world."
-        },
+        "performance": [
+          {
+            "question": "What is the real world versus claimed mileage of Tata Nexon??",
+            "answer": "The company claimed mileage of Tata Nexon is 17.01 to 24.08 kmpl. As per users, the mileage came to be 17.5 kmpl in the real world."
+          }
+        ],
         "specifications": [
           {
             "question": "What is the seating capacity in Tata Nexon?",
@@ -1219,10 +1229,12 @@
             "answer": "The on-road price of Toyota Vellfire top model is Rs. 1.30 Crore which includes a registration cost of Rs. 1349000, insurance premium of Rs. 532378 and additional charges of Rs. 2000."
           }
         ],
-        "performance": {
-          "question": "What is the real world versus claimed mileage of Toyota Vellfire?",
-          "answer": "The company claimed mileage of Toyota Vellfire is 19.28 kmpl. As per users, the mileage came to be 15 kmpl in the real world."
-        },
+        "performance": [
+          {
+            "question": "What is the real world versus claimed mileage of Toyota Vellfire?",
+            "answer": "The company claimed mileage of Toyota Vellfire is 19.28 kmpl. As per users, the mileage came to be 15 kmpl in the real world."
+          }
+        ],
         "specifications": [
           {
             "question": "What is the seating capacity in Toyota Vellfire?",
@@ -1349,10 +1361,12 @@
             "answer": "The on road price of Honda Elevate top model is Rs. 20.53 Lakh which includes a registration cost of Rs. 312311, insurance premium of Rs. 77156 and additional charges of Rs. 2000."
           }
         ],
-        "performance": {
-          "question": "What is the real world versus claimed mileage of Honda Elevate?",
-          "answer": "The company claimed mileage of Honda Elevate is 15.31 to 16.92 kmpl. As per users, the mileage came to be 14.55 to 14.83 kmpl in the real world."
-        },
+        "performance": [
+          {
+            "question": "What is the real world versus claimed mileage of Honda Elevate?",
+            "answer": "The company claimed mileage of Honda Elevate is 15.31 to 16.92 kmpl. As per users, the mileage came to be 14.55 to 14.83 kmpl in the real world."
+          }
+        ],
         "specifications": [
           {
             "question": "What is the seating capacity in Honda Elevate?",
@@ -1427,10 +1441,12 @@
             "answer": "The on road price of Skoda Slavia top model is Rs. 23.72 Lakh which includes a registration cost of Rs. 364457, insurance premium of Rs. 74698 and additional charges of Rs. 2000."
           }
         ],
-        "performance": {
-          "question": "What is the real world versus claimed mileage of Skoda Slavia?",
-          "answer": "TThe company claimed mileage of Skoda Slavia is 18.73 to 20.32 kmpl. As per users, the mileage came to be 18.5 kmpl in the real world."
-        },
+        "performance": [
+          {
+            "question": "What is the real world versus claimed mileage of Skoda Slavia?",
+            "answer": "TThe company claimed mileage of Skoda Slavia is 18.73 to 20.32 kmpl. As per users, the mileage came to be 18.5 kmpl in the real world."
+          }
+        ],
         "specifications": [
           {
             "question": "What is the seating capacity in Skoda Slavia?",
@@ -1526,10 +1542,12 @@
             "answer": "The on road price of Volkswagen Virtus top model is Rs. 24.18 Lakh which includes a registration cost of Rs. 367248, insurance premium of Rs. 86120 and additional charges of Rs. 2100."
           }
         ],
-        "performance": {
-          "question": "What is the real world versus claimed mileage of Volkswagen Virtus?",
-          "answer": "The company claimed mileage of Volkswagen Virtus is 18.45 to 20.66 kmpl. As per users, the mileage came to be 17.2 kmpl in the real world."
-        },
+        "performance": [
+          {
+            "question": "What is the real world versus claimed mileage of Volkswagen Virtus?",
+            "answer": "The company claimed mileage of Volkswagen Virtus is 18.45 to 20.66 kmpl. As per users, the mileage came to be 17.2 kmpl in the real world."
+          }
+        ],
         "specifications": [
           {
             "question": "What is the seating capacity in Volkswagon Virtus?",
@@ -1605,10 +1623,12 @@
             "answer": "The on road price of MG Hector top model is Rs. 27.46 Lakh which includes a registration cost of Rs. 411664, insurance premium of Rs. 95533 and additional charges of Rs. 2000."
           }
         ],
-        "performance": {
-          "question": "What is the real world mileage of MG Hector?",
-          "answer": "As per users, the mileage came to be 14.75 kmpl in the real world."
-        },
+        "performance": [
+          {
+            "question": "What is the real world mileage of MG Hector?",
+            "answer": "As per users, the mileage came to be 14.75 kmpl in the real world."
+          }
+        ],
         "specifications": [
           {
             "question": "What is the seating capacity in MG Hector?",

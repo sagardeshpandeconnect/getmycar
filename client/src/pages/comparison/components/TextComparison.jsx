@@ -16,7 +16,6 @@ import {
   Button,
 } from "@chakra-ui/react";
 import { convertPrice } from "@utils/convertPrice";
-import { textCombiner } from "@utils/textCombiner";
 
 const TextComparison = () => {
   const comparisonStore = useSelector((state) => state.entities.comparison);
@@ -25,8 +24,6 @@ const TextComparison = () => {
   const handleToggle = function () {
     setShow((showing) => !showing);
   };
-  const titleText = textCombiner(comparisonStore, "title");
-  console.log(titleText);
 
   return (
     <>
@@ -34,7 +31,13 @@ const TextComparison = () => {
         <Box>
           <Text>
             CarWale brings you comparison of
-            {titleText}.
+            {comparisonStore.map((car, index) => {
+              return index === 0
+                ? ` the ${car.title}`
+                : index === comparisonStore.length - 1
+                ? ` and the ${car.title}.`
+                : `, the ${car.title}`;
+            })}
             {comparisonStore.map((car, index) => {
               const convertedPrice = convertPrice(car.specifications.price);
               return index === 0

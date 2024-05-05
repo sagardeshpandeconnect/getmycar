@@ -12,7 +12,6 @@ const watcher = chokidar.watch(sourceDataPath, { persistent: true });
 
 const mongoUrl = process.env.MONGO_URL;
 // console.log(mongoUrl);
-const client = new MongoClient(mongoUrl);
 
 // Function to read data from source
 function readDataFromSource(sourceDataPath) {
@@ -20,6 +19,8 @@ function readDataFromSource(sourceDataPath) {
 }
 
 async function uploadDataToDatabase() {
+  const client = new MongoClient(mongoUrl);
+
   try {
     await client.connect();
     console.log("successfully connected to database");
@@ -54,16 +55,20 @@ function start() {
   });
 }
 
+function dataChange() {
+  console.log("new data is being added");
+}
+
 // Watch for changes in the source data file
 function modifyDbData() {
   watcher.on("change", async (path) => {
+    await uploadDataToDatabase();
     console.log(`File ${path} has been changed`);
     // Read the updated data from the source file (or any other source)
     // const newData = readDataFromSource(sourceDataPath);
     // console.log(newData);
     // Upload the new data to MongoDB
-    // await uploadDataToDatabase();
-    await uploadDataToDatabase();
+    // dataChange();
   });
 }
 

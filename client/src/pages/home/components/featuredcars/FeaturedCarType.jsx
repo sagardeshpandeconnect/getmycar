@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { useBreakpointValue, Box } from "@chakra-ui/react";
+import { useBreakpointValue, Box, Skeleton } from "@chakra-ui/react";
 
 import Carousel from "@components/Carousel";
 import VCard from "@components/VCard";
@@ -20,26 +20,28 @@ const FeaturedCarType = ({ featuredType }) => {
 
   return (
     <Carousel dataArrLength={dataArrLength} noOfSlidesInView={noOfSlidesInView}>
-      {error
-        ? "Something went wrong!"
-        : isLoading
-        ? "loading.........."
-        : data?.map((item) => (
-            <Box
-              key={item._id}
-              boxSize="full"
-              flex="none"
-              padding={2}
-              width={{ base: "15em", md: "15em", lg: "full" }}
-            >
-              <VCard
-                title={item.title}
-                price={item.specifications.price}
-                image={item.image}
-                detailsURL={`/${item.brandSlug}/${item.titleSlug}`}
-              />
-            </Box>
-          ))}
+      {error ? (
+        "Something went wrong!"
+      ) : isLoading ? (
+        <Skeleton height={{ base: "18em", md: "18em", lg: "21em" }} />
+      ) : (
+        data?.map((item) => (
+          <Box
+            key={item._id}
+            boxSize="full"
+            flex="none"
+            padding={2}
+            width={{ base: "15em", md: "15em", lg: "full" }}
+          >
+            <VCard
+              title={item.title}
+              price={item.specifications.price}
+              image={item.image}
+              detailsURL={`/${item.brandSlug}/${item.titleSlug}`}
+            />
+          </Box>
+        ))
+      )}
     </Carousel>
   );
 };

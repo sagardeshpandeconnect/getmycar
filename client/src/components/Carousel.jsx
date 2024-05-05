@@ -50,7 +50,7 @@ const Carousel = ({ noOfSlidesInView, dataArrLength, children }) => {
 
   return (
     <Flex
-      bg="#edf3f8"
+      // bg="#edf3f8"
       _dark={{
         bg: "#3e3e3e",
       }}
@@ -82,7 +82,7 @@ const Carousel = ({ noOfSlidesInView, dataArrLength, children }) => {
           </Text>
         )}
 
-        {hasNext && (
+        {hasNext && dataArrLength > 3 && (
           <Text
             {...arrowStyles}
             right="0"

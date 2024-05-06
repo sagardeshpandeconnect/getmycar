@@ -123,6 +123,7 @@ const SearchBar = forwardRef((props, ref) => {
                     backgroundColor={
                       index === focusedIndex ? "rgba(0,0,0,0.1)" : "white"
                     }
+                    onClick={clearSearchQuery}
                   >
                     <SearchSuggestion
                       result={car}

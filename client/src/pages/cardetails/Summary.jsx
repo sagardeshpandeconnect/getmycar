@@ -1,6 +1,7 @@
 import { Box, Text } from "@chakra-ui/react";
 import { v4 as uuid } from "uuid";
 import ReadMore from "./ReadMore";
+import HeadingText from "@components/HeadingText";
 
 const Summary = ({ data }) => {
   const content = data[0].summary;
@@ -8,7 +9,7 @@ const Summary = ({ data }) => {
 
   return (
     <>
-      <Text fontSize="2xl">{data[0].title} Summary</Text>
+      <HeadingText>{data[0].title} Summary</HeadingText>
       <ReadMore>
         {content.map((faq) => {
           return (

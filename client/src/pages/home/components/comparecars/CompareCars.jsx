@@ -1,4 +1,4 @@
-import ComponentHeading from "@components/ComponentHeading";
+import ComponentHeading from "@components/HeadingText";
 import Wrapper from "@components/Wrapper";
 import ComparionCardParent from "./ComparionCardParent";
 import Carousel from "@components/Carousel";

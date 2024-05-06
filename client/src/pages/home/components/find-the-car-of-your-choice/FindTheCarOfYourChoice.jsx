@@ -6,7 +6,7 @@ import FuelType from "./data/FuelType";
 import Budget from "./data/Budget";
 import Transmission from "./data/TransmissionType";
 import SeatingCapacity from "./data/SeatingCapacity";
-import ComponentHeading from "@components/ComponentHeading";
+import ComponentHeading from "@components/HeadingText";
 
 const FindTheCarOfYourChoice = () => {
   const tabData = [

@@ -1,4 +1,4 @@
-import ComponentHeading from "@components/ComponentHeading";
+import ComponentHeading from "@components/HeadingText";
 import TabsContainer from "@components/TabsContainer";
 import Wrapper from "@components/Wrapper";
 import FeaturedCarType from "./FeaturedCarType";

@@ -3,7 +3,7 @@ import { useQuery } from "@tanstack/react-query";
 import { getData } from "@services/apiClient";
 import Wrapper from "@components/Wrapper";
 import SingleBrand from "./SingleBrand";
-import ComponentHeading from "@components/ComponentHeading";
+import ComponentHeading from "@components/HeadingText";
 
 const AllBrands = () => {
   const getAllBrands = async function () {

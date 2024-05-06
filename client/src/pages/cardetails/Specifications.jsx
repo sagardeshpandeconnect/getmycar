@@ -10,17 +10,18 @@ import {
 import { textCombiner } from "@utils/textCombiner";
 import SpecsWrapper from "./SpecsWrapper";
 import { convertPrice } from "@utils/convertPrice";
+import HeadingText from "@components/HeadingText";
 
 const Specifications = ({ data }) => {
   const fuelText = textCombiner(data[0]?.specifications?.fueltype);
   // const fuelText = textCombiner(["petrol", "diesle"]);
   const transmissionText = textCombiner(data[0].specifications?.transmission);
   // console.log(data[0].keyfeatures);
-  console.log(data);
+  // console.log(data);
 
   return (
     <Flex direction={"column"}>
-      <Text fontSize="2xl">{data[0].title} Specificatons</Text>
+      <HeadingText>{data[0].title} Specifications</HeadingText>
       <Grid
         templateColumns={{ base: "repeat(1, 1fr)", lg: "repeat(3, 1fr)" }}
         spacing="2px"

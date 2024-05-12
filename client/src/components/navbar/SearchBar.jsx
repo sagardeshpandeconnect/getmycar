@@ -1,4 +1,5 @@
-import { forwardRef, useEffect, useState } from "react";
+import { forwardRef, useEffect, useState, useRef } from "react";
+import { useNavigate } from "react-router-dom";
 
 import {
   Flex,
@@ -18,6 +19,43 @@ const SearchBar = forwardRef((props, ref) => {
   const [searchQuery, setSearchQuery] = useState("");
   const [searchedCars, setSearchedCars] = useState([]);
   const [focusedIndex, setFocusedIndex] = useState(-1);
+  const resultContainer = useRef(null);
+  const navigate = useNavigate();
+
+  const clearSearchQuery = function () {
+    setSearchQuery("");
+  };
+
+  const handleKeyDown= function (event) {
+    const { key } = event;
+    let nextIndexCount = 0;
+
+    // move down
+    if (key === "ArrowDown")
+      nextIndexCount = (focusedIndex + 1) % searchedCars.length;
+
+    // move up
+    if (key === "ArrowUp")
+      nextIndexCount =
+        (focusedIndex + searchedCars.length - 1) % searchedCars.length;
+
+    // hide search results
+    if (key === "Escape") {
+      clearSearchQuery();
+    }
+
+    // select the current item
+    if (key === "Enter") {
+      event.preventDefault();
+      goToDetailsPage();
+      clearSearchQuery();
+      console.log(
+        `/${searchedCars[focusedIndex].brandSlug}/${searchedCars[focusedIndex].titleSlug}`
+      );
+    }
+
+    setFocusedIndex(nextIndexCount);
+  }
 
   const handleSearchQueryChange = function (event) {
     setSearchQuery(event.target.value.toLowerCase());
@@ -53,9 +91,7 @@ const SearchBar = forwardRef((props, ref) => {
     if (searchQuery.length > 0) fetchSuggestions();
   }, [searchQuery]);
 
-  const clearSearchQuery = function () {
-    setSearchQuery("");
-  };
+  
   useOnClickOutside(ref, clearSearchQuery);
 
   const goToDetailsPage = function () {
@@ -63,6 +99,14 @@ const SearchBar = forwardRef((props, ref) => {
       `/${searchedCars[focusedIndex].brandSlug}/${searchedCars[focusedIndex].titleSlug}`
     );
   };
+
+  useEffect(() => {
+    if (!resultContainer.current) return;
+
+    resultContainer.current.scrollIntoView({
+      block: "center",
+    });
+  }, [focusedIndex]);
 
   // Destructure props to get additional props
   const { autoFocus } = props;
@@ -79,7 +123,7 @@ const SearchBar = forwardRef((props, ref) => {
             placeholder="Search"
             value={searchQuery}
             onChange={handleSearchQueryChange}
-            // onKeyDown={handleKeyDown}
+            onKeyDown={handleKeyDown}
             _placeholder={{
               opacity: 1,
               color: "#B0B0B0",

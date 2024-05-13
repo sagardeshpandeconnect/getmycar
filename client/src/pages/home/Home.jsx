@@ -20,7 +20,7 @@ const Home = () => {
       <FeaturedCars />
       <AllBrands />
       <FindTheCarOfYourChoice />
-      {/* <CompareCars /> */}
+      <CompareCars />
     </>
   );
 };

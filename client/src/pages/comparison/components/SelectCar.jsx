@@ -26,12 +26,7 @@ const SelectCar = ({ addData }) => {
           </Box>
         </Flex>
       </Box>
-      <SelectCarModal
-        isOpen={isOpen}
-        onClose={onClose}
-        addData={addData}
-        // newSlug={newSlug}
-      />
+      <SelectCarModal isOpen={isOpen} onClose={onClose} addData={addData} />
     </>
   );
 };

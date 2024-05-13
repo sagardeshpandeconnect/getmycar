@@ -12,6 +12,7 @@
       "price": 599450,
       "engine": 1197,
       "mileage": 22.38,
+      "power":80,
       "safety": 2,
       "fueltype": ["Petrol", "CNG"],
       "transmission": ["Manual", "Automatic"],
@@ -146,6 +147,7 @@
     "specifications": {
       "price": 2530500,
       "mileage": 23.24,
+      "power":150,
       "engine": 1987,
       "fueltype": ["Hybrid"],
       "transmission": ["Automatic"],
@@ -229,6 +231,8 @@
     "specifications": {
       "price": 834000,
       "engine": 1462,
+      "mileage": 17.38,
+      "power":103,
       "fueltype": ["Petrol", "CNG"],
       "transmission": ["Manual", "Automatic"],
       "seatingcapacity": 5
@@ -332,6 +336,7 @@
     "specifications": {
       "price": 746500,
       "mileage": 20,
+      "power":98,
       "engine": 998,
       "fueltype": ["Petrol"],
       "transmission": ["Manual", "Automatic"],
@@ -435,6 +440,8 @@
     "specifications": {
       "price": 794100,
       "engine": 998,
+      "mileage": 17.5,
+      "power":118,
       "fueltype": ["Petrol", "Diesel"],
       "transmission": ["Manual", "Automatic", "clutchless Manual (IMT)"],
       "seatingcapacity": 5
@@ -538,6 +545,8 @@
     "specifications": {
       "price": 612800,
       "engine": 1197,
+      "mileage": 19.4,
+      "power":81,
       "fueltype": ["Petrol", "CNG"],
       "transmission": ["Manual", "Automatic"],
       "seatingcapacity": 5
@@ -621,6 +630,8 @@
     "specifications": {
       "price": 1099900,
       "engine": 1497,
+      "mileage": 17,
+      "power":157,
       "fueltype": ["Petrol", "Diesel"],
       "transmission": ["Manual", "Automatic"],
       "seatingcapacity": 5
@@ -706,6 +717,8 @@
     "specifications": {
       "price": 1549000,
       "engine": 1956,
+      "mileage": 16.8,
+      "power":167,
       "fueltype": ["Diesel"],
       "transmission": ["Manual", "Automatic"],
       "seatingcapacity": 5
@@ -818,6 +831,8 @@
     "specifications": {
       "price": 814990,
       "engine": 1199,
+      "mileage": 17.44,
+      "power":113,
       "fueltype": ["Petrol", "Diesel", "CNG"],
       "transmission": ["Manual", "Automatic"],
       "seatingcapacity": 5
@@ -932,6 +947,7 @@
     "specifications": {
       "price": 1089900,
       "mileage": 17,
+      "power":114,
       "engine": 1482,
       "safety": 3,
       "fueltype": ["Petrol", "Diesel"],
@@ -1017,6 +1033,8 @@
     "specifications": {
       "price": 1125000,
       "engine": 1497,
+      "mileage": 13,
+      "power":130,
       "fueltype": ["Petrol", "Diesel"],
       "transmission": ["Manual", "Automatic"],
       "seatingcapacity": 4
@@ -1102,6 +1120,8 @@
     "specifications": {
       "price": 1325100,
       "engine": 2184,
+      "mileage": 15.4,
+      "power":130,
       "fueltype": ["Diesel"],
       "transmission": ["Manual"],
       "seatingcapacity": 7
@@ -1199,6 +1219,7 @@
     "specifications": {
       "price": 11990000,
       "mileage": 19.28,
+      "power":190,
       "engine": 2487,
       "fueltype": ["Hybrid"],
       "safety": 5,
@@ -1277,10 +1298,11 @@
     "specifications": {
       "price": 1029000,
       "engine": 1462,
+      "mileage": 20.51,
+      "power":87,
       "fueltype": ["Petrol", "CNG"],
       "transmission": ["Manual", "Automatic"],
-      "seatingcapacity": 7,
-      "powerandtorque": "87 bhp & 136 Nm"
+      "seatingcapacity": 7
     },
     "summary": "<p></p>",
     "prosandcons": [
@@ -1359,10 +1381,11 @@
     "specifications": {
       "price": 1999000,
       "engine": 2393,
+      "mileage": 16,
+      "power":148,
       "fueltype": ["Diesel"],
       "transmission": ["Manual"],
-      "seatingcapacity": 7,
-      "power": "87 bhp"
+      "seatingcapacity": 7
     },
     "summary": [
       {
@@ -1474,6 +1497,8 @@
     "specifications": {
       "price": 1157900,
       "engine": 1498,
+      "mileage": 15.31,
+      "power":119,
       "fueltype": ["Petrol"],
       "transmission": ["Manual", "Automatic"],
       "seatingcapacity": 5
@@ -1555,6 +1580,8 @@
     "specifications": {
       "price": 1153400,
       "engine": 999,
+      "mileage": 20.32,
+      "power":147,
       "fueltype": ["Petrol"],
       "transmission": ["Manual", "Automatic"],
       "seatingcapacity": 5
@@ -1639,6 +1666,8 @@
     "specifications": {
       "price": 1155900,
       "engine": 1498,
+      "mileage": 20.8,
+      "power":147,
       "fueltype": ["Petrol"],
       "transmission": ["Manual", "Automatic"],
       "seatingcapacity": 5
@@ -1736,6 +1765,8 @@
     "specifications": {
       "price": 1398800,
       "engine": 1451,
+      "mileage": 13.79,
+      "power":141,
       "fueltype": ["Petrol", "Diesel"],
       "transmission": ["Manual", "Automatic"],
       "seatingcapacity": 5

@@ -31,6 +31,7 @@ const CardRow = () => {
         md: "repeat(2, 1fr)",
         lg: "repeat(4, 1fr)",
       }}
+      marginY={4}
     >
       {comparisonStore &&
         comparisonStore.map((car) => {

@@ -8,6 +8,7 @@ import {
   Th,
   Td,
   Tbody,
+  Box,
 } from "@chakra-ui/react";
 import { v4 as uuid } from "uuid";
 
@@ -18,7 +19,7 @@ const ComparisonTable = () => {
   const comparisonStore = useSelector((state) => state.entities.comparison);
 
   return (
-    <>
+    <Box marginY={4}>
       <Heading as="h2" fontSize="1.5rem">
         Exter vs Punch Comparison Overview
       </Heading>
@@ -80,7 +81,7 @@ const ComparisonTable = () => {
           </Tbody>
         </Table>
       </TableContainer>
-    </>
+    </Box>
   );
 };
 

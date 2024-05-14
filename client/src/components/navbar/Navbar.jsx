@@ -12,12 +12,14 @@ import SearchBar from "./SearchBar";
 import Sidebar from "./Sidebar";
 import useOnClickOutside from "@hooks/useOnClickOutside";
 import { Link as RouteLink } from "react-router-dom";
+import { useAuth0 } from "@auth0/auth0-react";
 
 const Navbar = () => {
   const [shoudlShowSearchBar, setShoudlShowSearchBar] = useState(false);
   const [shouldShowSidebar, setShouldShowSidebar] = useState(false);
   const inputRef = useRef();
   const sidebarRef = useRef();
+  const { loginWithRedirect } = useAuth0();
 
   const hideSearchBar = function () {
     setShoudlShowSearchBar(false);
@@ -111,7 +113,9 @@ const Navbar = () => {
               <LanguageChangeIcon />
             </Box>
             <Box hideBelow="md">
-              <UserIcon />
+              <button onClick={() => loginWithRedirect()}>
+                <UserIcon />
+              </button>
             </Box>
           </Flex>
         </Flex>

@@ -13,7 +13,6 @@ import "./index.css";
 const queryClient = new QueryClient();
 const domain = import.meta.env.VITE_APP_AUTH0_DOMAIN;
 const clientId = import.meta.env.VITE_APP_AUTH0_CLIENT_ID;
-console.log(typeof clientId);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   // <React.StrictMode>

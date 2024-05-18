@@ -6,7 +6,6 @@ import {
   LocationIcon,
   MenuIcon,
   SearchIcon,
-  UserIcon,
 } from "@assets/Icons";
 import SearchBar from "./SearchBar";
 import Sidebar from "./Sidebar";
@@ -15,7 +14,6 @@ import { Link as RouteLink } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
 import LoginButton from "./LoginButton";
 import Profile from "./Profile";
-import LogoutButton from "./LogoutButton";
 
 const Navbar = () => {
   const [shoudlShowSearchBar, setShoudlShowSearchBar] = useState(false);
@@ -74,12 +72,6 @@ const Navbar = () => {
                 base: "100", // 0px
                 sm: "100",
               }}
-              // width={[
-              //   "150vw", // 0-30em
-              //   "50%", // 30em-48em
-              //   "25%", // 48em-62em
-              //   "15%", // 62em+
-              // ]}
             >
               <Box hideBelow="md">
                 <SearchBar ref={inputRef} />
@@ -117,7 +109,6 @@ const Navbar = () => {
             </Box>
             <Box hideBelow="md">
               <LoginButton />
-              <LogoutButton />
             </Box>
             <Profile />
           </Flex>

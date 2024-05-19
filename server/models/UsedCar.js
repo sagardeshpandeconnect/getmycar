@@ -5,6 +5,7 @@ const oldCarSchema = new mongoose.Schema(
     title: { type: String, required: true },
     brand: { type: String, required: true },
     image: { type: String, required: true },
+    userId: { type: String, required: true },
     specifications: {
       price: Number,
       kilometer: Number,

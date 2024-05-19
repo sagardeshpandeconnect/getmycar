@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import LogoutButton from "./LogoutButton";
 import {
   Card,
-  CardHeader,
   CardBody,
   Text,
   Image,
@@ -15,7 +14,8 @@ import {
 
 const Profile = () => {
   const { user, isAuthenticated, isLoading } = useAuth0();
-  const [showMenu, setShowMenu] = useState(true);
+  console.log(user);
+  const [showMenu, setShowMenu] = useState(false);
 
   const Menu = () => {
     return (
@@ -53,7 +53,7 @@ const Profile = () => {
 
   return (
     isAuthenticated && (
-      <div>
+      <>
         <Image
           src={user.picture}
           alt={user.name}
@@ -65,7 +65,7 @@ const Profile = () => {
           }}
         />
         {showMenu && <Menu />}
-      </div>
+      </>
     )
   );
 };

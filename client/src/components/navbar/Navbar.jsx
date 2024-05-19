@@ -11,16 +11,15 @@ import SearchBar from "./SearchBar";
 import Sidebar from "./Sidebar";
 import useOnClickOutside from "@hooks/useOnClickOutside";
 import { Link as RouteLink } from "react-router-dom";
-import { useAuth0 } from "@auth0/auth0-react";
 import LoginButton from "./LoginButton";
 import Profile from "./Profile";
+import SellUsedCarButton from "./SellUsedCarButton";
 
 const Navbar = () => {
   const [shoudlShowSearchBar, setShoudlShowSearchBar] = useState(false);
   const [shouldShowSidebar, setShouldShowSidebar] = useState(false);
   const inputRef = useRef();
   const sidebarRef = useRef();
-  const { loginWithRedirect } = useAuth0();
 
   const hideSearchBar = function () {
     setShoudlShowSearchBar(false);
@@ -61,7 +60,7 @@ const Navbar = () => {
               <Image width={"9rem"} src={logo} alt="logo" />
             </Link>
           </Flex>
-
+          <SellUsedCarButton />
           <Flex
             gap={"6"}
             justifyContent={"space-between"}

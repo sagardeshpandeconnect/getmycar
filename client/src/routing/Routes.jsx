@@ -18,6 +18,7 @@ import Navbar from "@src/components/navbar/Navbar";
 import SpecificBrandPage from "@pages/specificbrand/SpecificBrandPage";
 import FilteredCarsPage from "@pages/filteredcars/FilteredCarsPage";
 import ComparisonPage from "@pages/comparison/ComparisonPage";
+import ListUsedCar from "@pages/uploadusedcar/ListUsedCar";
 
 const Layout = () => {
   return (
@@ -61,6 +62,10 @@ const router = createBrowserRouter([
       {
         path: ":brandSlug/:titleSlug",
         element: <CarDetailsPage />,
+      },
+      {
+        path: "list-your-used-car",
+        element: <ListUsedCar />,
       },
       {
         path: "*",

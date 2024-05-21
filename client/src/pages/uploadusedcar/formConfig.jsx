@@ -6,8 +6,8 @@ import { Input } from "@chakra-ui/react";
 
 const formConfig = [
   {
-    label: "Name",
-    name: "name",
+    label: "Title",
+    name: "title",
     type: "text",
     placeholder: "Enter your name",
     validation: z.string().min(1, "Name is required"),

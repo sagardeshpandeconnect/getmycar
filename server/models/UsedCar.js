@@ -1,26 +1,65 @@
 const mongoose = require("mongoose");
 
-const oldCarSchema = new mongoose.Schema(
+const usedCarSchema = new mongoose.Schema(
   {
-    title: { type: String, required: true },
-    brand: { type: String, required: true },
-    image: { type: String, required: true },
-    userId: { type: String, required: true },
-    specifications: {
-      price: Number,
-      kilometer: Number,
-      fueltype: Array,
-      registrationyear: Number,
-      manufacturingyear: Number,
-      noofowners: Number,
-      transmission: Array,
-      color: String,
-      insurance: String,
-      registrationtype: String,
+    name: {
+      type: String,
+      required: [true, 'Name is required'],
+      minlength: [1, 'Name is required'],
+    },
+    email: {
+      type: String,
+      required: [true, 'Email is required'],
+      match: [/.+@.+\..+/, 'Invalid email address'],
+    },
+    mobile: {
+      type: String,
+      required: [true, 'Mobile number is required'],
+      minlength: [10, 'Mobile number must be at least 10 digits'],
+    },
+    price: {
+      type: Number,
+      required: [true, 'Price is required'],
+      min: [1, 'Price must be a positive number'],
+    },
+    brand: {
+      type: String,
+      required: [true, 'Brand is required'],
+    },
+    state: {
+      type: String,
+      required: [true, 'State is required'],
+    },
+    year: {
+      type: Number,
+      required: [true, 'Year is required'],
+      enum: Array.from({ length: 20 }, (_, i) => new Date().getFullYear() - i),
+    },
+    month: {
+      type: String,
+      required: [true, 'Month is required'],
+      enum: [
+        'January', 'February', 'March', 'April', 'May', 'June',
+        'July', 'August', 'September', 'October', 'November', 'December'
+      ],
+    },
+    ownerType: {
+      type: String,
+      required: [true, 'Owner Type is required'],
+      enum: ['First Owner', 'Second Owner', 'Third Owner'],
+    },
+    kmDriven: {
+      type: Number,
+      required: [true, 'Number of kilometers driven is required'],
+      min: [0, 'Kilometers driven must be a non-negative number'],
+    },
+    comments: {
+      type: String,
+      default: '',
     },
   },
   { timestamps: true }
 );
 
-const OldCar = mongoose.model("OldCar", oldCarSchema);
-module.exports = OldCar;
+const UsedCar = mongoose.model("UsedCar", usedCarSchema);
+module.exports = UsedCar;

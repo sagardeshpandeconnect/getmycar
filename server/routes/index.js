@@ -1,5 +1,6 @@
 const brandRoute = require("./brands");
 const newCarRoute = require("./newcars");
+const usedCarRoute = require("./usedcars");
 const featuredCarRoute = require("./featuredcars");
 const searchedCarRoute = require("./search");
 const bodyTypeRoute = require("./bodytypes");
@@ -16,6 +17,7 @@ const setupRoutes = (app) => {
   app.use("/fueltype", fuelTypeRoute);
   app.use("/transmission", transmissionRoute);
   app.use("/comparison", comparisonRoute);
+  app.use("/usedcars", usedCarRoute)
 };
 
 module.exports = setupRoutes;

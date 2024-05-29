@@ -14,7 +14,7 @@ import {
 
 const Profile = () => {
   const { user, isAuthenticated, isLoading } = useAuth0();
-  console.log(user);
+  // console.log(user);
   const [showMenu, setShowMenu] = useState(false);
 
   const Menu = () => {

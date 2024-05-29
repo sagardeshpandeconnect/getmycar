@@ -13,9 +13,6 @@ const getAllUsedCars = async (req, res) => {
   };
 
   const pushUsedCarDataToDb = async (req, res)=>{
-     // Convert price and kmDriven to numbers
-     req.body.price = Number(req.body.price);
-     req.body.kmDriven = Number(req.body.kmDriven);
     try {
       const newUsedCar = new UsedCar(req.body);
       await newUsedCar.save();

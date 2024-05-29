@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useForm, Controller } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
+import axios from "axios";
 import {
   Box,
   Button,
@@ -15,6 +16,15 @@ import {
   RadioGroup,
   Heading,
   Stack,
+  Center,
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalFooter,
+  ModalBody,
+  ModalCloseButton,
+  useDisclosure,
 } from "@chakra-ui/react";
 
 // Example data for cascading selects
@@ -119,8 +129,14 @@ const formConfig = [
     placeholder: "Enter number of kilometers driven",
     validation: z.preprocess(
       (val) => Number(val),
-      z.number().min(0, "Kilometers driven must be a non-negative number")
+      z.number().min(1, "Km must be a positive number")
     ),
+  },
+  {
+    label: "Picture",
+    name: "picture",
+    type: "file",
+    validation: z.any().optional(),
   },
   {
     label: "Comments",
@@ -151,9 +167,25 @@ const DynamicForm = ({ config }) => {
     formState: { errors },
   } = useForm({
     resolver: zodResolver(schema),
+    defaultValues: {
+      name: "",
+      email: "",
+      mobile: "",
+      price: "",
+      brand: "",
+      state: "",
+      year: "",
+      month: "",
+      ownerType: "",
+      kmDriven: "",
+      picture: "", // Initialize picture with null
+      comments: "",
+    },
   });
 
   const [stateOptions, setStateOptions] = useState([]);
+  const [file, setFile] = useState(null); // State for the file
+  const { isOpen, onOpen, onClose } = useDisclosure(); // Modal control
 
   const brand = watch("brand");
 
@@ -165,28 +197,58 @@ const DynamicForm = ({ config }) => {
   }, [brand, setValue]);
 
   const onSubmit = async (formData) => {
-    // Convert price and kmDriven to numbers
-    formData.price = Number(formData.price);
-    formData.kmDriven = Number(formData.kmDriven);
-
     try {
-      const response = await fetch("http://localhost:3001/submit-form", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+      let pictureUrl = "";
 
-      if (!response.ok) {
+      if (file) {
+        // Create a form data object to upload the image to Cloudinary
+        const imageData = new FormData();
+        imageData.append("file", file);
+        imageData.append("upload_preset", "your_upload_preset"); // Replace with your Cloudinary upload preset
+
+        // Upload image to Cloudinary
+        const response = await axios.post(
+          "https://api.cloudinary.com/v1_1/your_cloud_name/image/upload", // Replace with your Cloudinary cloud name
+          imageData
+        );
+
+        if (response.status === 200) {
+          pictureUrl = response.data.secure_url;
+        } else {
+          throw new Error("Failed to upload image");
+        }
+      }
+
+      // Add picture URL to the form data
+      formData.picture = pictureUrl;
+
+      // Send the form data to your server
+      const serverResponse = await fetch(
+        "http://localhost:3001/usedcars/submit-form",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
+
+      if (!serverResponse.ok) {
         throw new Error("Failed to submit form");
       }
 
-      const result = await response.text();
+      const result = await serverResponse.text();
       console.log(result);
+
+      onOpen();
     } catch (error) {
       console.error("Error:", error);
     }
+  };
+
+  const handleClose = () => {
+    window.location.reload();
   };
 
   const renderField = (field) => {
@@ -196,7 +258,6 @@ const DynamicForm = ({ config }) => {
       case "tel":
       case "number":
       case "date":
-      case "file":
         return (
           <Box key={field.name} mb={4}>
             <FormControl isInvalid={errors[field.name]}>
@@ -214,6 +275,32 @@ const DynamicForm = ({ config }) => {
                   />
                 )}
               />
+              <FormErrorMessage>{errors[field.name]?.message}</FormErrorMessage>
+            </FormControl>
+          </Box>
+        );
+      case "file":
+        return (
+          <Box key={field.name} mb={4}>
+            <FormControl isInvalid={errors[field.name]}>
+              <FormLabel>{field.label}</FormLabel>
+              <Center>
+                <Controller
+                  name={field.name}
+                  control={control}
+                  render={({ field: inputField }) => (
+                    <Input
+                      {...inputField}
+                      type="file"
+                      placeholder={field.placeholder}
+                      onChange={(e) => {
+                        setFile(e.target.files[0]); // Set the file state
+                        setValue("picture", e.target.files[0]); // Set form value for picture
+                      }}
+                    />
+                  )}
+                />
+              </Center>
               <FormErrorMessage>{errors[field.name]?.message}</FormErrorMessage>
             </FormControl>
           </Box>
@@ -303,6 +390,20 @@ const DynamicForm = ({ config }) => {
       <Button mt={4} colorScheme="teal" type="submit">
         Submit
       </Button>
+
+      <Modal isOpen={isOpen} onClose={handleClose}>
+        <ModalOverlay />
+        <ModalContent>
+          <ModalHeader>Form Submission</ModalHeader>
+          <ModalCloseButton />
+          <ModalBody>Form submitted successfully!</ModalBody>
+          <ModalFooter>
+            <Button colorScheme="teal" onClick={handleClose}>
+              Close
+            </Button>
+          </ModalFooter>
+        </ModalContent>
+      </Modal>
     </Box>
   );
 };

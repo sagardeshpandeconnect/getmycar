@@ -53,6 +53,9 @@ const usedCarSchema = new mongoose.Schema(
       required: [true, 'Number of kilometers driven is required'],
       min: [0, 'Kilometers driven must be a non-negative number'],
     },
+    picture:{
+      type: String
+    },
     comments: {
       type: String,
       default: '',

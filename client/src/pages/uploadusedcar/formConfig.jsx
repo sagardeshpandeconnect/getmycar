@@ -3,6 +3,7 @@ import { useForm, Controller } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 import axios from "axios";
+import { useAuth0 } from "@auth0/auth0-react";
 import {
   Box,
   Button,
@@ -184,8 +185,10 @@ const DynamicForm = ({ config }) => {
   });
 
   const [stateOptions, setStateOptions] = useState([]);
-  const [file, setFile] = useState(null); // State for the file
+  const [file, setFile] = useState(""); // State for the file
   const { isOpen, onOpen, onClose } = useDisclosure(); // Modal control
+  const { user } = useAuth0();
+  // console.log(user.sub);
 
   const brand = watch("brand");
 
@@ -204,13 +207,15 @@ const DynamicForm = ({ config }) => {
         // Create a form data object to upload the image to Cloudinary
         const imageData = new FormData();
         imageData.append("file", file);
-        imageData.append("upload_preset", "your_upload_preset"); // Replace with your Cloudinary upload preset
+        imageData.append("upload_preset", "xr8rojkd"); // Replace with your Cloudinary upload preset
+        imageData.append("cloud_name", "dbrbokt4s"); // Replace with your Cloudinary upload preset
 
         // Upload image to Cloudinary
         const response = await axios.post(
-          "https://api.cloudinary.com/v1_1/your_cloud_name/image/upload", // Replace with your Cloudinary cloud name
+          "https://api.cloudinary.com/v1_1/dbrbokt4s/image/upload", // Replace with your Cloudinary cloud name
           imageData
         );
+        console.log(formData);
 
         if (response.status === 200) {
           pictureUrl = response.data.secure_url;
@@ -221,25 +226,18 @@ const DynamicForm = ({ config }) => {
 
       // Add picture URL to the form data
       formData.picture = pictureUrl;
-
+      formData.userId = user.sub;
       // Send the form data to your server
-      const serverResponse = await fetch(
+      const serverResponse = await axios.post(
         "http://localhost:3001/usedcars/submit-form",
+        formData,
         {
-          method: "POST",
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify(formData),
         }
       );
-
-      if (!serverResponse.ok) {
-        throw new Error("Failed to submit form");
-      }
-
-      const result = await serverResponse.text();
-      console.log(result);
+      console.log(serverResponse.data);
 
       onOpen();
     } catch (error) {
@@ -290,12 +288,13 @@ const DynamicForm = ({ config }) => {
                   control={control}
                   render={({ field: inputField }) => (
                     <Input
-                      {...inputField}
+                      // {...inputField}
                       type="file"
                       placeholder={field.placeholder}
                       onChange={(e) => {
                         setFile(e.target.files[0]); // Set the file state
-                        setValue("picture", e.target.files[0]); // Set form value for picture
+                        // setValue("picture", e.target.files[0]); // Set form value for picture
+                        console.log(e);
                       }}
                     />
                   )}

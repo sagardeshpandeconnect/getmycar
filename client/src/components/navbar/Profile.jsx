@@ -1,5 +1,7 @@
-import { useAuth0 } from "@auth0/auth0-react";
 import React, { useState } from "react";
+import { useAuth0 } from "@auth0/auth0-react";
+import { Link } from "react-router-dom";
+import UserProfilePage from "@pages/userprofile/UserProfilePage";
 import LogoutButton from "./LogoutButton";
 import {
   Card,
@@ -30,14 +32,16 @@ const Profile = () => {
                 {user.email}
               </Text>
             </Box>
-            <Box>
-              <Heading size="xs" textTransform="uppercase">
-                Overview
-              </Heading>
-              <Text pt="2" fontSize="sm">
-                Check out the overview of your clients.
-              </Text>
-            </Box>
+            <Link to="/user-profile">
+              <Box>
+                <Heading size="xs" textTransform="uppercase">
+                  Your Profile
+                </Heading>
+                <Text pt="2" fontSize="sm">
+                  Manage your profile
+                </Text>
+              </Box>
+            </Link>
             <Box>
               <LogoutButton />
             </Box>

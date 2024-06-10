@@ -60,6 +60,11 @@ const usedCarSchema = new mongoose.Schema(
       type: String,
       default: '',
     },
+    userId: {
+      type: String,
+      required: [true, 'userId is required'],
+
+    },
   },
   { timestamps: true }
 );

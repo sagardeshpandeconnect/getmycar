@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import { Flex, Image, Box, Link } from "@chakra-ui/react";
+import { Flex, Image, Box, Link, Text } from "@chakra-ui/react";
 import logo from "@assets/carwaleLogo.svg";
 import {
   LanguageChangeIcon,
@@ -60,7 +60,10 @@ const Navbar = () => {
               <Image width={"9rem"} src={logo} alt="logo" />
             </Link>
           </Flex>
-          <SellUsedCarButton />
+          <Link as={RouteLink} to="/used-cars">
+            <Text>Used Cars</Text>
+          </Link>
+
           <Flex
             gap={"6"}
             justifyContent={"space-between"}

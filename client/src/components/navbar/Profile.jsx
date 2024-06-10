@@ -13,6 +13,7 @@ import {
   Box,
   StackDivider,
 } from "@chakra-ui/react";
+import SellUsedCarButton from "./SellUsedCarButton";
 
 const Profile = () => {
   const { user, isAuthenticated, isLoading } = useAuth0();
@@ -42,6 +43,8 @@ const Profile = () => {
                 </Text>
               </Box>
             </Link>
+            <SellUsedCarButton />
+
             <Box>
               <LogoutButton />
             </Box>

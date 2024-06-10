@@ -5,6 +5,18 @@ const getAllUsedCars = async (req, res) => {
   
     // console.log(req.path);
     try {
+      const allUsedCars = await UsedCar.find();
+      res.status(200).json(allUsedCars);
+    } catch (err) {
+      res.status(404).json({ message: err.message });
+    }
+  };
+
+const getUsedCarsofLoggedInUser = async (req, res) => {
+    // const userId = req.params.userId;
+  
+    // console.log(req.path);
+    try {
       const allUsedCars = await UsedCar.find({ userId: req.params.userId });
       res.status(200).json(allUsedCars);
     } catch (err) {
@@ -12,7 +24,7 @@ const getAllUsedCars = async (req, res) => {
     }
   };
 
-  const pushUsedCarDataToDb = async (req, res)=>{
+const pushUsedCarDataToDb = async (req, res)=>{
     try {
       const newUsedCar = new UsedCar(req.body);
       await newUsedCar.save();
@@ -23,5 +35,5 @@ const getAllUsedCars = async (req, res) => {
   }
 
   module.exports = {
-    getAllUsedCars, pushUsedCarDataToDb
+    getAllUsedCars, getUsedCarsofLoggedInUser,pushUsedCarDataToDb
   };

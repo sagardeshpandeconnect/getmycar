@@ -20,6 +20,7 @@ import FilteredCarsPage from "@pages/filteredcars/FilteredCarsPage";
 import ComparisonPage from "@pages/comparison/ComparisonPage";
 import ListUsedCar from "@pages/uploadusedcar/ListUsedCar";
 import UserProfilePage from "@pages/userprofile/UserProfilePage";
+import UsedCarsPage from "@pages/usedcars/UsedCarsPage";
 
 const Layout = () => {
   return (
@@ -67,6 +68,10 @@ const router = createBrowserRouter([
       {
         path: "list-your-used-car",
         element: <ListUsedCar />,
+      },
+      {
+        path: "used-cars",
+        element: <UsedCarsPage />,
       },
       {
         path: "user-profile",

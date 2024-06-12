@@ -27,6 +27,7 @@ import {
   ModalCloseButton,
   useDisclosure,
 } from "@chakra-ui/react";
+import { postData } from "@services/apiClient";
 
 // Example data for cascading selects
 const data = {
@@ -228,7 +229,7 @@ const DynamicForm = ({ config }) => {
       formData.picture = pictureUrl;
       formData.userId = user.sub;
       // Send the form data to your server
-      const serverResponse = await axios.post(
+      const serverResponse = await postData(
         "http://localhost:3001/usedcars/submit-form",
         formData,
         {

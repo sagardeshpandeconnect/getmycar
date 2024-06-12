@@ -7,6 +7,7 @@ const bodyTypeRoute = require("./bodytypes");
 const fuelTypeRoute = require("./fueltypes");
 const transmissionRoute = require("./transmissions");
 const comparisonRoute = require("./comparison");
+const userRoute = require("./user");
 
 const setupRoutes = (app) => {
   app.use("/brands", brandRoute);
@@ -18,6 +19,7 @@ const setupRoutes = (app) => {
   app.use("/transmission", transmissionRoute);
   app.use("/comparison", comparisonRoute);
   app.use("/usedcars", usedCarRoute)
+  app.use("/user", userRoute)
 };
 
 module.exports = setupRoutes;

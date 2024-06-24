@@ -1,6 +1,5 @@
 const { MongoClient } = require("mongodb");
 // const dotenv = require("dotenv");
-const chokidar = require("chokidar");
 const fs = require("fs");
 const path = require("path");
 
@@ -8,7 +7,7 @@ require("dotenv").config({ path: ".env.development" });
 
 // Watch the source data file for changes
 const sourceDataPath = "./data/newcars.json";
-const watcher = chokidar.watch(sourceDataPath, { persistent: true });
+// const watcher = chokidar.watch(sourceDataPath, { persistent: true });
 
 const mongoUrl = process.env.MONGO_URL;
 // console.log(mongoUrl);

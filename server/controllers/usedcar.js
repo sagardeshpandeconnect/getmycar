@@ -17,7 +17,7 @@ const getUsedCarsofLoggedInUser = async (req, res) => {
   
     // console.log(req.path);
     try {
-      const allUsedCars = await UsedCar.find({ userId: req.params.userId });
+      const allUsedCars = await UsedCar.find({ auth0Id: req.params.auth0Id });
       res.status(200).json(allUsedCars);
     } catch (err) {
       res.status(404).json({ message: err.message });

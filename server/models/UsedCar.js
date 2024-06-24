@@ -60,7 +60,7 @@ const usedCarSchema = new mongoose.Schema(
       type: String,
       default: '',
     },
-    userId: {
+    auth0Id: {
       type: String,
       required: [true, 'userId is required'],
 

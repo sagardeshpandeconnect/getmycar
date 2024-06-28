@@ -60,7 +60,7 @@ const Navbar = () => {
               <Image width={"9rem"} src={logo} alt="logo" />
             </Link>
           </Flex>
-          <Link as={RouteLink} to="/used-cars">
+          <Link as={RouteLink} to="/used-cars" hideBelow={"md"}>
             <Text>Used Cars</Text>
           </Link>
 
@@ -102,14 +102,13 @@ const Navbar = () => {
                 </Box>
               )}
             </Box>
-
-            <Box>
+            <Box hideBelow="md">
               <LocationIcon />
             </Box>
             <Box hideBelow="md">
               <LanguageChangeIcon />
             </Box>
-            <Box hideBelow="md">
+            <Box paddingTop={"2"}>
               <LoginButton />
             </Box>
             <Profile />

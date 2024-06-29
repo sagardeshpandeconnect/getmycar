@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import { Flex, Image, Box, Link, Text } from "@chakra-ui/react";
+import { Flex, Image, Box, Link, Text, useDisclosure } from "@chakra-ui/react";
 import logo from "@assets/carwaleLogo.svg";
 import {
   LanguageChangeIcon,
@@ -20,6 +20,7 @@ const Navbar = () => {
   const [shouldShowSidebar, setShouldShowSidebar] = useState(false);
   const inputRef = useRef();
   const sidebarRef = useRef();
+  const { isOpen, onToggle, onClose } = useDisclosure();
 
   const hideSearchBar = function () {
     setShoudlShowSearchBar(false);
@@ -46,15 +47,18 @@ const Navbar = () => {
           marginX={"6"}
         >
           <Flex gap={"2"}>
-            <Box marginTop={"1"} hideFrom="md">
-              <Box
-                onClick={() => {
-                  setShouldShowSidebar(true);
-                }}
-              >
+            <Box marginTop={"0.5"} hideFrom="md">
+              <Box onClick={onToggle}>
                 <MenuIcon />
               </Box>
-              {shouldShowSidebar && <Sidebar ref={sidebarRef} />}
+              {shouldShowSidebar && (
+                <Sidebar
+                  // ref={sidebarRef}
+
+                  isOpen={isOpen}
+                  onClose={onClose}
+                />
+              )}
             </Box>
             <Link as={RouteLink} to="/">
               <Image width={"9rem"} src={logo} alt="logo" />

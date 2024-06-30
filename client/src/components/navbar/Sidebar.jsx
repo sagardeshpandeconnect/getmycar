@@ -23,13 +23,17 @@ const Sidebar = ({ isOpen, onClose }) => {
   }, []);
 
   return (
-    <Slide direction="left" in={isOpen} style={{ zIndex: 10 }}>
+    <Slide
+      direction="left"
+      in={isOpen}
+      style={{ zIndex: 10 }}
+      transition={{ enter: { duration: 0.3 }, exit: { duration: 0.3 } }}
+    >
       <Box
         backgroundColor="rgba(60, 60, 60, 0.7)"
         width="100vw"
         height="100vh"
         position="absolute"
-        top={-2}
         left={0}
       >
         <Box backgroundColor="white" width="75vw" ref={ref} onClick={onClose}>

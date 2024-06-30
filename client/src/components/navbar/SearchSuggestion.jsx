@@ -34,11 +34,7 @@ const SearchSuggestion = ({ result, query }) => {
             color: "teal.500",
           }}
         >
-          <Text>
-            {/* {result.title} */}
-            {highlightMatch(title, query)}
-          </Text>
-          {/* <Text>{result.attributes.title}</Text> */}
+          <Text>{highlightMatch(title, query)}</Text>
         </Box>
       </Link>
     </div>

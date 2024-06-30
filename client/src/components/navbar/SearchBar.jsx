@@ -21,12 +21,13 @@ const SearchBar = forwardRef((props, ref) => {
   const [focusedIndex, setFocusedIndex] = useState(-1);
   const resultContainer = useRef(null);
   const navigate = useNavigate();
+  // console.log(props);
 
   const clearSearchQuery = function () {
     setSearchQuery("");
   };
 
-  const handleKeyDown= function (event) {
+  const handleKeyDown = function (event) {
     const { key } = event;
     let nextIndexCount = 0;
 
@@ -55,7 +56,7 @@ const SearchBar = forwardRef((props, ref) => {
     }
 
     setFocusedIndex(nextIndexCount);
-  }
+  };
 
   const handleSearchQueryChange = function (event) {
     setSearchQuery(event.target.value.toLowerCase());
@@ -91,13 +92,13 @@ const SearchBar = forwardRef((props, ref) => {
     if (searchQuery.length > 0) fetchSuggestions();
   }, [searchQuery]);
 
-  
   useOnClickOutside(ref, clearSearchQuery);
 
   const goToDetailsPage = function () {
     navigate(
       `/${searchedCars[focusedIndex].brandSlug}/${searchedCars[focusedIndex].titleSlug}`
     );
+    hideSearchBar();
   };
 
   useEffect(() => {
@@ -109,7 +110,8 @@ const SearchBar = forwardRef((props, ref) => {
   }, [focusedIndex]);
 
   // Destructure props to get additional props
-  const { autoFocus } = props;
+  const { autoFocus, hideSearchBar } = props;
+  console.log(props);
 
   return (
     <Stack

@@ -48,17 +48,16 @@ const Navbar = () => {
         >
           <Flex gap={"2"}>
             <Box marginTop={"0.5"} hideFrom="md">
-              <Box onClick={onToggle}>
+              <Box
+                // onClick={() => {
+                // setShouldShowSidebar(true);
+                // }}
+                onClick={onToggle}
+              >
                 <MenuIcon />
               </Box>
-              {shouldShowSidebar && (
-                <Sidebar
-                  // ref={sidebarRef}
 
-                  isOpen={isOpen}
-                  onClose={onClose}
-                />
-              )}
+              <Sidebar isOpen={isOpen} onClose={onClose} />
             </Box>
             <Link as={RouteLink} to="/">
               <Image width={"9rem"} src={logo} alt="logo" />
@@ -75,7 +74,7 @@ const Navbar = () => {
           >
             <Box
               zIndex={{
-                base: "100", // 0px
+                base: "100",
                 sm: "100",
               }}
             >
@@ -98,10 +97,13 @@ const Navbar = () => {
                     width={"99vw"}
                     height={"100vh"}
                     position={"fixed"}
-                    // backgroundColor={"rgba(200, 200, 200)"}
                     backgroundColor={"rgba(60, 60, 60, 0.7)"}
                   >
-                    <SearchBar ref={inputRef} autoFocus={true} />
+                    <SearchBar
+                      ref={inputRef}
+                      autoFocus={true}
+                      hideSearchBar={hideSearchBar}
+                    />
                   </Box>
                 </Box>
               )}

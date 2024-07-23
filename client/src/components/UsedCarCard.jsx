@@ -1,6 +1,5 @@
 import { useAuth0 } from "@auth0/auth0-react";
 import { Box, Image, Text, Flex, VStack, Button } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
 
 const UsedCarCard = ({ car }) => {
   const { loginWithRedirect, isAuthenticated } = useAuth0();

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Text, Box } from "@chakra-ui/react";
 
-const SearchSuggestion = ({ result, query }) => {
+const SearchSuggestion = ({ result, query, hideSearchBar }) => {
   const { title, brandSlug, titleSlug } = result;
 
   // Function to highlight matching part of the suggestion
@@ -33,6 +33,7 @@ const SearchSuggestion = ({ result, query }) => {
             background: "green",
             color: "teal.500",
           }}
+          onClick={hideSearchBar}
         >
           <Text>{highlightMatch(title, query)}</Text>
         </Box>

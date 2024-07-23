@@ -18,8 +18,10 @@ import SellUsedCarButton from "./SellUsedCarButton";
 const Navbar = () => {
   const [shoudlShowSearchBar, setShoudlShowSearchBar] = useState(false);
   const [shouldShowSidebar, setShouldShowSidebar] = useState(false);
+  const [shouldShowProfile, setShouldShowProfile] = useState(false);
   const inputRef = useRef();
   const sidebarRef = useRef();
+  const profileRef = useRef();
   const { isOpen, onToggle, onClose } = useDisclosure();
 
   const hideSearchBar = function () {
@@ -34,8 +36,17 @@ const Navbar = () => {
     inputRef.current.focus();
   };
 
+  const showProfile = function () {
+    setShouldShowProfile(true);
+  };
+
+  const hideProfile = function () {
+    setShouldShowProfile(false);
+  };
+
   useOnClickOutside(sidebarRef, hideSidebar);
   useOnClickOutside(inputRef, hideSearchBar);
+  useOnClickOutside(profileRef, hideProfile);
 
   return (
     <header>
@@ -79,7 +90,7 @@ const Navbar = () => {
               }}
             >
               <Box hideBelow="md">
-                <SearchBar ref={inputRef} />
+                <SearchBar ref={inputRef} hideSearchBar={hideSearchBar} />
               </Box>
               <Box hideFrom="md" onClick={showSearchBar}>
                 <SearchIcon />
@@ -117,7 +128,7 @@ const Navbar = () => {
             <Box paddingTop={"2"}>
               <LoginButton />
             </Box>
-            <Profile />
+            <Profile ref={profileRef} />
           </Flex>
         </Flex>
       </nav>

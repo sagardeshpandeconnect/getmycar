@@ -1,12 +1,27 @@
 import React, { useEffect, useRef } from "react";
+import { useAuth0 } from "@auth0/auth0-react";
+
 import { Box, Flex, Text, Icon, Divider, Slide } from "@chakra-ui/react";
 import { IoHomeOutline, IoWalletOutline } from "react-icons/io5";
 import { GiRecycle } from "react-icons/gi";
 import { FaSackDollar } from "react-icons/fa6";
 import { LanguageChangeIcon } from "@assets/Icons";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Sidebar = ({ isOpen, onClose }) => {
+  const { loginWithRedirect, isAuthenticated } = useAuth0();
+  const navigate = useNavigate();
+
+  const authenticateAndRedirect = () => {
+    if (isAuthenticated) {
+      navigate(`${window.location.origin}/list-your-used-car`);
+    } else {
+      loginWithRedirect({
+        redirectUri: `${window.location.origin}/list-your-used-car`,
+      });
+    }
+  };
+
   const ref = useRef();
 
   const handleClickOutside = (event) => {
@@ -56,7 +71,12 @@ const Sidebar = ({ isOpen, onClose }) => {
             </Flex>
           </Link>
           <Divider borderWidth="1px" borderColor="gray" />
-          <Flex alignItems="center" gap="3" padding="3">
+          <Flex
+            alignItems="center"
+            gap="3"
+            padding="3"
+            onClick={authenticateAndRedirect}
+          >
             <Icon as={FaSackDollar} boxSize={5} />
             <Text>Sell Cars</Text>
           </Flex>

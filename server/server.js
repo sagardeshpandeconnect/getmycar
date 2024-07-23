@@ -34,6 +34,5 @@ connectDB().then(() => {
   });
 });
 
-
 // Function to upload file to database
 // uploadDataToDatabase();

@@ -21,6 +21,8 @@ const SearchBar = forwardRef((props, ref) => {
   const [focusedIndex, setFocusedIndex] = useState(-1);
   const resultContainer = useRef(null);
   const navigate = useNavigate();
+  // Destructure props to get additional props
+  const { autoFocus, hideSearchBar } = props;
   // console.log(props);
 
   const clearSearchQuery = function () {
@@ -109,10 +111,6 @@ const SearchBar = forwardRef((props, ref) => {
     });
   }, [focusedIndex]);
 
-  // Destructure props to get additional props
-  const { autoFocus, hideSearchBar } = props;
-  console.log(props);
-
   return (
     <Stack
       // hideBelow="md"
@@ -175,6 +173,7 @@ const SearchBar = forwardRef((props, ref) => {
                       result={car}
                       navigationLink={`/${car.brandSlug}/${car.titleSlug}`}
                       query={searchQuery}
+                      hideSearchBar={hideSearchBar}
                     />
                   </Box>
                 );

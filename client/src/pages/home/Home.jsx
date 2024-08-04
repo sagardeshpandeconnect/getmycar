@@ -12,12 +12,14 @@ import axios from "axios";
 const Home = () => {
   const { isAuthenticated, user, getIdTokenClaims } = useAuth0();
 
+  const BASE_URL = import.meta.env.VITE_APP_API_URL;
+
   useEffect(() => {
     if (isAuthenticated && user) {
       (async () => {
         const token = await getIdTokenClaims();
         const response = await axios.post(
-          "http://localhost:3001/user/authenticate",
+          `${BASE_URL}/user/authenticate`,
           {
             email: user.email,
             name: user.name,
@@ -33,10 +35,6 @@ const Home = () => {
       })();
     }
   }, [isAuthenticated, user]);
-
-  // if (!isAuthenticated) {
-  //   return <div>Loading...</div>;
-  // }
 
   return (
     <>

@@ -13,15 +13,12 @@ import useOnClickOutside from "@hooks/useOnClickOutside";
 import { Link as RouteLink } from "react-router-dom";
 import LoginButton from "./LoginButton";
 import Profile from "./Profile";
-import SellUsedCarButton from "./SellUsedCarButton";
 
 const Navbar = () => {
   const [shoudlShowSearchBar, setShoudlShowSearchBar] = useState(false);
   const [shouldShowSidebar, setShouldShowSidebar] = useState(false);
-  const [shouldShowProfile, setShouldShowProfile] = useState(false);
   const inputRef = useRef();
   const sidebarRef = useRef();
-  const profileRef = useRef();
   const { isOpen, onToggle, onClose } = useDisclosure();
 
   const hideSearchBar = function () {
@@ -36,17 +33,8 @@ const Navbar = () => {
     inputRef.current.focus();
   };
 
-  const showProfile = function () {
-    setShouldShowProfile(true);
-  };
-
-  const hideProfile = function () {
-    setShouldShowProfile(false);
-  };
-
   useOnClickOutside(sidebarRef, hideSidebar);
   useOnClickOutside(inputRef, hideSearchBar);
-  useOnClickOutside(profileRef, hideProfile);
 
   return (
     <header>
@@ -59,12 +47,7 @@ const Navbar = () => {
         >
           <Flex gap={"2"}>
             <Box marginTop={"0.5"} hideFrom="md">
-              <Box
-                // onClick={() => {
-                // setShouldShowSidebar(true);
-                // }}
-                onClick={onToggle}
-              >
+              <Box onClick={onToggle}>
                 <MenuIcon />
               </Box>
 
@@ -128,7 +111,7 @@ const Navbar = () => {
             <Box paddingTop={"2"}>
               <LoginButton />
             </Box>
-            <Profile ref={profileRef} />
+            <Profile />
           </Flex>
         </Flex>
       </nav>

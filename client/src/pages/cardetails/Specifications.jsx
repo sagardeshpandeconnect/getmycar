@@ -16,8 +16,6 @@ const Specifications = ({ data }) => {
   const fuelText = textCombiner(data[0]?.specifications?.fueltype);
   // const fuelText = textCombiner(["petrol", "diesle"]);
   const transmissionText = textCombiner(data[0].specifications?.transmission);
-  // console.log(data[0].keyfeatures);
-  // console.log(data);
 
   return (
     <Flex direction={"column"}>

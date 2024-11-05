@@ -1,21 +1,9 @@
 import { useState } from "react";
 import { useSelector } from "react-redux";
-import {
-  Collapse,
-  Box,
-  Text,
-  Heading,
-  Table,
-  TableContainer,
-  Thead,
-  Tr,
-  Th,
-  Td,
-  Tbody,
-  Flex,
-  Button,
-} from "@chakra-ui/react";
+import { Collapse, Box, Text, Flex, Button } from "@chakra-ui/react";
+
 import { convertPrice } from "@utils/convertPrice";
+import ComparisonTable from "./ComparisonTable";
 
 const TextComparison = () => {
   const comparisonStore = useSelector((state) => state.entities.comparison);
@@ -101,52 +89,7 @@ const TextComparison = () => {
             })}
           </Text>
         </Box>
-        <Heading as="h2" fontSize="1.5rem">
-          Exter vs Punch Comparison Overview
-        </Heading>
-        <TableContainer
-          border={"1px"}
-          borderColor="gray.200"
-          borderRadius={"md"}
-          marginTop={"4"}
-        >
-          <Table variant="simple">
-            <Thead backgroundColor={"#f9f9f9"}>
-              <Tr>
-                <Th>Key Highlights</Th>
-                <Th>Exter</Th>
-                <Th>Punch</Th>
-              </Tr>
-            </Thead>
-            <Tbody>
-              <Tr>
-                <Td>Price</Td>
-                <Td>Rs. 6.00 Lakh</Td>
-                <Td>Rs. 6.00 Lakh</Td>
-              </Tr>
-              <Tr>
-                <Td>Engine Capacity</Td>
-                <Td>1197 cc</Td>
-                <Td>1199 cc</Td>
-              </Tr>
-              <Tr>
-                <Td>Power</Td>
-                <Td>82 bhp</Td>
-                <Td>87 bhp</Td>
-              </Tr>
-              <Tr>
-                <Td>Transmission</Td>
-                <Td>Manual</Td>
-                <Td>Manual</Td>
-              </Tr>
-              <Tr>
-                <Td>Fuel Type</Td>
-                <Td>Petrol</Td>
-                <Td>Petrol</Td>
-              </Tr>
-            </Tbody>
-          </Table>
-        </TableContainer>
+        <ComparisonTable />
       </Collapse>
       <Flex justifyContent={"flex-end"}>
         <Button

@@ -3,14 +3,16 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const cors = require("cors");
 const path = require("path");
-const brandRoute = require("./routes/brands");
-const newCarRoute = require("./routes/newcars");
-const featuredCarRoute = require("./routes/featuredcars");
-const searchedCarRoute = require("./routes/search");
-const bodyTypeRoute = require("./routes/bodytypes");
-const fuelTypeRoute = require("./routes/fueltypes");
-const transmissionRoute = require("./routes/transmissions");
-const comparisonRoute = require("./routes/comparison");
+const {
+  brandRoute,
+  newCarRoute,
+  featuredCarRoute,
+  searchedCarRoute,
+  bodyTypeRoute,
+  fuelTypeRoute,
+  transmissionRoute,
+  comparisonRoute,
+} = require("./routes");
 const { uploadDataToDatabase } = require("./services/uploadData");
 
 // Specify the path to your .env.development file

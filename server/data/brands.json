@@ -1,0 +1,135 @@
+[
+  {
+    "title": "Maruti Suzuki",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688091/carwale/logo/maruti-suzuki1647009823420_sokuvc.jpg",
+    "brandSlug": "maruti-suzuki-cars"
+  },
+  {
+    "title": "Hyundai",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688140/carwale/logo/hyundai_t0nh5i.jpg",
+    "brandSlug": "hyundai-cars"
+  },
+  {
+    "title": "Tata",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688154/carwale/logo/tata_vsmi9e.jpg",
+    "brandSlug": "tata-cars"
+  },
+  {
+    "title": "Mahindra",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688166/carwale/logo/mahindra_vjfisi.jpg",
+    "brandSlug": "mahindra-cars"
+  },
+  {
+    "title": "BMW",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688175/carwale/logo/bmw_hth4qn.jpg",
+    "brandSlug": "bmw-cars"
+  },
+  {
+    "title": "Toyota",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688186/carwale/logo/toyota_iqsr2q.jpg",
+    "brandSlug": "toyota-cars"
+  },
+  {
+    "title": "Mercedes Benz",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688189/carwale/logo/mercedes-benz_qo8cz5.jpg",
+    "brandSlug": "mercedes-benz-cars"
+  },
+  {
+    "title": "Kia",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688194/carwale/logo/kia_pklyxi.jpg",
+    "brandSlug": "kia-cars"
+  },
+  {
+    "title": "MG",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688201/carwale/logo/mg_fnujw6.jpg",
+    "brandSlug": "mg-cars"
+  },
+  {
+    "title": "Audi",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688220/carwale/logo/audi_xcf4dc.jpg",
+    "brandSlug": "audi-cars"
+  },
+  {
+    "title": "Land Rover",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688223/carwale/logo/land-rover1647236056893_rjdubw.jpg",
+    "brandSlug": "land-rover-cars"
+  },
+  {
+    "title": "Honda",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688242/carwale/logo/honda_gx5lxe.jpg",
+    "brandSlug": "honda-cars"
+  },
+  {
+    "title": "Porsche",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688269/carwale/logo/porsche_iujvt7.jpg",
+    "brandSlug": "porsche-cars"
+  },
+  {
+    "title": "Skoda",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688276/carwale/logo/skoda1681982956420_fznrfv.jpg",
+    "brandSlug": "skoda-cars"
+  },
+  {
+    "title": "Volvo",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688279/carwale/logo/volvo_h3sao2.jpg",
+    "brandSlug": "volvo-cars"
+  },
+  {
+    "title": "Jeep",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688283/carwale/logo/jeep_j4inio.jpg",
+    "brandSlug": "jeep-cars"
+  },
+  {
+    "title": "Jaguar",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688287/carwale/logo/jaguar_wkxhr4.jpg",
+    "brandSlug": "jaguar-cars"
+  },
+  {
+    "title": "Lamborghini",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688292/carwale/logo/lamborghini_qfxs6q.jpg",
+    "brandSlug": "lamborghini-cars"
+  },
+  {
+    "title": "Volkswagen",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688307/carwale/logo/volkswagen_h0x0gc.jpg",
+    "brandSlug": "volkswagen-cars"
+  },
+
+  {
+    "title": "Nissan",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688313/carwale/logo/nissan_ngutrt.jpg",
+    "brandSlug": "nissan-cars"
+  },
+
+  {
+    "title": "Renault",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688319/carwale/logo/renault_muzbav.jpg",
+    "brandSlug": "renault-cars"
+  },
+
+  {
+    "title": "Force Motors",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688330/carwale/logo/force-motors_zrgrul.png",
+    "brandSlug": "force-motors-cars"
+  },
+  {
+    "title": "Bentley",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688347/carwale/logo/bentley_wazaj4.png",
+    "brandSlug": "bentley-cars"
+  },
+  {
+    "title": "Rolls Royce",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1689688350/carwale/logo/rolls-royce_drg5hg.jpg",
+    "brandSlug": "rolls-royce-cars"
+  },
+  {
+    "title": "Ferrari",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1690556213/carwale/logo/ferrari_f6gxow.png",
+    "brandSlug": "ferrari-cars"
+  },
+  {
+    "title": "Aston Martin",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1690556238/carwale/logo/aston-martin_b2xkxr.png",
+    "brandSlug": "aston-martin-cars"
+  }
+]

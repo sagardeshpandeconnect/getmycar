@@ -1,0 +1,1808 @@
+[
+  {
+    "title": "Maruti Swift",
+    "titleSlug": "swift",
+    "brand": "Maruti Suzuki",
+    "brandSlug": "maruti-suzuki-cars",
+    "brand_id": "64c9032e17efebb6360e632a",
+    "bodytype": "Hatchback",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1693210071/carwale/carImages/maruti/exterior-right-front-three-quarter-10_p8er4d.webp",
+    "specifications": {
+      "price": 599450,
+      "engine": 1197,
+      "mileage": 22.38,
+      "safety": 2,
+      "fueltype": ["Petrol", "CNG"],
+      "transmission": ["Manual", "Automatic"],
+      "seatingcapacity": 5
+    },
+    "keyfeatures": [
+      "Cruise control",
+      "Full colour MID",
+      "Steering mounted audio controls",
+      " 7.0-inch infotainment systrem",
+      "15-inch diamond cut alloy wheels",
+      "Climate control",
+      "Driver seat height adjustement",
+      "Height adjustement for steering",
+      "Button start",
+      "Keyless entry",
+      "Power windows",
+      "Auto folding ORVMs",
+      "60:40 split folding rear seat",
+      "LED headlamps",
+      "LED DRLs",
+      "Leather wrapped steering"
+    ],
+    "summary": [
+      {
+        "question": "Latest Update",
+        "answer": "Maruti Suzuki has revised the prices for select models. The Grand Vitara and Swift have become dearer by up to Rs.25,000."
+      },
+      {
+        "question": "Price",
+        "answer": "Maruti Swift price ranges between Rs. 7.28 Lakh - Rs. 10.88 Lakh depending on the variant selected."
+      },
+      {
+        "question": "When was the Maruti Swift launched?",
+        "answer": "The updated Swift was launched in India on 1 April, 2023."
+      },
+      {
+        "question": "What variants does it get? ",
+        "answer": "The Maruti Swift is available in four variants – LXi, VXi, ZXi, and ZXi+."
+      },
+      {
+        "question": "What features are available in the Maruti Swift?",
+        "answer": "Exterior highlights of the Swift include LED DRLs, LED headlamps, 15-inch dual-tone alloy wheels, LED tail lights, fog lights, blacked-out ORVMs, C-pillar-mounted rear door handles, a rear wiper and washer, a conventional antenna, and an optional blacked-out roof. Inside, the hatchback gets features in the form of cruise control, an idle start-stop function, a SmartPlay Studio touchscreen infotainment system, steering-mounted controls, keyless entry, an engine start-stop button, dual airbags, ABS with EBD, and a reverse parking camera. The model has a seating capacity of five occupants."
+      },
+      {
+        "question": "What are the engine, performance, and specifications of the Maruti Swift?",
+        "answer": "The Swift is powered by the K12 series Dual Jet, Dual VVT engine that is tuned to generate an output of 89bhp and 113Nm of torque, and comes paired with a five-speed manual unit or an AMT unit. This motor has been updated and now complies with the latest emission norms"
+      },
+      {
+        "question": "Is the Maruti Swift a safe car?",
+        "answer": "The Swift hatchback has scored a one-star safety rating in the Global NCAP crash test."
+      },
+      {
+        "question": "What are the rivals to the Maruti Swift? ",
+        "answer": "Rivals to the Swift include the Hyundai Grand i10 Nios, Tata Tigor, and Renault Triber."
+      }
+    ],
+    "prosandcons": [
+      {
+        "pros": [
+          "Fun to drive - Hatchback dimensions, light steering/controls, nimble road manners",
+          "Powerful engine - The Petrol motor is flexible, peppy, refined and fuel-efficient",
+          "Fairly spacious - By hatchback standards, one won't be left wanting for more space",
+          "Sporty design - It’s still one of the most stylish-looking hatchbacks in our country",
+          "Aftersales experience - Excellent service network and ready availability of spares"
+        ],
+        "cons": [
+          "Lacks modern features - Maruti could have offered new-age gizmos to delight buyers",
+          "Build quality - Lower cabin looks ordinary due to the 'average' plastic quality",
+          "Firm slow-speed ride quality - One can also hear the suspension working underneath"
+        ]
+      }
+    ],
+    "verdict": "What makes the Maruti Suzuki Swift such a fascinating proposition is that it's not only sporty to drive and look at, but also offers reasonable rear-seat space and equipment. All this makes it a genuinely comfortable family hatch for the masses.",
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the on road price of Maruti Suzuki Swift base model?",
+            "answer": "The on-road price of Maruti Suzuki Swift base model is Rs. 5.99 Lakh which includes a registration cost of Rs. 24808, insurance premium of Rs. 32817 and additional charges of Rs. 2000."
+          },
+          {
+            "question": "What is the on road price of Maruti Suzuki Swift top model?",
+            "answer": "The on-road price of Maruti Suzuki Swift top model is Rs. 9.03 Lakh which includes a registration cost of Rs. 64040, insurance premium of Rs. 42088 and additional charges of Rs. 2000."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the real world versus claimed mileage of Maruti Suzuki Swift?",
+            "answer": "The company claimed mileage of Maruti Suzuki Swift is 22.38 to 30.9 kmpl. As per users, the mileage came to be 0 to 20.8 kmpl in the real world."
+          }
+        ],
+        "specifications": [
+          {
+            "question": "What is the seating capacity in Maruti Suzuki Swift?",
+            "answer": "Maruti Suzuki Swift has a seating capacity of 5 people."
+          },
+          {
+            "question": "What are the dimensions of Maruti Suzuki Swift?",
+            "answer": "The dimensions of Maruti Suzuki Swift include its length of 3845 mm, width of 1735 mm and height of 1530 mm. The wheelbase of the Maruti Suzuki Swift is 2450 mm."
+          }
+        ],
+        "features": [
+          {
+            "question": "Is Maruti Suzuki Swift available in 4x4 version?",
+            "answer": "No, Maruti Suzuki Swift doesn't come with four wheel drive option."
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does Maruti Suzuki Swift get?",
+            "answer": "The top Model of Maruti Suzuki Swift has 2 airbags. The Swift has driver and passenger airbags."
+          },
+          {
+            "question": " Does Maruti Suzuki Swift get ABS?",
+            "answer": "Yes, all versions of Maruti Suzuki Swift have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Maruti Invicto",
+    "titleSlug": "invicto",
+    "brand": "Maruti Suzuki",
+    "brandSlug": "maruti-suzuki-cars",
+    "brand_id": "64c9032e17efebb6360e632a",
+    "bodytype": "Hatchback",
+    "featured": "just launched",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1693210238/carwale/carImages/maruti/invicto-exterior-right-front-three-quarter-2_dwz1ux.webp",
+    "specifications": {
+      "price": 2530500,
+      "mileage": 23.24,
+      "engine": 1987,
+      "fueltype": ["Hybrid"],
+      "transmission": ["Automatic"],
+      "seatingcapacity": 7
+    },
+
+    "summary": "<p></p>",
+    "prosandcons": [
+      {
+        "pros": [
+          "Wheelbase/width translates into ample room. Immensely practical, well put together. ",
+          "Large well-cushioned seats that have a high commanding view of the exteriors.",
+          "Has a lower price tag and shorter waiting periods than the Toyota Hycross.",
+          "Well-tuned suspension creates a pliant ride quality even over broken roads.",
+          "With both motors working together, overall performance is good."
+        ],
+        "cons": [
+          "The lower price is owing to a downsized feature list over the Toyota Hycross. ",
+          "Smaller wheels and tyres can make the Invicto look less attractive in profile.",
+          "Maruti Suzuki does not sell its Invicto with a diesel powertrain option."
+        ]
+      }
+    ],
+    "verdict": "The Maruti Invicto can be the better choice over the Toyota Innova Hycross if one isn't keen on waiting extensively for delivery, is bent on buying a hybrid from the Maruti stable, is more price conscious and is content with a shorter feature list.",
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the on road price of Maruti Suzuki Invicto base model?",
+            "answer": "The on-road price of Maruti Suzuki Invicto base model is Rs. 24.79 Lakh which includes a registration cost of Rs. 251130, insurance premium of Rs. 97286 and additional charges of Rs. 2200."
+          },
+          {
+            "question": "What is the on road price of Maruti Suzuki Invicto  top model?",
+            "answer": "The on-road price of Maruti Suzuki Invicto top model is Rs. 28.42 Lakh which includes a registration cost of Rs. 287430, insurance premium of Rs. 104236 and additional charges of Rs. 2200."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the real world versus claimed mileage of Maruti Suzuki Invicto ?",
+            "answer": "The company claimed mileage of Maruti Suzuki Invicto is 23.24 kmpl. As per users, the mileage came to be 20 kmpl in the real world."
+          }
+        ],
+        "specifications": [
+          {
+            "question": "What is the seating capacity in Maruti Suzuki Invicto ?",
+            "answer": "Maruti Suzuki Swift has a seating capacity of 7 people."
+          },
+          {
+            "question": "What are the dimensions of Maruti Suzuki Invicto ?",
+            "answer": "The dimensions of Maruti Suzuki Invicto include its length of 4755 mm, width of 1845 mm and height of 1795 mm. The wheelbase of the Maruti Suzuki Invicto is 2850 mm."
+          }
+        ],
+        "features": [
+          {
+            "question": "Is Maruti Suzuki Invicto available in 4x4 version?",
+            "answer": "No, Maruti Suzuki Invicto doesn't come with four wheel drive option."
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does Maruti Suzuki Invicto get?",
+            "answer": "The top Model of Maruti Suzuki Invicto has 6 airbags. The Invicto has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
+          },
+          {
+            "question": " Does Maruti Suzuki Invicto get ABS?",
+            "answer": "Yes, all versions of Maruti Suzuki Invicto have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Maruti Brezza",
+    "titleSlug": "brezza",
+    "brand": "Maruti Suzuki",
+    "brandSlug": "maruti-suzuki-cars",
+    "brand_id": "64c9032e17efebb6360e632a",
+    "bodytype": "Compact SUV",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1693211094/carwale/carImages/maruti/vitara-brezza-2022-exterior-right-front-three-quarter_mf8fph.webp",
+    "specifications": {
+      "price": 834000,
+      "engine": 1462,
+      "fueltype": ["Petrol", "CNG"],
+      "transmission": ["Manual", "Automatic"],
+      "seatingcapacity": 5
+    },
+    "keyfeatures": [
+      "Head up display",
+      "360 degree camera",
+      "Height adjustable front seat belts",
+      "Auto Day/Night rear view mirror",
+      "ARKAMYS Surround Sense System with wireless Android Auto and Apple CarPlay",
+      "Onboard voice assistant",
+      "Wireless charging",
+      "Fast charging USB -Type A and C (Rear)",
+      "Suzuki Connect",
+      "Steering adjust - tilt and telescopic",
+      "Engine push start/stop button",
+      "Ambient interior lights",
+      "Sunroof",
+      "Auto headlamps",
+      "Alloy wheels"
+    ],
+    "summary": "<p></p>",
+    "prosandcons": [
+      {
+        "pros": [
+          "Lots of features - Gets a slew of notable features that add convenience",
+          "Interior space - The cabin feels airy with ample storage spaces all over",
+          "Tall seating - Offers a commanding driving position with good outward visibility",
+          "Ease of driving - Light controls and the compact proportions make it nimble",
+          "Service network - Is backed by Maruti Suzuki's exhaustive and robust network"
+        ],
+        "cons": [
+          "Engine lacks punch - The mid-range grunt could have been more exciting",
+          "Pricey - Top-end variants are expensive when stacked against segment rivals",
+          "Ride quality at slow speeds - Conspicuous vertical movement over broken roads"
+        ]
+      }
+    ],
+    "verdict": "The new Maruti Brezza has made considerable progress over the previous version. It now gets a nearly all-new design, comes equipped with a range of new features, packs a fairly good ride quality, and is more than just convenient to drive when you are running around the urban jungle.",
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the on road price of Maruti Suzuki Brezza base model?",
+            "answer": "The on-road price of Maruti Suzuki Brezza base model is Rs. 8.29 Lakh which includes a registration cost of Rs. 58860, insurance premium of Rs. 38800 and additional charges of Rs. 2000."
+          },
+          {
+            "question": "What is the on road price of Maruti Suzuki Brezza top model?",
+            "answer": "The on-road price of Maruti Suzuki Brezza top model is Rs. 14.14 Lakh which includes a registration cost of Rs. 142230, insurance premium of Rs. 56100 and additional charges of Rs. 2000."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the real world versus claimed mileage of Maruti Suzuki Brezza?",
+            "answer": "The company claimed mileage of Maruti Suzuki Brezza is 17.38 to 25.51 kmpl. As per users, the mileage came to be 0 to 19.45 kmpl in the real world."
+          }
+        ],
+        "specifications": [
+          {
+            "question": "What is the seating capacity in Maruti Suzuki Brezza?",
+            "answer": "Maruti Suzuki Brezza has a seating capacity of 5 people."
+          },
+          {
+            "question": "What are the dimensions of Maruti Suzuki Brezza?",
+            "answer": "The dimensions of Maruti Suzuki Brezza include its length of 3995 mm, width of 1790 mm and height of 1685 mm. The wheelbase of the Maruti Suzuki Brezza is 2500 mm."
+          }
+        ],
+        "features": [
+          {
+            "question": "Does Maruti Suzuki Brezza get a sunroof?",
+            "answer": "Yes, 10 out of 15 versions of Maruti Suzuki Brezza have Sunroof."
+          },
+          {
+            "question": " Does Maruti Suzuki Brezza have cruise control?",
+            "answer": "Yes, 10 out of 15 versions of Maruti Suzuki Brezza have cruise control function. With the Cruise control enabled you can take your foot off the accelerator and move at a fixed speed constantly provided the road system permits this."
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does Maruti Brezza Swift get?",
+            "answer": "The top Model of Maruti Suzuki Brezza has 6 airbags. The Brezza has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
+          },
+          {
+            "question": " Does Maruti Suzuki Brezza get ABS?",
+            "answer": "Yes, all versions of Maruti Suzuki Brezza have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Maruti Fronx",
+    "titleSlug": "fronx",
+    "brand": "Maruti Suzuki",
+    "brandSlug": "maruti-suzuki-cars",
+    "brand_id": "64c9032e17efebb6360e632a",
+    "featured": "trending",
+    "bodytype": "Compact SUV",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1711895495/carwale/carImages/maruti/fronx-exterior-right-front-three-quarter-109_d54bri.webp",
+    "specifications": {
+      "price": 746500,
+      "mileage": 20,
+      "engine": 998,
+      "fueltype": ["Petrol"],
+      "transmission": ["Manual", "Automatic"],
+      "seatingcapacity": 5
+    },
+    "keyfeatures": [
+      "Side and curtain airbags",
+      "All 3-point seat belts",
+      "Auto-dimming inside rearview mirror",
+      "Electronic Stability Program",
+      "Hill hold assist",
+      "360 degree camera",
+      "Automatic headlamps",
+      "Engine Start/Stop button",
+      "Wireless Charger",
+      "Steering adjust - tilt and telescopic",
+      "ARKAMYS Premium Sound System with wireless Android Auto and Apple CarPlay",
+      "Head up display",
+      "Fast USB Charging Sockets -Type A and C (Rear)",
+      "Suzuki Connect",
+      "Alloy wheels"
+    ],
+    "summary": "<p></p>",
+    "prosandcons": [
+      {
+        "pros": [
+          "SUV appearance - Looks refreshingly different despite being based on the Baleno",
+          "Features - Plonking for the top-end variant will get you all the new-age features",
+          "Strong engines - Adequately powerful drivetrains with reasonably good drivability",
+          "Ride - The Fronx feels comfortable as it irons out the road irregularities quite well",
+          "Service - Maruti Suzuki cars are backed-up by the brand's exhaustive and robust network"
+        ],
+        "cons": [
+          "Low-end torque - The 1-litre powertrain on the Fronx has some turbo lag below 2,500rpm",
+          "SUV space - One would expect more cabin space over the Baleno, the car it is based on",
+          "Driver posture - Being an SUV, it needs a higher driving position/more rear headroom"
+        ]
+      }
+    ],
+    "verdict": "Designed to plug the gap between the Baleno and Brezza, the new Fronx has quite a lot going for it. Namely the stance, a long list of features, a mature ride and a refined set of capable motors. Yet another winner from Maruti!",
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the on road price of Maruti Suzuki Fronx base model?",
+            "answer": "The on-road price of Maruti Suzuki Fronx base model is Rs. 7.47 Lakh which includes a registration cost of Rs. 53085, insurance premium of Rs. 48599 and additional charges of Rs. 2200."
+          },
+          {
+            "question": "What is the on road price of Maruti Suzuki Fronx top model?",
+            "answer": "The on-road price of Maruti Suzuki Fronx top model is Rs. 13.14 Lakh which includes a registration cost of Rs. 132180, insurance premium of Rs. 67712 and additional charges of Rs. 2200."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the real world versus claimed mileage of Maruti Suzuki Fronx?",
+            "answer": "The company claimed mileage of Maruti Suzuki Fronx is 20.01 to 24.48 kmpl. As per users, the mileage came to be 0 to 19.4 kmpl in the real world."
+          }
+        ],
+        "specifications": [
+          {
+            "question": "What is the seating capacity in Maruti Suzuki Fronx?",
+            "answer": "Maruti Suzuki Fronx has a seating capacity of 5 people."
+          },
+          {
+            "question": "What are the dimensions of Maruti Suzuki Fronx?",
+            "answer": "The dimensions of Maruti Suzuki Fronx include its length of 3995 mm, width of 1765 mm and height of 1550 mm. The wheelbase of the Maruti Suzuki Fronx is 2520 mm."
+          }
+        ],
+        "features": [
+          {
+            "question": "Does Maruti Suzuki Fronx get a sunroof?",
+            "answer": "No, Maruti Suzuki Fronx doesn't have a sunroof."
+          },
+          {
+            "question": " Does Maruti Suzuki Brezza have cruise control?",
+            "answer": "Yes, 4 out of 14 versions of Maruti Suzuki Fronx have cruise control function. With the Cruise control enabled you can take your foot off the accelerator and move at a fixed speed constantly provided the road system permits this."
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does Maruti Suzuki Fronx get?",
+            "answer": "The top Model of Maruti Suzuki Fronx has 6 airbags. The Fronx has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
+          },
+          {
+            "question": " Does Maruti Suzuki Fronx get ABS?",
+            "answer": "Yes, all versions of Maruti Suzuki Fronx have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Hyundai Venue",
+    "titleSlug": "venue",
+    "brand": "Hyundai",
+    "brandSlug": "hyundai-cars",
+    "brand_id": "64c9032e17efebb6360e632b",
+    "bodytype": "Compact SUV",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1693209718/carwale/carImages/hyundai/venue-exterior-right-front-three-quarter_tlvrhu.webp",
+    "specifications": {
+      "price": 794100,
+      "engine": 998,
+      "fueltype": ["Petrol", "Diesel"],
+      "transmission": ["Manual", "Automatic", "clutchless Manual (IMT)"],
+      "seatingcapacity": 5
+    },
+    "keyfeatures": [
+      "Head up display",
+      "360 degree camera",
+      "Height adjustable front seat belts",
+      "Auto Day/Night rear view mirror",
+      "ARKAMYS Surround Sense System with wireless Android Auto and Apple CarPlay",
+      "Onboard voice assistant",
+      "Wireless charging",
+      "Fast charging USB -Type A and C (Rear)",
+      "Hyundai Connect",
+      "Steering adjust - tilt and telescopic",
+      "Engine push start/stop button",
+      "Ambient interior lights",
+      "Sunroof",
+      "Auto headlamps",
+      "Alloy wheels"
+    ],
+    "summary": "<p></p>",
+    "prosandcons": [
+      {
+        "pros": [
+          "Lots of features - Gets a slew of notable features that add convenience",
+          "Interior space - The cabin feels airy with ample storage spaces all over",
+          "Tall seating - Offers a commanding driving position with good outward visibility",
+          "Ease of driving - Light controls and the compact proportions make it nimble",
+          "Service network - Is backed by Maruti Suzuki's exhaustive and robust network"
+        ],
+        "cons": [
+          "Engine lacks punch - The mid-range grunt could have been more exciting",
+          "Pricey - Top-end variants are expensive when stacked against segment rivals",
+          "Ride quality at slow speeds - Conspicuous vertical movement over broken roads"
+        ]
+      }
+    ],
+    "verdict": "The new Maruti Brezza has made considerable progress over the previous version. It now gets a nearly all-new design, comes equipped with a range of new features, packs a fairly good ride quality, and is more than just convenient to drive when you are running around the urban jungle.",
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the on road price of Maruti Suzuki Brezza base model?",
+            "answer": "The on-road price of Maruti Suzuki Brezza base model is Rs. 8.29 Lakh which includes a registration cost of Rs. 58860, insurance premium of Rs. 38800 and additional charges of Rs. 2000."
+          },
+          {
+            "question": "What is the on road price of Maruti Suzuki Brezza top model?",
+            "answer": "The on-road price of Maruti Suzuki Brezza top model is Rs. 14.14 Lakh which includes a registration cost of Rs. 142230, insurance premium of Rs. 56100 and additional charges of Rs. 2000."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the real world versus claimed mileage of Maruti Suzuki Brezza?",
+            "answer": "The company claimed mileage of Maruti Suzuki Brezza is 17.38 to 25.51 kmpl. As per users, the mileage came to be 0 to 19.45 kmpl in the real world."
+          }
+        ],
+        "specifications": [
+          {
+            "question": "What is the seating capacity in Maruti Suzuki Brezza?",
+            "answer": "Maruti Suzuki Brezza has a seating capacity of 5 people."
+          },
+          {
+            "question": "What are the dimensions of Maruti Suzuki Brezza?",
+            "answer": "The dimensions of Maruti Suzuki Brezza include its length of 3995 mm, width of 1790 mm and height of 1685 mm. The wheelbase of the Maruti Suzuki Brezza is 2500 mm."
+          }
+        ],
+        "features": [
+          {
+            "question": "Does Maruti Suzuki Brezza get a sunroof?",
+            "answer": "Yes, 10 out of 15 versions of Maruti Suzuki Brezza have Sunroof."
+          },
+          {
+            "question": " Does Maruti Suzuki Brezza have cruise control?",
+            "answer": "Yes, 10 out of 15 versions of Maruti Suzuki Brezza have cruise control function. With the Cruise control enabled you can take your foot off the accelerator and move at a fixed speed constantly provided the road system permits this."
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does Maruti Brezza get?",
+            "answer": "The top Model of Maruti Suzuki Brezza has 6 airbags. The Brezza has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
+          },
+          {
+            "question": " Does Maruti Suzuki Brezza get ABS?",
+            "answer": "Yes, all versions of Maruti Suzuki Brezza have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Hyundai Exter",
+    "titleSlug": "exter",
+    "brand": "Hyundai",
+    "brandSlug": "hyundai-cars",
+    "brand_id": "64c9032e17efebb6360e632b",
+    "bodytype": "Compact SUV",
+    "featured": "popular",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1693209440/carwale/carImages/hyundai/exter-exterior-right-front-three-quarter-21_vlzwmb.webp",
+    "specifications": {
+      "price": 612800,
+      "engine": 1197,
+      "fueltype": ["Petrol", "CNG"],
+      "transmission": ["Manual", "Automatic"],
+      "seatingcapacity": 5
+    },
+
+    "summary": "<p></p>",
+    "prosandcons": [
+      {
+        "pros": [
+          "This Hyundai is feature loaded, there are many segment first features",
+          "Safety net of six airbags comes as standard in the Exter",
+          "Its easy to drive owing to the user-friendly driving controls",
+          "Superb AMT calibration, there are no AMT jerks at sedate driving",
+          "You will appreciate the Exter's spacious and practical cabin"
+        ],
+        "cons": [
+          "The Exter's radical design can be discouraging for some buyers",
+          "The Hyundai Exter is not the fun-to-drive car one would expect to be",
+          "The range-topping version can be quite expensive to buy"
+        ]
+      }
+    ],
+    "verdict": "The Exter is a well thought out all-around product. Be it its price, features, space utilisation, quality levels, ergonomics and ease of driving. If one can get over the radical looks, this is one to plonk for.",
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the on road price of Hyundai Exter  base model?",
+            "answer": "The on-road price of Hyundai Exter base model is Rs. 6.00 Lakh which includes a registration cost of Rs. 28996, insurance premium of Rs. 36101 and additional charges of Rs. 2000."
+          },
+          {
+            "question": "What is the on road price of Hyundai Exter top model?",
+            "answer": "The on-road price of Hyundai Exter top model is Rs. 10.10 Lakh which includes a registration cost of Rs. 108999, insurance premium of Rs. 51193 and additional charges of Rs. 2000."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the real world versus claimed mileage of Hyundai Exter?",
+            "answer": "The company claimed mileage of Hyundai Exter is 19.2 to 27.1 kmpl. As per users, the mileage came to be 18.33 to 26 kmpl in the real world."
+          }
+        ],
+        "specifications": [
+          {
+            "question": "What is the seating capacity in Hyundai Exter?",
+            "answer": "Hyundai Exter has a seating capacity of 5 people."
+          },
+          {
+            "question": "What are the dimensions of Hyundai Exter?",
+            "answer": "The dimensions of Hyundai Exter include its length of 3815 mm, width of 1710 mm and height of 1631 mm. The wheelbase of the Hyundai Exter is 2450 mm."
+          }
+        ],
+        "features": [
+          {
+            "question": " Is Hyundai Exter available in 4x4 version?",
+            "answer": "No, Hyundai Exter doesn't come with four wheel drive option."
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does Hyundai Exter get?",
+            "answer": "The top Model of Hyundai Exter has 6 airbags. The Exter has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
+          },
+          {
+            "question": " Does Hyundai Exter get ABS?",
+            "answer": "Yes, all versions of Hyundai Exter have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Hyundai Creta",
+    "titleSlug": "creta",
+    "brand": "Hyundai",
+    "brandSlug": "hyundai-cars",
+    "brand_id": "64c9032e17efebb6360e632b",
+    "bodytype": "SUV",
+    "featured": "trending",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1711897438/carwale/carImages/hyundai/creta-exterior-right-front-three-quarter-4_fmiipx.webp",
+    "specifications": {
+      "price": 1099900,
+      "engine": 1497,
+      "fueltype": ["Petrol", "Diesel"],
+      "transmission": ["Manual", "Automatic"],
+      "seatingcapacity": 5
+    },
+
+    "summary": "<p></p>",
+    "prosandcons": [
+      {
+        "pros": [
+          "Heavily refreshed feature list.",
+          "Spacious cabin and comfortable seats.",
+          "The updated design looks sharp and appealing.",
+          "Powertrains have adequate grunt for most driving situations.",
+          "Hyundai spares/service availability and resale value."
+        ],
+        "cons": [
+          "Restrictive headspace for tall occupants.",
+          "Top-end models are mostly expensive."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the on road price of Hyundai Creta base model?",
+            "answer": "The on road price of Hyundai Creta base model is Rs. 13.77 Lakh which includes a registration cost of Rs. 208552, insurance premium of Rs. 55308 and additional charges of Rs. 2000."
+          },
+          {
+            "question": "What is the on road price of Hyundai Creta top model?",
+            "answer": "The on road price of Hyundai Creta top model is Rs. 25.30 Lakh which includes a registration cost of Rs. 403578, insurance premium of Rs. 88982 and additional charges of Rs. 2000."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the real world mileage of Hyundai Creta?",
+            "answer": "As per users, the mileage came to be 18 kmpl in the real world."
+          }
+        ],
+        "specifications": [
+          {
+            "question": "What is the seating capacity in Hyundai Creta?",
+            "answer": "Hyundai Creta has a seating capacity of 5 people."
+          },
+          {
+            "question": "What are the dimensions of Hyundai Creta?",
+            "answer": "The dimensions of Hyundai Creta include its length of 4330 mm, width of 1790 mm and height of 1635 mm. The wheelbase of the Hyundai Creta is 2610 mm."
+          }
+        ],
+        "features": [
+          {
+            "question": "Does Hyundai Creta get a sunroof?",
+            "answer": "Yes, 22 out of 28 variants of Hyundai Creta have Sunroof."
+          },
+          {
+            "question": "Does Hyundai Creta have cruise control?",
+            "answer": "Yes, 24 out of 28 variants of Hyundai Creta have cruise control function. With the Cruise control enabled you can take your foot off the accelerator and move at a fixed speed constantly provided the road system permits this."
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does Hyundai Creta get?",
+            "answer": "The top Model of Hyundai Creta  has 6 airbags. The Exter has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
+          },
+          {
+            "question": " Does Hyundai Creta get ABS?",
+            "answer": "Yes, all versions of Hyundai Creta have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Tata Harrier",
+    "titleSlug": "harrier",
+    "brand": "Tata",
+    "brandSlug": "tata-cars",
+    "brand_id": "64c9032e17efebb6360e632c",
+    "bodytype": "SUV",
+    "featured": "popular",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1703422808/carwale/carImages/tata/harrier-facelift-exterior-right-front-three-quarter-5_h71bnf.webp",
+    "specifications": {
+      "price": 1549000,
+      "engine": 1956,
+      "fueltype": ["Diesel"],
+      "transmission": ["Manual", "Automatic"],
+      "seatingcapacity": 5
+    },
+    "keyfeatures": [
+      "Tilt and telescopic adjustable steering wheel",
+      "Projector headlamps",
+      "Dual function DRLs with turn indicators",
+      "Dual airbags",
+      "Central locking",
+      "All power windows",
+      "3 USB ports",
+      "Multiple drive modes",
+      "Touchscreen infotainment screen",
+      "Steering wheels with controls",
+      "Power ORVMs",
+      "Powered driver seats",
+      "Ventilated front seats",
+      "Illuminated panoramic sunroof",
+      "Wireless Android Auto and Apple CarPlay",
+      "Rain sensing wipers",
+      "200+ voice commands",
+      "Automatic temperature control",
+      "360-degree camera",
+      "ADAS",
+      "Cruise control",
+      "Air purifier",
+      "Leather wrapped steering wheel and gear knob",
+      "9 JBL speakers",
+      "18-inch diamond cut alloy wheels",
+      "Electronic parking brakes",
+      "Wireless charger",
+      "Driver doze off warning"
+    ],
+    "summary": "<p></p>",
+    "prosandcons": [
+      {
+        "pros": [
+          "BS6 Phase 2 - RDE compliant, ADAS functions, updated infotainment/instrument console",
+          "Powerful motor - It's a quick SUV with refined manners and very little NVH",
+          "Automatic gearbox - It provides a smooth power delivery with seamless shifts",
+          "Comfortable cabin - There are acres of space with large well-cushioned seats",
+          "Storage spaces - Lots of space to stash one's stuff on the dash, doors and armrests"
+        ],
+        "cons": [
+          "Quality isn't consistent - Some sections feel inferior in terms of quality and fit/finish",
+          "Taut ride - The ride quality when driving at slow speeds can feel slightly firm",
+          "Centre-console storage - Storing items here is not an easy affair and requires effort"
+        ]
+      }
+    ],
+    "verdict": "The Tata Harrier is certainly a looker. And that combined with the Land Rover-derived underpinnings, dynamics, spacious interiors and a long equipment list, makes for a potent package overall.",
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the on road price of Tata Harrier base model?",
+            "answer": "The on-road price of Tata Harrier base model is Rs. 15.20 Lakh which includes a registration cost of Rs. 201988, insurance premium of Rs. 90064 and additional charges of Rs. 2000."
+          },
+          {
+            "question": "What is the on road price of Tata Harrier top model?",
+            "answer": "The on-road price of Tata Harrier top model is Rs. 24.27 Lakh which includes a registration cost of Rs. 315362, insurance premium of Rs. 125040 and additional charges of Rs. 2000."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the ARAI mileage of Tata Harrier?",
+            "answer": "The ARAI mileage of Tata Harrier is 14.6 to 16.35 kmpl."
+          }
+        ],
+        "specifications": [
+          {
+            "question": "What is the seating capacity in Tata Harrier?",
+            "answer": "Tata Harrier has a seating capacity of 5 people."
+          },
+          {
+            "question": "What are the dimensions of Tata Harrier?",
+            "answer": "The dimensions of Tata Harrier include its length of 4598 mm, width of 1894 mm and height of 1706 mm. The wheelbase of the Tata Harrier is 2741 mm."
+          }
+        ],
+        "features": [
+          {
+            "question": " Is Tata Harrier available in 4x4 version?",
+            "answer": "No, Tata Harrier doesn't come with four wheel drive option."
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does Tata Harrier get?",
+            "answer": "The top Model of Tata Harrier has 6 airbags. The Exter has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
+          },
+          {
+            "question": " Does Tata Harrier get ABS?",
+            "answer": "Yes, all versions of Tata Harrier have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Tata Nexon",
+    "titleSlug": "nexon",
+    "brand": "Tata",
+    "brandSlug": "tata-cars",
+    "brand_id": "64c9032e17efebb6360e632c",
+    "bodytype": "Compact SUV",
+    "featured": "trending",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1711895370/carwale/carImages/tata/nexon-exterior-right-front-three-quarter-71_zjdgnh.webp",
+    "specifications": {
+      "price": 814990,
+      "engine": 1199,
+      "fueltype": ["Petrol", "Diesel", "CNG"],
+      "transmission": ["Manual", "Automatic"],
+      "seatingcapacity": 5
+    },
+    "keyfeatures": [
+      "Tilt and telescopic adjustable steering wheel",
+      "Projector headlamps",
+      "Dual function DRLs with turn indicators",
+      "Dual airbags",
+      "Central locking",
+      "All power windows",
+      "3 USB ports",
+      "Multiple drive modes",
+      "Touchscreen infotainment screen",
+      "Steering wheels with controls",
+      "Power ORVMs",
+      "Powered driver seats",
+      "Ventilated front seats",
+      "Illuminated panoramic sunroof",
+      "Wireless Android Auto and Apple CarPlay",
+      "Rain sensing wipers",
+      "200+ voice commands",
+      "Automatic temperature control",
+      "360-degree camera",
+      "ADAS",
+      "Cruise control",
+      "Air purifier",
+      "Leather wrapped steering wheel and gear knob",
+      "9 JBL speakers",
+      "18-inch diamond cut alloy wheels",
+      "Electronic parking brakes",
+      "Wireless charger",
+      "Driver doze off warning"
+    ],
+    "summary": "<p></p>",
+    "prosandcons": [
+      {
+        "pros": [
+          "All-black cabin has been restyled and has lots of modern features.",
+          "Six airbags are standard, it has a 5-star safety rating.",
+          "Strong mid-range, high-speed stability, flexible gearbox.",
+          "The suspension setup offers an overall comfortable ride.",
+          "Exterior design is attractive, sharp and modern."
+        ],
+        "cons": [
+          "Diesel motor can do with more refinement.",
+          "The fit and finish in some areas."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the on road price of Tata Nexon base model?",
+            "answer": "The on road price of Tata Nexon base model is Rs. 9.96 Lakh which includes a registration cost of Rs. 127649, insurance premium of Rs. 48509 and additional charges of Rs. 1900."
+          },
+          {
+            "question": "What is the on road price of Tata Nexon top model?",
+            "answer": "The on road price of Tata Nexon top model is Rs. 19.55 Lakh which includes a registration cost of Rs. 295370, insurance premium of Rs. 78848 and additional charges of Rs. 1900."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the real world versus claimed mileage of Tata Nexon??",
+            "answer": "The company claimed mileage of Tata Nexon is 17.01 to 24.08 kmpl. As per users, the mileage came to be 17.5 kmpl in the real world."
+          }
+        ],
+        "specifications": [
+          {
+            "question": "What is the seating capacity in Tata Nexon?",
+            "answer": "Tata Nexon has a seating capacity of 5 people."
+          },
+          {
+            "question": "What are the dimensions of Tata Nexon?",
+            "answer": "The dimensions of Tata Nexon include its length of 3995 mm, width of 1804 mm and height of 1620 mm. The wheelbase of the Tata Nexon is 2498 mm."
+          }
+        ],
+        "features": [
+          {
+            "question": "Does Tata Nexon get a sunroof?",
+            "answer": "Yes, 38 out of 99 variants of Tata Nexon have Sunroof."
+          },
+          {
+            "question": "Does Tata Nexon have cruise control?",
+            "answer": "Yes, 70 out of 99 variants of Tata Nexon have cruise control function. With the Cruise control enabled you can take your foot off the accelerator and move at a fixed speed constantly provided the road system permits this."
+          }
+        ],
+        "safety": [
+          {
+            "question": " How many airbags does Tata Nexon get?",
+            "answer": "The top Model of Tata Nexon has 6 airbags. The Nexon has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
+          },
+          {
+            "question": " Does Tata Nexon get ABS?",
+            "answer": "Yes, all versions of Tata Nexon have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Kia Seltos",
+    "titleSlug": "seltos",
+    "brand": "Kia",
+    "brandSlug": "kia-cars",
+    "brand_id": "64c9032e17efebb6360e6331",
+    "bodytype": "SUV",
+    "featured": "just launched",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1693211261/carwale/carImages/kia/seltos-facelift-exterior-right-front-three-quarter-28_cvefar.webp",
+    "specifications": {
+      "price": 1089900,
+      "mileage": 17,
+      "engine": 1482,
+      "safety": 3,
+      "fueltype": ["Petrol", "Diesel"],
+      "transmission": ["Manual", "clutchless Manual (IMT)", "Automatic"],
+      "seatingcapacity": 5
+    },
+
+    "summary": "<p></p>",
+    "prosandcons": [
+      {
+        "pros": [
+          "The recent updates showcase a mild redesign of both the front and rear sections of the Seltos. ",
+          "Offers an extensive selection of engines, gearboxes, and variants to cater to a variety of buyers.",
+          "The new Petrol powertrain provides users with a refreshing boost of turbo-power.",
+          "Practical and spacious cabin, has a range of useful new features and level-2 ADAS suite.",
+          "Kia has accomplished a commendable task in terms of the overall interior quality and fit/finish. "
+        ],
+        "cons": [
+          "The ride quality has a firm edge, so one should exercise caution when driving on bumpy roads.",
+          "No significant styling changes and the top-end variants do not offer a manual gearbox option.",
+          "Certain top-end variants can become quite expensive and may appear overly costly."
+        ]
+      }
+    ],
+    "verdict": "The Seltos facelift improves upon its predecessor by integrating all the features that current owners have desired or requested, resulting in a more comprehensive and",
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the on road price of Kia Seltos base model?",
+            "answer": "The on-road price of Kia Seltos base model is Rs. 10.90 Lakh which includes a registration cost of Rs. 116990, insurance premium of Rs. 54134 and additional charges of Rs. 2000."
+          },
+          {
+            "question": "What is the on road price of Kia Seltos top model?",
+            "answer": "The on-road price of Kia Seltos top model is Rs. 20.00 Lakh which includes a registration cost of Rs. 211990, insurance premium of Rs. 87624 and additional charges of Rs. 2000."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the ARAI mileage of Kia Seltos?",
+            "answer": "The ARAI mileage of Kia Seltos is 17 to 20.7 kmpl."
+          }
+        ],
+        "specifications": [
+          {
+            "question": "What is the seating capacity in Kia Seltos ?",
+            "answer": "Kia Seltos has a seating capacity of 5 people."
+          },
+          {
+            "question": "What are the dimensions of Kia Seltos?",
+            "answer": "The dimensions of Kia Seltos include its length of 4365 mm, width of 1800 mm and height of 1620 mm. The wheelbase of the Kia Seltos is 2610 mm."
+          }
+        ],
+        "features": [
+          {
+            "question": "Is Kia Seltos available in 4x4 version?",
+            "answer": "No, Kia Seltos doesn't come with four wheel drive option."
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does Kia Seltos get?",
+            "answer": "The top Model of Kia Seltos has 6 airbags. The Invicto has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
+          },
+          {
+            "question": "Does Kia Seltos get ABS?",
+            "answer": "Yes, all versions of Kia Seltos have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Mahindra Thar",
+    "titleSlug": "thar",
+    "brand": "Mahindra",
+    "brandSlug": "mahindra-cars",
+    "brand_id": "64e22d26ec17fb97d11656bd",
+    "featured": "trending",
+    "bodytype": "SUV",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1712162347/carwale/carImages/mahindra/thar-exterior-right-front-three-quarter-35_owgqxx.webp",
+    "specifications": {
+      "price": 1125000,
+      "engine": 1497,
+      "fueltype": ["Petrol", "Diesel"],
+      "transmission": ["Manual", "Automatic"],
+      "seatingcapacity": 4
+    },
+    "keyfeatures": [
+      "Dual airbags",
+      "Rear parking sensors",
+      "Panic Brake Indication",
+      "Fully automatic temperature control",
+      "Gear Shift Indicator",
+      "Micro Hybrid Technology",
+      "Electric ORVM",
+      "2nd row AC vents",
+      "Tilt steering",
+      "Height adjustable driver seat",
+      "Steering wheel controls",
+      "Seating configurations - 7/9 seater with captain chair",
+      "Touch screen infotainment with Bluetooth/USB/Aux"
+    ],
+    "summary": "<p></p>",
+
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the on road price of Mahindra Thar base model?",
+            "answer": "The on road price of Mahindra Thar base model is Rs. 14.14 Lakh which includes a registration cost of Rs. 213288, insurance premium of Rs. 59400 and additional charges of Rs. 2000."
+          },
+          {
+            "question": "What is the on road price of Mahindra Thar top model?",
+            "answer": "The on road price of Mahindra Thar top model is Rs. 21.91 Lakh which includes a registration cost of Rs. 312200, insurance premium of Rs. 99323 and additional charges of Rs. 2000."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the real world mileage of Mahindra Thar?",
+            "answer": "As per users, the mileage came to be 14.5 to 16.5 kmpl in the real world."
+          }
+        ],
+        "specifications": [
+          {
+            "question": "What is the seating capacity in Mahindra Thar?",
+            "answer": "Mahindra Thar has a seating capacity of 4 people."
+          },
+          {
+            "question": "What are the dimensions of Mahindra Thar?",
+            "answer": "The dimensions of Mahindra Thar include its length of 3985 mm, width of 1820 mm and height of 1850 mm. The wheelbase of the Mahindra Thar is 2450 mm."
+          }
+        ],
+        "features": [
+          {
+            "question": "Does Mahindra Thar get a sunroof?",
+            "answer": "No, Mahindra Thar doesn't have a sunroof."
+          },
+          {
+            "question": "Does Mahindra Thar have cruise control?",
+            "answer": "Yes, 13 out of 17 variants of Mahindra Thar have cruise control function. With the Cruise control enabled you can take your foot off the accelerator and move at a fixed speed constantly provided the road system permits this."
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does Mahindra Thar get?",
+            "answer": "The top Model of Mahindra Thar has 2 airbags. The Scorpio has driver and passenger airbags."
+          },
+          {
+            "question": "Does Mahindra Thar get ABS?",
+            "answer": "Yes, all versions of Mahindra Thar have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Mahindra Scorpio",
+    "titleSlug": "scorpio",
+    "brand": "Mahindra",
+    "brandSlug": "mahindra-cars",
+    "brand_id": "64e22d26ec17fb97d11656bd",
+    "featured": "trending",
+    "bodytype": "SUV",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1692798988/carwale/carImages/mahindra/scorpio-exterior-right-front-three-quarter-46_rpambd.webp",
+    "specifications": {
+      "price": 1325100,
+      "engine": 2184,
+      "fueltype": ["Diesel"],
+      "transmission": ["Manual"],
+      "seatingcapacity": 7
+    },
+    "keyfeatures": [
+      "Dual airbags",
+      "Rear parking sensors",
+      "Panic Brake Indication",
+      "Fully automatic temperature control",
+      "Gear Shift Indicator",
+      "Micro Hybrid Technology",
+      "Electric ORVM",
+      "2nd row AC vents",
+      "Tilt steering",
+      "Height adjustable driver seat",
+      "Steering wheel controls",
+      "Seating configurations - 7/9 seater with captain chair",
+      "Touch screen infotainment with Bluetooth/USB/Aux"
+    ],
+    "summary": "<p></p>",
+    "prosandcons": [
+      {
+        "pros": [
+          "Visibility - Tall seating position, unintrusive pillars and large unhindered glass area ",
+          "Tough build quality - Sturdy/robust, built like it will stand the test of time ",
+          "Engine - The mHawk 130 diesel motor offers solid drivability/frugality ",
+          "Rugged nature - The ladder on frame chassis can take on any terrain effortlessly",
+          "Mahindra service - Owners get a nationwide extensive sales, spares and service network"
+        ],
+        "cons": [
+          "Fit/finish - Not up to segment standards, awry ergonomics since it isn't user friendly",
+          "Unsorted ride quality - It feels bumpy and not entirely settled at higher speeds",
+          "Outdated looks - The design is still an unmistakable embodiment of the first iteration"
+        ]
+      }
+    ],
+    "verdict": "For those who prefer the older Scorpio over the new 'N', the brand has kept things rolling with the latest Scorpio Classic.",
+    "faq": [
+      {
+        "price": [
+          {
+            "question": " What is the on road price of Mahindra Scorpio base model?",
+            "answer": "The on-road price of Mahindra Scorpio base model is Rs. 13.00 Lakh which includes a registration cost of Rs. 167318, insurance premium of Rs. 89102 and additional charges of Rs. 2000."
+          },
+          {
+            "question": " What is the on road price of Mahindra Scorpio top model?",
+            "answer": "The on-road price of Mahindra Scorpio top model is Rs. 16.81 Lakh which includes a registration cost of Rs. 214993, insurance premium of Rs. 105948 and additional charges of Rs. 2000."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the real world versus claimed mileage of Mahindra Scorpio?",
+            "answer": "As per users, the mileage came to be 15.19 kmpl in the real world."
+          }
+        ],
+        "specifications": [
+          {
+            "question": "What is the seating capacity in Mahindra Scorpio?",
+            "answer": "Mahindra Scorpio has a seating capacity of 7 people."
+          },
+          {
+            "question": "What are the dimensions of Mahindra Scorpio?",
+            "answer": "The dimensions of Mahindra Scorpio include its length of 4456 mm, width of 1820 mm and height of 1995 mm. The wheelbase of the Mahindra Scorpio is 2680 mm."
+          }
+        ],
+        "features": [
+          {
+            "question": "Is Mahindra Scorpio available in 4x4 version?",
+            "answer": "No, Mahindra Scorpio doesn't come with four wheel drive option."
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does Mahindra Scorpio get?",
+            "answer": "The top Model of Mahindra Scorpio has 2 airbags. The Scorpio has driver and passenger airbags."
+          },
+          {
+            "question": "Does Mahindra Scorpio get ABS?",
+            "answer": "Yes, all versions of Mahindra Scorpio have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Toyota Vellfire",
+    "titleSlug": "vellfire",
+    "brand": "Toyota",
+    "brandSlug": "toyota-cars",
+    "brand_id": "64e22d26ec17fb97d11656bf",
+    "featured": "just launched",
+    "bodytype": "MUV",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1692800208/carwale/carImages/toyota/vellfire-exterior-right-front-three-quarter_cjstep.webp",
+    "specifications": {
+      "price": 11990000,
+      "mileage": 19.28,
+      "engine": 2487,
+      "fueltype": ["Hybrid"],
+      "safety": 5,
+      "transmission": ["Automatic"],
+      "seatingcapacity": 7
+    },
+    "summary": "<p></p>",
+    "prosandcons": [
+      {
+        "pros": [
+          "Gets fresh exterior styling, revised kit and new interior themes",
+          "Cabin is extremely luxurious and spacious",
+          "Reliability from being a Toyota"
+        ],
+        "cons": ["Steep cost", "Doesn't possess an air of elitism"]
+      }
+    ],
+    "verdict": "The Toyota Vellfire appeals to the wealthy since they value exclusivity, status, and personal luxury space, and it undoubtedly delivers on all of these fronts. The new car has also seen exterior/interior upgrades, refreshed features and cabin colour themes. It may not have the snob value like the German brands, but all-in-all makes for a reliable alternative that's environment friendly due to its hybrid propulsion.",
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the on road price of Toyota Vellfire base model?",
+            "answer": "The on-road price of Toyota Vellfire base model is Rs. 1.20 Crore which includes a registration cost of Rs. 1249000, insurance premium of Rs. 493816 and additional charges of Rs. 2000."
+          },
+          {
+            "question": "What is the on road price of Toyota Vellfire top model?",
+            "answer": "The on-road price of Toyota Vellfire top model is Rs. 1.30 Crore which includes a registration cost of Rs. 1349000, insurance premium of Rs. 532378 and additional charges of Rs. 2000."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the real world versus claimed mileage of Toyota Vellfire?",
+            "answer": "The company claimed mileage of Toyota Vellfire is 19.28 kmpl. As per users, the mileage came to be 15 kmpl in the real world."
+          }
+        ],
+        "specifications": [
+          {
+            "question": "What is the seating capacity in Toyota Vellfire?",
+            "answer": "Toyota Vellfire has a seating capacity of 7 people."
+          },
+          {
+            "question": "What are the dimensions of Toyota Vellfire?",
+            "answer": "The dimensions of Toyota Vellfire include its length of 5010 mm, width of 1850 mm and height of 1950 mm. The wheelbase of the Toyota Vellfire is 3000 mm."
+          }
+        ],
+        "features": [
+          {
+            "question": "Is Toyota Vellfire available in 4x4 version?",
+            "answer": "Yes, all versions of Toyota Vellfire come with four wheel drive option."
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does Toyota Vellfire get?",
+            "answer": "The top Model of Toyota Vellfire has 6 airbags. The Vellfire has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
+          },
+          {
+            "question": "Does Toyota Vellfire get ABS?",
+            "answer": "Yes, all versions of Toyota Vellfire have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Toyota Rumion",
+    "titleSlug": "rumion",
+    "brand": "Toyota",
+    "brandSlug": "toyota-cars",
+    "brand_id": "64e22d26ec17fb97d11656bf",
+    "featured": "upcoming",
+    "bodytype": "Compact SUV",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1692799289/carwale/carImages/toyota/rumion-exterior-right-front-three-quarter-2_blqvss.webp",
+    "specifications": {
+      "price": 1029000,
+      "engine": 1462,
+      "fueltype": ["Petrol", "CNG"],
+      "transmission": ["Manual", "Automatic"],
+      "seatingcapacity": 7,
+      "powerandtorque": "87 bhp & 136 Nm"
+    },
+    "summary": "<p></p>",
+    "prosandcons": [
+      {
+        "pros": [
+          "Easier to drive than most seven-seaters.",
+          "Comfortable seats, decent boot (last row folded).",
+          "Tweaked to look like a scaled-down Innova Hycross."
+        ],
+        "cons": [
+          "Restrictive third-row legroom.",
+          "Not as spacious as the Innova/Marazzo."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the on road price of Toyota Rumion base model?",
+            "answer": "The on road price of Toyota Rumion base model is Rs. 13.01 Lakh which includes a registration cost of Rs. 198003, insurance premium of Rs. 41370 and additional charges of Rs. 2000."
+          },
+          {
+            "question": "What is the on road price of Toyota Rumion top model?",
+            "answer": "The on road price of Toyota Rumion top model is Rs. 17.03 Lakh which includes a registration cost of Rs. 260085, insurance premium of Rs. 49164 and additional charges of Rs. 2000."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the real world versus claimed mileage of Toyota Rumion?",
+            "answer": "The company claimed mileage of Toyota Rumion is 20.11 to 26.11 kmpl. As per users, the mileage came to be 24 kmpl in the real world."
+          }
+        ],
+        "specifications": [
+          {
+            "question": "What is the seating capacity in Toyota Rumion?",
+            "answer": "Toyota Rumion has a seating capacity of 7 people."
+          },
+          {
+            "question": "What are the dimensions of Toyota Rumion?",
+            "answer": "The dimensions of Toyota Rumion include its length of 4420 mm, width of 1735 mm and height of 1690 mm. The wheelbase of the Toyota Rumion is 2740 mm."
+          }
+        ],
+        "features": [
+          {
+            "question": "Does Toyota Rumion get a sunroof?",
+            "answer": "No, Toyota Rumion doesn't have a sunroof."
+          },
+          {
+            "question": "Does Toyota Rumion have cruise control?",
+            "answer": "Yes, 2 out of 7 variants of Toyota Rumion have cruise control function. With the Cruise control enabled you can take your foot off the accelerator and move at a fixed speed constantly provided the road system permits this."
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does Toyota Rumion get?",
+            "answer": "The top Model of Toyota Rumion has 4 airbags. The Rumion has driver, front passenger, driver side and front passenger side airbags."
+          },
+          {
+            "question": "Does Toyota Rumion get ABS?",
+            "answer": "Yes, all variants of Toyota Rumion have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Toyota Innova Crysta",
+    "titleSlug": "innova-crysta",
+    "brand": "Toyota",
+    "brandSlug": "toyota-cars",
+    "brand_id": "64e22d26ec17fb97d11656bf",
+    "bodytype": "MUV",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1715015050/carwale/carImages/toyota/innova-crysta-exterior-right-front-three-quarter-2_map38a.webp",
+    "specifications": {
+      "price": 1999000,
+      "engine": 2393,
+      "fueltype": ["Diesel"],
+      "transmission": ["Manual"],
+      "seatingcapacity": 7,
+      "power": "87 bhp"
+    },
+    "summary": [
+      {
+        "question": "Latest Update",
+        "answer": "The GX Plus variant fills in above the GX variant and is priced Rs 1.3 lakh above the latter"
+      },
+      {
+        "question": "Price",
+        "answer": "Toyota Innova Crysta price ranges between Rs. 25.05 Lakh - Rs. 33.10 Lakh depending on the variant selected."
+      },
+      {
+        "question": "When was the 2023 Toyota Innova Crysta launched?",
+        "answer": "The updated Innova Crysta was launched in India on 2 May."
+      },
+      {
+        "question": "What variants does it get? ",
+        "answer": "The 2023 Innova Crysta is offered in four variants: G, GX, VX, and ZX."
+      },
+      {
+        "question": "What features are available in the 2023 Toyota Innova Crysta?",
+        "answer": "On the outside, the 2023 Innova Crysta gets a tweaked front face with more chrome highlights. The front grille gets a horizontal chrome stripe, while the bumper gets a chrome insert on the chin and around the fog lamp housing. Also up for offer is a black insert between the tail lights."
+      },
+      {
+        "question": "What are the engine, performance, and specifications of the 2023 Toyota Innova Crysta?",
+        "answer": "At the heart of the facelifted Innova Crysta is a 2.4-litre diesel engine generating a maximum power output of 148bhp and 343Nm of torque. This motor is mated exclusively to a five-speed manual transmission."
+      },
+      {
+        "question": "Is the 2023 Toyota Innova Crysta a safe car?",
+        "answer": "The Toyota Innova Crysta scored a four-star rating in the ASEAN NCAP crash test."
+      },
+      {
+        "question": "What are the rivals to the 2023 Toyota Innova Crysta?",
+        "answer": "The Toyota Innova Crysta facelift rivals the Mahindra XUV700, Tata Safari, Hyundai Alcazar, Kia Carens, and MG Hector Plus."
+      }
+    ],
+    "prosandcons": [
+      {
+        "pros": [
+          "Bulletproof reliability",
+          "Spacious, comfortable seats with sensible adjustability.",
+          "Adequate grunt throughout the rev range.",
+          "Scores high in terms of overall practicality.",
+          "Dependable sales/service/resale"
+        ],
+        "cons": [
+          "Not equipped with modern features.",
+          "Boot space when all seats are in use.",
+          "Expensive to buy."
+        ]
+      }
+    ],
+    "verdict": "People swear by the Toyota Innova Crysta. And that's for a reason. Be it the spacious and practical cabin, rock-solid reliability or an unreal resale value.",
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the on road price of Toyota Innova Crysta base model?",
+            "answer": "The on road price of Toyota Innova Crysta base model is Rs. 25.05 Lakh which includes a registration cost of Rs. 378211, insurance premium of Rs. 99866 and additional charges of Rs. 2000."
+          },
+          {
+            "question": "What is the on road price of Toyota Innova Crysta top model?",
+            "answer": "The on road price of Toyota Innova Crysta top model is Rs. 33.10 Lakh which includes a registration cost of Rs. 526474, insurance premium of Rs. 120100 and additional charges of Rs. 2000."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the real world versus claimed mileage of Toyota Innova Crysta?",
+            "answer": "As per users, the mileage came to be 14 kmpl in the real world."
+          }
+        ],
+        "specifications": [
+          {
+            "question": "What is the seating capacity in Toyota Innova Crysta?",
+            "answer": "Toyota Innova Crysta has a seating capacity of 7 people."
+          },
+          {
+            "question": "What are the dimensions of Toyota Innova Crysta?",
+            "answer": "The dimensions of Toyota Innova Crysta include its length of 4735 mm, width of 1830 mm and height of 1795 mm. The wheelbase of the Toyota Innova Crysta is 2750 mm."
+          }
+        ],
+        "features": [
+          {
+            "question": "Is Toyota Innova Crysta available in 4x4 variant?",
+            "answer": "No, Toyota Innova Crysta doesn't come with four wheel drive option."
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does Toyota Innova Crysta get?",
+            "answer": "The top Model of Toyota Innova Crysta has 7 airbags. The Innova Crysta has driver, front passenger, 2 curtain, driver knee, driver side and front passenger side airbags."
+          },
+          {
+            "question": "Does Toyota Innova Crysta get ABS?",
+            "answer": "Yes, all variants of Toyota Innova Crysta have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Honda Elevate",
+    "titleSlug": "elevate",
+    "brand": "Honda",
+    "brandSlug": "honda-cars",
+    "featured": "popular",
+    "bodytype": "MUV",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1711980378/carwale/carImages/honda/elevate-exterior-right-front-three-quarter-21_mxvp4z.webp",
+    "specifications": {
+      "price": 1157900,
+      "engine": 1498,
+      "fueltype": ["Petrol"],
+      "transmission": ["Manual", "Automatic"],
+      "seatingcapacity": 5
+    },
+    "summary": "<p></p>",
+    "prosandcons": [
+      {
+        "pros": [
+          "Comparable to its fellow C-SUV competitors, it even surpasses the dimensions of a few.",
+          "The top-tier variant includes Level 2 ADAS hardware along with a total of six airbags.",
+          "Touchscreen features wireless smartphone integration and modern connectivity options.",
+          "Offered with a selection of manual and CVT automatic transmission options.",
+          "Leading the segment with an exceptional boot space of 458 litres."
+        ],
+        "cons": [
+          "No variety in engine selection, as the hybrid and diesel engine alternatives are omitted.",
+          "Lacks premium features such as a 360-degree camera, panoramic sunroof, heads-up display (HUD), and ventilated seats.",
+          "Features may not be comprehensive in the lower trims.",
+          "The GNCAP rating is currently unavailable."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the on road price of Honda Elevate base model?",
+            "answer": "The on road price of Honda Elevate base model is Rs. 14.56 Lakh which includes a registration cost of Rs. 221358, insurance premium of Rs. 57475 and additional charges of Rs. 2000."
+          },
+          {
+            "question": "What is the on road price of Honda Elevate top model?",
+            "answer": "The on road price of Honda Elevate top model is Rs. 20.53 Lakh which includes a registration cost of Rs. 312311, insurance premium of Rs. 77156 and additional charges of Rs. 2000."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the real world versus claimed mileage of Honda Elevate?",
+            "answer": "The company claimed mileage of Honda Elevate is 15.31 to 16.92 kmpl. As per users, the mileage came to be 14.55 to 14.83 kmpl in the real world."
+          }
+        ],
+        "specifications": [
+          {
+            "question": "What is the seating capacity in Honda Elevate?",
+            "answer": "Honda Elevate has a seating capacity of 5 people."
+          },
+          {
+            "question": "What are the dimensions of Honda Elevate?",
+            "answer": "The dimensions of Honda Elevate include its length of 4312 mm, width of 1790 mm and height of 1650 mm. The wheelbase of the Honda Elevate is 2650 mm."
+          }
+        ],
+        "features": [
+          {
+            "question": "Is Honda Elevate available in 4x4 variant?",
+            "answer": "No, Honda Elevate doesn't come with four wheel drive option."
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does Honda Elevate get?",
+            "answer": "The top Model of Honda Elevate has 6 airbags. The Exter has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
+          },
+          {
+            "question": " Does Honda Elevate get ABS?",
+            "answer": "Yes, all versions of Honda Elevate have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Skoda Slavia",
+    "titleSlug": "slavia",
+    "brand": "Skoda",
+    "brandSlug": "skoda-cars",
+    "featured": "popular",
+    "bodytype": "Sedan",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1711987749/carwale/carImages/skoda/slavia-exterior-right-front-three-quarter-6_acb5no.webp",
+    "specifications": {
+      "price": 1153400,
+      "engine": 999,
+      "fueltype": ["Petrol"],
+      "transmission": ["Manual", "Automatic"],
+      "seatingcapacity": 5
+    },
+    "summary": "<p></p>",
+    "prosandcons": [
+      {
+        "pros": [
+          "2023 update - BS6 2 compliance improves fuel efficiency, dual-tone for lower versions",
+          "Comfortable and spacious cabin - Be it the front or the rear",
+          "Entertaining to drive - The steering is reasonably quick with just enough feedback",
+          "Ride - A nice balance between being slightly firm and absorbent, good ground clearance",
+          "Fantastic boot - Easily the largest amongst sedans, gets split/folding rear seats"
+        ],
+        "cons": [
+          "Thigh support - The rear split-folding bench lacks the appropriate thigh support",
+          "Overall quality - Skoda's staggering quality levels are absent in this sedan",
+          "Engine refinement - The 1-litre motor is not the quietest or the most refined"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the on road price of Skoda Slavia base model?",
+            "answer": "The on road price of Skoda Slavia base model is Rs. 14.33 Lakh which includes a registration cost of Rs. 221310, insurance premium of Rs. 44393 and additional charges of Rs. 2000."
+          },
+          {
+            "question": "What is the on road price of Skoda Slavia top model?",
+            "answer": "The on road price of Skoda Slavia top model is Rs. 23.72 Lakh which includes a registration cost of Rs. 364457, insurance premium of Rs. 74698 and additional charges of Rs. 2000."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the real world versus claimed mileage of Skoda Slavia?",
+            "answer": "TThe company claimed mileage of Skoda Slavia is 18.73 to 20.32 kmpl. As per users, the mileage came to be 18.5 kmpl in the real world."
+          }
+        ],
+        "specifications": [
+          {
+            "question": "What is the seating capacity in Skoda Slavia?",
+            "answer": " Skoda Slavia? has a seating capacity of 5 people."
+          },
+          {
+            "question": "What are the dimensions of Skoda Slavia?",
+            "answer": "The dimensions of Skoda Slavia include its length of 4541 mm, width of 1752 mm and height of 1507 mm. The wheelbase of the Skoda Slavia is 2651 mm."
+          }
+        ],
+        "features": [
+          {
+            "question": "Does Skoda Slavia get a sunroof?",
+            "answer": "Yes, 13 out of 20 variants of Skoda Slavia have Sunroof."
+          },
+          {
+            "question": "Does Skoda Slavia have cruise control?",
+            "answer": "Yes, 19 out of 20 variants of Skoda Slavia have cruise control function. With the Cruise control enabled you can take your foot off the accelerator and move at a fixed speed constantly provided the road system permits this."
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does Skoda Slavia get?",
+            "answer": "The top Model of Skoda Slavia has 6 airbags. The Exter has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
+          },
+          {
+            "question": " Does Skoda Slavia get ABS?",
+            "answer": "Yes, all versions of Skoda Slavia have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Volkswagen Virtus",
+    "titleSlug": "virtus",
+    "brand": "Volkswagen",
+    "brandSlug": "volkswagen-cars",
+    "featured": "popular",
+    "bodytype": "Sedan",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1711990055/carwale/carImages/volkswagen/virtus-exterior-right-front-three-quarter-7_oininv.webp",
+    "specifications": {
+      "price": 1155900,
+      "engine": 1498,
+      "fueltype": ["Petrol"],
+      "transmission": ["Manual", "Automatic"],
+      "seatingcapacity": 5
+    },
+    "keyfeatures": [
+      "Ventilated front seats",
+      "Sunroof",
+      "Wireless charger",
+      "10-inch touchscreen infotainment",
+      "Red colour ambient lighting",
+      "8-inch Digital instrument cluster",
+      "My Volkswagen Connect telematics",
+      "Touch-based climate control",
+      "Auto-dimming IRVM",
+      "Cooled glovebox",
+      "6 airbags",
+      "5 star GNCAP safety rating",
+      "Auto headlamps",
+      "Rain-sensing wipers"
+    ],
+    "summary": "<p></p>",
+    "prosandcons": [
+      {
+        "pros": [
+          "2023 model update - Added feature, the powertrains are now BS6 Phase 2/RDE compliant",
+          "Easy to drive - The powertrains provide adequate pep/a smooth drive for regular drives",
+          "Spacious/comfortable - Big car visuals translate into roomy interiors, large boot",
+          "Mature ride quality - The ride too impresses with its absorbent and settled quality",
+          "Sorted steering - Predictable/linear steering response, the reasonably quick turn-in"
+        ],
+        "cons": [
+          "Fit and finish - VW needs to up the quality, and fit and finish game in a few areas",
+          "Driver information system - The DIS could do with a better interface to aid operability",
+          "Its a sedan - Virtus comes at a time when SUV sales are going through the roof"
+        ]
+      }
+    ],
+    "verdict": "The 2023 Volkswagen Virtus is a well-rounded car. Agreed, it needs to up the quality, plus fit and finish in a few areas. However, on other counts, there’s very little to complain about. It not only drives and rides well, but it’s also well-specced.",
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the on road price of Volkswagen Virtus base model?",
+            "answer": "The on road price of Volkswagen Virtus base model is Rs. 14.42 Lakh which includes a registration cost of Rs. 219118, insurance premium of Rs. 50348 and additional charges of Rs. 2100."
+          },
+          {
+            "question": "What is the on road price of Volkswagen Virtus top model?",
+            "answer": "The on road price of Volkswagen Virtus top model is Rs. 24.18 Lakh which includes a registration cost of Rs. 367248, insurance premium of Rs. 86120 and additional charges of Rs. 2100."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the real world versus claimed mileage of Volkswagen Virtus?",
+            "answer": "The company claimed mileage of Volkswagen Virtus is 18.45 to 20.66 kmpl. As per users, the mileage came to be 17.2 kmpl in the real world."
+          }
+        ],
+        "specifications": [
+          {
+            "question": "What is the seating capacity in Volkswagon Virtus?",
+            "answer": " Volkswagon Virtus has a seating capacity of 5 people."
+          },
+          {
+            "question": "What are the dimensions of Volkswagon Virtus?",
+            "answer": "The dimensions of Volkswagon Virtus include its length of 4541 mm, width of 1752 mm and height of 1507 mm. The wheelbase of the Skoda Slavia is 2651 mm."
+          }
+        ],
+        "features": [
+          {
+            "question": "Is Volkswagen Virtus available in 4x4 variant?",
+            "answer": "No, Volkswagen Virtus doesn't come with four wheel drive option."
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does Volkswagen Virtus get?",
+            "answer": "The top Model of Volkswagen Virtus has 6 airbags. The Exter has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
+          },
+          {
+            "question": "Does Volkswagen Virtus  get ABS?",
+            "answer": "Yes, all versions of Volkswagen Virtus have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "MG Hector",
+    "titleSlug": "hector",
+    "brand": "mg",
+    "brandSlug": "mg-cars",
+    "featured": "popular",
+    "bodytype": "MUV",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1712844960/carwale/carImages/mg/hector-exterior-right-front-three-quarter-75_agqfvm.webp",
+    "specifications": {
+      "price": 1398800,
+      "engine": 1451,
+      "fueltype": ["Petrol", "Diesel"],
+      "transmission": ["Manual", "Automatic"],
+      "seatingcapacity": 5
+    },
+    "summary": "<p></p>",
+    "prosandcons": [
+      {
+        "pros": [
+          "Features and ADAS functions are appealing.",
+          "Bold and commanding road stance.",
+          "Roomy, easy access, large glass area.",
+          "Refined drivetrains with sufficient power.",
+          "Ideal long-distance cruiser."
+        ],
+        "cons": [
+          "Touchscreen operation is distracting for the driver.",
+          "Body motion at highway speeds.",
+          "Not exciting to drive overall."
+        ]
+      }
+    ],
+    "verdict": "In the little time that the MG Hector has spent in our market, it has undoubtedly proved its mettle. Now, with the latest updates and ADAS enhancements, this MG continues to excel as a package.",
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the on road price of MG Hector base model?",
+            "answer": "The on road price of MG Hector base model is Rs. 17.27 Lakh which includes a registration cost of Rs. 246796, insurance premium of Rs. 65502 and additional charges of Rs. 2000."
+          },
+          {
+            "question": "What is the on road price of MG Hector top model?",
+            "answer": "The on road price of MG Hector top model is Rs. 27.46 Lakh which includes a registration cost of Rs. 411664, insurance premium of Rs. 95533 and additional charges of Rs. 2000."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the real world mileage of MG Hector?",
+            "answer": "As per users, the mileage came to be 14.75 kmpl in the real world."
+          }
+        ],
+        "specifications": [
+          {
+            "question": "What is the seating capacity in MG Hector?",
+            "answer": "MG Hector has a seating capacity of 5 people."
+          },
+          {
+            "question": "What are the dimensions of MG Hector?",
+            "answer": "The dimensions of MG Hector include its length of 4655 mm, width of 1835 mm and height of 1760 mm. The wheelbase of the MG Hector is 2750 mm."
+          }
+        ],
+        "features": [
+          {
+            "question": "Is MG Hector available in 4x4 variant?",
+            "answer": "No, MG Hector doesn't come with four wheel drive option."
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does MG Hector get?",
+            "answer": "The top Model of MG Hector has 6 airbags. The Hector has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
+          },
+          {
+            "question": " Does MG Hector get ABS?",
+            "answer": "Yes, all versions of MG Hector have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      }
+    ]
+  }
+]

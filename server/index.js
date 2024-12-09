@@ -27,7 +27,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["http://192.168.43.5:5173"],
+    origin: ["http://192.168.1.101:5173"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
@@ -48,11 +48,7 @@ app.use("/auth", authRoute);
 const PORT = process.env.PORT || 6001;
 
 mongoose
-  .connect(process.env.MONGO_URL, {
-    // useNewUrlParser: true,
-    // useUnifiedTopology: true,
-    // useCreateIndex: true,
-  })
+  .connect(process.env.MONGO_URL, {})
   .then(() => {
     app.listen(PORT, () => console.log(`Server Started on Port: ${PORT}`));
   })

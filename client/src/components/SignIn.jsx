@@ -12,13 +12,16 @@ import {
 } from "@chakra-ui/react";
 import { useState, useRef } from "react";
 import { postData } from "@services/apiClient";
+import { useDispatch } from "react-redux";
+import { login, logout } from "@features/auth/authSlice";
 
 export default function SignIn({ onSignIn }) {
-  const [isSignIn, setIsSignIn] = useState(true);
+  const [showSignInForm, setShowSignInForm] = useState(true);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const signupRef = useRef(null);
   const toast = useToast();
+  const dispatch = useDispatch();
 
   const scrollToSignUp = () => {
     if (signupRef.current) {
@@ -37,7 +40,7 @@ export default function SignIn({ onSignIn }) {
     const password = formData.get("password");
 
     try {
-      if (isSignIn) {
+      if (showSignInForm) {
         // Send login details to the server
         const response = await postData(`/auth/login`, { email, password });
         console.log(response);
@@ -46,8 +49,10 @@ export default function SignIn({ onSignIn }) {
           toast({
             title: "Sign-in successful!",
             status: "success",
-            duration: 3000,
+            duration: 2500,
           });
+          // dispatch(logout());
+          dispatch(login(response.user));
           onSignIn();
         } else {
           setError(response.message || "Sign-in failed. Please try again.");
@@ -64,9 +69,9 @@ export default function SignIn({ onSignIn }) {
           toast({
             title: "Account created successfully!",
             status: "success",
-            duration: 3000,
+            duration: 2500,
           });
-          setIsSignIn(true); // Switch to sign-in form
+          setShowSignInForm(true); // Switch to sign-in form
         } else {
           setError(response.message || "Sign-up failed. Please try again.");
         }
@@ -86,7 +91,7 @@ export default function SignIn({ onSignIn }) {
 
   return (
     <Flex direction="column" align="center" justify="center">
-      {isSignIn ? (
+      {showSignInForm ? (
         <Flex
           flexDirection={"column"}
           paddingX={"8"}
@@ -138,7 +143,7 @@ export default function SignIn({ onSignIn }) {
                 color="blue.600"
                 onClick={(e) =>
                   handleLinkClick(e, () => {
-                    setIsSignIn(false);
+                    setShowSignInForm(false);
                     scrollToSignUp();
                   })
                 }
@@ -193,7 +198,7 @@ export default function SignIn({ onSignIn }) {
                 color="blue.600"
                 onClick={(e) =>
                   handleLinkClick(e, () => {
-                    setIsSignIn(true);
+                    setShowSignInForm(true);
                   })
                 }
               >

@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { Link as RouteLink } from "react-router-dom";
+import { useSelector } from "react-redux";
 import { Flex, Image, Box, Link, Button } from "@chakra-ui/react";
 import logo from "@assets/carwaleLogo.svg";
 import {
@@ -14,11 +15,17 @@ import Sidebar from "./Sidebar";
 import Modal from "@pages/cardetails/Modal";
 import useOnClickOutside from "@hooks/useOnClickOutside";
 import SignIn from "@components/SignIn";
+import ProfileCard from "@components/ProfileCard";
 
 const Navbar = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [isUserSignedIn, setIsUserSignedIn] = useState(false); // State for user authentication
+  // const [isUserSignedIn, setIsUserSignedIn] = useState(false); // State for user authentication
   const modalRef = useRef();
+  const authStore = useSelector((state) => state.entities.auth);
+  const isUserSignedIn = authStore.isUserSignedIn;
+  console.log(authStore);
+  // const userName = authStore.user.username;
+
   const hideModal = () => setIsModalOpen(false);
   const showModal = () => setIsModalOpen(true);
 
@@ -117,25 +124,25 @@ const Navbar = () => {
             <Box hideBelow="md">
               <LanguageChangeIcon />
             </Box>
-            <Box onClick={showModal}>
-              <UserIcon />
-            </Box>
+
+            {isUserSignedIn ? (
+              <ProfileCard userName={authStore.user.username} />
+            ) : (
+              <Box onClick={showModal}>
+                <UserIcon />
+              </Box>
+            )}
+
             {isModalOpen && (
               <Modal ref={modalRef} isVisible={isModalOpen} onClose={hideModal}>
-                <SignIn onSignIn={() => setIsUserSignedIn(true)} />
+                <SignIn
+                  onSignIn={() => {
+                    // setIsUserSignedIn(true);
+                    hideModal();
+                  }}
+                />
                 {/* Pass onSignIn callback */}
               </Modal>
-            )}
-            {isUserSignedIn && (
-              <Box>
-                <Button
-                  // as={RouteLink} to="/dashboard"
-
-                  colorScheme="blue"
-                >
-                  Dashboard
-                </Button>
-              </Box>
             )}
           </Flex>
         </Flex>

@@ -7,6 +7,7 @@ import SpecificBrandPage from "@pages/specificbrand/SpecificBrandPage";
 import FilteredCarsPage from "@pages/filteredcars/FilteredCarsPage";
 import ComparisonPage from "@pages/comparison/ComparisonPage";
 import Footer from "@components/Footer";
+import UsedCarForm from "@components/UsedCarForm";
 
 const Layout = () => {
   return (
@@ -16,7 +17,6 @@ const Layout = () => {
         <Outlet />
       </main>
       <Footer />
-      {/* </Provider> */}
     </>
   );
 };
@@ -34,13 +34,13 @@ const router = createBrowserRouter([
         path: "compare-cars/",
         element: <ComparisonPage />,
       },
-      // {
-      //   path: "/search-results",
-      //   element: <SearchResult />,
-      // },
       {
         path: "new/:slug",
         element: <FilteredCarsPage />,
+      },
+      {
+        path: "sell-your-car",
+        element: <UsedCarForm />,
       },
       {
         path: ":brandSlug",

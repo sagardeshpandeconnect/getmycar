@@ -17,7 +17,13 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 
-import { AiOutlineLogout } from "react-icons/ai";
+import {
+  AiOutlineLogout,
+  AiOutlineUser,
+  AiOutlineDollar,
+} from "react-icons/ai";
+
+import { MdMotionPhotosPaused } from "react-icons/md";
 
 import { Link as RouteLink } from "react-router-dom"; // Import RouteLink for internal links
 
@@ -46,6 +52,46 @@ const ProfileCard = ({ userName }) => {
           <ModalBody>
             <Box backgroundColor={"white"}>
               <Box>
+                <RouteLink style={{ textDecoration: "none" }}>
+                  <Flex
+                    alignItems={"center"}
+                    gap={3}
+                    paddingY={2}
+                    onClick={logOut}
+                    borderBottom={"1px solid gray"}
+                  >
+                    <Icon as={AiOutlineUser} boxSize={5} />
+                    <Text>Edit Your Profile</Text>
+                  </Flex>
+                </RouteLink>
+                <RouteLink
+                  to={"/sell-your-car"}
+                  style={{ textDecoration: "none" }}
+                >
+                  <Flex
+                    alignItems={"center"}
+                    gap={3}
+                    paddingY={2}
+                    // onClick={logOut}
+                    borderBottom={"1px solid gray"}
+                  >
+                    <Icon as={AiOutlineDollar} boxSize={5} />
+                    <Text>Sell Your Car</Text>
+                  </Flex>
+                </RouteLink>
+                <RouteLink style={{ textDecoration: "none" }}>
+                  <Flex
+                    alignItems={"center"}
+                    gap={3}
+                    paddingY={2}
+                    onClick={logOut}
+                    borderBottom={"1px solid gray"}
+                  >
+                    <Icon as={MdMotionPhotosPaused} boxSize={5} />
+                    <Text>Manage Your Listings</Text>
+                  </Flex>
+                </RouteLink>
+
                 <RouteLink style={{ textDecoration: "none" }}>
                   <Flex
                     alignItems={"center"}

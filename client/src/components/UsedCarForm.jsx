@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Box,
   Button,
@@ -17,7 +17,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 
 const usedCarSchema = z.object({
-  name: z.string().min(2)("Name is required"),
+  name: z.string().min(2, "Name is required"),
   email: z.string().email("Invalid email address"),
   mobile: z.string().regex(/^\d{10}$/, "Mobile must be 10 digits"),
   price: z.number().min(1, "Price must be greater than zero"),
@@ -39,16 +39,22 @@ const usedCarSchema = z.object({
   ]),
   ownerType: z.enum(["First", "Second", "Third"]),
   kmDriven: z.number().min(0, "Kilometers driven must be non-negative"),
-  picture: z.string().url("Invalid picture URL"),
+  picture: z
+    .object({
+      name: z.string(),
+      url: z.string().url("Invalid picture URL"),
+    })
+    .optional(),
   comments: z.string().optional(),
 });
 
 const UsedCarForm = () => {
+  const [pictureFile, setPictureFile] = useState(null);
   const {
-    control,
     handleSubmit,
     register,
     formState: { errors },
+    setValue,
   } = useForm({
     resolver: zodResolver(usedCarSchema),
     defaultValues: {
@@ -59,9 +65,37 @@ const UsedCarForm = () => {
     },
   });
 
-  const onSubmit = (data) => {
-    console.log(data);
-    // Submit the data to your backend here
+  // console.log(import.meta.env.VITE_APP_CLOUDINARY_URL);
+
+  const handlePictureChange = async (e) => {
+    const file = e.target.files[0];
+    setPictureFile(file);
+
+    if (file) {
+      const formData = new FormData();
+      formData.append("file", file);
+      formData.append("upload_preset", import.meta.env.VITE_APP_UPLOAD_PRESET);
+
+      try {
+        const response = await fetch(import.meta.env.VITE_APP_CLOUDINARY_URL, {
+          method: "POST",
+          body: formData,
+        });
+        const result = await response.json();
+        console.log("Cloudinary upload result:", result);
+
+        setValue("picture", {
+          name: file.name,
+          url: result.secure_url,
+        });
+      } catch (error) {
+        console.error("Cloudinary upload failed:", error);
+      }
+    }
+  };
+
+  const onSubmit = async (data) => {
+    console.log("Form data:", data);
   };
 
   return (
@@ -74,7 +108,15 @@ const UsedCarForm = () => {
       borderRadius="md"
       boxShadow="md"
     >
-      <form onSubmit={handleSubmit(onSubmit)}>
+      <form
+        onSubmit={handleSubmit((data) => {
+          // Convert year and kmDriven to numbers before submitting
+          data.price = Number(data.price);
+          data.year = Number(data.year);
+          data.kmDriven = Number(data.kmDriven);
+          onSubmit(data);
+        })}
+      >
         <VStack spacing={4} align="stretch">
           {/* Name */}
           <FormControl isInvalid={!!errors.name}>
@@ -100,7 +142,11 @@ const UsedCarForm = () => {
           {/* Price */}
           <FormControl isInvalid={!!errors.price}>
             <FormLabel>Price</FormLabel>
-            <Input type="number" {...register("price")} />
+            <Input
+              type="number"
+              {...register("price")}
+              onChange={(e) => setValue("price", Number(e.target.value))}
+            />
             <FormErrorMessage>{errors.price?.message}</FormErrorMessage>
           </FormControl>
 
@@ -120,7 +166,10 @@ const UsedCarForm = () => {
           {/* Year */}
           <FormControl isInvalid={!!errors.year}>
             <FormLabel>Year</FormLabel>
-            <Select {...register("year")}>
+            <Select
+              {...register("year")}
+              onChange={(e) => setValue("year", Number(e.target.value))}
+            >
               {Array.from(
                 { length: new Date().getFullYear() - 1999 },
                 (_, i) => (
@@ -177,14 +226,18 @@ const UsedCarForm = () => {
           {/* Kilometers Driven */}
           <FormControl isInvalid={!!errors.kmDriven}>
             <FormLabel>Kilometers Driven</FormLabel>
-            <Input type="number" {...register("kmDriven")} />
+            <Input
+              type="number"
+              {...register("kmDriven")}
+              onChange={(e) => setValue("kmDriven", Number(e.target.value))}
+            />
             <FormErrorMessage>{errors.kmDriven?.message}</FormErrorMessage>
           </FormControl>
 
           {/* Picture */}
           <FormControl isInvalid={!!errors.picture}>
-            <FormLabel>Picture URL</FormLabel>
-            <Input type="url" {...register("picture")} />
+            <FormLabel>Picture</FormLabel>
+            <Input type="file" onChange={handlePictureChange} />
             <FormErrorMessage>{errors.picture?.message}</FormErrorMessage>
           </FormControl>
 

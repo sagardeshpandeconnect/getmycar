@@ -7,6 +7,7 @@ const fuelTypeRoute = require("./fueltypes");
 const transmissionRoute = require("./transmissions");
 const comparisonRoute = require("./comparison");
 const authRoute = require("./auth");
+const usedCarRoute = require("./usedcars");
 
 module.exports = {
   brandRoute,
@@ -18,4 +19,5 @@ module.exports = {
   transmissionRoute,
   comparisonRoute,
   authRoute,
+  usedCarRoute,
 };

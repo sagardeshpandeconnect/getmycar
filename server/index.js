@@ -14,6 +14,7 @@ const {
   transmissionRoute,
   comparisonRoute,
   authRoute,
+  usedCarRoute,
 } = require("./routes");
 const { uploadDataToDatabase } = require("./services/uploadData");
 
@@ -43,6 +44,7 @@ app.use("/fueltype", fuelTypeRoute);
 app.use("/transmission", transmissionRoute);
 app.use("/comparison", comparisonRoute);
 app.use("/auth", authRoute);
+app.use("/usedcars", usedCarRoute);
 
 // !MONGOOSE SETUP
 const PORT = process.env.PORT || 6001;

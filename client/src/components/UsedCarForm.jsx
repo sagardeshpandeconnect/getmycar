@@ -15,6 +15,7 @@ import {
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
+import { postData } from "@services/apiClient";
 
 const usedCarSchema = z.object({
   name: z.string().min(2, "Name is required"),
@@ -96,6 +97,20 @@ const UsedCarForm = () => {
 
   const onSubmit = async (data) => {
     console.log("Form data:", data);
+
+    const response = await postData(`/usedcars/upload`, data);
+    console.log(response);
+    if (response.success) {
+      toast({
+        title: "Used car data upload successful!",
+        status: "success",
+        duration: 2500,
+      });
+    } else {
+      setError(
+        response.message || "Used car upload data failed. Please try again."
+      );
+    }
   };
 
   return (

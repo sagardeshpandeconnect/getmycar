@@ -39,7 +39,7 @@ const usedCarSchema = new mongoose.Schema(
       required: true,
     },
     picture: {
-      type: String,
+      type: Object,
       required: true,
     },
     comments: {

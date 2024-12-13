@@ -1,6 +1,6 @@
 import React from "react";
 
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { logout } from "@features/auth/authSlice";
 
 import {
@@ -30,6 +30,8 @@ import { Link as RouteLink } from "react-router-dom"; // Import RouteLink for in
 const ProfileCard = ({ userName }) => {
   const dispatch = useDispatch();
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const authStore = useSelector((state) => state.entities.auth);
+  const userId = authStore.user._id;
 
   const logOut = () => {
     dispatch(logout());
@@ -57,7 +59,7 @@ const ProfileCard = ({ userName }) => {
                     alignItems={"center"}
                     gap={3}
                     paddingY={2}
-                    onClick={logOut}
+                    // onClick={logOut}
                     borderBottom={"1px solid gray"}
                   >
                     <Icon as={AiOutlineUser} boxSize={5} />
@@ -79,12 +81,14 @@ const ProfileCard = ({ userName }) => {
                     <Text>Sell Your Car</Text>
                   </Flex>
                 </RouteLink>
-                <RouteLink style={{ textDecoration: "none" }}>
+                <RouteLink
+                  style={{ textDecoration: "none" }}
+                  to={`manage-your-listings/${userId}`}
+                >
                   <Flex
                     alignItems={"center"}
                     gap={3}
                     paddingY={2}
-                    onClick={logOut}
                     borderBottom={"1px solid gray"}
                   >
                     <Icon as={MdMotionPhotosPaused} boxSize={5} />

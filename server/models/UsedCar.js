@@ -2,6 +2,10 @@ const mongoose = require("mongoose");
 
 const usedCarSchema = new mongoose.Schema(
   {
+    userId: {
+      type: String,
+      required: true,
+    },
     name: {
       type: String,
       required: true,
@@ -39,7 +43,10 @@ const usedCarSchema = new mongoose.Schema(
       required: true,
     },
     picture: {
-      type: Object,
+      type: {
+        name: { type: String, required: true },
+        url: { type: String, required: true },
+      },
       required: true,
     },
     comments: {

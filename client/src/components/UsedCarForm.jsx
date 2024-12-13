@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { useSelector } from "react-redux";
+
 import {
   Box,
   Button,
@@ -11,6 +13,7 @@ import {
   Select,
   Textarea,
   VStack,
+  useToast,
 } from "@chakra-ui/react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -50,12 +53,18 @@ const usedCarSchema = z.object({
 });
 
 const UsedCarForm = () => {
-  const [pictureFile, setPictureFile] = useState(null);
+  const [pictureFile, setPictureFile] = useState({});
+  const toast = useToast();
+  const authStore = useSelector((state) => state.entities.auth);
+  const userId = authStore.user._id;
+  console.log(userId);
+
   const {
     handleSubmit,
     register,
     formState: { errors },
     setValue,
+    reset,
   } = useForm({
     resolver: zodResolver(usedCarSchema),
     defaultValues: {
@@ -68,9 +77,12 @@ const UsedCarForm = () => {
 
   // console.log(import.meta.env.VITE_APP_CLOUDINARY_URL);
 
+  const [isUploading, setIsUploading] = useState(false);
+
   const handlePictureChange = async (e) => {
     const file = e.target.files[0];
     setPictureFile(file);
+    setIsUploading(true); // Start upload
 
     if (file) {
       const formData = new FormData();
@@ -91,11 +103,14 @@ const UsedCarForm = () => {
         });
       } catch (error) {
         console.error("Cloudinary upload failed:", error);
+      } finally {
+        setIsUploading(false); // End upload
       }
     }
   };
 
   const onSubmit = async (data) => {
+    data.userId = userId;
     console.log("Form data:", data);
 
     const response = await postData(`/usedcars/upload`, data);
@@ -106,6 +121,7 @@ const UsedCarForm = () => {
         status: "success",
         duration: 2500,
       });
+      reset();
     } else {
       setError(
         response.message || "Used car upload data failed. Please try again."
@@ -263,7 +279,7 @@ const UsedCarForm = () => {
           </FormControl>
 
           {/* Submit Button */}
-          <Button colorScheme="blue" type="submit">
+          <Button colorScheme="blue" type="submit" isDisabled={isUploading}>
             Submit
           </Button>
         </VStack>

@@ -23,7 +23,7 @@ const Navbar = () => {
   const modalRef = useRef();
   const authStore = useSelector((state) => state.entities.auth);
   const isUserSignedIn = authStore.isUserSignedIn;
-  console.log(authStore);
+  // console.log(authStore);
   // const userName = authStore.user.username;
 
   const hideModal = () => setIsModalOpen(false);

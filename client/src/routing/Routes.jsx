@@ -8,6 +8,7 @@ import FilteredCarsPage from "@pages/filteredcars/FilteredCarsPage";
 import ComparisonPage from "@pages/comparison/ComparisonPage";
 import Footer from "@components/Footer";
 import UsedCarForm from "@components/UsedCarForm";
+import ManageYourListings from "@pages/manageyourlistings/ManageYourListings";
 
 const Layout = () => {
   return (
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: "sell-your-car",
         element: <UsedCarForm />,
+      },
+      {
+        path: "manage-your-listings/:userId",
+        element: <ManageYourListings />,
       },
       {
         path: ":brandSlug",

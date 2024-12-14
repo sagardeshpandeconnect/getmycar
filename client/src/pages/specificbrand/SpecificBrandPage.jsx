@@ -19,7 +19,7 @@ const SpecificBrandPage = () => {
   console.log(data);
 
   return (
-    <div>
+    <>
       <ul>
         {error
           ? "Something went wrong!"
@@ -39,7 +39,7 @@ const SpecificBrandPage = () => {
               );
             })}
       </ul>
-    </div>
+    </>
   );
 };
 

@@ -90,6 +90,7 @@ const ProfileCard = ({ userName }) => {
                     gap={3}
                     paddingY={2}
                     borderBottom={"1px solid gray"}
+                    onClick={onClose}
                   >
                     <Icon as={MdMotionPhotosPaused} boxSize={5} />
                     <Text>Manage Your Listings</Text>

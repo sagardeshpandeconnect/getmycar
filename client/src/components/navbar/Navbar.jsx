@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { Link as RouteLink } from "react-router-dom";
 import { useSelector } from "react-redux";
-import { Flex, Image, Box, Link, Button } from "@chakra-ui/react";
+import { Flex, Image, Box, Link, Text } from "@chakra-ui/react";
 import logo from "@assets/carwaleLogo.svg";
 import {
   LanguageChangeIcon,
@@ -85,7 +85,11 @@ const Navbar = () => {
               <Image width={"9rem"} src={logo} alt="logo" />
             </Link>
           </Flex>
-
+          <Box>
+            <Link as={RouteLink} to="used-cars">
+              <Text fontWeight="semibold">Used Cars</Text>
+            </Link>
+          </Box>
           <Flex
             gap={{ base: 3, md: 6 }}
             justifyContent={"space-between"}

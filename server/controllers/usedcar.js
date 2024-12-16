@@ -11,6 +11,7 @@ const uploadUsedCar = async (req, res) => {
       brand,
       year,
       month,
+      city,
       ownerType,
       kmDriven,
       picture,
@@ -26,6 +27,7 @@ const uploadUsedCar = async (req, res) => {
       brand,
       year,
       month,
+      city,
       ownerType,
       kmDriven,
       picture,
@@ -43,6 +45,15 @@ const uploadUsedCar = async (req, res) => {
   }
 };
 
+const getUsedCars = async (req, res) => {
+  try {
+    const usedcars = await UsedCar.find();
+    res.status(200).json(usedcars);
+  } catch (err) {
+    res.status(404).json({ message: err.message });
+  }
+};
+
 const getUsedCarsOfSpecificUser = async (req, res) => {
   console.log(req.params);
   try {
@@ -53,4 +64,4 @@ const getUsedCarsOfSpecificUser = async (req, res) => {
   }
 };
 
-module.exports = { uploadUsedCar, getUsedCarsOfSpecificUser };
+module.exports = { uploadUsedCar, getUsedCars, getUsedCarsOfSpecificUser };

@@ -22,6 +22,7 @@ import { postData } from "@services/apiClient";
 
 const usedCarSchema = z.object({
   name: z.string().min(2, "Name is required"),
+  city: z.string().min(2, "City is required"),
   email: z.string().email("Invalid email address"),
   mobile: z.string().regex(/^\d{10}$/, "Mobile must be 10 digits"),
   price: z.number().min(1, "Price must be greater than zero"),
@@ -154,6 +155,13 @@ const UsedCarForm = () => {
             <FormLabel>Name</FormLabel>
             <Input {...register("name")} />
             <FormErrorMessage>{errors.name?.message}</FormErrorMessage>
+          </FormControl>
+
+          {/* City */}
+          <FormControl isInvalid={!!errors.city}>
+            <FormLabel>City</FormLabel>
+            <Input {...register("city")} />
+            <FormErrorMessage>{errors.city?.message}</FormErrorMessage>
           </FormControl>
 
           {/* Email */}

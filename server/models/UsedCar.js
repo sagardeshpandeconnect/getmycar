@@ -38,6 +38,10 @@ const usedCarSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    city: {
+      type: String,
+      required: true,
+    },
     kmDriven: {
       type: Number,
       required: true,

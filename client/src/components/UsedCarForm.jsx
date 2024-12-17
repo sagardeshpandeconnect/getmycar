@@ -27,6 +27,7 @@ const usedCarSchema = z.object({
   mobile: z.string().regex(/^\d{10}$/, "Mobile must be 10 digits"),
   price: z.number().min(1, "Price must be greater than zero"),
   brand: z.enum(["Toyota", "Honda", "Ford", "BMW", "Other"]),
+  carName: z.string().min(2, "Car Name is required"),
   year: z.number().min(2000).max(new Date().getFullYear(), "Invalid year"),
   month: z.enum([
     "January",
@@ -200,6 +201,13 @@ const UsedCarForm = () => {
               ))}
             </Select>
             <FormErrorMessage>{errors.brand?.message}</FormErrorMessage>
+          </FormControl>
+
+          {/* Car Name */}
+          <FormControl isInvalid={!!errors.carName}>
+            <FormLabel>Car Name</FormLabel>
+            <Input {...register("carName")} />
+            <FormErrorMessage>{errors.carName?.message}</FormErrorMessage>
           </FormControl>
 
           {/* Year */}

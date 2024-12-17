@@ -26,6 +26,10 @@ const usedCarSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    carName: {
+      type: String,
+      required: true,
+    },
     year: {
       type: Number,
       required: true,

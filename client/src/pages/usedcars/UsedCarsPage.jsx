@@ -1,5 +1,4 @@
 import React from "react";
-import { v4 as uuid } from "uuid";
 import { useQuery } from "@tanstack/react-query";
 import { Container, VStack } from "@chakra-ui/react";
 import { getData } from "@services/apiClient";
@@ -15,6 +14,7 @@ const UsedCarsPage = () => {
     queryFn: getUsedCars,
   });
   console.log(data);
+
   return (
     <Container maxW="7xl" p={{ base: 5, md: 12 }} margin="0 auto">
       <VStack spacing={4}>

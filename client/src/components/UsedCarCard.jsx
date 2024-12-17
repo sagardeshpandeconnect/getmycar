@@ -1,27 +1,72 @@
-import React from "react";
-import { chakra, Box, Stack, Flex, Text, Image, Icon } from "@chakra-ui/react";
-import { BsTelephoneX } from "react-icons/bs";
-import IconButton from "./IconButton";
+import React, { useState, useEffect } from "react";
+import {
+  chakra,
+  Box,
+  Stack,
+  Flex,
+  Text,
+  Image,
+  Icon,
+  HStack,
+  Button,
+  Popover,
+  PopoverTrigger,
+  PopoverContent,
+  PopoverArrow,
+  PopoverCloseButton,
+  PopoverBody,
+} from "@chakra-ui/react";
+
+import { FaUser, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
+
+import { useSelector } from "react-redux";
+import SignIn from "./SignIn";
 
 const UsedCarCard = ({ data }) => {
-  const { brand, price, year, month, updatedAt, picture } = data;
+  const {
+    brand,
+    price,
+    year,
+    month,
+    name,
+    email,
+    mobile,
+    updatedAt,
+    picture,
+    city,
+    carName,
+    ownerType,
+    kmDriven,
+  } = data;
+
+  const updatedOn = new Date(updatedAt);
+  const formattedDate = new Intl.DateTimeFormat("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  }).format(updatedOn);
+
+  const authStore = useSelector((state) => state.entities.auth);
+  const isUserSignedIn = authStore.isUserSignedIn;
+  console.log(isUserSignedIn);
+
   return (
     <Stack
       spacing={{ base: 0, md: 4 }}
       direction={{ base: "column", md: "row" }}
       border="1px solid"
       borderColor="gray.400"
-      p={2}
+      padding={2}
       rounded="md"
-      w={{ base: "auto", md: "2xl" }}
+      width={{ base: "auto", md: "2xl" }}
       overflow="hidden"
-      pos="relative"
+      position="relative"
     >
-      <Flex ml="0 !important">
+      <Flex marginLeft="0 !important">
         <Image
           rounded="md"
-          w={{ base: "100%", md: "18rem" }}
-          h="auto"
+          width={{ base: "100%", md: "18rem" }}
+          maxHeight={"180px"}
           objectFit="cover"
           src={picture.url}
           alt="product image"
@@ -30,12 +75,12 @@ const UsedCarCard = ({ data }) => {
       <Stack
         direction="column"
         spacing={2}
-        w="100%"
-        mt={{ base: "5px !important", sm: 0 }}
+        width="100%"
+        marginTop={{ base: "5px !important", sm: 0 }}
       >
         <Flex justifyContent="space-between">
           <chakra.h3 fontSize={{ base: "lg", md: "xl" }} fontWeight="bold">
-            {brand}
+            {brand} {carName}
           </chakra.h3>
           <chakra.h3 fontSize={{ base: "lg", md: "xl" }} fontWeight="bold">
             {price}
@@ -43,7 +88,7 @@ const UsedCarCard = ({ data }) => {
         </Flex>
         <Box>
           <Text fontSize="lg" fontWeight="500">
-            {/* {product.location} */}
+            {city}
           </Text>
         </Box>
         <Flex alignItems="center" color="gray.500">
@@ -51,19 +96,93 @@ const UsedCarCard = ({ data }) => {
             Manufacturing : {month} {year}
           </Text>
         </Flex>
+        <HStack alignItems="center" color="gray.500" spacing={3}>
+          <Text fontSize={{ base: "sm", sm: "md" }}>{ownerType} Owner</Text>
+          <Text fontSize={{ base: "sm", sm: "md" }}>km driven: {kmDriven}</Text>
+        </HStack>
         <Stack
           direction={{ base: "column-reverse", sm: "row" }}
           justifyContent="space-between"
           alignItems={{ base: "flex-start", sm: "center" }}
         >
-          <Text fontSize="sm" mt={{ base: 1, sm: 0 }}>
-            Updated {updatedAt}
+          <Text fontSize="sm" marginTop={{ base: 1, sm: 0 }}>
+            Updated on : {formattedDate}
           </Text>
-          <Stack direction="row" spacing={1} mb="0 !important">
-            <IconButton spacing={2} bg="green.500" color="white">
-              <Icon as={BsTelephoneX} w={4} h={4} />
-              <Text fontSize="sm">Show Phone no.</Text>
-            </IconButton>
+          <Stack direction="row" spacing={1} marginBottom="0 !important">
+            <Popover placement="top">
+              <PopoverTrigger>
+                <Button
+                  size={"sm"}
+                  backgroundColor="green.500"
+                  color="white"
+                  leftIcon={<Icon as={FaUser} width={4} height={4} />}
+                  _hover={{ backgroundColor: "green.600" }}
+                >
+                  Show Seller Details
+                </Button>
+              </PopoverTrigger>
+
+              <PopoverContent>
+                <PopoverArrow />
+                <PopoverCloseButton />
+                <PopoverBody backgroundColor={"green.100"} paddingTop={"2"}>
+                  <Stack spacing={3}>
+                    <Flex align="center">
+                      <Icon as={FaUser} width={4} height={4} color="gray.700" />
+                      <Text
+                        fontWeight="bold"
+                        color="gray.700"
+                        fontSize="md"
+                        marginLeft={"2"}
+                      >
+                        Name:
+                      </Text>
+                      <Text marginLeft={2} color="gray.800">
+                        {name}
+                      </Text>
+                    </Flex>
+                    <Flex align="center">
+                      <Icon
+                        as={FaPhoneAlt}
+                        width={4}
+                        height={4}
+                        color="gray.700"
+                      />
+                      <Text
+                        fontWeight="bold"
+                        color="gray.700"
+                        fontSize="md"
+                        marginLeft={2}
+                      >
+                        Mobile:
+                      </Text>
+                      <Text marginLeft={2} color="gray.800">
+                        {mobile}
+                      </Text>
+                    </Flex>
+                    <Flex align="center">
+                      <Icon
+                        as={FaEnvelope}
+                        width={4}
+                        height={4}
+                        color="gray.700"
+                      />
+                      <Text
+                        fontWeight="bold"
+                        color="gray.700"
+                        fontSize="md"
+                        marginLeft={2}
+                      >
+                        Email:
+                      </Text>
+                      <Text marginLeft={2} color="gray.800">
+                        {email}
+                      </Text>
+                    </Flex>
+                  </Stack>
+                </PopoverBody>
+              </PopoverContent>
+            </Popover>
           </Stack>
         </Stack>
       </Stack>

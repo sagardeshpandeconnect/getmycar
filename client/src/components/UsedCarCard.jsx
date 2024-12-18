@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import {
   chakra,
   Box,
@@ -15,14 +15,14 @@ import {
   PopoverArrow,
   PopoverCloseButton,
   PopoverBody,
+  useDisclosure,
 } from "@chakra-ui/react";
-
 import { FaUser, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
-
 import { useSelector } from "react-redux";
-import SignIn from "./SignIn";
+import SignInModal from "./SignInModal";
 
 const UsedCarCard = ({ data }) => {
+  const { isOpen, onOpen, onClose } = useDisclosure();
   const {
     brand,
     price,
@@ -48,7 +48,14 @@ const UsedCarCard = ({ data }) => {
 
   const authStore = useSelector((state) => state.entities.auth);
   const isUserSignedIn = authStore.isUserSignedIn;
-  console.log(isUserSignedIn);
+
+  const [showSignIn, setShowSignIn] = useState(false);
+
+  const handleButtonClick = () => {
+    if (!isUserSignedIn) {
+      setShowSignIn(true);
+    }
+  };
 
   return (
     <Stack
@@ -109,82 +116,104 @@ const UsedCarCard = ({ data }) => {
             Updated on : {formattedDate}
           </Text>
           <Stack direction="row" spacing={1} marginBottom="0 !important">
-            <Popover placement="top">
-              <PopoverTrigger>
-                <Button
-                  size={"sm"}
-                  backgroundColor="green.500"
-                  color="white"
-                  leftIcon={<Icon as={FaUser} width={4} height={4} />}
-                  _hover={{ backgroundColor: "green.600" }}
-                >
-                  Show Seller Details
-                </Button>
-              </PopoverTrigger>
+            {isUserSignedIn ? (
+              <Popover placement="top">
+                <PopoverTrigger>
+                  <Button
+                    size={"sm"}
+                    backgroundColor="green.500"
+                    color="white"
+                    leftIcon={<Icon as={FaUser} width={4} height={4} />}
+                    _hover={{ backgroundColor: "green.600" }}
+                  >
+                    Show Seller Details
+                  </Button>
+                </PopoverTrigger>
 
-              <PopoverContent>
-                <PopoverArrow />
-                <PopoverCloseButton />
-                <PopoverBody backgroundColor={"green.100"} paddingTop={"2"}>
-                  <Stack spacing={3}>
-                    <Flex align="center">
-                      <Icon as={FaUser} width={4} height={4} color="gray.700" />
-                      <Text
-                        fontWeight="bold"
-                        color="gray.700"
-                        fontSize="md"
-                        marginLeft={"2"}
-                      >
-                        Name:
-                      </Text>
-                      <Text marginLeft={2} color="gray.800">
-                        {name}
-                      </Text>
-                    </Flex>
-                    <Flex align="center">
-                      <Icon
-                        as={FaPhoneAlt}
-                        width={4}
-                        height={4}
-                        color="gray.700"
-                      />
-                      <Text
-                        fontWeight="bold"
-                        color="gray.700"
-                        fontSize="md"
-                        marginLeft={2}
-                      >
-                        Mobile:
-                      </Text>
-                      <Text marginLeft={2} color="gray.800">
-                        {mobile}
-                      </Text>
-                    </Flex>
-                    <Flex align="center">
-                      <Icon
-                        as={FaEnvelope}
-                        width={4}
-                        height={4}
-                        color="gray.700"
-                      />
-                      <Text
-                        fontWeight="bold"
-                        color="gray.700"
-                        fontSize="md"
-                        marginLeft={2}
-                      >
-                        Email:
-                      </Text>
-                      <Text marginLeft={2} color="gray.800">
-                        {email}
-                      </Text>
-                    </Flex>
-                  </Stack>
-                </PopoverBody>
-              </PopoverContent>
-            </Popover>
+                <PopoverContent>
+                  <PopoverArrow />
+                  <PopoverCloseButton />
+                  <PopoverBody backgroundColor={"green.100"} paddingTop={"2"}>
+                    <Stack spacing={3}>
+                      <Flex align="center">
+                        <Icon
+                          as={FaUser}
+                          width={4}
+                          height={4}
+                          color="gray.700"
+                        />
+                        <Text
+                          fontWeight="bold"
+                          color="gray.700"
+                          fontSize="md"
+                          marginLeft={"2"}
+                        >
+                          Name:
+                        </Text>
+                        <Text marginLeft={2} color="gray.800">
+                          {name}
+                        </Text>
+                      </Flex>
+                      <Flex align="center">
+                        <Icon
+                          as={FaPhoneAlt}
+                          width={4}
+                          height={4}
+                          color="gray.700"
+                        />
+                        <Text
+                          fontWeight="bold"
+                          color="gray.700"
+                          fontSize="md"
+                          marginLeft={2}
+                        >
+                          Mobile:
+                        </Text>
+                        <Text marginLeft={2} color="gray.800">
+                          {mobile}
+                        </Text>
+                      </Flex>
+                      <Flex align="center">
+                        <Icon
+                          as={FaEnvelope}
+                          width={4}
+                          height={4}
+                          color="gray.700"
+                        />
+                        <Text
+                          fontWeight="bold"
+                          color="gray.700"
+                          fontSize="md"
+                          marginLeft={2}
+                        >
+                          Email:
+                        </Text>
+                        <Text marginLeft={2} color="gray.800">
+                          {email}
+                        </Text>
+                      </Flex>
+                    </Stack>
+                  </PopoverBody>
+                </PopoverContent>
+              </Popover>
+            ) : (
+              <Button
+                size={"sm"}
+                backgroundColor="green.500"
+                color="white"
+                // onClick={handleButtonClick}
+                onClick={onOpen}
+                leftIcon={<Icon as={FaUser} width={4} height={4} />}
+                _hover={{ backgroundColor: "green.600" }}
+              >
+                Sign In to View Details
+              </Button>
+            )}
+            {showSignIn && <SignInModal isOpen={isOpen} onClose={onClose} />}
           </Stack>
         </Stack>
+        {/* <Button onClick={onOpen}>Open Sign In</Button>
+        <SignInModal isOpen={isOpen} onClose={onClose} /> */}
       </Stack>
     </Stack>
   );

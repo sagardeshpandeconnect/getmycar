@@ -32,6 +32,7 @@ const ProfileCard = ({ userName }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const authStore = useSelector((state) => state.entities.auth);
   const userId = authStore.user._id;
+  console.log(authStore);
 
   const logOut = () => {
     dispatch(logout());

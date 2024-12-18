@@ -21,7 +21,7 @@ import * as z from "zod";
 import { postData } from "@services/apiClient";
 
 const usedCarSchema = z.object({
-  name: z.string().min(2, "Name is required"),
+  // name: z.string().min(2, "Name is required"),
   city: z.string().min(2, "City is required"),
   email: z.string().email("Invalid email address"),
   mobile: z.string().regex(/^\d{10}$/, "Mobile must be 10 digits"),
@@ -59,7 +59,8 @@ const UsedCarForm = () => {
   const toast = useToast();
   const authStore = useSelector((state) => state.entities.auth);
   const userId = authStore.user._id;
-  console.log(userId);
+  const username = authStore.user.username;
+  console.log(username);
 
   const {
     handleSubmit,
@@ -113,6 +114,7 @@ const UsedCarForm = () => {
 
   const onSubmit = async (data) => {
     data.userId = userId;
+    data.name = username;
     console.log("Form data:", data);
 
     const response = await postData(`/usedcars/upload`, data);
@@ -152,11 +154,11 @@ const UsedCarForm = () => {
       >
         <VStack spacing={4} align="stretch">
           {/* Name */}
-          <FormControl isInvalid={!!errors.name}>
+          {/* <FormControl isInvalid={!!errors.name}>
             <FormLabel>Name</FormLabel>
             <Input {...register("name")} />
             <FormErrorMessage>{errors.name?.message}</FormErrorMessage>
-          </FormControl>
+          </FormControl> */}
 
           {/* City */}
           <FormControl isInvalid={!!errors.city}>

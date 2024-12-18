@@ -19,7 +19,6 @@ import ProfileCard from "@components/ProfileCard";
 
 const Navbar = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  // const [isUserSignedIn, setIsUserSignedIn] = useState(false); // State for user authentication
   const modalRef = useRef();
   const authStore = useSelector((state) => state.entities.auth);
   const isUserSignedIn = authStore.isUserSignedIn;

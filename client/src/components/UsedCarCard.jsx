@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   chakra,
   Box,
@@ -49,14 +49,6 @@ const UsedCarCard = ({ data }) => {
   const authStore = useSelector((state) => state.entities.auth);
   const isUserSignedIn = authStore.isUserSignedIn;
 
-  const [showSignIn, setShowSignIn] = useState(false);
-
-  const handleButtonClick = () => {
-    if (!isUserSignedIn) {
-      setShowSignIn(true);
-    }
-  };
-
   return (
     <Stack
       spacing={{ base: 0, md: 4 }}
@@ -69,7 +61,8 @@ const UsedCarCard = ({ data }) => {
       overflow="hidden"
       position="relative"
     >
-      <Flex marginLeft="0 !important">
+      {/* here was important */}
+      <Flex marginLeft="0 ">
         <Image
           rounded="md"
           width={{ base: "100%", md: "18rem" }}
@@ -83,7 +76,8 @@ const UsedCarCard = ({ data }) => {
         direction="column"
         spacing={2}
         width="100%"
-        marginTop={{ base: "5px !important", sm: 0 }}
+        // here was importnat
+        marginTop={{ base: "5px ", sm: 0 }}
       >
         <Flex justifyContent="space-between">
           <chakra.h3 fontSize={{ base: "lg", md: "xl" }} fontWeight="bold">
@@ -115,7 +109,8 @@ const UsedCarCard = ({ data }) => {
           <Text fontSize="sm" marginTop={{ base: 1, sm: 0 }}>
             Updated on : {formattedDate}
           </Text>
-          <Stack direction="row" spacing={1} marginBottom="0 !important">
+          {/* here was importnat */}
+          <Stack direction="row" spacing={1} marginBottom="0 ">
             {isUserSignedIn ? (
               <Popover placement="top">
                 <PopoverTrigger>
@@ -197,23 +192,23 @@ const UsedCarCard = ({ data }) => {
                 </PopoverContent>
               </Popover>
             ) : (
-              <Button
-                size={"sm"}
-                backgroundColor="green.500"
-                color="white"
-                // onClick={handleButtonClick}
-                onClick={onOpen}
-                leftIcon={<Icon as={FaUser} width={4} height={4} />}
-                _hover={{ backgroundColor: "green.600" }}
-              >
-                Sign In to View Details
-              </Button>
+              <Box>
+                <Button
+                  size={"sm"}
+                  backgroundColor="green.500"
+                  color="white"
+                  onClick={onOpen}
+                  leftIcon={<Icon as={FaUser} width={4} height={4} />}
+                  _hover={{ backgroundColor: "green.600" }}
+                >
+                  Sign In to View Details
+                </Button>
+
+                <SignInModal isOpen={isOpen} onClose={onClose} />
+              </Box>
             )}
-            {showSignIn && <SignInModal isOpen={isOpen} onClose={onClose} />}
           </Stack>
         </Stack>
-        {/* <Button onClick={onOpen}>Open Sign In</Button>
-        <SignInModal isOpen={isOpen} onClose={onClose} /> */}
       </Stack>
     </Stack>
   );

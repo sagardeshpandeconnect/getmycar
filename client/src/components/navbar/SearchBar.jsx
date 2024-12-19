@@ -26,7 +26,7 @@ const SearchBar = forwardRef((props, ref) => {
     setSearchQuery("");
   };
 
-  const handleKeyDown= function (event) {
+  const handleKeyDown = function (event) {
     const { key } = event;
     let nextIndexCount = 0;
 
@@ -45,6 +45,7 @@ const SearchBar = forwardRef((props, ref) => {
     }
 
     // select the current item
+
     if (key === "Enter") {
       event.preventDefault();
       goToDetailsPage();
@@ -55,7 +56,7 @@ const SearchBar = forwardRef((props, ref) => {
     }
 
     setFocusedIndex(nextIndexCount);
-  }
+  };
 
   const handleSearchQueryChange = function (event) {
     setSearchQuery(event.target.value.toLowerCase());
@@ -91,7 +92,6 @@ const SearchBar = forwardRef((props, ref) => {
     if (searchQuery.length > 0) fetchSuggestions();
   }, [searchQuery]);
 
-  
   useOnClickOutside(ref, clearSearchQuery);
 
   const goToDetailsPage = function () {
@@ -109,13 +109,10 @@ const SearchBar = forwardRef((props, ref) => {
   }, [focusedIndex]);
 
   // Destructure props to get additional props
-  const { autoFocus } = props;
+  const { autoFocus, hideSearchBar } = props;
 
   return (
-    <Stack
-      // hideBelow="md"
-      backgroundColor={"white"}
-    >
+    <Stack backgroundColor={"white"}>
       <Box ref={ref}>
         <InputGroup>
           <Input
@@ -145,41 +142,39 @@ const SearchBar = forwardRef((props, ref) => {
             </Box>
           </InputRightElement>
         </InputGroup>
-        <div>
-          {searchQuery.length > 0 && (
-            <Flex
-              width={{ base: "100%", md: "100%", lg: "305px" }}
-              direction={"column"}
-              maxHeight={"56"}
-              overflowY={"scroll"}
-              position={"absolute"}
-              top={"3.1em"}
-              zIndex={"overlay"}
-              backgroundColor={"white"}
-              scrollPaddingLeft={"1"}
-              style={{}}
-            >
-              {searchedCars.map((car, index) => {
-                return (
-                  <Box
-                    key={index}
-                    ref={index === focusedIndex ? resultContainer : null}
-                    backgroundColor={
-                      index === focusedIndex ? "rgba(0,0,0,0.1)" : "white"
-                    }
-                    onClick={clearSearchQuery}
-                  >
-                    <SearchSuggestion
-                      result={car}
-                      navigationLink={`/${car.brandSlug}/${car.titleSlug}`}
-                      query={searchQuery}
-                    />
-                  </Box>
-                );
-              })}
-            </Flex>
-          )}
-        </div>
+        {searchQuery.length > 0 && (
+          <Flex
+            width={{ base: "100%", md: "100%", lg: "305px" }}
+            direction={"column"}
+            maxHeight={"56"}
+            overflowY={"scroll"}
+            position={"absolute"}
+            top={"3.1em"}
+            backgroundColor={"white"}
+            scrollPaddingLeft={"1"}
+          >
+            {searchedCars.map((car, index) => {
+              return (
+                <Box
+                  key={index}
+                  ref={index === focusedIndex ? resultContainer : null}
+                  backgroundColor={
+                    index === focusedIndex ? "rgba(0,0,0,0.1)" : "white"
+                  }
+                >
+                  <SearchSuggestion
+                    result={car}
+                    query={searchQuery}
+                    onClick={() => {
+                      navigate(`/${car.brandSlug}/${car.titleSlug}`);
+                      hideSearchBar();
+                    }}
+                  />
+                </Box>
+              );
+            })}
+          </Flex>
+        )}
       </Box>
     </Stack>
   );

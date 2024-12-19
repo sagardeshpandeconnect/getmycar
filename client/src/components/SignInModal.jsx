@@ -1,8 +1,9 @@
+import { useState } from "react";
+import { useDispatch } from "react-redux";
 import {
   Flex,
   FormControl,
   FormLabel,
-  Heading,
   Input,
   Button,
   Checkbox,
@@ -12,15 +13,96 @@ import {
   Modal,
   ModalOverlay,
   ModalContent,
-  ModalHeader,
   ModalBody,
-  ModalFooter,
   ModalCloseButton,
+  ModalHeader,
 } from "@chakra-ui/react";
-import { useState } from "react";
 import { postData } from "@services/apiClient";
-import { useDispatch } from "react-redux";
 import { login } from "@features/auth/authSlice";
+
+function SignInForm({ loading, error, toggleForm }) {
+  return (
+    <>
+      <ModalHeader>Sign in to your account</ModalHeader>
+      <FormControl id="email" mb={4} isRequired>
+        <FormLabel>Your email</FormLabel>
+        <Input type="email" name="email" placeholder="name@company.com" />
+      </FormControl>
+      <FormControl id="password" mb={4} isRequired>
+        <FormLabel>Password</FormLabel>
+        <Input type="password" name="password" placeholder="••••••••" />
+      </FormControl>
+      <Flex justify="space-between" align="center" mb={4}>
+        <Checkbox>Remember me</Checkbox>
+        <Link href="#" fontSize="sm" color="blue.600">
+          Forgot password?
+        </Link>
+      </Flex>
+      {error && (
+        <Text color="red.500" mb={4}>
+          {error}
+        </Text>
+      )}
+      <Flex direction="column" alignItems="center">
+        <Button
+          type="submit"
+          colorScheme="red"
+          isLoading={loading}
+          width="full"
+        >
+          Sign in
+        </Button>
+        <Text fontSize="sm" marginY={4} textAlign="center" width="full">
+          Don’t have an account?{" "}
+          <Link color="blue.600" onClick={toggleForm}>
+            Sign up
+          </Link>
+        </Text>
+      </Flex>
+    </>
+  );
+}
+
+function SignUpForm({ loading, error, toggleForm }) {
+  return (
+    <>
+      <ModalHeader>Create a new account</ModalHeader>
+      <FormControl id="username" mb={4} isRequired>
+        <FormLabel>Your Name</FormLabel>
+        <Input type="text" name="username" placeholder="John Doe" />
+      </FormControl>
+      <FormControl id="email" mb={4} isRequired>
+        <FormLabel>Your email</FormLabel>
+        <Input type="email" name="email" placeholder="name@company.com" />
+      </FormControl>
+      <FormControl id="password" mb={4} isRequired>
+        <FormLabel>Password</FormLabel>
+        <Input type="password" name="password" placeholder="••••••••" />
+      </FormControl>
+      {error && (
+        <Text color="red.500" mb={4}>
+          {error}
+        </Text>
+      )}
+      <Flex direction="column" alignItems="center">
+        <Button
+          type="submit"
+          colorScheme="red"
+          isLoading={loading}
+          width="full"
+        >
+          Sign up
+        </Button>
+        <Text fontSize="sm" marginY={4} textAlign="center" width="full">
+          Already have an account?{" "}
+          <Link color="blue.600" onClick={toggleForm}>
+            Sign in
+          </Link>
+        </Text>
+      </Flex>
+    </>
+  );
+}
 
 export default function SignInModal({ isOpen, onClose }) {
   const [showSignInForm, setShowSignInForm] = useState(true);
@@ -42,7 +124,6 @@ export default function SignInModal({ isOpen, onClose }) {
     try {
       if (showSignInForm) {
         const response = await postData(`/auth/login`, { email, password });
-
         if (response.success) {
           toast({
             title: "Sign-in successful!",
@@ -50,8 +131,7 @@ export default function SignInModal({ isOpen, onClose }) {
             duration: 2500,
           });
           dispatch(login(response.user));
-          // onSignIn();
-          onClose(); // Close modal on success
+          onClose();
         } else {
           setError(response.message || "Sign-in failed. Please try again.");
         }
@@ -61,14 +141,13 @@ export default function SignInModal({ isOpen, onClose }) {
           email,
           password,
         });
-
         if (response.success) {
           toast({
             title: "Account created successfully!",
             status: "success",
             duration: 2500,
           });
-          setShowSignInForm(true); // Switch to sign-in form
+          setShowSignInForm(true);
         } else {
           setError(response.message || "Sign-up failed. Please try again.");
         }
@@ -84,61 +163,31 @@ export default function SignInModal({ isOpen, onClose }) {
   const toggleForm = () => setShowSignInForm((prev) => !prev);
 
   return (
-    <Modal isOpen={isOpen} onClose={onClose} isCentered>
+    <Modal
+      isOpen={isOpen}
+      onClose={onClose}
+      isCentered
+      size={{ base: "xs", md: "sm" }}
+    >
       <ModalOverlay />
       <ModalContent>
-        <ModalHeader>
-          {showSignInForm ? "Sign in to your account" : "Create a new account"}
-        </ModalHeader>
         <ModalCloseButton />
         <form onSubmit={handleFormSubmit}>
           <ModalBody>
-            {!showSignInForm && (
-              <FormControl id="username" mb={4} isRequired>
-                <FormLabel>Your Name</FormLabel>
-                <Input type="text" name="username" placeholder="John Doe" />
-              </FormControl>
-            )}
-            <FormControl id="email" mb={4} isRequired>
-              <FormLabel>Your email</FormLabel>
-              <Input type="email" name="email" placeholder="name@company.com" />
-            </FormControl>
-            <FormControl id="password" mb={4} isRequired>
-              <FormLabel>Password</FormLabel>
-              <Input type="password" name="password" placeholder="••••••••" />
-            </FormControl>
-            {showSignInForm && (
-              <Flex justify="space-between" align="center" mb={4}>
-                <Checkbox>Remember me</Checkbox>
-                <Link href="#" fontSize="sm" color="blue.600">
-                  Forgot password?
-                </Link>
-              </Flex>
-            )}
-            {error && (
-              <Text color="red.500" mb={4}>
-                {error}
-              </Text>
+            {showSignInForm ? (
+              <SignInForm
+                loading={loading}
+                error={error}
+                toggleForm={toggleForm}
+              />
+            ) : (
+              <SignUpForm
+                loading={loading}
+                error={error}
+                toggleForm={toggleForm}
+              />
             )}
           </ModalBody>
-          <ModalFooter>
-            <Button
-              type="submit"
-              colorScheme="red"
-              isLoading={loading}
-              width="full"
-            >
-              {showSignInForm ? "Sign in" : "Sign up"}
-            </Button>
-            <Text fontSize="sm" mt={4} textAlign="center" width="full">
-              {showSignInForm
-                ? "Don’t have an account? "
-                : "Already have an account? "}
-              <Link color="blue.600" onClick={toggleForm}>
-                {showSignInForm ? "Sign up" : "Sign in"}
-              </Link>
-            </Text>
-          </ModalFooter>
         </form>
       </ModalContent>
     </Modal>

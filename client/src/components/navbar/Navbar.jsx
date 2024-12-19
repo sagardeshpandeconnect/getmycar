@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { Link as RouteLink } from "react-router-dom";
 import { useSelector } from "react-redux";
-import { Flex, Image, Box, Link, Text } from "@chakra-ui/react";
+import { Flex, Image, Box, Link, Text, useDisclosure } from "@chakra-ui/react";
 import logo from "@assets/carwaleLogo.svg";
 import {
   LanguageChangeIcon,
@@ -12,23 +12,17 @@ import {
 } from "@assets/Icons";
 import SearchBar from "./SearchBar";
 import Sidebar from "./Sidebar";
-import Modal from "@pages/cardetails/Modal";
 import useOnClickOutside from "@hooks/useOnClickOutside";
-import SignIn from "@components/SignIn";
 import ProfileCard from "@components/ProfileCard";
+import SignInModal from "@components/SignInModal";
 
 const Navbar = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const modalRef = useRef();
+  const { isOpen, onOpen, onClose } = useDisclosure();
+
   const authStore = useSelector((state) => state.entities.auth);
   const isUserSignedIn = authStore.isUserSignedIn;
   // console.log(authStore);
-  // const userName = authStore.user.username;
 
-  const hideModal = () => setIsModalOpen(false);
-  const showModal = () => setIsModalOpen(true);
-
-  useOnClickOutside(modalRef, hideModal);
   const [shoudlShowSearchBar, setShoudlShowSearchBar] = useState(false);
   const [shouldShowSidebar, setShouldShowSidebar] = useState(false);
   const inputRef = useRef();
@@ -43,7 +37,7 @@ const Navbar = () => {
 
   // Disable scrolling when the sidebar or modal is open
   useEffect(() => {
-    if (shouldShowSidebar || isModalOpen) {
+    if (shouldShowSidebar) {
       document.body.style.overflow = "hidden";
       document.body.style.touchAction = "none"; // Prevent touch scrolling on mobile
     } else {
@@ -55,7 +49,7 @@ const Navbar = () => {
       document.body.style.overflow = "auto";
       document.body.style.touchAction = "auto";
     };
-  }, [shouldShowSidebar, isModalOpen]);
+  }, [shouldShowSidebar]);
 
   useOnClickOutside(sidebarRef, hideSidebar);
   useOnClickOutside(inputRef, hideSearchBar);
@@ -95,7 +89,7 @@ const Navbar = () => {
             alignItems={"center"}
           >
             <Box>
-              <Box hideBelow="md">
+              <Box hideBelow="md" position={"relative"}>
                 <SearchBar ref={inputRef} />
               </Box>
               <Box hideFrom="md" onClick={showSearchBar}>
@@ -109,6 +103,7 @@ const Navbar = () => {
                   top={"-1.5"}
                   backgroundColor={"white"}
                   width={"99vw"}
+                  zIndex={"1"}
                 >
                   <Box
                     width={"99vw"}
@@ -116,7 +111,11 @@ const Navbar = () => {
                     position={"fixed"}
                     backgroundColor={"rgba(60, 60, 60, 0.7)"}
                   >
-                    <SearchBar ref={inputRef} autoFocus={true} />
+                    <SearchBar
+                      ref={inputRef}
+                      autoFocus={true}
+                      hideSearchBar={hideSearchBar}
+                    />
                   </Box>
                 </Box>
               )}
@@ -131,21 +130,10 @@ const Navbar = () => {
             {isUserSignedIn ? (
               <ProfileCard userName={authStore.user.username} />
             ) : (
-              <Box onClick={showModal}>
+              <Box onClick={onOpen}>
                 <UserIcon />
+                <SignInModal isOpen={isOpen} onClose={onClose} />
               </Box>
-            )}
-
-            {isModalOpen && (
-              <Modal ref={modalRef} isVisible={isModalOpen} onClose={hideModal}>
-                <SignIn
-                  onSignIn={() => {
-                    // setIsUserSignedIn(true);
-                    hideModal();
-                  }}
-                />
-                {/* Pass onSignIn callback */}
-              </Modal>
             )}
           </Flex>
         </Flex>

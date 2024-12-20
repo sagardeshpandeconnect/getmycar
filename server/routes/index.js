@@ -1,13 +1,13 @@
-const brandRoute = require("./brands");
-const newCarRoute = require("./newcars");
-const featuredCarRoute = require("./featuredcars");
-const searchedCarRoute = require("./search");
-const bodyTypeRoute = require("./bodytypes");
-const fuelTypeRoute = require("./fueltypes");
-const transmissionRoute = require("./transmissions");
-const comparisonRoute = require("./comparison");
-const authRoute = require("./auth");
-const usedCarRoute = require("./usedcars");
+const brandRoute = require("./brands.route");
+const newCarRoute = require("./newcars.route");
+const featuredCarRoute = require("./featuredcars.route");
+const searchedCarRoute = require("./search.route");
+const bodyTypeRoute = require("./bodytypes.route");
+const fuelTypeRoute = require("./fueltypes.route");
+const transmissionRoute = require("./transmissions.route");
+const comparisonRoute = require("./comparison.route");
+const authRoute = require("./auth.route");
+const usedCarRoute = require("./usedcars.route");
 
 module.exports = {
   brandRoute,

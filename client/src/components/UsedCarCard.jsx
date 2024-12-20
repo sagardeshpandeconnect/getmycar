@@ -99,7 +99,9 @@ const UsedCarCard = ({ data }) => {
         </Flex>
         <HStack alignItems="center" color="gray.500" spacing={3}>
           <Text fontSize={{ base: "sm", sm: "md" }}>{ownerType} Owner</Text>
-          <Text fontSize={{ base: "sm", sm: "md" }}>km driven: {kmDriven}</Text>
+          <Text fontSize={{ base: "sm", sm: "md" }}>
+            km driven : {kmDriven}
+          </Text>
         </HStack>
         <Stack
           direction={{ base: "column-reverse", sm: "row" }}

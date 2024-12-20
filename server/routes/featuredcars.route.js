@@ -3,7 +3,7 @@ const {
   getPopularCars,
   getTrendingCars,
   getUpcomingCars,
-} = require("../controllers/featuredcar");
+} = require("../controllers/featuredcar.controller");
 
 const router = express.Router();
 

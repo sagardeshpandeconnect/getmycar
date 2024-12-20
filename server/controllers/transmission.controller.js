@@ -1,5 +1,5 @@
-const Transmission = require("../models/Transmission");
-const NewCar = require("../models/NewCar");
+const Transmission = require("../models/transmission.model");
+const NewCar = require("../models/newCar.model");
 
 const getAllTransmissionTypes = async (req, res) => {
   try {

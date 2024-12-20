@@ -1,4 +1,4 @@
-const NewCar = require("../models/NewCar");
+const NewCar = require("../models/newCar.model");
 
 const getPopularCars = async (req, res) => {
   try {

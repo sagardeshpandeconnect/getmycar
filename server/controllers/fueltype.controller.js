@@ -1,5 +1,5 @@
-const FuelType = require("../models/FuelType");
-const NewCar = require("../models/NewCar");
+const FuelType = require("../models/fuelType.model");
+const NewCar = require("../models/newCar.model");
 
 const getAllFuelTypes = async (req, res) => {
   try {

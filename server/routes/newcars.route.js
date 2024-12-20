@@ -6,7 +6,7 @@ const {
   getPopularCars,
   getCarsByPrice,
   getCarsBySeatingCapacity,
-} = require("../controllers/newcar");
+} = require("../controllers/newcar.controller");
 // const { getCarByTitleSlug } = require("../controllers/comparison");
 
 const router = express.Router();

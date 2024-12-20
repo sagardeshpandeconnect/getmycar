@@ -1,4 +1,4 @@
-const UsedCar = require("../models/UsedCar");
+const UsedCar = require("../models/usedCar.model");
 
 const uploadUsedCar = async (req, res) => {
   try {
@@ -57,7 +57,7 @@ const getUsedCars = async (req, res) => {
 };
 
 const getUsedCarsOfSpecificUser = async (req, res) => {
-  console.log(req.params);
+  // console.log(req.params);
   try {
     const usedcars = await UsedCar.find({ userId: req.params.userId });
     res.status(200).json(usedcars);
@@ -66,4 +66,18 @@ const getUsedCarsOfSpecificUser = async (req, res) => {
   }
 };
 
-module.exports = { uploadUsedCar, getUsedCars, getUsedCarsOfSpecificUser };
+const deleteUsedCar = async (req, res) => {
+  try {
+    const usedcars = await UsedCar.findByIdAndDelete({ _id: req.params.carId });
+    res.status(200).json(usedcars);
+  } catch (err) {
+    res.status(404).json({ message: err.message });
+  }
+};
+
+module.exports = {
+  uploadUsedCar,
+  getUsedCars,
+  getUsedCarsOfSpecificUser,
+  deleteUsedCar,
+};

@@ -2,7 +2,7 @@ const express = require("express");
 const {
   getAllBodyTypes,
   getCarsByBodyType,
-} = require("../controllers/bodytype");
+} = require("../controllers/bodytype.controller");
 
 const router = express.Router();
 

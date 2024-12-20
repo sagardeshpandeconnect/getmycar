@@ -2,7 +2,7 @@ const express = require("express");
 const {
   getAllTransmissionTypes,
   getCarsByTransmissionType,
-} = require("../controllers/transmission");
+} = require("../controllers/transmission.controller");
 
 const router = express.Router();
 

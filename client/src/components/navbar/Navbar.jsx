@@ -78,7 +78,7 @@ const Navbar = () => {
               <Image width={"9rem"} src={logo} alt="logo" />
             </Link>
           </Flex>
-          <Box>
+          <Box hideBelow={"md"}>
             <Link as={RouteLink} to="used-cars">
               <Text fontWeight="semibold">Used Cars</Text>
             </Link>

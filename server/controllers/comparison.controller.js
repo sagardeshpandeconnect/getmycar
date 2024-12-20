@@ -1,4 +1,4 @@
-const NewCar = require("../models/NewCar");
+const NewCar = require("../models/newCar.model");
 
 const getCarByTitleSlug = async (req, res) => {
   // console.log(req);

@@ -1,12 +1,14 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { useQuery } from "@tanstack/react-query";
-import { getData } from "@services/apiClient";
+import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import { getData, deleteData } from "@services/apiClient";
 import { Flex } from "@chakra-ui/react";
 import HorizontalCard from "@components/HorizontalCard";
+import ManageYourLisingsCard from "./ManageYourLisingsCard";
 
 const ManageYourListings = () => {
   const { userId } = useParams();
+  const queryClient = useQueryClient();
 
   const getSpecificUserCars = async function () {
     return getData(`/usedcars/manage/${userId}`);
@@ -18,6 +20,23 @@ const ManageYourListings = () => {
   });
   console.log(data);
 
+  const deleteCarMutation = useMutation({
+    mutationFn: (carId) => deleteData(`/usedcars/delete/${carId}`),
+    onSuccess: (response) => {
+      console.log("Delete successful:", response);
+      queryClient.invalidateQueries([`${userId}`]); // Refetch cars
+    },
+    onError: (error) => {
+      console.error("Delete failed:", error);
+    },
+  });
+
+  const handleDeleteCar = (carId) => {
+    deleteCarMutation.mutate(carId);
+    console.log("delte butoos pressed");
+    console.log(carId);
+  };
+
   // console.log(userId);
   return (
     <ul>
@@ -28,12 +47,9 @@ const ManageYourListings = () => {
         : data?.map((car) => {
             return (
               <Flex justifyContent={"center"} key={car._id}>
-                <HorizontalCard
+                <ManageYourLisingsCard
                   carData={car}
-                  // key={car._id}
-                  price={car.price}
-                  // clickHandler={() => addToCompare(car)}
-                  buttonPlaceholder="Add to Compare"
+                  onDelete={handleDeleteCar}
                 />
               </Flex>
             );

@@ -1,5 +1,5 @@
-const BodyType = require("../models/BodyType");
-const NewCar = require("../models/NewCar");
+const BodyType = require("../models/bodyType.model");
+const NewCar = require("../models/newCar.model");
 
 const getAllBodyTypes = async (req, res) => {
   try {

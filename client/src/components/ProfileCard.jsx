@@ -1,8 +1,6 @@
-import React from "react";
-
 import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 import { logout } from "@features/auth/authSlice";
-
 import {
   Flex,
   Text,
@@ -16,26 +14,32 @@ import {
   Button,
   useDisclosure,
 } from "@chakra-ui/react";
-
 import {
   AiOutlineLogout,
   AiOutlineUser,
   AiOutlineDollar,
 } from "react-icons/ai";
-
 import { MdMotionPhotosPaused } from "react-icons/md";
-
 import { Link as RouteLink } from "react-router-dom"; // Import RouteLink for internal links
 
 const ProfileCard = ({ userName }) => {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
+
   const { isOpen, onOpen, onClose } = useDisclosure();
   const authStore = useSelector((state) => state.entities.auth);
   const userId = authStore.user._id;
-  console.log(authStore);
 
-  const logOut = () => {
+  // Improved logOut function
+  const logOut = async () => {
+    // Dispatch logout action
     dispatch(logout());
+
+    // Navigate after logout
+    // You may want to add a small delay to ensure logout completes before navigation.
+    setTimeout(() => {
+      navigate("/"); // Redirect to home page
+    }, 300); // Optional: Delay to allow logout process to complete
   };
 
   return (
@@ -60,7 +64,6 @@ const ProfileCard = ({ userName }) => {
                     alignItems={"center"}
                     gap={3}
                     paddingY={2}
-                    // onClick={logOut}
                     borderBottom={"1px solid gray"}
                   >
                     <Icon as={AiOutlineUser} boxSize={5} />
@@ -75,7 +78,6 @@ const ProfileCard = ({ userName }) => {
                     alignItems={"center"}
                     gap={3}
                     paddingY={2}
-                    // onClick={logOut}
                     borderBottom={"1px solid gray"}
                   >
                     <Icon as={AiOutlineDollar} boxSize={5} />
@@ -103,7 +105,7 @@ const ProfileCard = ({ userName }) => {
                     alignItems={"center"}
                     gap={3}
                     paddingY={2}
-                    onClick={logOut}
+                    onClick={logOut} // Calls logOut function
                   >
                     <Icon as={AiOutlineLogout} boxSize={5} />
                     <Text>Logout</Text>

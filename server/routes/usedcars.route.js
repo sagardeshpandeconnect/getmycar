@@ -4,12 +4,14 @@ const {
   uploadUsedCar,
   getUsedCars,
   getUsedCarsOfSpecificUser,
-} = require("../controllers/usedcar");
+  deleteUsedCar,
+} = require("../controllers/usedcar.controller");
 
 const router = express.Router();
 
 router.post("/upload", uploadUsedCar);
 router.get("/", getUsedCars);
 router.get("/manage/:userId", getUsedCarsOfSpecificUser);
+router.delete("/delete/:carId", deleteUsedCar);
 
 module.exports = router;

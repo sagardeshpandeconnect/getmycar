@@ -9,9 +9,10 @@ const IconButton = ({ children, ...props }) => {
       px={2}
       py="0.15rem"
       alignItems="center"
-      rounded="sm"
+      rounded="md"
       spacing={2}
       {...props}
+      justifyContent={"center"}
     >
       {children}
     </HStack>

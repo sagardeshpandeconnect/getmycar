@@ -3,7 +3,7 @@ const {
   getAllFuelTypes,
   getDieselCars,
   getCarsByFuelType,
-} = require("../controllers/fueltype");
+} = require("../controllers/fueltype.controller");
 
 const router = express.Router();
 

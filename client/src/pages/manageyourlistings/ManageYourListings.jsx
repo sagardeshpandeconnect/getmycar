@@ -34,7 +34,7 @@ const ManageYourListings = () => {
   const handleDeleteCar = (carId) => {
     deleteCarMutation.mutate(carId);
     console.log("delte butoos pressed");
-    console.log(carId);
+    // console.log(carId);
   };
 
   // console.log(userId);

@@ -1,4 +1,5 @@
 const UsedCar = require("../models/usedCar.model");
+const cloudinary = require("cloudinary").v2;
 
 const uploadUsedCar = async (req, res) => {
   try {
@@ -67,7 +68,15 @@ const getUsedCarsOfSpecificUser = async (req, res) => {
 };
 
 const deleteUsedCar = async (req, res) => {
+  // console.log(req.params.carId);
+
   try {
+    const car = await UsedCar.findById(req.params.carId);
+    console.log(car.picture.pictureId);
+    await cloudinary.uploader
+      .destroy(car.picture.pictureId)
+      .then((result) => console.log(result));
+
     const usedcars = await UsedCar.findByIdAndDelete({ _id: req.params.carId });
     res.status(200).json(usedcars);
   } catch (err) {

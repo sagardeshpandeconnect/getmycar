@@ -49,6 +49,7 @@ const usedCarSchema = z.object({
     .object({
       name: z.string(),
       url: z.string().url("Invalid picture URL"),
+      pictureId: z.string().min(1, "Picture ID is required"),
     })
     .optional(),
   comments: z.string().optional(),
@@ -92,6 +93,9 @@ const UsedCarForm = () => {
       formData.append("file", file);
       formData.append("upload_preset", import.meta.env.VITE_APP_UPLOAD_PRESET);
 
+      const folderName = "carwale/usedCars";
+      formData.append("folder", folderName);
+
       try {
         const response = await fetch(import.meta.env.VITE_APP_CLOUDINARY_URL, {
           method: "POST",
@@ -103,6 +107,7 @@ const UsedCarForm = () => {
         setValue("picture", {
           name: file.name,
           url: result.secure_url,
+          pictureId: result.public_id,
         });
       } catch (error) {
         console.error("Cloudinary upload failed:", error);

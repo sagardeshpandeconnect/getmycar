@@ -1,5 +1,5 @@
 const User = require("../models/user.model");
-const { createSecretToken } = require("../utils/SecretToken");
+const { createSecretToken } = require("../utils/secretToken");
 const bcrypt = require("bcrypt");
 
 const Signup = async (req, res) => {

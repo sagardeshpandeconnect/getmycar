@@ -1,7 +1,7 @@
 const cors = require("cors");
 
 const corsConfig = cors({
-  origin: ["http://192.168.43.5:5173"],
+  origin: ["http://192.168.1.100:5173"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
 });

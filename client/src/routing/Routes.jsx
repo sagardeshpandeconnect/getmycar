@@ -7,9 +7,10 @@ import SpecificBrandPage from "@pages/specificbrand/SpecificBrandPage";
 import FilteredCarsPage from "@pages/filteredcars/FilteredCarsPage";
 import ComparisonPage from "@pages/comparison/ComparisonPage";
 import Footer from "@components/Footer";
-import UsedCarForm from "@components/UsedCarForm";
 import ManageYourListings from "@pages/manageyourlistings/ManageYourListings";
 import UsedCarsPage from "@pages/usedcars/UsedCarsPage";
+import UsedCarUploadForm from "@components/UsedCarUploadForm";
+import UsedCarEditForm from "@components/UsedCarEditForm";
 
 const Layout = () => {
   return (
@@ -46,7 +47,11 @@ const router = createBrowserRouter([
       },
       {
         path: "sell-your-car",
-        element: <UsedCarForm />,
+        element: <UsedCarUploadForm />,
+      },
+      {
+        path: "edit-used-car/:carId",
+        element: <UsedCarEditForm />,
       },
       {
         path: "manage-your-listings/:userId",

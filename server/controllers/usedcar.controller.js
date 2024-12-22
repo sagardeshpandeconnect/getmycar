@@ -1,5 +1,5 @@
 const UsedCar = require("../models/usedCar.model");
-const cloudinary = require("cloudinary").v2;
+const cloudinary = require("../configs/cloudinary.config");
 
 const uploadUsedCar = async (req, res) => {
   try {
@@ -68,19 +68,72 @@ const getUsedCarsOfSpecificUser = async (req, res) => {
 };
 
 const deleteUsedCar = async (req, res) => {
-  // console.log(req.params.carId);
-
   try {
+    // Find the car from MongoDB
     const car = await UsedCar.findById(req.params.carId);
-    console.log(car.picture.pictureId);
-    await cloudinary.uploader
-      .destroy(car.picture.pictureId)
-      .then((result) => console.log(result));
+    if (!car) {
+      return res.status(404).json({ message: "Car not found" });
+    }
 
-    const usedcars = await UsedCar.findByIdAndDelete({ _id: req.params.carId });
+    // Delete the car from MongoDB first
+    const deletedCar = await UsedCar.findByIdAndDelete(req.params.carId);
+
+    // Now that the car is deleted, attempt to delete the image from Cloudinary
+    const result = await cloudinary.uploader.destroy(car.picture.pictureId);
+    // console.log("Cloudinary response:", result);
+
+    // If Cloudinary deletion failed, log the error but still respond that the car is deleted
+    if (result.result !== "ok") {
+      console.error("Cloudinary deletion failed:", result);
+    }
+
+    // Send response after both operations are completed
+    res.status(200).json({
+      message: "Used car deleted successfully",
+      success: true,
+      deletedCar,
+    });
+  } catch (err) {
+    console.error("Error:", err.message);
+    res.status(500).json({ message: "Server error" });
+  }
+};
+
+const getUsedCarDetailsById = async (req, res) => {
+  // console.log(req.params);
+  try {
+    const usedcars = await UsedCar.findById(req.params.carId);
     res.status(200).json(usedcars);
   } catch (err) {
     res.status(404).json({ message: err.message });
+  }
+};
+
+const editUsedCar = async (req, res) => {
+  try {
+    const { carId } = req.params; // Get car ID from the request parameters
+    const updatedData = req.body; // Get updated car data from the request body
+
+    // Find the car by ID and update it with the new data
+    const updatedCar = await UsedCar.findByIdAndUpdate(carId, updatedData, {
+      new: true, // Return the updated document
+      runValidators: true, // Ensure validation is applied
+    });
+
+    // If the car does not exist, return a 404 error
+    if (!updatedCar) {
+      return res.status(404).json({ message: "Car not found" });
+    }
+
+    // Respond with the updated car details
+    res.status(200).json({
+      message: "Used car updated successfully",
+      success: true,
+      updatedCar,
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Server error" });
   }
 };
 
@@ -89,4 +142,6 @@ module.exports = {
   getUsedCars,
   getUsedCarsOfSpecificUser,
   deleteUsedCar,
+  editUsedCar,
+  getUsedCarDetailsById,
 };

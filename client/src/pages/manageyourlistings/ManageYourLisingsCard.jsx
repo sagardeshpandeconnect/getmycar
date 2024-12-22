@@ -10,6 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { FaTrash, FaEdit } from "react-icons/fa"; // Import trash and edit icons
 import IconButton from "@components/IconButton";
+import { Link as RouteLink } from "react-router-dom"; // Import RouteLink for internal links
 
 const ManageYourLisingsCard = ({ carData, onDelete }) => {
   const {
@@ -110,18 +111,23 @@ const ManageYourLisingsCard = ({ carData, onDelete }) => {
         >
           {/* Edit Listing Button */}
           <Stack direction="row" spacing={1} mb="0 !important">
-            <IconButton
-              spacing={2}
-              bg="blue.500"
-              color="white"
-              _hover={{ bg: "blue.600" }}
-              width="150px" // Equal width for both buttons
-              padding="12px" // Increased padding for larger button size
-              transition="all 0.3s ease" // Smooth transition
+            <RouteLink
+              to={`/edit-used-car/${carId}`}
+              style={{ textDecoration: "none" }}
             >
-              <Icon as={FaEdit} w={5} h={5} /> {/* Increased icon size */}
-              <Text fontSize="sm">Edit Listing</Text>
-            </IconButton>
+              <IconButton
+                spacing={2}
+                bg="blue.500"
+                color="white"
+                _hover={{ bg: "blue.600" }}
+                width="150px" // Equal width for both buttons
+                padding="12px" // Increased padding for larger button size
+                transition="all 0.3s ease" // Smooth transition
+              >
+                <Icon as={FaEdit} w={5} h={5} /> {/* Increased icon size */}
+                <Text fontSize="sm">Edit Listing</Text>
+              </IconButton>
+            </RouteLink>
           </Stack>
 
           {/* Delete Listing Button */}

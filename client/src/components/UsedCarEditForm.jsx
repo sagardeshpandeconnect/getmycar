@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-
 import {
   Box,
   Button,
@@ -18,10 +17,10 @@ import {
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
-import { postData } from "@services/apiClient";
+import { getData, putData } from "@services/apiClient";
+import { useParams, useNavigate } from "react-router-dom";
 
 const usedCarSchema = z.object({
-  // name: z.string().min(2, "Name is required"),
   city: z.string().min(2, "City is required"),
   email: z.string().email("Invalid email address"),
   mobile: z.string().regex(/^\d{10}$/, "Mobile must be 10 digits"),
@@ -45,23 +44,18 @@ const usedCarSchema = z.object({
   ]),
   ownerType: z.enum(["First", "Second", "Third"]),
   kmDriven: z.number().min(0, "Kilometers driven must be non-negative"),
-  picture: z
-    .object({
-      name: z.string(),
-      url: z.string().url("Invalid picture URL"),
-      pictureId: z.string().min(1, "Picture ID is required"),
-    })
-    .optional(),
   comments: z.string().optional(),
 });
 
-const UsedCarForm = () => {
+const UsedCarEditForm = () => {
+  const carId = useParams().carId;
+  const navigate = useNavigate();
   const [pictureFile, setPictureFile] = useState({});
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const toast = useToast();
   const authStore = useSelector((state) => state.entities.auth);
   const userId = authStore.user._id;
   const username = authStore.user.username;
-  console.log(username);
 
   const {
     handleSubmit,
@@ -79,22 +73,47 @@ const UsedCarForm = () => {
     },
   });
 
-  // console.log(import.meta.env.VITE_APP_CLOUDINARY_URL);
+  // Fetch existing data
+  useEffect(() => {
+    if (carId) {
+      (async () => {
+        try {
+          const data = await getData(`/usedcars/details/${carId}`);
+          Object.keys(data).forEach((key) => setValue(key, data[key]));
+        } catch (error) {
+          console.error("Failed to load data for editing:", error);
+        }
+      })();
+    }
+  }, [carId, setValue]);
 
+  const preprocessData = (data) => ({
+    ...data,
+    price: Number(data.price),
+    year: Number(data.year),
+    kmDriven: Number(data.kmDriven),
+  });
   const [isUploading, setIsUploading] = useState(false);
 
   const handlePictureChange = async (e) => {
     const file = e.target.files[0];
+    if (!file.type.startsWith("image/")) {
+      toast({
+        title: "Invalid file type",
+        description: "Please upload an image file.",
+        status: "error",
+        duration: 2500,
+      });
+      return;
+    }
     setPictureFile(file);
-    setIsUploading(true); // Start upload
+    setIsUploading(true);
 
     if (file) {
       const formData = new FormData();
       formData.append("file", file);
       formData.append("upload_preset", import.meta.env.VITE_APP_UPLOAD_PRESET);
-
-      const folderName = "carwale/usedCars";
-      formData.append("folder", folderName);
+      formData.append("folder", "carwale/usedCars");
 
       try {
         const response = await fetch(import.meta.env.VITE_APP_CLOUDINARY_URL, {
@@ -102,7 +121,6 @@ const UsedCarForm = () => {
           body: formData,
         });
         const result = await response.json();
-        console.log("Cloudinary upload result:", result);
 
         setValue("picture", {
           name: file.name,
@@ -110,31 +128,49 @@ const UsedCarForm = () => {
           pictureId: result.public_id,
         });
       } catch (error) {
-        console.error("Cloudinary upload failed:", error);
+        toast({
+          title: "Image upload failed",
+          description: "Please try again.",
+          status: "error",
+          duration: 2500,
+        });
       } finally {
-        setIsUploading(false); // End upload
+        setIsUploading(false);
       }
     }
   };
 
   const onSubmit = async (data) => {
-    data.userId = userId;
-    data.name = username;
-    console.log("Form data:", data);
+    try {
+      setIsSubmitting(true);
+      const processedData = preprocessData(data);
+      processedData.userId = userId;
+      processedData.name = username;
 
-    const response = await postData(`/usedcars/upload`, data);
-    console.log(response);
-    if (response.success) {
+      const response = await putData(`/usedcars/edit/${carId}`, processedData);
+
+      if (response.success) {
+        toast({
+          title: "Used car data updated successfully!",
+          status: "success",
+          duration: 2500,
+        });
+        reset();
+        navigate(`/manage-your-listings/${userId}`);
+      } else {
+        throw new Error(
+          response.message || "Used car data update failed. Please try again."
+        );
+      }
+    } catch (error) {
       toast({
-        title: "Used car data upload successful!",
-        status: "success",
+        title: "Error",
+        description: error.message,
+        status: "error",
         duration: 2500,
       });
-      reset();
-    } else {
-      setError(
-        response.message || "Used car upload data failed. Please try again."
-      );
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -148,23 +184,8 @@ const UsedCarForm = () => {
       borderRadius="md"
       boxShadow="md"
     >
-      <form
-        onSubmit={handleSubmit((data) => {
-          // Convert year and kmDriven to numbers before submitting
-          data.price = Number(data.price);
-          data.year = Number(data.year);
-          data.kmDriven = Number(data.kmDriven);
-          onSubmit(data);
-        })}
-      >
+      <form onSubmit={handleSubmit(onSubmit)}>
         <VStack spacing={4} align="stretch">
-          {/* Name */}
-          {/* <FormControl isInvalid={!!errors.name}>
-            <FormLabel>Name</FormLabel>
-            <Input {...register("name")} />
-            <FormErrorMessage>{errors.name?.message}</FormErrorMessage>
-          </FormControl> */}
-
           {/* City */}
           <FormControl isInvalid={!!errors.city}>
             <FormLabel>City</FormLabel>
@@ -302,8 +323,8 @@ const UsedCarForm = () => {
           </FormControl>
 
           {/* Submit Button */}
-          <Button colorScheme="blue" type="submit" isDisabled={isUploading}>
-            Submit
+          <Button colorScheme="blue" type="submit" isDisabled={isSubmitting}>
+            {isSubmitting ? "Updating..." : "Update"}
           </Button>
         </VStack>
       </form>
@@ -311,4 +332,4 @@ const UsedCarForm = () => {
   );
 };
 
-export default UsedCarForm;
+export default UsedCarEditForm;

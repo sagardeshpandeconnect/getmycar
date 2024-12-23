@@ -44,13 +44,11 @@ const usedCarSchema = z.object({
   ]),
   ownerType: z.enum(["First", "Second", "Third"]),
   kmDriven: z.number().min(0, "Kilometers driven must be non-negative"),
-  picture: z
-    .object({
-      name: z.string(),
-      url: z.string().url("Invalid picture URL"),
-      pictureId: z.string().min(1, "Picture ID is required"),
-    })
-    .optional(),
+  picture: z.object({
+    name: z.string(),
+    url: z.string().url("Invalid picture URL"),
+    pictureId: z.string().min(1, "Picture ID is required"),
+  }),
   comments: z.string().optional(),
 });
 
@@ -65,12 +63,13 @@ const UsedCarUploadForm = () => {
   const {
     handleSubmit,
     register,
-    formState: { errors },
+    formState: { errors, isSubmitting },
     setValue,
     reset,
   } = useForm({
     resolver: zodResolver(usedCarSchema),
     defaultValues: {
+      email: "test@email.com",
       brand: "Toyota",
       year: new Date().getFullYear(),
       month: "January",
@@ -81,7 +80,6 @@ const UsedCarUploadForm = () => {
   // console.log(import.meta.env.VITE_APP_CLOUDINARY_URL);
 
   const [isUploading, setIsUploading] = useState(false);
-  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handlePictureChange = async (e) => {
     const file = e.target.files[0];
@@ -106,11 +104,22 @@ const UsedCarUploadForm = () => {
       formData.append("folder", folderName);
 
       try {
-        const response = await fetch(import.meta.env.VITE_APP_CLOUDINARY_URL, {
-          method: "POST",
-          body: formData,
-        });
-        const result = await response.json();
+        const result = await postData(
+          import.meta.env.VITE_APP_CLOUDINARY_URL,
+          formData,
+          {
+            headers: {
+              "Content-Type": "multipart/form-data",
+            },
+          }
+        );
+
+        // const response = await fetch(import.meta.env.VITE_APP_CLOUDINARY_URL, {
+        //   method: "POST",
+        //   body: formData,
+        // });
+        // const result = await response.json();
+
         console.log("Cloudinary upload result:", result);
 
         setValue("picture", {

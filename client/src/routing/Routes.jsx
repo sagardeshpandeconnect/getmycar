@@ -11,6 +11,7 @@ import ManageYourListings from "@pages/manageyourlistings/ManageYourListings";
 import UsedCarsPage from "@pages/usedcars/UsedCarsPage";
 import UsedCarUploadForm from "@components/UsedCarUploadForm";
 import UsedCarEditForm from "@components/UsedCarEditForm";
+import UsedCarForm from "@components/UsedCarForm";
 
 const Layout = () => {
   return (
@@ -47,11 +48,11 @@ const router = createBrowserRouter([
       },
       {
         path: "sell-your-car",
-        element: <UsedCarUploadForm />,
+        element: <UsedCarForm />,
       },
       {
         path: "edit-used-car/:carId",
-        element: <UsedCarEditForm />,
+        element: <UsedCarForm />,
       },
       {
         path: "manage-your-listings/:userId",

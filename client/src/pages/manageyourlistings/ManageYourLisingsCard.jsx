@@ -36,7 +36,7 @@ const ManageYourLisingsCard = ({ carData, onDelete }) => {
     month: "long",
     day: "numeric",
   }).format(updatedOn);
-  console.log(carId);
+  // console.log(carId);
 
   return (
     <Stack

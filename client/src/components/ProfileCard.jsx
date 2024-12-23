@@ -79,6 +79,7 @@ const ProfileCard = ({ userName }) => {
                     gap={3}
                     paddingY={2}
                     borderBottom={"1px solid gray"}
+                    onClick={onClose}
                   >
                     <Icon as={AiOutlineDollar} boxSize={5} />
                     <Text>Sell Your Car</Text>

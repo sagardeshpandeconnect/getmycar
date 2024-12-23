@@ -78,7 +78,7 @@ const ManageYourListings = () => {
           ? "Loading.........."
           : data?.map((car) => {
               return (
-                <Flex justifyContent={"center"} key={car._id}>
+                <Flex justifyContent={"center"} key={car._id} marginY={"2"}>
                   <ManageYourLisingsCard
                     carData={car}
                     onDelete={handleDeleteCar}

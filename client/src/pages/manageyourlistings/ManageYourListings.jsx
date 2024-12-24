@@ -57,8 +57,6 @@ const ManageYourListings = () => {
     console.log("Delete button pressed");
   };
 
-  const handleEditCar = (carId) => {};
-
   return (
     <div>
       {/* Modal for delete operation */}

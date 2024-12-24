@@ -9,8 +9,6 @@ import ComparisonPage from "@pages/comparison/ComparisonPage";
 import Footer from "@components/Footer";
 import ManageYourListings from "@pages/manageyourlistings/ManageYourListings";
 import UsedCarsPage from "@pages/usedcars/UsedCarsPage";
-import UsedCarUploadForm from "@components/UsedCarUploadForm";
-import UsedCarEditForm from "@components/UsedCarEditForm";
 import UsedCarForm from "@components/UsedCarForm";
 
 const Layout = () => {

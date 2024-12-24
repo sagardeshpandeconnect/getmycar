@@ -9,6 +9,7 @@
       "@utils/*": ["./src/utils/*"],
       "@services/*": ["./src/services/*"],
       "@features/*": ["./src/features/*"],
+      "@constants/*": ["./src/constants/*"],
       "@src/*": ["./src/*"]
     }
   }

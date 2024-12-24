@@ -17,7 +17,7 @@ router.get("/", getUsedCars);
 router.get("/details/:carId", getUsedCarDetailsById);
 router.get("/manage/:userId", getUsedCarsOfSpecificUser);
 router.delete("/delete/:carId", deleteUsedCar);
-router.post("/deleteimage", deleteImageFromCloudinary);
+router.delete("/deleteimage/:encodedId", deleteImageFromCloudinary);
 router.put("/edit/:carId", editUsedCar);
 
 module.exports = router;

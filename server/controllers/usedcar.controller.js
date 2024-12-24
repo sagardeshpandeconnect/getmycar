@@ -99,34 +99,37 @@ const deleteUsedCar = async (req, res) => {
   }
 };
 const deleteImageFromCloudinary = async (req, res) => {
-  console.log(req);
   try {
-    const { pictureId } = req.body;
+    const { encodedId } = req.params;
+    console.log(encodedId);
 
-    if (!pictureId) {
+    if (!encodedId) {
       return res.status(400).json({
-        message: "Picture ID is required",
+        message: "encodedId is required",
         success: false,
       });
     }
 
     // Call Cloudinary's destroy method
-    const result = await cloudinary.uploader.destroy(pictureId);
+    const result = await cloudinary.uploader.destroy(encodedId);
     console.log("Cloudinary response:", result);
 
-    // If Cloudinary deletion failed, log the error but still respond that the car is deleted
+    // If Cloudinary deletion failed
     if (result.result !== "ok") {
       console.error("Cloudinary deletion failed:", result);
+      return res.status(400).json({
+        message: "Image not found or deletion failed",
+        success: false,
+      });
     }
-
-    // Send response after both operations are completed
+    // Send response after successful deletion
     res.status(200).json({
       message: "Old image deleted successfully",
       success: true,
     });
   } catch (err) {
     console.error("Error:", err.message);
-    res.status(500).json({ message: "Server error" });
+    res.status(500).json({ message: "Server error", success: false });
   }
 };
 

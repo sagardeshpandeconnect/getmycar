@@ -1,11 +1,14 @@
-import React from "react";
-// import "./Footer.css";
-import { Flex } from "@chakra-ui/react";
+import { Flex, Grid } from "@chakra-ui/react";
 
 const Footer = () => {
   return (
     <footer style={{ backgroundColor: "#002b51" }}>
-      <Flex gap={16} justifyContent={"center"} padding={5}>
+      <Flex
+        wrap="wrap" // Enables wrapping for flex items
+        justify="space-around"
+        gap={4}
+        padding={5}
+      >
         <svg
           viewBox="0 0 122 20"
           width="140px"
@@ -88,6 +91,24 @@ const Footer = () => {
             d="M341.4 124.9V342H124.3V124.9h50.8l57.7 57.7 57.8-57.7z"
           ></path>
         </svg>
+
+        <svg
+          style={{ marginTop: "-10px", marginLeft: "10px" }}
+          viewBox="0 0 80 45"
+          width="86px"
+          height="48px"
+          tabIndex="-1"
+          focusable="false"
+          aria-hidden="true"
+          role="img"
+        >
+          <path
+            d="M75.06,20.69h-4.52l-2.65,2.69-2.65-2.69h-4.52v4.68l2.61,2.65-2.61,2.65v4.62h4.59l2.59-2.63,2.59,2.63h4.59v-4.62l-2.61-2.65,2.61-2.65v-4.68h-.02ZM40.33,28c0-2.01-1.6-3.64-3.58-3.64s-3.58,1.62-3.58,3.64,1.6,3.64,3.58,3.64,3.58-1.62,3.58-3.64ZM48.58,28c0,6.64-5.3,12.02-11.82,12.02s-11.84-5.39-11.84-12.02,5.3-12.02,11.82-12.02,11.84,5.37,11.84,12.02ZM57.84,42.58h-6.81V13.42h6.81v29.17Z"
+            fill="rgba(255, 255, 255, 0.5)"
+            strokeWidth="0"
+          ></path>
+        </svg>
+
         <svg
           viewBox="0 0 70 26"
           width="140px"

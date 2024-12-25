@@ -60,7 +60,7 @@ const Navbar = () => {
         <Flex
           justifyContent={"space-between"}
           alignItems={"center"}
-          marginY={"1"}
+          marginY={{ base: 3, md: 1 }}
           marginX={{ base: 4, md: 10 }}
         >
           <Flex gap={"3"}>

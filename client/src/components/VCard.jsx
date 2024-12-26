@@ -1,5 +1,6 @@
 import { Card, CardBody, Heading, Image, Stack, Text } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
+import { convertPrice } from "@utils/convertPrice";
 
 const VCard = ({ title, price, image, detailsURL }) => {
   return (
@@ -16,7 +17,7 @@ const VCard = ({ title, price, image, detailsURL }) => {
           />
           <Stack spacing="3" padding={"3"}>
             <Heading size="md">{title}</Heading>
-            <Text>Rs.{price} Lakh onward</Text>
+            <Text>Rs. {convertPrice(price)} onward</Text>
             <Text color="blue.600" fontSize="sm">
               Avg.Ex-Showroom price
             </Text>

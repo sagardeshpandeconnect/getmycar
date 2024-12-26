@@ -6,6 +6,6 @@ export const convertPrice = function (price) {
     let lakh = price / 100000;
     return `${lakh.toFixed(2)} Lakh`;
   } else {
-    return `${price}`;
+    return `${price.toFixed(0)}`;
   }
 };

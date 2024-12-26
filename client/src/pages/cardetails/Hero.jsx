@@ -3,14 +3,11 @@ import {
   Grid,
   Box,
   Image,
-  VStack,
   Text,
   Button,
   Heading,
-  Stack,
   Flex,
   Tooltip,
-  HStack,
 } from "@chakra-ui/react";
 
 import Modal from "./Modal";
@@ -92,13 +89,13 @@ const Hero = ({ data }) => {
               Avg. Ex-Showroom price
             </Text>
             <Text color="#6F6F6F" fontSize="md">
-              Registration charges {registrationCharges}
+              Registration charges Rs. {convertPrice(registrationCharges)}
             </Text>
             <Text color="#6F6F6F" fontSize="md">
-              Insurance charges {insuranceCharges}
+              Insurance charges Rs. {convertPrice(insuranceCharges)}
             </Text>
             <Text color="#6F6F6F" fontSize="md">
-              Other charges {otherCharges}
+              Other charges Rs.{otherCharges}
             </Text>
           </Box>
 

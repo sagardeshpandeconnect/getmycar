@@ -56,7 +56,7 @@ const FAQs = ({ data }) => {
                 faqArray[0].performance.map((faq) => {
                   return (
                     <Box key={uuid()}>
-                      <Text>Q:{faq.question}</Text>
+                      <QuestionText>Q:{faq.question}</QuestionText>
                       <Text paddingBottom={"4"}>{faq.answer}</Text>
                     </Box>
                   );
@@ -78,7 +78,7 @@ const FAQs = ({ data }) => {
                 faqArray[0].specifications.map((faq) => {
                   return (
                     <Box key={uuid()}>
-                      <Text>Q:{faq.question}</Text>
+                      <QuestionText>Q:{faq.question}</QuestionText>
                       <Text paddingBottom={"4"}>{faq.answer}</Text>
                     </Box>
                   );
@@ -100,7 +100,7 @@ const FAQs = ({ data }) => {
                 faqArray[0].features.map((faq) => {
                   return (
                     <Box key={uuid()}>
-                      <Text>Q:{faq.question}</Text>
+                      <QuestionText>Q:{faq.question}</QuestionText>
                       <Text paddingBottom={"4"}>{faq.answer}</Text>
                     </Box>
                   );
@@ -121,7 +121,7 @@ const FAQs = ({ data }) => {
                 faqArray[0].safety.map((faq) => {
                   return (
                     <Box key={uuid()}>
-                      <Text>Q:{faq.question}</Text>
+                      <QuestionText>Q:{faq.question}</QuestionText>
                       <Text paddingBottom={"4"}>{faq.answer}</Text>
                     </Box>
                   );

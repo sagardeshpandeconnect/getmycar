@@ -24,7 +24,7 @@ const newCarSchema = new mongoose.Schema(
     verdict: { type: String, required: true },
     summary: { type: Array },
     faq: [
-      { price: [{ question: String, answer: String }] },
+      { price: [{ question: String, answer: String, _id: false }] },
       { performance: [{ question: String, answer: String }] },
       { specifications: [{ question: String, answer: String }] },
       { features: [{ question: String, answer: String }] },

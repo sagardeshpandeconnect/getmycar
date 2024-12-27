@@ -21,7 +21,7 @@ const CarDetailsPage = () => {
     queryKey: [`${brandSlug}/${titleSlug}`],
     queryFn: getCarDetails,
   });
-  // console.log(data);
+  console.log(data);
 
   return (
     <>

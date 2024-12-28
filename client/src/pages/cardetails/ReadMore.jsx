@@ -21,7 +21,11 @@ const ReadMore = ({
     }
   };
   return (
-    <Box backgroundColor={"var(--color-background)"} position={"relative"}>
+    <Box
+      backgroundColor={"var(--color-background)"}
+      position={"relative"}
+      borderRadius={"8"}
+    >
       <Box margin={"2"} padding={"4"} paddingBottom={"12"}>
         {Array.isArray(children) ? (
           // If children is an array, limit the number of items displayed

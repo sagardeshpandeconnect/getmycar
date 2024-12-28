@@ -1,14 +1,12 @@
 const { MongoClient } = require("mongodb");
-// const dotenv = require("dotenv");
-const chokidar = require("chokidar");
 const fs = require("fs");
 const path = require("path");
 
-require("dotenv").config({ path: ".env.development" });
+const loadEnvironmentVariables = require("../configs/env.config");
 
-// Watch the source data file for changes
+loadEnvironmentVariables();
+
 const sourceDataPath = "./data/newcars.json";
-const watcher = chokidar.watch(sourceDataPath, { persistent: true });
 
 const mongoUrl = process.env.MONGO_URL;
 // console.log(mongoUrl);
@@ -48,28 +46,4 @@ async function uploadDataToDatabase() {
   }
 }
 
-// Start watching the source data file
-function start() {
-  watcher.on("ready", () => {
-    console.log("Watching for changes in the source data file...");
-  });
-}
-
-function dataChange() {
-  console.log("new data is being added");
-}
-
-// Watch for changes in the source data file
-function modifyDbData() {
-  watcher.on("change", async (path) => {
-    await uploadDataToDatabase();
-    console.log(`File ${path} has been changed`);
-    // Read the updated data from the source file (or any other source)
-    // const newData = readDataFromSource(sourceDataPath);
-    // console.log(newData);
-    // Upload the new data to MongoDB
-    // dataChange();
-  });
-}
-
-module.exports = { start, modifyDbData, uploadDataToDatabase };
+module.exports = { uploadDataToDatabase };

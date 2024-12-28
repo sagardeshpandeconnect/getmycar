@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
-import { calculateEMI } from "./calculateEMI";
+import { calculateEMI } from "../../../utils/calculateEMI";
 import { Box, Flex, Grid, GridItem, Input, Text } from "@chakra-ui/react";
 
 const EMICalculator = ({ onRoadPrice, loanData, title }) => {

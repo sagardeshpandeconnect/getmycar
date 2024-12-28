@@ -4,21 +4,23 @@ import ReadMore from "./ReadMore";
 import HeadingText from "@components/HeadingText";
 
 const Summary = ({ data }) => {
-  const content = data[0].summary;
-  // console.log(data);
+  const content = data[0]?.summary;
+
+  // Conditionally render null if no content
+  if (!content || content.length === 0) {
+    return null;
+  }
 
   return (
     <>
-      <HeadingText>{data[0].title} Summary</HeadingText>
+      <HeadingText>{data[0]?.title} Summary</HeadingText>
       <ReadMore>
-        {content.map((faq) => {
-          return (
-            <Box key={uuid()}>
-              <Text as={"b"}>{faq.question}</Text>
-              <Text paddingBottom={"4"}>{faq.answer}</Text>
-            </Box>
-          );
-        })}
+        {content.map((faq) => (
+          <Box key={uuid()}>
+            <Text as={"b"}>{faq.question}</Text>
+            <Text paddingBottom={"4"}>{faq.answer}</Text>
+          </Box>
+        ))}
       </ReadMore>
     </>
   );

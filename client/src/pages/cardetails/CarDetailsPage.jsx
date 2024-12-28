@@ -1,4 +1,4 @@
-import { Container } from "@chakra-ui/react";
+import { Container, Stack } from "@chakra-ui/react";
 import Specifications from "./Specifications";
 import { useParams } from "react-router-dom";
 import Summary from "./Summary";
@@ -25,20 +25,22 @@ const CarDetailsPage = () => {
 
   return (
     <>
-      {error
-        ? "Something went wrong!"
-        : isLoading
-        ? "loading"
-        : data && (
-            <Container maxWidth={"1050"} marginInline={"auto"}>
-              <Hero data={data} />
+      {error ? (
+        "Something went wrong!"
+      ) : (
+        <Container maxWidth={"1050"} marginInline={"auto"} overflowX="hidden">
+          <Hero data={data || []} isLoading={isLoading} />
+          {!isLoading && data && (
+            <>
               <Specifications data={data} />
               <KeyFeatures data={data} />
               <ProsAndCons data={data} />
               <Summary data={data} />
               <FAQs data={data} />
-            </Container>
+            </>
           )}
+        </Container>
+      )}
     </>
   );
 };

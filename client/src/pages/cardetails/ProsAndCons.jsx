@@ -9,6 +9,7 @@ import {
 } from "@chakra-ui/react";
 import { ThumbsUpIcon, ThumbsDownIcon } from "@assets/Icons";
 import { v4 as uuid } from "uuid";
+import HeadingText from "@components/HeadingText";
 
 const ProsAndCons = ({ data }) => {
   // Safely extract data using optional chaining
@@ -17,13 +18,10 @@ const ProsAndCons = ({ data }) => {
   const title = data?.[0]?.title || "Unknown";
 
   return (
-    <>
+    <Box marginBottom={"8"}>
+      <HeadingText>{data[0].title} Pros and Cons</HeadingText>
       {data?.[0]?.prosandcons.length > 0 ? (
-        <Box
-          marginTop="8"
-          padding="3"
-          backgroundColor="var(--color-background)"
-        >
+        <Box padding="3" backgroundColor="var(--color-background)">
           <Text fontSize="xl" as="b" color="gray.700">
             How is the {title} car?
           </Text>
@@ -68,7 +66,7 @@ const ProsAndCons = ({ data }) => {
           </Grid>
         </Box>
       ) : null}
-    </>
+    </Box>
   );
 };
 

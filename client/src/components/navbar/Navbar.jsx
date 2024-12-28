@@ -90,7 +90,7 @@ const Navbar = () => {
           >
             <Box>
               <Box hideBelow="md" position={"relative"}>
-                <SearchBar ref={inputRef} />
+                <SearchBar ref={inputRef} hideSearchBar={hideSearchBar} />
               </Box>
               <Box hideFrom="md" onClick={showSearchBar}>
                 <SearchIcon />

@@ -168,6 +168,7 @@ const SearchBar = forwardRef((props, ref) => {
                     onClick={() => {
                       navigate(`/${car.brandSlug}/${car.titleSlug}`);
                       hideSearchBar();
+                      clearSearchQuery();
                     }}
                   />
                 </Box>

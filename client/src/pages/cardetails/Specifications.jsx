@@ -14,17 +14,14 @@ import HeadingText from "@components/HeadingText";
 
 const Specifications = ({ data }) => {
   const fuelText = textCombiner(data[0]?.specifications?.fueltype);
-  // const fuelText = textCombiner(["petrol", "diesle"]);
   const transmissionText = textCombiner(data[0].specifications?.transmission);
 
   return (
-    <Flex direction={"column"}>
+    <Flex direction={"column"} marginBottom={"8"}>
       <HeadingText>{data[0].title} Specifications</HeadingText>
       <Grid
         templateColumns={{ base: "repeat(1, 1fr)", lg: "repeat(3, 1fr)" }}
         spacing="2px"
-        border={"var(--grid-border)"}
-        style={{ borderCollapse: "collapse" }}
       >
         <SpecsWrapper>
           <Flex alignItems={"center"} gap={1} color="#6F6F6F">

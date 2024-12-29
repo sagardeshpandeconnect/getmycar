@@ -1,6 +1,7 @@
 [
   {
     "title": "Maruti Swift",
+    "intro": "The Maruti Swift is a modern hatchback with a sporty design that is fun to drive. It has many contemporary features and an adequately spacious cabin and offers high mileage thanks to its efficient petrol engine.",
     "titleSlug": "swift",
     "brand": "Maruti Suzuki",
     "brandSlug": "maruti-suzuki-cars",
@@ -135,6 +136,7 @@
   },
   {
     "title": "Maruti Invicto",
+    "intro": "The Invicto is the largest, the most premium and the most expensive vehicle Maruti Suzuki has ever sold. It's based on the Toyota Innova Hycross and follows the same principles, offering lots of space, features and a comfortable ride. The Invicto's interior lacks the premium look and feel its high price demands although you still get the same Toyota-developed hybrid system which makes it incredibly fuel efficient.",
     "titleSlug": "invicto",
     "brand": "Maruti Suzuki",
     "brandSlug": "maruti-suzuki-cars",
@@ -218,6 +220,7 @@
   },
   {
     "title": "Maruti Brezza",
+    "intro": "The Brezza, a compact SUV, has fairly good quality and road presence. It has a lot of feel-good features, a spacious and comfortable cabin for five passengers and a large boot. Its petrol engine is fuel efficient, and the ride is stable and absorbent.",
     "titleSlug": "brezza",
     "brand": "Maruti Suzuki",
     "brandSlug": "maruti-suzuki-cars",
@@ -319,6 +322,7 @@
   },
   {
     "title": "Maruti Fronx",
+    "intro": "The Fronx is an attractive and spacious crossover based on the Baleno, boasting a long list of features. Its engines are efficient and sufficiently powerful, available with both AMT and torque converter options. The ride is accomplished, with adequate ground clearance.",
     "titleSlug": "fronx",
     "brand": "Maruti Suzuki",
     "brandSlug": "maruti-suzuki-cars",
@@ -422,6 +426,7 @@
   },
   {
     "title": "Hyundai Venue",
+    "intro": "The Venue, a compact SUV renowned for its feature-rich variants, offers three fuel-efficient engines and five gearbox options. It has the signature Hyundai quality, attractive design, and space to comfortably seat four occupants.",
     "titleSlug": "venue",
     "brand": "Hyundai",
     "brandSlug": "hyundai-cars",
@@ -523,6 +528,7 @@
   },
   {
     "title": "Hyundai Exter",
+    "intro": "The Exter, a micro crossover, offers the form factor of an SUV for the price of a hatchback. Its tall-boy design enhances cabin space and the boot is quite large, too. The Exter’s USP includes paddle shifters for the AMT version and a sunroof.",
     "titleSlug": "exter",
     "brand": "Hyundai",
     "brandSlug": "hyundai-cars",
@@ -604,6 +610,7 @@
   },
   {
     "title": "Hyundai Creta",
+    "intro": "The Creta does a lot of things right. This SUV feels premium and maintains consistent quality levels. It boasts a spacious interior, is loaded with modern features, gets petrol and diesel powertrains with smooth gearboxes, and drives exceedingly well.",
     "titleSlug": "creta",
     "brand": "Hyundai",
     "brandSlug": "hyundai-cars",
@@ -687,6 +694,7 @@
   },
   {
     "title": "Tata Harrier",
+    "intro": "The Harrier is a sturdy and imposing SUV, built on a Land Rover platform, and boasts a five-star safety rating. Its spacious and comfortable cabin is replete with tech, features, and a big boot. Driving it is an engaging experience thanks to a potent engine and well-balanced handling.",
     "titleSlug": "harrier",
     "brand": "Tata",
     "brandSlug": "tata-cars",
@@ -798,6 +806,7 @@
   },
   {
     "title": "Tata Nexon",
+    "intro": "The Nexon is an attractive, spacious, and comfortable SUV packed with modern features and boasts a five-star safety rating. With engine options offering adequate power, its ride quality and high-speed stability are also commendable.",
     "titleSlug": "nexon",
     "brand": "Tata",
     "brandSlug": "tata-cars",
@@ -911,6 +920,7 @@
   },
   {
     "title": "Kia Seltos",
+    "intro": "The 2023 Kia Seltos is a better-rounded package than the pre-facelift model. It's also a good choice among the eight other vehicles in this mid-size SUV segment. This car gets a new turbo-petrol engine option, new segment-first features, Level 2 ADAS, and cosmetic changes.",
     "titleSlug": "seltos",
     "brand": "Kia",
     "brandSlug": "kia-cars",
@@ -994,6 +1004,7 @@
   },
   {
     "title": "Mahindra Thar",
+    "intro": "The Thar is a two-door, serious off-roader that drives reasonably well on the road. It stands out with its rugged stance, modern design, and durable construction. The powertrains are powerful, with the petrol option being superbly refined and entertaining for a Mahindra.",
     "titleSlug": "thar",
     "brand": "Mahindra",
     "brandSlug": "mahindra-cars",
@@ -1077,6 +1088,7 @@
   },
   {
     "title": "Mahindra Scorpio",
+    "intro": "The Mahindra Scorpio, unlike the Scorpio Classic, is a more luxurious, full-size three-row SUV that still exudes a rugged charm. It offers a dominant presence on the road, ample space in the first two rows, and a plethora of features. It's good for city and highway driving with big engines, smooth automatic transmissions, and an absorbent ride.",
     "titleSlug": "scorpio",
     "brand": "Mahindra",
     "brandSlug": "mahindra-cars",
@@ -1173,6 +1185,7 @@
   },
   {
     "title": "Toyota Vellfire",
+    "intro": "The price of Toyota Vellfire, a 7 seater MUV, ranges from Rs. 1.22 - 1.33 Crore. It is available in 2 variants, with an engine of 2487 cc and a choice of 1 transmission: Automatic. Vellfire comes with 6 airbags. Toyota Vellfire is available in 3 colours. Users have reported a mileage of 19.28 kmpl for Vellfire.",
     "titleSlug": "vellfire",
     "brand": "Toyota",
     "brandSlug": "toyota-cars",
@@ -1250,6 +1263,7 @@
   },
   {
     "title": "Toyota Rumion",
+    "intro": "The price of Toyota Rumion, a 7 seater MUV, ranges from Rs. 10.44 - 13.73 Lakh. It is available in 7 variants, with an engine of 1462 cc and a choice of 2 transmissions: Manual and Automatic. Rumion comes with 4 airbags. Toyota Rumion is available in 5 colours. Users have reported a mileage of 20.11 to 26.11 kmpl for Rumion.",
     "titleSlug": "rumion",
     "brand": "Toyota",
     "brandSlug": "toyota-cars",
@@ -1332,6 +1346,7 @@
   },
   {
     "title": "Toyota Innova Crysta",
+    "intro": "The Innova Crysta is a modern-day multi-purpose vehicle with bulletproof reliability, strong chassis, and an efficient but powerful diesel engine. The Crysta also offers a large cabin, seating for up to eight people, and plenty of storage options.",
     "titleSlug": "innova-crysta",
     "brand": "Toyota",
     "brandSlug": "toyota-cars",
@@ -1447,6 +1462,7 @@
   },
   {
     "title": "Honda Elevate",
+    "intro": "The Elevate has a handsome design and ample interior space, prioritising comfort and longevity. While lacking in excitement, its sufficient power ensures a smooth driving experience. Equipped with a range of comfort and ADAS features, it offers convenience and reliability.",
     "titleSlug": "elevate",
     "brand": "Honda",
     "brandSlug": "honda-cars",
@@ -1527,6 +1543,7 @@
   },
   {
     "title": "Skoda Slavia",
+    "intro": "The Slavia not only looks good but offers a thrilling driving experience, be it in the city or highway, due to its peppy engines and good handling. There's ample comfort, and space, plus remarkable boot capacity and versatility uncommon in sedans.",
     "titleSlug": "slavia",
     "brand": "Skoda",
     "brandSlug": "skoda-cars",
@@ -1610,6 +1627,7 @@
   },
   {
     "title": "Volkswagen Virtus",
+    "intro": "The Volkswagen Virtus offers a spacious cabin, comfortable interior with ample legroom, and modern features like a large infotainment and powered and ventilated front seats. It boasts excellent fuel efficiency, safety features, reliability, and a smooth driving experience.",
     "titleSlug": "virtus",
     "brand": "Volkswagen",
     "brandSlug": "volkswagen-cars",
@@ -1706,6 +1724,7 @@
   },
   {
     "title": "MG Hector",
+    "intro": "The MG Hector is a stylish and spacious SUV that offers a comfortable ride with its plush interior. It boasts a large touchscreen infotainment system with connected features, ADAS functionality, and a powerful engine line-up, delivering a smooth and enjoyable driving experience.",
     "titleSlug": "hector",
     "brand": "mg",
     "brandSlug": "mg-cars",

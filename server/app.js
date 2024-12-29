@@ -1,6 +1,7 @@
 const express = require("express");
 const cookieParser = require("cookie-parser");
 const corsConfig = require("./configs/cors.config");
+const helmet = require("helmet");
 const {
   brandRoute,
   newCarRoute,
@@ -20,6 +21,7 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 app.use(corsConfig);
+app.use(helmet());
 
 // Routes
 app.use("/brands", brandRoute);

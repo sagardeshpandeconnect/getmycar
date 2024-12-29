@@ -55,6 +55,7 @@ const Hero = ({ data, isLoading }) => {
     specifications: { price: exShowRoomPrice } = {},
     title,
     image,
+    intro,
   } = carData;
 
   const registrationCharges = exShowRoomPrice * 0.16;
@@ -79,6 +80,9 @@ const Hero = ({ data, isLoading }) => {
   return (
     <Box marginBottom={"5"}>
       <HeadingText>{title}</HeadingText>
+      <Text marginBottom={"2"} textAlign="justify">
+        {intro}
+      </Text>
       <Grid
         templateColumns={{ base: "repeat(1, 1fr)", lg: "repeat(2, 1fr)" }}
         borderRadius={8}

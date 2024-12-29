@@ -32,7 +32,7 @@ async function uploadDataToDatabase() {
     // Read JSON data from file
     const jsonData = readDataFromSource(sourceDataPath);
     // console.log(jsonData);
-    console.log("file is changed so modified data is being added");
+    console.log("Please wait, data is being added");
 
     // Insert each document from JSON file into the collection
     await collection.dropIndexes();

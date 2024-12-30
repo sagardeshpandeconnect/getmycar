@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { Link as RouteLink } from "react-router-dom"; // Import RouteLink for internal links
+
 import { useDispatch } from "react-redux";
 import { Flex, Button, Box, VStack } from "@chakra-ui/react";
 import ComparionCardChild from "./ComparionCardChild";
@@ -34,10 +36,8 @@ const ComparionCardParent = ({ titleSlugs }) => {
   };
   // ***********************************************
   return (
-    <Box border="4px" borderColor="gray.200">
-      <VStack
-      // width={"80"}
-      >
+    <Box border="4px" borderColor="gray.200" marginX={"1"}>
+      <VStack>
         <Flex justifyContent={"center"}>
           {allData &&
             allData?.map((car) => {
@@ -52,14 +52,8 @@ const ComparionCardParent = ({ titleSlugs }) => {
               );
             })}
         </Flex>
-        <Link to={`compare-cars`}>
-          <Button
-            colorScheme="red"
-            size="lg"
-            paddingX={84}
-            onClick={handleAddToCompare}
-            // marginX={10}
-          >
+        <Link to={`compare-cars`} style={{ display: "block", width: "100%" }}>
+          <Button colorScheme="red" width="full" onClick={handleAddToCompare}>
             Compare Now
           </Button>
         </Link>

@@ -1,9 +1,9 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import HorizontalCard from "@components/HorizontalCard";
 import { useQuery } from "@tanstack/react-query";
 import { getData } from "@services/apiClient";
-import { Flex } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
+import NewCarCard from "./NewCarCard";
 
 const SpecificBrandPage = () => {
   const brandSlug = useParams().brandSlug;
@@ -27,14 +27,8 @@ const SpecificBrandPage = () => {
           ? "loading.........."
           : data?.map((car) => {
               return (
-                <Flex justifyContent={"center"} key={car._id}>
-                  <HorizontalCard
-                    carData={car}
-                    key={car._id}
-                    price={car.specifications.price}
-                    // clickHandler={() => addToCompare(car)}
-                    buttonPlaceholder="Add to Compare"
-                  />
+                <Flex justifyContent={"center"} key={car._id} marginY={"4"}>
+                  <NewCarCard carData={car} />
                 </Flex>
               );
             })}

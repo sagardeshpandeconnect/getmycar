@@ -5,69 +5,64 @@ import {
   Image,
   Button,
   Heading,
-  HStack,
+  Box,
 } from "@chakra-ui/react";
+import { useNavigate } from "react-router-dom";
 import { convertPrice } from "@utils/convertPrice";
 
-const ActionButton = ({ children, ...props }) => {
-  return (
-    <Button
-      variant="outline"
-      width="10.5em"
-      borderWidth="1px"
-      borderColor="teal"
-      color="teal"
-      {...props}
-    >
-      {children}
-    </Button>
-  );
-};
-
 const NewCarCard = ({ carData }) => {
-  const { specifications, title, image } = carData;
+  const { specifications, title, image, titleSlug } = carData;
   const { price } = specifications;
+
+  const navigate = useNavigate();
+
+  function navigateToDetails() {
+    navigate(`${titleSlug}`);
+  }
 
   return (
     <Stack
-      spacing={{ base: 0, md: 4 }}
+      spacing={{ base: 0, md: 3 }}
       direction={{ base: "column", md: "row" }}
       border={"1px solid"}
       borderColor={"gray.400"}
       padding={2}
       rounded="md"
-      width={{ base: "auto", md: "2xl" }}
-      overflow="hidden"
-      position="relative"
     >
       <Flex>
         <Image
           rounded="md"
           width={{ base: "100%", md: "18rem" }}
-          maxHeight={"180px"}
+          maxHeight={"12rem"}
           objectFit="cover"
           src={image}
           alt={title}
         />
       </Flex>
       <Stack
-        direction="column"
+        direction={{ base: "row", md: "column" }}
         spacing={2}
         width="100%"
         marginTop={{ base: "5px ", sm: 0 }}
+        alignItems={"center"}
       >
-        <Heading as={"h2"} fontSize="large" fontWeight="bold">
-          {title}
-        </Heading>
-        <Text fontSize="medium">Rs. {convertPrice(price)} Onward</Text>
+        <Box>
+          <Heading as={"h2"} fontSize="large" fontWeight="bold">
+            {title}
+          </Heading>
+          <Text fontSize="medium">Rs. {convertPrice(price)} Onward</Text>
+        </Box>
 
-        <HStack
-          justifyContent="space-around"
-          alignItems={{ base: "flex-start", sm: "center" }}
+        <Button
+          variant="outline"
+          width="10.5em"
+          borderWidth="1px"
+          borderColor="teal"
+          color="teal"
+          onClick={navigateToDetails}
         >
-          <ActionButton>Check On Road Price</ActionButton>
-          <ActionButton>Know More</ActionButton>
-        </HStack>
+          Know More
+        </Button>
       </Stack>
     </Stack>
   );

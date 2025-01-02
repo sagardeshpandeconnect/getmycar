@@ -14,14 +14,7 @@ const ComparisonCard = ({ carData, price, handleRemove }) => {
   const { title, image, _id } = carData;
   return (
     <Flex alignItems="center" justifyContent="center">
-      <Box
-        bg="white"
-        _dark={{
-          bg: "gray.800",
-        }}
-        rounded="lg"
-        border="1px solid #CBD5E0"
-      >
+      <Box bg="white" rounded="lg" border="1px solid #CBD5E0">
         <HStack position={"relative"}>
           <Image
             h={48}
@@ -40,26 +33,15 @@ const ComparisonCard = ({ carData, price, handleRemove }) => {
           />
         </HStack>
         <Box px={4} py={2} bg="#f9f9f9" roundedBottom="md">
-          <Heading
-            as="h3"
-            color="#484848"
-            _dark={{
-              color: "white",
-            }}
-            fontWeight="500"
-            fontSize="16px"
-          >
+          <Heading as="h3" color="#484848" fontWeight="500" fontSize="16px">
             {title}
           </Heading>
           <Text
             mt={1}
             fontWeight="700"
-            fontSize="16px"
+            fontSize="15px"
             fontFamily="LatoGoogle, Lato, LatoWeb, sans-serif"
             color="#484848"
-            _dark={{
-              color: "gray.400",
-            }}
           >
             ₹ {convertPrice(price)} onward
           </Text>

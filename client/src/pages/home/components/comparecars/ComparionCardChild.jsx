@@ -4,7 +4,7 @@ import { convertPrice } from "@utils/convertPrice";
 const ComparionCardChild = ({ carData, price }) => {
   const { title, image } = carData;
   return (
-    <Box width={"9.75em"}>
+    <Box width={"fit-content"}>
       <Image objectFit={"cover"} src={image} alt={title} />
       <Box paddingLeft={"2"}>
         <Text fontSize="sm">{title}</Text>

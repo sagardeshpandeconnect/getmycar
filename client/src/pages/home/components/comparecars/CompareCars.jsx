@@ -2,7 +2,7 @@ import ComponentHeading from "@components/HeadingText";
 import Wrapper from "@components/Wrapper";
 import ComparionCardParent from "./ComparionCardParent";
 import Carousel from "@components/Carousel";
-import { Box, Flex } from "@chakra-ui/react";
+import { Box, Flex, useBreakpointValue } from "@chakra-ui/react";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -17,48 +17,40 @@ import "swiper/css/navigation";
 // import required modules
 import { Pagination, Navigation } from "swiper/modules";
 
+const data = [
+  ["swift", "fronx"],
+  ["brezza", "exter"],
+  ["creta", "seltos"],
+  ["scorpio", "exter"],
+  ["fronx", "creta"],
+];
+
+const dataArrLength = data?.length;
+const newArr = data.map((item) => {
+  return [...item, "dd"];
+});
+console.log(newArr);
+
 const CompareCars = () => {
+  const noOfSlidesInView = useBreakpointValue({ base: 2, lg: 3 });
   return (
     <Wrapper>
       <ComponentHeading>Compare Cars</ComponentHeading>
-      <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
-        pagination={{ clickable: true }}
-        modules={[Pagination, Navigation]}
-        navigation={true}
-        breakpoints={{
-          640: {
-            slidesPerView: 1,
-            spaceBetween: 1,
-          },
-          768: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          1024: {
-            slidesPerView: 3,
-            spaceBetween: 30,
-          },
-        }}
+      <Carousel
+        dataArrLength={dataArrLength}
+        noOfSlidesInView={noOfSlidesInView}
       >
-        <SwiperSlide>
-          <ComparionCardParent titleSlugs={["swift", "fronx"]} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ComparionCardParent titleSlugs={["brezza", "exter"]} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ComparionCardParent titleSlugs={["creta", "seltos"]} />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <ComparionCardParent titleSlugs={["scorpio", "exter"]} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ComparionCardParent titleSlugs={["fronx", "creta"]} />
-        </SwiperSlide>
-      </Swiper>
+        {data?.map((item, index) => (
+          <Box
+            key={index}
+            flex="none"
+            padding={1}
+            width={{ base: "18em", lg: "full" }}
+          >
+            <ComparionCardParent titleSlugs={item} />
+          </Box>
+        ))}
+      </Carousel>
     </Wrapper>
   );
 };

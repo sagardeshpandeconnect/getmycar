@@ -42,15 +42,12 @@ const ComparisonPage = () => {
   }, [dispatch]);
   console.log(comparisonStore);
 
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
 
-  const handleToggle = function () {
-    setShow((showing) => !showing);
-  };
-
-  // const handleRemove = function (carId) {
-  //   console.log(carId);
+  // const handleToggle = function () {
+  //   setShow((showing) => !showing);
   // };
+
   const handleRemove = function (carId) {
     dispatch(removeFromComparison(carId));
     console.log(`${carId} is removed from comparison`);
@@ -97,46 +94,7 @@ const ComparisonPage = () => {
         <TextComparison />
 
         <CardRow />
-
-        {/* <Grid templateColumns="repeat(4, 1fr)">
-          {comparisonStore &&
-            comparisonStore.map((car) => {
-              // let car = sinlgeCar[0];
-              return (
-                <ComparisonCard
-                  title={car.title}
-                  price={car?.specifications?.price}
-                  img={car.image}
-                  key={car._id}
-                  carId={car._id}
-                  handleRemove={handleRemove}
-                />
-              );
-            })}
-          <Flex>
-            {comparisonStore.length < 4 && (
-              <Flex width={"100%"}>{components}</Flex>
-            )}
-          </Flex>
-        </Grid> */}
       </Wrapper>
-      {/* <ComparionCardChild /> */}
-      {/* {comparison.map((car, index) => {
-        return (
-          <HorizontalCard3
-            key={car.id}
-            title={car.attributes.title}
-            id={car.id}
-            price={car.attributes.price}
-            img={
-              "http://localhost:1337" +
-              car?.attributes?.image?.data[0]?.attributes?.url
-            }
-            clickHandler={() => removeFromComparison(car.id)}
-            buttonPlaceholder="Remove from comparison"
-          />
-        );
-      })} */}
     </div>
   );
 };

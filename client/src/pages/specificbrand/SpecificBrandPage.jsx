@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import { getData } from "@services/apiClient";
-import { Box, Flex } from "@chakra-ui/react";
+import { Grid } from "@chakra-ui/react";
 import NewCarCard from "./NewCarCard";
 
 const SpecificBrandPage = () => {
@@ -20,19 +20,21 @@ const SpecificBrandPage = () => {
 
   return (
     <>
-      <ul>
+      <Grid
+        templateColumns={{
+          base: "repeat(1, 1fr)",
+          md: "repeat(2, 1fr)",
+          lg: "repeat(2, 1fr)",
+        }}
+      >
         {error
           ? "Something went wrong!"
           : isLoading
           ? "loading.........."
           : data?.map((car) => {
-              return (
-                <Flex justifyContent={"center"} key={car._id} marginY={"4"}>
-                  <NewCarCard carData={car} />
-                </Flex>
-              );
+              return <NewCarCard carData={car} key={car._id} />;
             })}
-      </ul>
+      </Grid>
     </>
   );
 };

@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { Text, Grid, Box } from "@chakra-ui/react";
-import HorizontalCard from "@components/HorizontalCard";
 import { getData } from "@services/apiClient";
 import { useQuery } from "@tanstack/react-query";
+import NewCarCard from "@pages/specificbrand/NewCarCard";
 
 const FilteredCarsPage = () => {
   const location = useLocation();
@@ -59,13 +59,7 @@ const FilteredCarsPage = () => {
           : isLoading
           ? "loading.........."
           : data.map((car) => {
-              return (
-                <HorizontalCard
-                  key={car._id}
-                  carData={car}
-                  price={car.specifications.price}
-                />
-              );
+              return <NewCarCard carData={car} key={car._id} />;
             })}
       </Grid>
     </Box>

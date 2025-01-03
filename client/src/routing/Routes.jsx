@@ -10,16 +10,17 @@ import Footer from "@components/Footer";
 import ManageYourListings from "@pages/manageyourlistings/ManageYourListings";
 import UsedCarsPage from "@pages/usedcars/UsedCarsPage";
 import UsedCarForm from "@components/UsedCarForm";
+import { Flex } from "@chakra-ui/react";
 
 const Layout = () => {
   return (
-    <>
+    <Flex direction={"column"} minHeight={"100vh"}>
       <Navbar />
       <main>
         <Outlet />
       </main>
       <Footer />
-    </>
+    </Flex>
   );
 };
 

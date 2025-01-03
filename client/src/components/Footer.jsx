@@ -2,7 +2,12 @@ import { Flex, Grid } from "@chakra-ui/react";
 
 const Footer = () => {
   return (
-    <footer style={{ backgroundColor: "#002b51" }}>
+    <footer
+      style={{
+        backgroundColor: "#002b51",
+        marginTop: "auto",
+      }}
+    >
       <Flex
         wrap="wrap" // Enables wrapping for flex items
         justify="space-around"

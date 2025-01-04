@@ -1802,5 +1802,84 @@
         ]
       }
     ]
+  },
+  {
+    "title": "Renault Kwid",
+    "intro": "The Kwid impresses with its SUV-inspired looks and ample ground clearance, paired with an absorbent ride. It offers reasonable tech and features, along with its small size, light controls, adequate power, and AMT convenience, making driving effortless.",
+    "titleSlug": "kwid",
+    "brand": "renault",
+    "brandSlug": "renault-cars",
+    "bodytype": "Hatchback",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1736013321/carwale/carImages/renault/kwid-exterior-right-front-three-quarter-3_aeeu5l.webp",
+    "specifications": {
+      "price": 469500,
+      "engine": 999,
+      "fueltype": ["Petrol"],
+      "transmission": ["Manual", "Automatic"],
+      "seatingcapacity": 5
+    },
+    "prosandcons": [
+      {
+        "pros": [
+          "2023 update - BS6 phase 2 (RDE) compliance, extra safety kit as standard, more features",
+          "Easy to drive - Armed with a light steering/clutch, reasonably smooth gear shifter",
+          "Absorbent ride quality - Equipped with long-travel shock absorbers tuned to be soft",
+          "Compact footprint - Tight overall dimensions help with constraints to park/navigate",
+          "Powertrain options – Two small capacity frugal motors with manual/AMT gearboxes"
+        ],
+        "cons": [
+          "Strict four-seater - Being compact, only 2 adults can be seated comfortably at the rear",
+          "Not dynamically sorted - Slow steering, lots of up and down movement at higher speeds",
+          "Quality - Inconsistent levels of quality, fit and finish are below expectations"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the on road price of Renault Kwid base model?",
+            "answer": "The on road price of Renault Kwid base model is Rs. 5.64 Lakh which includes a registration cost of Rs. 57455, insurance premium of Rs. 35160 and additional charges of Rs. 2000."
+          },
+          {
+            "question": "What is the on road price of Renault Kwid top model?",
+            "answer": "The on road price of Renault Kwid top model is Rs. 7.68 Lakh which includes a registration cost of Rs. 77482, insurance premium of Rs. 44476 and additional charges of Rs. 2000."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the real world versus claimed mileage of Renault Kwid?",
+            "answer": "The company claimed mileage of Renault Kwid is 21.7 to 22 kmpl, while when CarWale experts tested it, they found the mileage to be 16.83 kmpl in city and 21.6 kmpl on highways. As per users, the mileage came to be 21.5 kmpl in the real world."
+          }
+        ],
+        "specifications": [
+          {
+            "question": "What is the seating capacity in Renault Kwid?",
+            "answer": "Renault Kwid has a seating capacity of 5 people."
+          },
+          {
+            "question": "What are the dimensions of Renault Kwid?",
+            "answer": "The dimensions of Renault Kwid include its length of 3731 mm, width of 1579 mm and height of 1474 mm. The wheelbase of the Renault Kwid is 2422 mm."
+          }
+        ],
+        "features": [
+          {
+            "question": "Is Renault Kwid available in 4x4 variant?",
+            "answer": "No, Renault Kwid doesn't come with four wheel drive option."
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does Renault Kwid get?",
+            "answer": "The top Model of Renault Kwid has 2 airbags. The Kwid has driver and passenger airbags."
+          },
+          {
+            "question": "Does Renault Kwid get ABS?",
+            "answer": "Yes, all variants of Renault Kwid have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      }
+    ]
   }
 ]

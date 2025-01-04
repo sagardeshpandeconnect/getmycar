@@ -45,7 +45,7 @@ const FilteredCarsPage = () => {
   });
 
   return (
-    <Box>
+    <>
       {data && <Text>{data.length} Cars Found</Text>}
       <Grid
         templateColumns={{
@@ -62,7 +62,7 @@ const FilteredCarsPage = () => {
               return <NewCarCard carData={car} key={car._id} />;
             })}
       </Grid>
-    </Box>
+    </>
   );
 };
 

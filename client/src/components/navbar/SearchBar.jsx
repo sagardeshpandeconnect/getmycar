@@ -49,6 +49,7 @@ const SearchBar = forwardRef((props, ref) => {
     if (key === "Enter") {
       event.preventDefault();
       goToDetailsPage();
+      hideSearchBar();
       clearSearchQuery();
       console.log(
         `/${searchedCars[focusedIndex].brandSlug}/${searchedCars[focusedIndex].titleSlug}`

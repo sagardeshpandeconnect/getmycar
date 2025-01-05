@@ -15,6 +15,7 @@ import Sidebar from "./Sidebar";
 import useOnClickOutside from "@hooks/useOnClickOutside";
 import ProfileCard from "@components/ProfileCard";
 import SignInModal from "@components/SignInModal";
+import LanguageChange from "./LanguageChange";
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -124,7 +125,7 @@ const Navbar = () => {
               <LocationIcon />
             </Box>
             <Box hideBelow="md">
-              <LanguageChangeIcon />
+              <LanguageChange />
             </Box>
 
             {isUserSignedIn ? (

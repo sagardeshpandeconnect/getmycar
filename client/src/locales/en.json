@@ -1,0 +1,20 @@
+{
+  "findCar": {
+    "heading": "Find The Cars of Your Choice",
+    "tabs": {
+      "budget": "Budget",
+      "bodyType": "Body Type",
+      "fuelType": "Fuel Type",
+      "transmission": "Transmission",
+      "seatingCapacity": "Seating Capacity"
+    }
+  },
+  "featuredCars": {
+    "heading": "Featured Cars",
+    "tabs": {
+      "trending": "Trending",
+      "popular": "Popular",
+      "upcoming": "Upcoming"
+    }
+  }
+}

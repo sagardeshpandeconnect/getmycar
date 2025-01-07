@@ -1,0 +1,20 @@
+{
+  "findCar": {
+    "heading": "अपनी पसंद की कार खोजें",
+    "tabs": {
+      "budget": "बजट",
+      "bodyType": "बॉडी प्रकार",
+      "fuelType": "ईंधन प्रकार",
+      "transmission": "गियर प्रकार",
+      "seatingCapacity": "बैठने की क्षमता"
+    }
+  },
+  "featuredCars": {
+    "heading": "विशेष कारें",
+    "tabs": {
+      "trending": "चलन में",
+      "popular": "लोकप्रिय",
+      "upcoming": "आने वाली"
+    }
+  }
+}

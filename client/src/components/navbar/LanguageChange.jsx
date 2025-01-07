@@ -8,10 +8,16 @@ import {
   Radio,
   VStack,
 } from "@chakra-ui/react";
+import { useTranslation } from "react-i18next";
 
 import { LanguageChangeIcon } from "@assets/Icons";
 
 const LanguageChange = () => {
+  const { i18n } = useTranslation();
+
+  const handleLanguageChange = (lang) => {
+    i18n.changeLanguage(lang); // Change the language dynamically
+  };
   return (
     <Menu>
       <MenuButton
@@ -26,7 +32,7 @@ const LanguageChange = () => {
         <LanguageChangeIcon />
       </MenuButton>
       <MenuList>
-        <RadioGroup defaultValue="option1" name="radioGroup1">
+        <RadioGroup defaultValue="en" onChange={handleLanguageChange}>
           <VStack align="start" spacing={0}>
             <MenuItem value="en">
               <Radio value="en" colorScheme={"green"}>

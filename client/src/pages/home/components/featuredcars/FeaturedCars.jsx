@@ -2,27 +2,29 @@ import ComponentHeading from "@components/HeadingText";
 import TabsContainer from "@components/TabsContainer";
 import Wrapper from "@components/Wrapper";
 import FeaturedCarType from "./FeaturedCarType";
+import { useTranslation } from "react-i18next";
 
 const FeaturedCars = () => {
+  const { t } = useTranslation();
+
   const tabData = [
     {
-      tabHeading: "TRENDING",
+      tabHeading: t("featuredCars.tabs.trending"),
       tabContent: <FeaturedCarType featuredType="trending" />,
     },
     {
-      tabHeading: "POPULAR",
+      tabHeading: t("featuredCars.tabs.popular"),
       tabContent: <FeaturedCarType featuredType="popular" />,
     },
-
     {
-      tabHeading: "UPCOMING",
+      tabHeading: t("featuredCars.tabs.upcoming"),
       tabContent: <FeaturedCarType featuredType="upcoming" />,
     },
   ];
 
   return (
     <Wrapper>
-      <ComponentHeading>Featured Cars</ComponentHeading>
+      <ComponentHeading>{t("featuredCars.heading")}</ComponentHeading>
       <TabsContainer tabData={tabData} />
     </Wrapper>
   );

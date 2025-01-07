@@ -1,4 +1,4 @@
-import { Heading } from "@chakra-ui/react";
+import { useTranslation } from "react-i18next";
 import TabsContainer from "@components/TabsContainer";
 import Wrapper from "@components/Wrapper";
 import BodyType from "./data/BodyType";
@@ -9,32 +9,25 @@ import SeatingCapacity from "./data/SeatingCapacity";
 import ComponentHeading from "@components/HeadingText";
 
 const FindTheCarOfYourChoice = () => {
+  const { t } = useTranslation();
+
   const tabData = [
+    { tabHeading: t("findCar.tabs.budget"), tabContent: <Budget /> },
+    { tabHeading: t("findCar.tabs.bodyType"), tabContent: <BodyType /> },
+    { tabHeading: t("findCar.tabs.fuelType"), tabContent: <FuelType /> },
     {
-      tabHeading: "Budget",
-      tabContent: <Budget />,
-    },
-    {
-      tabHeading: "Body Type",
-      tabContent: <BodyType />,
-    },
-    {
-      tabHeading: "Fuel Type",
-      tabContent: <FuelType />,
-    },
-    {
-      tabHeading: "Transmission",
+      tabHeading: t("findCar.tabs.transmission"),
       tabContent: <Transmission />,
     },
     {
-      tabHeading: "Seating Capacity",
+      tabHeading: t("findCar.tabs.seatingCapacity"),
       tabContent: <SeatingCapacity />,
     },
   ];
 
   return (
     <Wrapper>
-      <ComponentHeading>Find The Cars of Your Choice</ComponentHeading>
+      <ComponentHeading>{t("findCar.heading")}</ComponentHeading>
       <TabsContainer tabData={tabData} />
     </Wrapper>
   );

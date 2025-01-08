@@ -8,15 +8,21 @@ import {
   Radio,
   VStack,
 } from "@chakra-ui/react";
+import { useDispatch, useSelector } from "react-redux";
+import { setLanguage } from "@features/language/languageSlice";
 import { useTranslation } from "react-i18next";
 
 import { LanguageChangeIcon } from "@assets/Icons";
 
 const LanguageChange = () => {
   const { i18n } = useTranslation();
+  const dispatch = useDispatch();
+  const currentLanguage = useSelector((state) => state.entities.language);
+  console.log(currentLanguage);
 
   const handleLanguageChange = (lang) => {
-    i18n.changeLanguage(lang); // Change the language dynamically
+    i18n.changeLanguage(lang); // Update i18next language
+    dispatch(setLanguage(lang)); // Update Redux state
   };
   return (
     <Menu>
@@ -32,7 +38,10 @@ const LanguageChange = () => {
         <LanguageChangeIcon />
       </MenuButton>
       <MenuList>
-        <RadioGroup defaultValue="en" onChange={handleLanguageChange}>
+        <RadioGroup
+          defaultValue={currentLanguage}
+          onChange={handleLanguageChange}
+        >
           <VStack align="start" spacing={0}>
             <MenuItem value="en">
               <Radio value="en" colorScheme={"green"}>

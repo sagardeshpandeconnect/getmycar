@@ -2,28 +2,41 @@ import {
   Button,
   Menu,
   MenuButton,
-  MenuList,
   MenuItem,
+  MenuList,
   RadioGroup,
   Radio,
   VStack,
 } from "@chakra-ui/react";
-import { useDispatch, useSelector } from "react-redux";
-import { setLanguage } from "@features/language/languageSlice";
 import { useTranslation } from "react-i18next";
-
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { LanguageChangeIcon } from "@assets/Icons";
+import { useDispatch, useSelector } from "react-redux";
 
 const LanguageChange = () => {
+  const navigate = useNavigate();
   const { i18n } = useTranslation();
-  const dispatch = useDispatch();
-  const currentLanguage = useSelector((state) => state.entities.language);
-  console.log(currentLanguage);
+  const [currentLanguage, setCurrentLanguage] = useState(() => {
+    // Retrieve the language from localStorage or default to "en"
+    return localStorage.getItem("language") || "en";
+  });
+
+  // Sync i18n language and localStorage whenever `currentLanguage` changes
+  useEffect(() => {
+    i18n.changeLanguage(currentLanguage);
+    localStorage.setItem("language", currentLanguage); // Persist the language
+  }, [currentLanguage, i18n]);
 
   const handleLanguageChange = (lang) => {
-    i18n.changeLanguage(lang); // Update i18next language
-    dispatch(setLanguage(lang)); // Update Redux state
+    setCurrentLanguage(lang); // Update local state
+    if (lang === "hi") {
+      navigate("/hi"); // Navigate to Hindi path
+    } else {
+      navigate("/"); // Navigate to English path
+    }
   };
+
   return (
     <Menu>
       <MenuButton
@@ -39,7 +52,7 @@ const LanguageChange = () => {
       </MenuButton>
       <MenuList>
         <RadioGroup
-          defaultValue={currentLanguage}
+          value={currentLanguage} // Controlled by local state
           onChange={handleLanguageChange}
         >
           <VStack align="start" spacing={0}>

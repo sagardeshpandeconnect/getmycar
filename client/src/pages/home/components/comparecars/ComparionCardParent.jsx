@@ -6,8 +6,11 @@ import { Flex, Button, Box, VStack } from "@chakra-ui/react";
 import ComparionCardChild from "./ComparionCardChild";
 import { addToComparison } from "@features/comparison/comparisonSlice";
 import { getData } from "@services/apiClient";
+import { useTranslation } from "react-i18next";
 
 const ComparionCardParent = ({ titleSlugs }) => {
+  const { t } = useTranslation();
+
   const [allData, setAllData] = useState([]);
 
   const URLArray = titleSlugs.map((titleSlug) => `/comparison/${titleSlug}`);
@@ -41,7 +44,7 @@ const ComparionCardParent = ({ titleSlugs }) => {
         </Flex>
         <Link to="compare-cars" style={{ display: "block", width: "100%" }}>
           <Button colorScheme="red" width="100%" onClick={handleAddToCompare}>
-            Compare Now
+            {t("ComparionCardParent.buttonText")}
           </Button>
         </Link>
       </VStack>

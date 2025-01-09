@@ -37,7 +37,7 @@ const FeaturedCarType = ({ featuredType }) => {
               title={item.title}
               price={item.specifications.price}
               image={item.image}
-              detailsURL={`/${item.brandSlug}/${item.titleSlug}`}
+              detailsURL={`${item.brandSlug}/${item.titleSlug}`}
             />
           </Box>
         ))

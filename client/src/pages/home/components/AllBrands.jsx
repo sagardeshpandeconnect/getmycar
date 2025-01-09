@@ -4,8 +4,11 @@ import { getData } from "@services/apiClient";
 import Wrapper from "@components/Wrapper";
 import SingleBrand from "./SingleBrand";
 import ComponentHeading from "@components/HeadingText";
+import { useTranslation } from "react-i18next";
 
 const AllBrands = () => {
+  const { t } = useTranslation();
+
   const getAllBrands = async function () {
     return getData(`/brands`);
   };
@@ -17,7 +20,7 @@ const AllBrands = () => {
   // console.log(data);
   return (
     <Wrapper>
-      <ComponentHeading>All Brands</ComponentHeading>
+      <ComponentHeading>{t("allBrands.heading")}</ComponentHeading>
       <SimpleGrid
         templateColumns={{
           base: "repeat(3, 1fr)",

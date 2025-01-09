@@ -1,9 +1,12 @@
 import { Button, SimpleGrid } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const prices = [5, 6, 7, 8, 10, 15, 20, 25, 30];
 
 const Budget = () => {
+  const { t } = useTranslation();
+
   return (
     // <Wrapper>
     <SimpleGrid
@@ -32,7 +35,8 @@ const Budget = () => {
               // paddingX={"10"}
               borderRadius={"full"}
             >
-              Under {price} Lakh
+              {/* Under {price} Lakh */}
+              {t("findCar.tabs.budgetValue", { price })}
             </Button>
           </Link>
         );

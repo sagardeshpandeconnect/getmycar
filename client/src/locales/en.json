@@ -1,8 +1,13 @@
 {
+  "navbar": {
+    "usedCars": "Used Cars"
+  },
   "findCar": {
     "heading": "Find The Cars of Your Choice",
     "tabs": {
       "budget": "Budget",
+      "budgetValue": "Under {{price}} Lakh",
+
       "bodyType": "Body Type",
       "fuelType": "Fuel Type",
       "transmission": "Transmission",
@@ -16,5 +21,14 @@
       "popular": "Popular",
       "upcoming": "Upcoming"
     }
+  },
+  "allBrands": {
+    "heading": "All Brands"
+  },
+  "compareCars": {
+    "heading": "Compare Cars"
+  },
+  "ComparionCardParent": {
+    "buttonText": "Compare Now"
   }
 }

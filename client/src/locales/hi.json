@@ -1,8 +1,12 @@
 {
+  "navbar": {
+    "usedCars": "पुरानी कारें"
+  },
   "findCar": {
     "heading": "अपनी पसंद की कार खोजें",
     "tabs": {
       "budget": "बजट",
+      "budgetValue": "{{price}} लाख के अंदर",
       "bodyType": "बॉडी प्रकार",
       "fuelType": "ईंधन प्रकार",
       "transmission": "गियर प्रकार",
@@ -16,5 +20,14 @@
       "popular": "लोकप्रिय",
       "upcoming": "आने वाली"
     }
+  },
+  "allBrands": {
+    "heading": "सभी ब्रांड्स"
+  },
+  "compareCars": {
+    "heading": "कारों की तुलना करें"
+  },
+  "ComparionCardParent": {
+    "buttonText": "तुलना करें"
   }
 }

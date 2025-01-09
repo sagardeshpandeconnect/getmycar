@@ -3,6 +3,7 @@ import Wrapper from "@components/Wrapper";
 import ComparionCardParent from "./ComparionCardParent";
 import Carousel from "@components/Carousel";
 import { Box, useBreakpointValue } from "@chakra-ui/react";
+import { useTranslation } from "react-i18next";
 
 const data = [
   ["swift", "fronx"],
@@ -19,10 +20,12 @@ const newArr = data.map((item) => {
 console.log(newArr);
 
 const CompareCars = () => {
+  const { t } = useTranslation();
+
   const noOfSlidesInView = useBreakpointValue({ base: 2, lg: 3 });
   return (
     <Wrapper>
-      <ComponentHeading>Compare Cars</ComponentHeading>
+      <ComponentHeading>{t("compareCars.heading")}</ComponentHeading>
       <Carousel
         dataArrLength={dataArrLength}
         noOfSlidesInView={noOfSlidesInView}

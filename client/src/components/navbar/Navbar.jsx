@@ -16,8 +16,11 @@ import useOnClickOutside from "@hooks/useOnClickOutside";
 import ProfileCard from "@components/ProfileCard";
 import SignInModal from "@components/SignInModal";
 import LanguageChange from "./LanguageChange";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
+  const { t } = useTranslation();
+
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   const authStore = useSelector((state) => state.entities.auth);
@@ -81,7 +84,7 @@ const Navbar = () => {
           </Flex>
           <Box hideBelow={"md"}>
             <Link as={RouteLink} to="used-cars">
-              <Text fontWeight="semibold">Used Cars</Text>
+              <Text fontWeight="semibold">{t("navbar.usedCars")}</Text>
             </Link>
           </Box>
           <Flex

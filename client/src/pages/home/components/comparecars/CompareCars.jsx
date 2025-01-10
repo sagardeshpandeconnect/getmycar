@@ -17,7 +17,7 @@ const dataArrLength = data?.length;
 const newArr = data.map((item) => {
   return [...item, "dd"];
 });
-console.log(newArr);
+// console.log(newArr);
 
 const CompareCars = () => {
   const { t } = useTranslation();

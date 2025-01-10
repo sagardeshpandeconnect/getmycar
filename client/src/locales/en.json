@@ -7,7 +7,7 @@
     "tabs": {
       "budget": "Budget",
       "budgetValue": "Under {{price}} Lakh",
-
+      "luxuryCars": "Luxury Cars",
       "bodyType": "Body Type",
       "fuelType": "Fuel Type",
       "transmission": "Transmission",

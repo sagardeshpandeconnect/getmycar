@@ -7,6 +7,7 @@
     "tabs": {
       "budget": "बजट",
       "budgetValue": "{{price}} लाख के अंदर",
+      "luxuryCars": "लक्ज़री कारें",
       "bodyType": "बॉडी प्रकार",
       "fuelType": "ईंधन प्रकार",
       "transmission": "गियर प्रकार",

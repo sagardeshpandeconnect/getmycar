@@ -7,9 +7,16 @@ import Budget from "./data/Budget";
 import Transmission from "./data/TransmissionType";
 import SeatingCapacity from "./data/SeatingCapacity";
 import ComponentHeading from "@components/HeadingText";
+import useLanguageLoading from "@hooks/useLanguageLoading";
 
 const FindTheCarOfYourChoice = () => {
   const { t } = useTranslation();
+  const loading = useLanguageLoading(); // Use the custom hook to get the loading state
+
+  // If language is not loaded, show a loading state
+  if (loading) {
+    return <div>Loading...</div>; // You can replace this with a spinner or more styled loading component
+  }
 
   const tabData = [
     { tabHeading: t("findCar.tabs.budget"), tabContent: <Budget /> },

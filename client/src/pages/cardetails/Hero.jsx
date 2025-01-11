@@ -17,10 +17,14 @@ import useOnClickOutside from "@hooks/useOnClickOutside";
 import { calculateEMI } from "@utils/calculateEMI";
 import { convertPrice } from "@utils/convertPrice";
 import HeadingText from "@components/HeadingText";
+import { useSelector } from "react-redux";
 
 const Hero = ({ data, isLoading }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const modalRef = useRef();
+
+  const currentLang = useSelector((state) => state.entities.language); // Get language from Redux store
+  console.log(currentLang);
 
   useOnClickOutside(modalRef, () => setIsModalOpen(false));
 
@@ -54,8 +58,10 @@ const Hero = ({ data, isLoading }) => {
   const {
     specifications: { price: exShowRoomPrice } = {},
     title,
+    title_hindi,
     image,
     intro,
+    intro_hindi,
   } = carData;
 
   const registrationCharges = exShowRoomPrice * 0.16;
@@ -79,9 +85,9 @@ const Hero = ({ data, isLoading }) => {
 
   return (
     <Box marginBottom={"5"}>
-      <HeadingText>{title}</HeadingText>
+      <HeadingText>{currentLang == "en" ? title : title_hindi}</HeadingText>
       <Text marginBottom={"2"} textAlign="justify">
-        {intro}
+        {currentLang == "en" ? intro : intro_hindi}
       </Text>
       <Grid
         templateColumns={{ base: "repeat(1, 1fr)", lg: "repeat(2, 1fr)" }}
@@ -107,19 +113,25 @@ const Hero = ({ data, isLoading }) => {
           <Box>
             <HeadingText>
               Rs.
-              {convertPrice(exShowRoomPrice)}
+              {convertPrice(exShowRoomPrice, currentLang)}
             </HeadingText>
             <Text color="gray.500" fontSize="md">
-              Avg. Ex-Showroom price
+              {currentLang == "en"
+                ? "Avg. Ex-Showroom price "
+                : "औसत एक्स-शोरूम कीमत "}
             </Text>
             <Text color="gray.500" fontSize="md">
-              Registration charges Rs. {convertPrice(registrationCharges)}
+              {currentLang == "en" ? "Registration charges " : "पंजीकरण शुल्क "}
+              Rs. {convertPrice(registrationCharges, currentLang)}
             </Text>
             <Text color="gray.500" fontSize="md">
-              Insurance charges Rs. {convertPrice(insuranceCharges)}
+              {currentLang == "en" ? "Insurance Charges " : "बीमा शुल्क "}
+              Rs.
+              {convertPrice(insuranceCharges, currentLang)}
             </Text>
             <Text color="gray.500" fontSize="md">
-              Other charges Rs. {otherCharges}
+              {currentLang == "en" ? "Other charges " : "अन्य शुल्क "}
+              Rs. {otherCharges}
             </Text>
           </Box>
 

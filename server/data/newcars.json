@@ -322,22 +322,33 @@
   },
   {
     "title": "Maruti Fronx",
+    "title_hindi": "मारुति फ्रॉन्क्स",
     "intro": "The Fronx is an attractive and spacious crossover based on the Baleno, boasting a long list of features. Its engines are efficient and sufficiently powerful, available with both AMT and torque converter options. The ride is accomplished, with adequate ground clearance.",
+    "intro_hindi": "फ्रॉन्क्स एक आकर्षक और विशाल क्रॉसओवर है जो बलेनो पर आधारित है, और इसमें सुविधाओं की एक लंबी सूची है। इसके इंजन कुशल और पर्याप्त शक्तिशाली हैं, जो एएमटी और टॉर्क कन्वर्टर दोनों विकल्पों में उपलब्ध हैं। इसका सवारी अनुभव उत्कृष्ट है और ग्राउंड क्लीयरेंस पर्याप्त है।",
     "titleSlug": "fronx",
     "brand": "Maruti Suzuki",
+    "brand_hindi": "मारुति सुजुकी",
     "brandSlug": "maruti-suzuki-cars",
     "brand_id": "64c9032e17efebb6360e632a",
     "featured": "trending",
     "bodytype": "Compact SUV",
+    "bodytype_hindi": "कॉम्पैक्ट एसयूवी",
     "usagetype": "New Car",
+    "usagetype_hindi": "नई कार",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1735572012/carwale/carImages/maruti/fronx-exterior-right-front-three-quarter-110_rwuvda.webp",
     "specifications": {
       "price": 746500,
+      "price_hindi": "\u0930\u0942. 7,46,500",
       "mileage": 20,
+      "mileage_hindi": "20 किमी प्रति लीटर",
       "engine": 998,
+      "engine_hindi": "998 सीसी",
       "fueltype": ["Petrol"],
+      "fueltype_hindi": ["पेट्रोल"],
       "transmission": ["Manual", "Automatic"],
-      "seatingcapacity": 5
+      "transmission_hindi": ["मैनुअल", "ऑटोमैटिक"],
+      "seatingcapacity": 5,
+      "seatingcapacity_hindi": "5 सीटें"
     },
     "keyfeatures": [
       "Side and curtain airbags",
@@ -356,6 +367,23 @@
       "Suzuki Connect",
       "Alloy wheels"
     ],
+    "keyfeatures_hindi": [
+      "साइड और पर्दे एयरबैग",
+      "सभी 3-पॉइंट सीट बेल्ट",
+      "ऑटो-डिमिंग अंदर का रियरव्यू मिरर",
+      "इलेक्ट्रॉनिक स्थिरता प्रोग्राम",
+      "हिल होल्ड असिस्ट",
+      "360 डिग्री कैमरा",
+      "ऑटोमैटिक हेडलैंप",
+      "इंजन स्टार्ट/स्टॉप बटन",
+      "वायरलेस चार्जर",
+      "स्टीयरिंग एडजस्ट - टिल्ट और टेलीस्कोपिक",
+      "ARKAMYS प्रीमियम साउंड सिस्टम विथ वायरलेस एंड्रॉइड ऑटो और एप्पल कारप्ले",
+      "हेड-अप डिस्प्ले",
+      "फास्ट यूएसबी चार्जिंग सॉकेट्स - टाइप ए और सी (रियर)",
+      "सुजुकी कनेक्ट",
+      "अलॉय व्हील्स"
+    ],
     "prosandcons": [
       {
         "pros": [
@@ -365,60 +393,91 @@
           "Ride - The Fronx feels comfortable as it irons out the road irregularities quite well",
           "Service - Maruti Suzuki cars are backed-up by the brand's exhaustive and robust network"
         ],
+        "pros_hindi": [
+          "एसयूवी लुक - बलेनो पर आधारित होने के बावजूद अलग और ताजा दिखता है",
+          "सुविधाएं - टॉप-एंड वेरिएंट में सभी आधुनिक सुविधाएं मिलती हैं",
+          "मजबूत इंजन - पर्याप्त शक्तिशाली और उपयोगी ड्राइवट्रेन",
+          "सवारी - फ्रॉन्क्स सड़कों की असमानताओं को आराम से दूर करता है",
+          "सेवा - मारुति सुजुकी की विस्तृत और मजबूत नेटवर्क द्वारा समर्थित"
+        ],
         "cons": [
           "Low-end torque - The 1-litre powertrain on the Fronx has some turbo lag below 2,500rpm",
           "SUV space - One would expect more cabin space over the Baleno, the car it is based on",
           "Driver posture - Being an SUV, it needs a higher driving position/more rear headroom"
+        ],
+        "cons_hindi": [
+          "लो-एंड टॉर्क - फ्रॉन्क्स का 1-लीटर पावरट्रेन 2,500rpm से कम पर कुछ टर्बो लैग दिखाता है",
+          "एसयूवी स्पेस - बलेनो के मुकाबले अधिक केबिन स्पेस की अपेक्षा थी",
+          "ड्राइवर पोजिशन - एसयूवी होते हुए भी ड्राइविंग पोजिशन अधिक और रियर हेडरूम बेहतर होनी चाहिए"
         ]
       }
     ],
     "verdict": "Designed to plug the gap between the Baleno and Brezza, the new Fronx has quite a lot going for it. Namely the stance, a long list of features, a mature ride and a refined set of capable motors. Yet another winner from Maruti!",
+    "verdict_hindi": "बलेनो और ब्रेज़ा के बीच के अंतर को भरने के लिए डिज़ाइन किया गया, नया फ्रॉन्क्स अपने स्टांस, सुविधाओं की लंबी सूची, परिपक्व सवारी और सक्षम इंजन के साथ उत्कृष्ट प्रदर्शन करता है। मारुति की एक और सफलता!",
     "faq": [
       {
         "price": [
           {
             "question": "What is the on road price of Maruti Suzuki Fronx base model?",
-            "answer": "The on-road price of Maruti Suzuki Fronx base model is Rs. 7.47 Lakh which includes a registration cost of Rs. 53085, insurance premium of Rs. 48599 and additional charges of Rs. 2200."
+            "question_hindi": "मारुति सुजुकी फ्रॉन्क्स बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer": "The on-road price of Maruti Suzuki Fronx base model is Rs. 7.47 Lakh which includes a registration cost of Rs. 53085, insurance premium of Rs. 48599 and additional charges of Rs. 2200.",
+            "answer_hindi": "मारुति सुजुकी फ्रॉन्क्स बेस मॉडल की ऑन-रोड कीमत रु. 7.47 लाख है, जिसमें रु. 53,085 का पंजीकरण शुल्क, रु. 48,599 का बीमा प्रीमियम और रु. 2200 के अतिरिक्त शुल्क शामिल हैं।"
           },
           {
             "question": "What is the on road price of Maruti Suzuki Fronx top model?",
-            "answer": "The on-road price of Maruti Suzuki Fronx top model is Rs. 13.14 Lakh which includes a registration cost of Rs. 132180, insurance premium of Rs. 67712 and additional charges of Rs. 2200."
+            "question_hindi": "मारुति सुजुकी फ्रॉन्क्स टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer": "The on-road price of Maruti Suzuki Fronx top model is Rs. 13.14 Lakh which includes a registration cost of Rs. 132180, insurance premium of Rs. 67712 and additional charges of Rs. 2200.",
+            "answer_hindi": "मारुति सुजुकी फ्रॉन्क्स टॉप मॉडल की ऑन-रोड कीमत रु. 13.14 लाख है, जिसमें रु. 1,32,180 का पंजीकरण शुल्क, रु. 67,712 का बीमा प्रीमियम और रु. 2200 के अतिरिक्त शुल्क शामिल हैं।"
           }
         ],
         "performance": [
           {
             "question": "What is the real world versus claimed mileage of Maruti Suzuki Fronx?",
-            "answer": "The company claimed mileage of Maruti Suzuki Fronx is 20.01 to 24.48 kmpl. As per users, the mileage came to be 0 to 19.4 kmpl in the real world."
+            "question_hindi": "मारुति सुजुकी फ्रॉन्क्स की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
+            "answer": "The company claimed mileage of Maruti Suzuki Fronx is 20.01 to 24.48 kmpl. As per users, the mileage came to be 0 to 19.4 kmpl in the real world.",
+            "answer_hindi": "कंपनी ने मारुति सुजुकी फ्रॉन्क्स की माइलेज 20.01 से 24.48 किमी/लीटर होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 0 से 19.4 किमी/लीटर तक रही।"
           }
         ],
         "specifications": [
           {
             "question": "What is the seating capacity in Maruti Suzuki Fronx?",
-            "answer": "Maruti Suzuki Fronx has a seating capacity of 5 people."
+            "question_hindi": "मारुति सुजुकी फ्रॉन्क्स में बैठने की क्षमता कितनी है?",
+            "answer": "Maruti Suzuki Fronx has a seating capacity of 5 people.",
+            "answer_hindi": "मारुति सुजुकी फ्रॉन्क्स में 5 लोगों की बैठने की क्षमता है।"
           },
           {
             "question": "What are the dimensions of Maruti Suzuki Fronx?",
-            "answer": "The dimensions of Maruti Suzuki Fronx include its length of 3995 mm, width of 1765 mm and height of 1550 mm. The wheelbase of the Maruti Suzuki Fronx is 2520 mm."
+            "question_hindi": "मारुति सुजुकी फ्रॉन्क्स के आयाम क्या हैं?",
+            "answer": "The dimensions of Maruti Suzuki Fronx include its length of 3995 mm, width of 1765 mm and height of 1550 mm. The wheelbase of the Maruti Suzuki Fronx is 2520 mm.",
+            "answer_hindi": "मारुति सुजुकी फ्रॉन्क्स के आयाम 3995 मिमी लंबाई, 1765 मिमी चौड़ाई और 1550 मिमी ऊंचाई हैं। इसका व्हीलबेस 2520 मिमी है।"
           }
         ],
         "features": [
           {
             "question": "Does Maruti Suzuki Fronx get a sunroof?",
-            "answer": "No, Maruti Suzuki Fronx doesn't have a sunroof."
+            "question_hindi": "क्या मारुति सुजुकी फ्रॉन्क्स में सनरूफ है?",
+            "answer": "No, Maruti Suzuki Fronx doesn't have a sunroof.",
+            "answer_hindi": "नहीं, मारुति सुजुकी फ्रॉन्क्स में सनरूफ नहीं है।"
           },
           {
             "question": " Does Maruti Suzuki Brezza have cruise control?",
-            "answer": "Yes, 4 out of 14 versions of Maruti Suzuki Fronx have cruise control function. With the Cruise control enabled you can take your foot off the accelerator and move at a fixed speed constantly provided the road system permits this."
+            "question_hindi": "क्या मारुति सुजुकी ब्रेज़ा में क्रूज कंट्रोल है?",
+            "answer": "Yes, 4 out of 14 versions of Maruti Suzuki Fronx have cruise control function. With the Cruise control enabled you can take your foot off the accelerator and move at a fixed speed constantly provided the road system permits this.",
+            "answer_hindi": "हां, मारुति सुजुकी फ्रॉन्क्स के 14 में से 4 वेरिएंट में क्रूज कंट्रोल फंक्शन है। क्रूज कंट्रोल चालू होने पर, आप एक्सीलेटर से पैर हटा सकते हैं और सड़क की अनुमति के अनुसार एक निश्चित गति पर चल सकते हैं।"
           }
         ],
         "safety": [
           {
             "question": "How many airbags does Maruti Suzuki Fronx get?",
-            "answer": "The top Model of Maruti Suzuki Fronx has 6 airbags. The Fronx has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
+            "question_hindi": "मारुति सुजुकी फ्रॉन्क्स में कितने एयरबैग हैं?",
+            "answer": "The top Model of Maruti Suzuki Fronx has 6 airbags. The Fronx has driver, front passenger, 2 curtain, driver side and front passenger side airbags.",
+            "answer_hindi": "मारुति सुजुकी फ्रॉन्क्स के टॉप मॉडल में 6 एयरबैग हैं। इसमें ड्राइवर, फ्रंट पैसेंजर, 2 पर्दे, ड्राइवर साइड और फ्रंट पैसेंजर साइड एयरबैग शामिल हैं।"
           },
           {
             "question": " Does Maruti Suzuki Fronx get ABS?",
-            "answer": "Yes, all versions of Maruti Suzuki Fronx have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+            "question_hindi": "क्या मारुति सुजुकी फ्रॉन्क्स में एबीएस है?",
+            "answer": "Yes, all versions of Maruti Suzuki Fronx have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard.",
+            "answer_hindi": "हां, मारुति सुजुकी फ्रॉन्क्स के सभी वेरिएंट में एबीएस है। एबीएस एक बेहतरीन दुर्घटना रोकथाम तकनीक है जो ड्राइवर को तेज ब्रेकिंग के दौरान स्टीयरिंग करने में मदद करती है।"
           }
         ]
       }

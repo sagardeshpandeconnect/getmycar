@@ -16,7 +16,7 @@ const ProsAndCons = ({ data }) => {
   const prosData = data?.[0]?.prosandcons?.[0]?.pros || [];
   const consData = data?.[0]?.prosandcons?.[0]?.cons || [];
   const title = data?.[0]?.title || "Unknown";
-  console.log(data);
+  // console.log(data);
 
   return (
     <Box marginBottom={"8"}>

@@ -17,9 +17,14 @@ import ProfileCard from "@components/ProfileCard";
 import SignInModal from "@components/SignInModal";
 import LanguageChange from "./LanguageChange";
 import { useTranslation } from "react-i18next";
+import useLanguageLoading from "@hooks/useLanguageLoading";
 
 const Navbar = () => {
   const { t } = useTranslation();
+
+  const loading = useLanguageLoading(); // Use the custom hook to get the loading state
+
+  // If language is not loaded, show a loading state
 
   const { isOpen, onOpen, onClose } = useDisclosure();
 
@@ -57,6 +62,10 @@ const Navbar = () => {
 
   useOnClickOutside(sidebarRef, hideSidebar);
   useOnClickOutside(inputRef, hideSearchBar);
+
+  if (loading) {
+    return <div>Loading...</div>; // You can replace this with a spinner or a custom loading component
+  }
 
   return (
     <header>

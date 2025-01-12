@@ -24,7 +24,7 @@ const Hero = ({ data, isLoading }) => {
   const modalRef = useRef();
 
   const currentLang = useSelector((state) => state.entities.language); // Get language from Redux store
-  console.log(currentLang);
+  // console.log(currentLang);
 
   useOnClickOutside(modalRef, () => setIsModalOpen(false));
 
@@ -82,6 +82,7 @@ const Hero = ({ data, isLoading }) => {
   });
 
   const month = new Date().toLocaleString("default", { month: "long" });
+  const month_hindi = new Date().toLocaleString("hi-IN", { month: "long" });
 
   return (
     <Box marginBottom={"5"}>
@@ -191,7 +192,9 @@ const Hero = ({ data, isLoading }) => {
             size="lg"
             width={{ base: "100%", md: "65%" }}
           >
-            Get {month} Offers
+            {currentLang == "en"
+              ? `Get ${month} Offers`
+              : `${month_hindi} के लिए ऑफर प्राप्त करें`}
           </Button>
         </Flex>
       </Grid>

@@ -22,7 +22,7 @@ const ProsAndCons = ({ data }) => {
     <Box marginBottom={"8"}>
       {data?.[0]?.prosandcons.length > 0 ? (
         <Box>
-          <HeadingText>{data[0].title} Pcros and Cons</HeadingText>
+          <HeadingText>{data[0].title} Pros and Cons</HeadingText>
           <Box padding="3" backgroundColor="var(--color-background)">
             <Text fontSize="xl" as="b" color="gray.700">
               How is the {title} car?

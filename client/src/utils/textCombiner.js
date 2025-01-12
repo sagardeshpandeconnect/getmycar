@@ -1,6 +1,4 @@
-// This functions helps to construct the string to show various types of fuels and transmission etc
-
-export const textCombiner = function (dataArray, car) {
+export const textCombiner = function (dataArray, currentLang = "en") {
   const reducedText = dataArray.reduce((accumulator, car, index, array) => {
     // Extract property value
     const textToBeCombined = car;
@@ -9,9 +7,11 @@ export const textCombiner = function (dataArray, car) {
     if (index === 0) {
       return " " + textToBeCombined;
     }
-    // Add 'and' before the last element
+    // Add 'and' (or 'और' in Hindi) before the last element
     else if (index === array.length - 1) {
-      return accumulator + " and " + textToBeCombined;
+      return currentLang === "en"
+        ? accumulator + " and " + textToBeCombined
+        : accumulator + " और " + textToBeCombined;
     }
     // Intermediate elements with a comma
     else {

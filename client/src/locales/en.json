@@ -32,12 +32,25 @@
     "buttonText": "Compare Now"
   },
   "specifications": {
-    "specifications": "Specifications",
+    "specifications": " Specifications",
     "price": "Price",
     "engine": "Engine",
     "mileage": "Mileage",
     "fuelType": "Fuel Type",
     "transmission": "Transmission",
     "seatingCapacity": "Seating Capacity"
+  },
+  "prosAndCons": {
+    "title": "How is {{title}} car?",
+    "pros": "Pros",
+    "cons": "Cons"
+  },
+  "faq": {
+    "title": "FAQs About {{title}} car?",
+    "price": "Price",
+    "performance": "Performance",
+    "specifications": " Specifications",
+    "features": "Features",
+    "safety": "Safety"
   }
 }

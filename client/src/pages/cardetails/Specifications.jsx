@@ -77,7 +77,7 @@ const Specifications = ({ data }) => {
   return (
     <Flex direction={"column"} marginBottom={"8"}>
       <HeadingText>
-        {currentLang === "en" ? title : title_hindi}{" "}
+        {currentLang === "en" ? title : title_hindi}
         {t("specifications.specifications")}
       </HeadingText>
       <Grid

@@ -39,5 +39,18 @@
     "fuelType": "ईंधन के प्रकार",
     "transmission": "ट्रैंस्मिशन",
     "seatingCapacity": "बैठने की क्षमता"
+  },
+  "prosAndCons": {
+    "title": "{{title}} कार कैसी है?",
+    "pros": "अच्छी बातें",
+    "cons": "और बेहतर हो सकती थीं"
+  },
+  "faq": {
+    "title": "{{title}} के बारे में अक्सर पूछे जाने वाले प्रश्न?",
+    "price": "क़ीमत",
+    "performance": "परफ़ॉर्मेंस",
+    "specifications": "विशेषताएं",
+    "features": "फ़ीचर्स",
+    "safety": "सुरक्षा"
   }
 }

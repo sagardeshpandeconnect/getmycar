@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import {
   Box,
   Flex,
@@ -10,23 +11,31 @@ import {
 import { ThumbsUpIcon, ThumbsDownIcon } from "@assets/Icons";
 import { v4 as uuid } from "uuid";
 import HeadingText from "@components/HeadingText";
+import { useSelector } from "react-redux";
 
 const ProsAndCons = ({ data }) => {
+  const { t } = useTranslation();
+  const currentLang = useSelector((state) => state.entities.language); // Get language from Redux store
+
+  const carData = data[0];
   // Safely extract data using optional chaining
-  const prosData = data?.[0]?.prosandcons?.[0]?.pros || [];
-  const consData = data?.[0]?.prosandcons?.[0]?.cons || [];
-  const title = data?.[0]?.title || "Unknown";
-  // console.log(data);
+  const prosData =
+    currentLang == "en"
+      ? carData?.prosandcons?.[0]?.pros
+      : carData?.prosandcons?.[0]?.pros_hindi;
+  const consData =
+    currentLang == "en"
+      ? carData?.prosandcons?.[0]?.cons
+      : carData?.prosandcons?.[0]?.cons_hindi;
+  const title = currentLang == "en" ? carData?.title : carData?.title_hindi;
+  // console.log(carData);
 
   return (
     <Box marginBottom={"8"}>
-      {data?.[0]?.prosandcons.length > 0 ? (
+      {carData?.prosandcons.length > 0 ? (
         <Box>
-          <HeadingText>{data[0].title} Pros and Cons</HeadingText>
+          <HeadingText>{t("prosAndCons.title", { title })}</HeadingText>
           <Box padding="3" backgroundColor="var(--color-background)">
-            <Text fontSize="xl" as="b" color="gray.700">
-              How is the {title} car?
-            </Text>
             <Grid
               templateColumns={{
                 base: "repeat(1, 1fr)",
@@ -41,7 +50,7 @@ const ProsAndCons = ({ data }) => {
                 <Flex gap="2">
                   <ThumbsUpIcon />
                   <Text fontSize="m" as="b" color="gray.700">
-                    Pros
+                    {t("prosAndCons.pros")}
                   </Text>
                 </Flex>
                 <UnorderedList spacing={1}>
@@ -56,7 +65,7 @@ const ProsAndCons = ({ data }) => {
                 <Flex gap="2">
                   <ThumbsDownIcon />
                   <Text fontSize="m" as="b" color="gray.700">
-                    Cons
+                    {t("prosAndCons.cons")}
                   </Text>
                 </Flex>
                 <UnorderedList spacing={1}>

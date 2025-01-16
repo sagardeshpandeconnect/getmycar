@@ -1,3 +1,6 @@
+import { useTranslation } from "react-i18next";
+import { useSelector } from "react-redux";
+
 import {
   Accordion,
   AccordionButton,
@@ -13,7 +16,15 @@ import HeadingText from "@components/HeadingText";
 import QuestionText from "@components/QuestionText";
 
 const FAQs = ({ data }) => {
-  const faqArray = data[0].faq;
+  const { t } = useTranslation();
+  const currentLang = useSelector((state) => state.entities.language);
+
+  const carData = data[0];
+  console.log(carData);
+
+  const title = currentLang == "en" ? carData?.title : carData?.title_hindi;
+
+  const faqArray = carData.faq;
 
   const renderFAQCategory = (categoryName, categoryData) => {
     if (!categoryData || categoryData.length === 0) return null;
@@ -35,6 +46,7 @@ const FAQs = ({ data }) => {
           <AccordionButton padding="0.7rem">
             <Box as="span" flex="1" textAlign="left" fontSize="lg">
               {categoryName.charAt(0).toUpperCase() + categoryName.slice(1)}
+              {/* {categoryName.charAt(0).toUpperCase() + categoryName.slice(1)} */}
             </Box>
             <AccordionIcon boxSize="1.5rem" />
           </AccordionButton>
@@ -43,10 +55,18 @@ const FAQs = ({ data }) => {
           {categoryData.map((faq) => (
             <Box key={uuid()}>
               <QuestionText fontSize="lg">
-                Question: {faq.question}
+                {currentLang === "en" ? (
+                  <span>Question: {faq.question}</span>
+                ) : (
+                  <span>प्रश्न: {faq.question_hindi}</span>
+                )}
               </QuestionText>
               <Text paddingBottom={"4"} fontSize="md" lineHeight="1.8">
-                Answer: {faq.answer}
+                {currentLang === "en" ? (
+                  <span>Answer: {faq.answer}</span>
+                ) : (
+                  <span>उत्तर: {faq.answer_hindi}</span>
+                )}
               </Text>
             </Box>
           ))}
@@ -60,7 +80,7 @@ const FAQs = ({ data }) => {
 
     return (
       <Box marginBottom={"8"}>
-        <HeadingText>FAQs About {data[0].title}</HeadingText>
+        <HeadingText>{t("faq.title", { title })}</HeadingText>
         <Accordion allowToggle variant="enclosed">
           {categories.map((category) =>
             renderFAQCategory(category, faqArray[0][category])

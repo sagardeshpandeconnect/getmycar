@@ -135,6 +135,137 @@
     ]
   },
   {
+    "title": "Maruti Eeco",
+    "intro": "The Eeco, a tall and versatile van, in 5 and 7-seater variants, combines CNG efficiency with sliding doors for easy access. Its peppy petrol engine ensures smooth driving, while its upright design enhances visibility. It is a favourite among taxi fleets.",
+    "titleSlug": "eeco",
+    "brand": "Maruti Suzuki",
+    "brandSlug": "maruti-suzuki-cars",
+    "brand_id": "64c9032e17efebb6360e632a",
+    "bodytype": "Minivan",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1737132450/carwale/carImages/maruti/eeco-exterior-right-front-three-quarter-2_etovut.webp",
+    "specifications": {
+      "price": 547000,
+      "engine": 1197,
+      "mileage": 20.88,
+      "safety": 1,
+      "fueltype": ["Petrol", "CNG"],
+      "transmission": ["Manual"],
+      "seatingcapacity": 2
+    },
+    "keyfeatures": [
+      "Dual front airbags",
+      "ABS with EBD",
+      "Reverse parking sensors",
+      "Engine immobilizer",
+      "Sliding doors for easy access",
+      "Multi-purpose cabin",
+      "Digital instrument cluster",
+      "Manual air conditioning",
+      "Large boot space",
+      "High ground clearance"
+    ],
+    "summary": [
+      {
+        "question": "Latest Update",
+        "answer": "Maruti Suzuki has introduced an updated version of the Eeco with minor feature enhancements and compliance with the latest emission norms."
+      },
+      {
+        "question": "Price",
+        "answer": "Maruti Eeco price ranges between Rs. 5.47 Lakh - Rs. 6.55 Lakh depending on the variant selected."
+      },
+      {
+        "question": "When was the Maruti Eeco launched?",
+        "answer": "The updated Eeco was launched in India on 10 December, 2023."
+      },
+      {
+        "question": "What variants does it get?",
+        "answer": "The Maruti Eeco is available in multiple configurations, including 5-seater, 7-seater, cargo, and ambulance variants."
+      },
+      {
+        "question": "What features are available in the Maruti Eeco?",
+        "answer": "Key features include dual front airbags, ABS with EBD, sliding doors, reverse parking sensors, manual AC, and a spacious cabin with flexible seating and storage options."
+      },
+      {
+        "question": "What are the engine, performance, and specifications of the Maruti Eeco?",
+        "answer": "The Eeco is powered by a 1.2-liter petrol engine producing 72 bhp and 98 Nm of torque. It also offers a CNG variant with slightly reduced power output for better efficiency. Both variants come with a 5-speed manual gearbox."
+      },
+      {
+        "question": "Is the Maruti Eeco a safe car?",
+        "answer": "The Eeco has basic safety features such as dual front airbags, ABS with EBD, and reverse parking sensors. However, it has not been tested by Global NCAP."
+      },
+      {
+        "question": "What are the rivals to the Maruti Eeco?",
+        "answer": "Rivals to the Eeco include the Tata Ace, Mahindra Jeeto, and Force Urbania in the commercial and multi-purpose vehicle segment."
+      }
+    ],
+    "prosandcons": [
+      {
+        "pros": [
+          "Affordable and budget-friendly pricing",
+          "Spacious cabin with flexible seating options",
+          "Reliable engine with decent fuel efficiency",
+          "Sliding doors for easy ingress and egress",
+          "Low maintenance cost and wide service network"
+        ],
+        "cons": [
+          "Minimal safety features compared to modern standards",
+          "Outdated interior design and features",
+          "Limited refinement and comfort on long drives",
+          "No automatic transmission option",
+          "Low Global NCAP safety rating"
+        ]
+      }
+    ],
+    "verdict": "The Maruti Eeco is a practical and affordable choice for buyers looking for a versatile van for personal or commercial use. While it lacks modern features and advanced safety, its reliability, low maintenance cost, and spacious interiors make it a popular choice in its segment.",
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the on road price of Maruti Suzuki Eeco base model?",
+            "answer": "The on-road price of Maruti Suzuki Eeco base model is Rs. 5.47 Lakh, which includes a registration cost of Rs. 22800, insurance premium of Rs. 31200, and additional charges of Rs. 2000."
+          },
+          {
+            "question": "What is the on road price of Maruti Suzuki Eeco top model?",
+            "answer": "The on-road price of Maruti Suzuki Eeco top model is Rs. 6.55 Lakh, which includes a registration cost of Rs. 27800, insurance premium of Rs. 36700, and additional charges of Rs. 2000."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the real world versus claimed mileage of Maruti Suzuki Eeco?",
+            "answer": "The company-claimed mileage of the Eeco is 20.88 kmpl (petrol) and 27.05 km/kg (CNG). Users report a real-world mileage of 16-18 kmpl for petrol and 22-24 km/kg for CNG."
+          }
+        ],
+        "specifications": [
+          {
+            "question": "What is the seating capacity in Maruti Suzuki Eeco?",
+            "answer": "The Eeco is available in both 5-seater and 7-seater configurations."
+          },
+          {
+            "question": "What are the dimensions of Maruti Suzuki Eeco?",
+            "answer": "The dimensions of the Eeco include its length of 3675 mm, width of 1475 mm, and height of 1825 mm. The wheelbase of the Maruti Suzuki Eeco is 2350 mm."
+          }
+        ],
+        "features": [
+          {
+            "question": "Is Maruti Suzuki Eeco available in 4x4 version?",
+            "answer": "No, Maruti Suzuki Eeco doesn't come with a four-wheel-drive option."
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does Maruti Suzuki Eeco get?",
+            "answer": "All versions of the Maruti Suzuki Eeco are equipped with dual front airbags."
+          },
+          {
+            "question": "Does Maruti Suzuki Eeco get ABS?",
+            "answer": "Yes, all versions of the Maruti Suzuki Eeco are equipped with ABS with EBD as standard."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "Maruti Invicto",
     "intro": "The Invicto is the largest, the most premium and the most expensive vehicle Maruti Suzuki has ever sold. It's based on the Toyota Innova Hycross and follows the same principles, offering lots of space, features and a comfortable ride. The Invicto's interior lacks the premium look and feel its high price demands although you still get the same Toyota-developed hybrid system which makes it incredibly fuel efficient.",
     "titleSlug": "invicto",
@@ -526,6 +657,130 @@
           {
             "question_hindi": "क्या मारुति सुजुकी फ्रॉन्क्स में एबीएस है?",
             "answer_hindi": "हां, मारुति सुजुकी फ्रॉन्क्स के सभी वेरिएंट में एबीएस है। एबीएस एक बेहतरीन दुर्घटना रोकथाम तकनीक है जो ड्राइवर को तेज ब्रेकिंग के दौरान स्टीयरिंग करने में मदद करती है।"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Hyundai Aura",
+    "intro": "The Aura is a compact sedan featuring comfortable seats and an airy, well-finished cabin. It offers peppy performance from its smooth engine, a feature-laden interior, and excellent slow-speed ride quality. Additionally, it boasts good ground clearance for varied driving conditions.",
+    "titleSlug": "aura",
+    "brand": "Hyundai",
+    "brandSlug": "hyundai-cars",
+    "brand_id": "64c9032e17efebb6360e632b",
+    "bodytype": "Compact Sedan",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1737132400/carwale/carImages/hyundai/aura-exterior-right-front-three-quarter-5_lnbchm.webp",
+    "specifications": {
+      "price": 654100,
+      "engine": 1197,
+      "mileage": 20.1,
+      "safety": 2,
+      "fueltype": ["Petrol", "CNG"],
+      "transmission": ["Manual", "Automatic"],
+      "seatingcapacity": 5
+    },
+    "keyfeatures": [
+      "8.0-inch touchscreen infotainment system with Android Auto and Apple CarPlay",
+      "Projector headlamps with LED DRLs",
+      "Digital instrument cluster",
+      "Wireless charging",
+      "Tyre Pressure Monitoring System (TPMS)",
+      "Cruise control",
+      "Rear AC vents",
+      "Rear-view camera",
+      "ABS with EBD",
+      "Driver and passenger airbags",
+      "ISOFIX child seat mounts"
+    ],
+    "summary": [
+      {
+        "question": "Latest Update",
+        "answer": "Hyundai Aura received a facelift in 2023, featuring design upgrades, new safety features, and RDE-compliant engines."
+      },
+      {
+        "question": "Price",
+        "answer": "Hyundai Aura price ranges between Rs. 6.54 Lakh to Rs. 10.58 Lakh, depending on the variant and city."
+      },
+      {
+        "question": "When was the Hyundai Aura launched?",
+        "answer": "The latest Hyundai Aura was launched in India in January 2023."
+      },
+      {
+        "question": "What variants does it get?",
+        "answer": "The Hyundai Aura is available in variants such as E, S, SX, SX Plus, and CNG options."
+      },
+      {
+        "question": "What are the engine and performance details of the Hyundai Aura?",
+        "answer": "The Aura is powered by a 1.2-litre petrol engine generating 82bhp and 114Nm of torque, available with a 5-speed manual or AMT. It also offers a CNG variant producing 68bhp and 95Nm of torque."
+      },
+      {
+        "question": "Is the Hyundai Aura a safe car?",
+        "answer": "The Hyundai Aura offers essential safety features like ABS with EBD, dual airbags, rear parking sensors, and ISOFIX child seat mounts. It is compliant with Indian safety standards."
+      },
+      {
+        "question": "What are the rivals to the Hyundai Aura?",
+        "answer": "Competitors of the Hyundai Aura include Maruti Suzuki Dzire, Honda Amaze, and Tata Tigor."
+      }
+    ],
+    "prosandcons": [
+      {
+        "pros": [
+          "Spacious and well-finished cabin with comfortable seating",
+          "Peppy and smooth engine performance, especially in the petrol variant",
+          "Feature-rich interiors with premium touches",
+          "Good low-speed ride quality for city conditions",
+          "Variety of engine and transmission options, including CNG and AMT"
+        ],
+        "cons": [
+          "Boot space could be more generous for a compact sedan",
+          "Rear seat width makes it uncomfortable for three adults on long journeys",
+          "CNG variant lacks automatic transmission option"
+        ]
+      }
+    ],
+    "verdict": "The Hyundai Aura offers an excellent blend of comfort, performance, and features at a competitive price, making it an ideal choice for city dwellers seeking a compact sedan with versatility and style.",
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is Aura top model price?",
+            "answer": "Hyundai Aura top model SX Plus price is Rs. 10.58 Lakh. The top-end SX Plus variant is packed with features like Anti-Lock Braking System (ABS), Anti-glare Mirrors, Ambient Interior Lighting, Overspeed Warning."
+          },
+          {
+            "question": "What is Aura base model price?",
+            "answer": "Hyundai Aura base model E price starts from Rs. 7.79 Lakh and goes up to Rs. 8.66 Lakh. The entry-level E variant has features like Anti-Lock Braking System (ABS), Tyre Pressure Monitoring System (TPMS), Anti-glare Mirrors, Daytime Running Lights."
+          },
+          {
+            "question": "What is Hyundai Aura CNG price?",
+            "answer": "The cheapest CNG variant for Aura, E 1.2 CNG, would cost Rs. 8.66 Lakh in Kolhapur. All Aura CNG variants come with a 1.2 L engine and in manual gearbox. The top-end CNG option Aura SX 1.2 CNG is priced at Rs. 10.4 Lakh and it has Anti-Lock Braking System (ABS), Tyre Pressure Monitoring System (TPMS), Anti-glare Mirrors, Daytime Running Lights."
+          },
+          {
+            "question": "What is Aura automatic price?",
+            "answer": "The cheapest automatic Aura, SX Plus 1.2 AMT Petrol, costs Rs. 10.58 Lakh in Kolhapur. The Aura is available in - Automatic (AMT) petrol."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the real-world mileage of the Hyundai Aura?",
+            "answer": "The claimed mileage of Hyundai Aura is 20.1 kmpl for petrol and 28 km/kg for CNG. In real-world conditions, users have reported around 18 kmpl in city driving for petrol and 25 km/kg for CNG."
+          }
+        ],
+        "features": [
+          {
+            "question": "Does Hyundai Aura have a sunroof?",
+            "answer": "No, the Hyundai Aura does not offer a sunroof in any of its variants."
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does Hyundai Aura have?",
+            "answer": "Hyundai Aura comes equipped with two airbags as standard. The higher variants offer side airbags, totaling up to four."
+          },
+          {
+            "question": "Does Hyundai Aura have ABS with EBD?",
+            "answer": "Yes, all variants of Hyundai Aura come with ABS and EBD as standard safety features."
           }
         ]
       }
@@ -1369,6 +1624,117 @@
     ]
   },
   {
+    "title": "Toyota Hilux",
+    "intro": "The Toyota Hilux is a premium lifestyle pickup truck that combines rugged off-road capability with a luxurious and feature-rich cabin. Known for its robust build quality, powerful engine options, and reliability, the Hilux is a versatile vehicle suitable for adventure enthusiasts and utility needs alike.",
+    "titleSlug": "hilux",
+    "brand": "Toyota",
+    "brandSlug": "toyota-cars",
+    "bodytype": "Truck",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1737132487/carwale/carImages/toyota/hilux-exterior-right-front-three-quarter-2_f2bzzc.webp",
+    "specifications": {
+      "price": 3300000,
+      "engine": 2755,
+      "mileage": 10.5,
+      "safety": 5,
+      "fueltype": ["Diesel"],
+      "transmission": ["Manual", "Automatic"],
+      "seatingcapacity": 5
+    },
+    "keyfeatures": [
+      "2.8L turbo-diesel engine with 201bhp and 500Nm torque",
+      "Four-wheel-drive with high/low range transfer case",
+      "8.0-inch touchscreen infotainment with Apple CarPlay and Android Auto",
+      "Leather upholstery with ventilated front seats",
+      "Cruise control",
+      "LED projector headlamps with DRLs",
+      "7 airbags including driver knee airbag",
+      "Hill-start assist and downhill assist control",
+      "Rear differential lock",
+      "Automatic climate control"
+    ],
+    "summary": [
+      {
+        "question": "Latest Update",
+        "answer": "Toyota Hilux received minor updates for 2023, including new features and color options, along with RDE-compliant engines."
+      },
+      {
+        "question": "Price",
+        "answer": "The Toyota Hilux price ranges from Rs. 33 Lakh to Rs. 36.80 Lakh, depending on the variant."
+      },
+      {
+        "question": "What are the engine options available?",
+        "answer": "The Toyota Hilux is powered by a 2.8L turbo-diesel engine, paired with either a 6-speed manual or 6-speed automatic transmission."
+      },
+      {
+        "question": "What are the rivals of Toyota Hilux?",
+        "answer": "Key competitors include Isuzu D-Max V-Cross and Jeep Meridian (as an SUV alternative)."
+      },
+      {
+        "question": "What variants does it come in?",
+        "answer": "The Toyota Hilux is available in two main trims: Standard and High, with options for manual and automatic transmissions."
+      },
+      {
+        "question": "Is the Toyota Hilux fuel-efficient?",
+        "answer": "With a mileage of 10.5 kmpl (manual) and around 9.5 kmpl (automatic), the Hilux prioritizes performance over fuel efficiency."
+      }
+    ],
+    "prosandcons": [
+      {
+        "pros": [
+          "Exceptional off-road capabilities with robust 4x4 system",
+          "Powerful and reliable diesel engine",
+          "Spacious and premium cabin with advanced features",
+          "Toyota's legendary reliability and build quality",
+          "Ample load-carrying capacity for utility and adventure"
+        ],
+        "cons": [
+          "High price compared to some competitors",
+          "Fuel efficiency could be better",
+          "Large size makes it challenging to maneuver in tight spaces",
+          "Lacks some luxury features like a sunroof"
+        ]
+      }
+    ],
+    "verdict": "The Toyota Hilux is a capable and rugged pickup truck that delivers excellent performance, versatility, and reliability. It's a great choice for those who need a premium off-roader with utility features, though its size and fuel efficiency may not suit urban environments.",
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the price of Toyota Hilux base model?",
+            "answer": "The base model Standard of Toyota Hilux is priced at Rs. 33 Lakh."
+          },
+          {
+            "question": "What is the price of the top-end variant of Toyota Hilux?",
+            "answer": "The top-end High variant of Toyota Hilux costs Rs. 36.80 Lakh."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the real-world mileage of Toyota Hilux?",
+            "answer": "In real-world conditions, users report a mileage of around 9-10 kmpl."
+          }
+        ],
+        "features": [
+          {
+            "question": "Does Toyota Hilux have a sunroof?",
+            "answer": "No, the Toyota Hilux does not come with a sunroof."
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does Toyota Hilux have?",
+            "answer": "The Toyota Hilux comes with 7 airbags as standard, including a driver knee airbag."
+          },
+          {
+            "question": "Does the Toyota Hilux have ABS?",
+            "answer": "Yes, the Toyota Hilux is equipped with ABS with EBD as standard."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "Toyota Rumion",
     "intro": "The price of Toyota Rumion, a 7 seater MUV, ranges from Rs. 10.44 - 13.73 Lakh. It is available in 7 variants, with an engine of 1462 cc and a choice of 2 transmissions: Manual and Automatic. Rumion comes with 4 airbags. Toyota Rumion is available in 5 colours. Users have reported a mileage of 20.11 to 26.11 kmpl for Rumion.",
     "titleSlug": "rumion",
@@ -1649,6 +2015,116 @@
     ]
   },
   {
+    "title": "Honda Amaze",
+    "intro": "Honda Cars India has introduced the new-generation Amaze in the country. The third generation of the sub-four-metre sedan gets a segment-first Level 2 ADAS suite. It is heavily inspired by the current iteration of the City.",
+    "titleSlug": "amaze",
+    "brand": "Honda",
+    "brandSlug": "honda-cars",
+    "bodytype": "Compact Sedan",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1737132335/carwale/carImages/honda/amaze-exterior-right-front-three-quarter-3_cspzmb.webp",
+    "specifications": {
+      "price": 720000,
+      "engine": 1199,
+      "mileage": 18.6,
+      "safety": 4,
+      "fueltype": ["Petrol"],
+      "transmission": ["Manual", "Automatic"],
+      "seatingcapacity": 5
+    },
+    "keyfeatures": [
+      "7.0-inch touchscreen infotainment system with Android Auto and Apple CarPlay",
+      "Automatic climate control",
+      "LED DRLs and projector headlamps",
+      "Cruise control",
+      "Rear parking sensors with a camera",
+      "Push-button start/stop",
+      "Electrically adjustable and foldable ORVMs",
+      "ABS with EBD",
+      "Dual airbags",
+      "ISOFIX child seat mounts"
+    ],
+    "summary": [
+      {
+        "question": "Latest Update",
+        "answer": "The 2023 Honda Amaze received minor updates with new color options, improved interiors, and RDE-compliant engines."
+      },
+      {
+        "question": "Price",
+        "answer": "The Honda Amaze price ranges from Rs. 7.20 Lakh to Rs. 10.10 Lakh, depending on the variant and location."
+      },
+      {
+        "question": "What are the engine options available?",
+        "answer": "The Honda Amaze is available with a 1.2L petrol engine generating 89bhp and 110Nm, and a 1.5L diesel engine producing 98bhp and 200Nm (manual)."
+      },
+      {
+        "question": "What are the rivals of Honda Amaze?",
+        "answer": "Key competitors include Maruti Suzuki Dzire, Hyundai Aura, and Tata Tigor."
+      },
+      {
+        "question": "What variants does it come in?",
+        "answer": "The Honda Amaze is available in variants like E, S, V, and VX."
+      },
+      {
+        "question": "Is the Honda Amaze a fuel-efficient car?",
+        "answer": "Yes, the petrol variant offers a mileage of 18.6 kmpl (manual) and 18.3 kmpl (CVT), while the diesel variant provides up to 24.7 kmpl."
+      }
+    ],
+    "prosandcons": [
+      {
+        "pros": [
+          "Spacious cabin with ample legroom and headroom",
+          "Smooth and refined engine options",
+          "Feature-rich interiors with high-quality materials",
+          "Fuel-efficient diesel and petrol engines",
+          "Reliable Honda build quality and brand trust"
+        ],
+        "cons": [
+          "Boot space is smaller compared to some rivals",
+          "Diesel engine is slightly noisy under heavy acceleration",
+          "Missing a few premium features like a sunroof"
+        ]
+      }
+    ],
+    "verdict": "The Honda Amaze is a well-rounded compact sedan offering a spacious cabin, reliable performance, and excellent fuel efficiency. It’s ideal for families and those seeking a stylish, comfortable, and practical car for everyday use.",
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the base model price of Honda Amaze?",
+            "answer": "The base model E of Honda Amaze starts at Rs. 7.20 Lakh, offering features like ABS with EBD, dual airbags, and manual air conditioning."
+          },
+          {
+            "question": "What is the price of the top-end variant of Honda Amaze?",
+            "answer": "The top-end VX variant of Honda Amaze is priced at Rs. 10.10 Lakh and comes with a touchscreen infotainment system, cruise control, and rear parking sensors with a camera."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the real-world mileage of Honda Amaze?",
+            "answer": "In real-world conditions, users report a mileage of around 17 kmpl for petrol and 22 kmpl for diesel."
+          }
+        ],
+        "features": [
+          {
+            "question": "Does Honda Amaze have a sunroof?",
+            "answer": "No, the Honda Amaze does not come with a sunroof in any variant."
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does Honda Amaze have?",
+            "answer": "The Honda Amaze comes with dual airbags as standard, with side airbags available in higher variants."
+          },
+          {
+            "question": "Does the Honda Amaze have ABS?",
+            "answer": "Yes, ABS with EBD is standard across all variants of the Honda Amaze."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "Skoda Slavia",
     "intro": "The Slavia not only looks good but offers a thrilling driving experience, be it in the city or highway, due to its peppy engines and good handling. There's ample comfort, and space, plus remarkable boot capacity and versatility uncommon in sedans.",
     "titleSlug": "slavia",
@@ -1914,18 +2390,68 @@
     "title": "Renault Kwid",
     "intro": "The Kwid impresses with its SUV-inspired looks and ample ground clearance, paired with an absorbent ride. It offers reasonable tech and features, along with its small size, light controls, adequate power, and AMT convenience, making driving effortless.",
     "titleSlug": "kwid",
-    "brand": "renault",
+    "brand": "Renault",
     "brandSlug": "renault-cars",
+    "brand_id": "64c9032e17efebb6360e632b",
     "bodytype": "Hatchback",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1736013321/carwale/carImages/renault/kwid-exterior-right-front-three-quarter-3_aeeu5l.webp",
     "specifications": {
       "price": 469500,
       "engine": 999,
+      "mileage": 22.0,
+      "safety": 2,
       "fueltype": ["Petrol"],
       "transmission": ["Manual", "Automatic"],
       "seatingcapacity": 5
     },
+    "keyfeatures": [
+      "8.0-inch touchscreen infotainment system",
+      "LED DRLs",
+      "Digital instrument cluster",
+      "Steering-mounted audio controls",
+      "Rear-view camera",
+      "Dual-tone exterior options",
+      "Front power windows",
+      "Manual air conditioning",
+      "ABS with EBD",
+      "Driver and passenger airbags",
+      "Reverse parking sensors"
+    ],
+    "summary": [
+      {
+        "question": "Latest Update",
+        "answer": "Renault has introduced the BS6 phase 2-compliant Kwid with enhanced safety features and updated powertrains."
+      },
+      {
+        "question": "Price",
+        "answer": "Renault Kwid price ranges between Rs. 4.69 Lakh - Rs. 7.68 Lakh depending on the variant selected."
+      },
+      {
+        "question": "When was the Renault Kwid launched?",
+        "answer": "The latest iteration of Renault Kwid was launched in India on 1 April, 2023."
+      },
+      {
+        "question": "What variants does it get?",
+        "answer": "The Renault Kwid is available in multiple variants, including RXE, RXL, RXT, and Climber."
+      },
+      {
+        "question": "What features are available in the Renault Kwid?",
+        "answer": "The Kwid features SUV-inspired styling, LED DRLs, an 8.0-inch touchscreen with Android Auto and Apple CarPlay, a digital instrument cluster, dual airbags, ABS with EBD, and reverse parking sensors."
+      },
+      {
+        "question": "What are the engine, performance, and specifications of the Renault Kwid?",
+        "answer": "The Renault Kwid is powered by a 1.0-litre petrol engine generating 67bhp and 91Nm of torque, mated to either a 5-speed manual or AMT gearbox."
+      },
+      {
+        "question": "Is the Renault Kwid a safe car?",
+        "answer": "The Renault Kwid has a 2-star safety rating in Global NCAP tests, offering essential safety features like dual airbags and ABS with EBD."
+      },
+      {
+        "question": "What are the rivals to the Renault Kwid?",
+        "answer": "Rivals to the Renault Kwid include the Maruti Suzuki Alto K10, Hyundai Santro, and Datsun Redi-GO."
+      }
+    ],
     "prosandcons": [
       {
         "pros": [
@@ -1942,16 +2468,17 @@
         ]
       }
     ],
+    "verdict": "The Renault Kwid stands out for its SUV-inspired design, ease of driving, and excellent ground clearance, making it a perfect choice for city commutes and occasional highway trips.",
     "faq": [
       {
         "price": [
           {
             "question": "What is the on road price of Renault Kwid base model?",
-            "answer": "The on road price of Renault Kwid base model is Rs. 5.64 Lakh which includes a registration cost of Rs. 57455, insurance premium of Rs. 35160 and additional charges of Rs. 2000."
+            "answer": "The on-road price of Renault Kwid base model is Rs. 5.64 Lakh which includes a registration cost of Rs. 57455, insurance premium of Rs. 35160 and additional charges of Rs. 2000."
           },
           {
             "question": "What is the on road price of Renault Kwid top model?",
-            "answer": "The on road price of Renault Kwid top model is Rs. 7.68 Lakh which includes a registration cost of Rs. 77482, insurance premium of Rs. 44476 and additional charges of Rs. 2000."
+            "answer": "The on-road price of Renault Kwid top model is Rs. 7.68 Lakh which includes a registration cost of Rs. 77482, insurance premium of Rs. 44476 and additional charges of Rs. 2000."
           }
         ],
         "performance": [

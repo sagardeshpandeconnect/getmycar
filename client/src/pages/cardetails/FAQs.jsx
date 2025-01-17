@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import { useSelector } from "react-redux";
-
 import {
   Accordion,
   AccordionButton,
@@ -20,11 +19,10 @@ const FAQs = ({ data }) => {
   const currentLang = useSelector((state) => state.entities.language);
 
   const carData = data[0];
-  console.log(carData);
+  const title = currentLang === "en" ? carData?.title : carData?.title_hindi;
 
-  const title = currentLang == "en" ? carData?.title : carData?.title_hindi;
-
-  const faqArray = carData.faq;
+  // Select the appropriate FAQ object based on the current language
+  const faqObject = currentLang === "en" ? carData.faq[0] : carData.faq[1];
 
   const renderFAQCategory = (categoryName, categoryData) => {
     if (!categoryData || categoryData.length === 0) return null;
@@ -33,25 +31,24 @@ const FAQs = ({ data }) => {
         key={uuid()}
         border={"1px solid var(--color-border)"}
         _first={{
-          borderTopRadius: "8px", // Apply border radius to the first item
+          borderTopRadius: "8px",
         }}
         _last={{
-          borderBottomRadius: "8px", // Apply border radius to the last item
+          borderBottomRadius: "8px",
         }}
         _notFirst={{
-          borderTopWidth: "0", // Remove top border from all items except the first
+          borderTopWidth: "0",
         }}
       >
         <Heading as={"h2"} fontSize="lg">
           <AccordionButton padding="0.7rem">
             <Box as="span" flex="1" textAlign="left" fontSize="lg">
               {categoryName.charAt(0).toUpperCase() + categoryName.slice(1)}
-              {/* {categoryName.charAt(0).toUpperCase() + categoryName.slice(1)} */}
             </Box>
             <AccordionIcon boxSize="1.5rem" />
           </AccordionButton>
         </Heading>
-        <AccordionPanel pb={4} fontSize="md">
+        <AccordionPanel pb={1} fontSize="md">
           {categoryData.map((faq) => (
             <Box key={uuid()}>
               <QuestionText fontSize="lg">
@@ -75,15 +72,15 @@ const FAQs = ({ data }) => {
     );
   };
 
-  if (faqArray.length > 0) {
-    const categories = Object.keys(faqArray[0]).filter((key) => key !== "_id");
+  if (faqObject) {
+    const categories = Object.keys(faqObject).filter((key) => key !== "_id");
 
     return (
       <Box marginBottom={"8"}>
         <HeadingText>{t("faq.title", { title })}</HeadingText>
         <Accordion allowToggle variant="enclosed">
           {categories.map((category) =>
-            renderFAQCategory(category, faqArray[0][category])
+            renderFAQCategory(category, faqObject[category])
           )}
         </Accordion>
       </Box>

@@ -550,65 +550,47 @@
         "price": [
           {
             "question": "What is the on road price of Maruti Suzuki Fronx base model?",
-            "question_hindi": "मारुति सुजुकी फ्रॉन्क्स बेस मॉडल की ऑन रोड कीमत क्या है?",
-            "answer": "The on-road price of Maruti Suzuki Fronx base model is Rs. 7.47 Lakh which includes a registration cost of Rs. 53085, insurance premium of Rs. 48599 and additional charges of Rs. 2200.",
-            "answer_hindi": "मारुति सुजुकी फ्रॉन्क्स बेस मॉडल की ऑन-रोड कीमत रु. 7.47 लाख है, जिसमें रु. 53,085 का पंजीकरण शुल्क, रु. 48,599 का बीमा प्रीमियम और रु. 2200 के अतिरिक्त शुल्क शामिल हैं।"
+            "answer": "The on-road price of Maruti Suzuki Fronx base model is Rs. 7.47 Lakh which includes a registration cost of Rs. 53085, insurance premium of Rs. 48599 and additional charges of Rs. 2200."
           },
           {
             "question": "What is the on road price of Maruti Suzuki Fronx top model?",
-            "question_hindi": "मारुति सुजुकी फ्रॉन्क्स टॉप मॉडल की ऑन रोड कीमत क्या है?",
-            "answer": "The on-road price of Maruti Suzuki Fronx top model is Rs. 13.14 Lakh which includes a registration cost of Rs. 132180, insurance premium of Rs. 67712 and additional charges of Rs. 2200.",
-            "answer_hindi": "मारुति सुजुकी फ्रॉन्क्स टॉप मॉडल की ऑन-रोड कीमत रु. 13.14 लाख है, जिसमें रु. 1,32,180 का पंजीकरण शुल्क, रु. 67,712 का बीमा प्रीमियम और रु. 2200 के अतिरिक्त शुल्क शामिल हैं।"
+            "answer": "The on-road price of Maruti Suzuki Fronx top model is Rs. 13.14 Lakh which includes a registration cost of Rs. 132180, insurance premium of Rs. 67712 and additional charges of Rs. 2200."
           }
         ],
         "performance": [
           {
             "question": "What is the real world versus claimed mileage of Maruti Suzuki Fronx?",
-            "question_hindi": "मारुति सुजुकी फ्रॉन्क्स की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
-            "answer": "The company claimed mileage of Maruti Suzuki Fronx is 20.01 to 24.48 kmpl. As per users, the mileage came to be 0 to 19.4 kmpl in the real world.",
-            "answer_hindi": "कंपनी ने मारुति सुजुकी फ्रॉन्क्स की माइलेज 20.01 से 24.48 किमी/लीटर होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 0 से 19.4 किमी/लीटर तक रही।"
+            "answer": "The company claimed mileage of Maruti Suzuki Fronx is 20.01 to 24.48 kmpl. As per users, the mileage came to be 0 to 19.4 kmpl in the real world."
           }
         ],
         "specifications": [
           {
             "question": "What is the seating capacity in Maruti Suzuki Fronx?",
-            "question_hindi": "मारुति सुजुकी फ्रॉन्क्स में बैठने की क्षमता कितनी है?",
-            "answer": "Maruti Suzuki Fronx has a seating capacity of 5 people.",
-            "answer_hindi": "मारुति सुजुकी फ्रॉन्क्स में 5 लोगों की बैठने की क्षमता है।"
+            "answer": "Maruti Suzuki Fronx has a seating capacity of 5 people."
           },
           {
             "question": "What are the dimensions of Maruti Suzuki Fronx?",
-            "question_hindi": "मारुति सुजुकी फ्रॉन्क्स के आयाम क्या हैं?",
-            "answer": "The dimensions of Maruti Suzuki Fronx include its length of 3995 mm, width of 1765 mm and height of 1550 mm. The wheelbase of the Maruti Suzuki Fronx is 2520 mm.",
-            "answer_hindi": "मारुति सुजुकी फ्रॉन्क्स के आयाम 3995 मिमी लंबाई, 1765 मिमी चौड़ाई और 1550 मिमी ऊंचाई हैं। इसका व्हीलबेस 2520 मिमी है।"
+            "answer": "The dimensions of Maruti Suzuki Fronx include its length of 3995 mm, width of 1765 mm and height of 1550 mm. The wheelbase of the Maruti Suzuki Fronx is 2520 mm."
           }
         ],
         "features": [
           {
             "question": "Does Maruti Suzuki Fronx get a sunroof?",
-            "question_hindi": "क्या मारुति सुजुकी फ्रॉन्क्स में सनरूफ है?",
-            "answer": "No, Maruti Suzuki Fronx doesn't have a sunroof.",
-            "answer_hindi": "नहीं, मारुति सुजुकी फ्रॉन्क्स में सनरूफ नहीं है।"
+            "answer": "No, Maruti Suzuki Fronx doesn't have a sunroof."
           },
           {
             "question": " Does Maruti Suzuki Brezza have cruise control?",
-            "question_hindi": "क्या मारुति सुजुकी ब्रेज़ा में क्रूज कंट्रोल है?",
-            "answer": "Yes, 4 out of 14 versions of Maruti Suzuki Fronx have cruise control function. With the Cruise control enabled you can take your foot off the accelerator and move at a fixed speed constantly provided the road system permits this.",
-            "answer_hindi": "हां, मारुति सुजुकी फ्रॉन्क्स के 14 में से 4 वेरिएंट में क्रूज कंट्रोल फंक्शन है। क्रूज कंट्रोल चालू होने पर, आप एक्सीलेटर से पैर हटा सकते हैं और सड़क की अनुमति के अनुसार एक निश्चित गति पर चल सकते हैं।"
+            "answer": "Yes, 4 out of 14 versions of Maruti Suzuki Fronx have cruise control function. With the Cruise control enabled you can take your foot off the accelerator and move at a fixed speed constantly provided the road system permits this."
           }
         ],
         "safety": [
           {
             "question": "How many airbags does Maruti Suzuki Fronx get?",
-            "question_hindi": "मारुति सुजुकी फ्रॉन्क्स में कितने एयरबैग हैं?",
-            "answer": "The top Model of Maruti Suzuki Fronx has 6 airbags. The Fronx has driver, front passenger, 2 curtain, driver side and front passenger side airbags.",
-            "answer_hindi": "मारुति सुजुकी फ्रॉन्क्स के टॉप मॉडल में 6 एयरबैग हैं। इसमें ड्राइवर, फ्रंट पैसेंजर, 2 पर्दे, ड्राइवर साइड और फ्रंट पैसेंजर साइड एयरबैग शामिल हैं।"
+            "answer": "The top Model of Maruti Suzuki Fronx has 6 airbags. The Fronx has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
           },
           {
             "question": " Does Maruti Suzuki Fronx get ABS?",
-            "question_hindi": "क्या मारुति सुजुकी फ्रॉन्क्स में एबीएस है?",
-            "answer": "Yes, all versions of Maruti Suzuki Fronx have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard.",
-            "answer_hindi": "हां, मारुति सुजुकी फ्रॉन्क्स के सभी वेरिएंट में एबीएस है। एबीएस एक बेहतरीन दुर्घटना रोकथाम तकनीक है जो ड्राइवर को तेज ब्रेकिंग के दौरान स्टीयरिंग करने में मदद करती है।"
+            "answer": "Yes, all versions of Maruti Suzuki Fronx have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
           }
         ]
       },
@@ -1167,6 +1149,137 @@
     ]
   },
   {
+    "title": "Tata Tiago EV",
+    "title_hindi": "टाटा टियागो ईवी",
+    "intro": "The Tata Tiago EV is a compact electric hatchback that offers a practical and eco-friendly driving experience. With its modern design, affordable price, and efficient electric motor, the Tiago EV is a great choice for urban commutes.",
+    "intro_hindi": "टाटा टियागो ईवी एक कॉम्पैक्ट इलेक्ट्रिक हैचबैक है जो एक व्यावहारिक और पर्यावरण के अनुकूल ड्राइविंग अनुभव प्रदान करता है। अपने आधुनिक डिज़ाइन, किफायती कीमत और कुशल इलेक्ट्रिक मोटर के साथ, टियागो ईवी शहरी यात्रा के लिए एक बेहतरीन विकल्प है।",
+    "titleSlug": "tiago-ev",
+    "brand": "Tata",
+    "brand_hindi": "टाटा",
+    "brandSlug": "tata-cars",
+    "brand_id": "64c9032e17efebb6360e632c",
+    "featured": "popular",
+    "bodytype": "Hatchback",
+    "bodytype_hindi": "हैचबैक",
+    "usagetype": "Electric Car",
+    "usagetype_hindi": "इलेक्ट्रिक कार",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1737132640/carwale/carImages/tata/tiago-ev-exterior-right-front-three-quarter-13_wul0t4.webp",
+    "specifications": {
+      "price": 900000,
+      "price_hindi": "₹ 9,00,000",
+      "mileage": "315 km (range)",
+      "mileage_hindi": "315 किमी (रेंज)",
+      "engine": "Electric Motor",
+      "engine_hindi": "इलेक्ट्रिक मोटर",
+      "fueltype": ["Electric"],
+      "fueltype_hindi": ["इलेक्ट्रिक"],
+      "transmission": ["Automatic"],
+      "transmission_hindi": ["ऑटोमैटिक"],
+      "seatingcapacity": 5,
+      "seatingcapacity_hindi": "5 सीटें"
+    },
+    "keyfeatures": [
+      "Compact and stylish design",
+      "Regenerative braking system",
+      "Dual airbags",
+      "Touchscreen infotainment system with Android Auto and Apple CarPlay",
+      "Push-button start/stop",
+      "Automatic climate control",
+      "Fast charging support",
+      "Connected car technology",
+      "Digital instrument cluster",
+      "Reverse parking camera"
+    ],
+    "keyfeatures_hindi": [
+      "कॉम्पैक्ट और स्टाइलिश डिज़ाइन",
+      "पुनर्योजी ब्रेकिंग सिस्टम",
+      "ड्यूल एयरबैग्स",
+      "एंड्रॉइड ऑटो और एप्पल कारप्ले के साथ टचस्क्रीन इंफोटेनमेंट सिस्टम",
+      "पुश-बटन स्टार्ट/स्टॉप",
+      "स्वचालित जलवायु नियंत्रण",
+      "तेज़ चार्जिंग का समर्थन",
+      "कनेक्टेड कार तकनीक",
+      "डिजिटल इंस्ट्रूमेंट क्लस्टर",
+      "रिवर्स पार्किंग कैमरा"
+    ],
+    "prosandcons": [
+      {
+        "pros": [
+          "Affordable electric hatchback - Well-suited for budget-conscious buyers",
+          "Good range - Ideal for daily urban commutes with a 315 km range",
+          "Compact design - Perfect for maneuvering in city traffic",
+          "Eco-friendly - Zero tailpipe emissions"
+        ],
+        "pros_hindi": [
+          "किफायती इलेक्ट्रिक हैचबैक - बजट के प्रति जागरूक खरीदारों के लिए उपयुक्त",
+          "अच्छी रेंज - 315 किमी की रेंज के साथ दैनिक शहरी यात्रा के लिए आदर्श",
+          "कॉम्पैक्ट डिज़ाइन - शहर के ट्रैफिक में चलाने के लिए परफेक्ट",
+          "पर्यावरण के अनुकूल - शून्य टेलपाइप उत्सर्जन"
+        ],
+        "cons": [
+          "Limited space - Rear seat legroom could feel cramped for taller passengers",
+          "Charging infrastructure - Depends on the availability of public chargers",
+          "Performance - Not designed for high-speed enthusiasts"
+        ],
+        "cons_hindi": [
+          "सीमित स्थान - लंबे यात्रियों के लिए रियर सीट लेगरूम तंग लग सकता है",
+          "चार्जिंग इन्फ्रास्ट्रक्चर - सार्वजनिक चार्जर की उपलब्धता पर निर्भर करता है",
+          "प्रदर्शन - उच्च गति प्रेमियों के लिए डिज़ाइन नहीं किया गया"
+        ]
+      }
+    ],
+    "verdict": "The Tata Tiago EV is a perfect entry-level electric car for urban commuters who seek a cost-effective, practical, and eco-friendly vehicle. Its affordability and decent range make it an attractive choice in the growing EV market.",
+    "verdict_hindi": "टाटा टियागो ईवी शहरी यात्रियों के लिए एक आदर्श एंट्री-लेवल इलेक्ट्रिक कार है जो एक किफायती, व्यावहारिक और पर्यावरण के अनुकूल वाहन की तलाश में हैं। इसकी किफायती कीमत और अच्छी रेंज इसे बढ़ते ईवी बाजार में एक आकर्षक विकल्प बनाती है।",
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the price of Tata Tiago EV?",
+            "question_hindi": "टाटा टियागो ईवी की कीमत क्या है?",
+            "answer": "The price of Tata Tiago EV starts at ₹ 9 lakh.",
+            "answer_hindi": "टाटा टियागो ईवी की कीमत ₹ 9 लाख से शुरू होती है।"
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the range of Tata Tiago EV?",
+            "question_hindi": "टाटा टियागो ईवी की रेंज क्या है?",
+            "answer": "The Tata Tiago EV offers a range of 315 km on a single charge.",
+            "answer_hindi": "टाटा टियागो ईवी एक बार चार्ज करने पर 315 किमी की रेंज प्रदान करता है।"
+          }
+        ],
+        "features": [
+          {
+            "question": "Does Tata Tiago EV support fast charging?",
+            "question_hindi": "क्या टाटा टियागो ईवी फास्ट चार्जिंग का समर्थन करता है?",
+            "answer": "Yes, Tata Tiago EV supports fast charging for quick recharges.",
+            "answer_hindi": "हां, टाटा टियागो ईवी तेज चार्जिंग का समर्थन करता है।"
+          },
+          {
+            "question": "Does Tata Tiago EV have a reverse parking camera?",
+            "question_hindi": "क्या टाटा टियागो ईवी में रिवर्स पार्किंग कैमरा है?",
+            "answer": "Yes, Tata Tiago EV comes equipped with a reverse parking camera.",
+            "answer_hindi": "हां, टाटा टियागो ईवी रिवर्स पार्किंग कैमरा के साथ आता है।"
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags does Tata Tiago EV have?",
+            "question_hindi": "टाटा टियागो ईवी में कितने एयरबैग हैं?",
+            "answer": "The Tata Tiago EV features dual airbags for enhanced safety.",
+            "answer_hindi": "टाटा टियागो ईवी में सुरक्षा बढ़ाने के लिए ड्यूल एयरबैग्स हैं।"
+          },
+          {
+            "question": "Does Tata Tiago EV have regenerative braking?",
+            "question_hindi": "क्या टाटा टियागो ईवी में पुनर्योजी ब्रेकिंग है?",
+            "answer": "Yes, Tata Tiago EV is equipped with a regenerative braking system.",
+            "answer_hindi": "हां, टाटा टियागो ईवी पुनर्योजी ब्रेकिंग सिस्टम के साथ सुसज्जित है।"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "Tata Nexon",
     "intro": "The Nexon is an attractive, spacious, and comfortable SUV packed with modern features and boasts a five-star safety rating. With engine options offering adequate power, its ride quality and high-speed stability are also commendable.",
     "titleSlug": "nexon",
@@ -1443,6 +1556,136 @@
           {
             "question": "Does Mahindra Thar get ABS?",
             "answer": "Yes, all versions of Mahindra Thar have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Mahindra BE.06",
+    "title_hindi": "महिंद्रा बीई.06",
+    "intro": "The Mahindra BE.06 is a futuristic electric SUV concept featuring a striking design, advanced EV technology, and a spacious cabin. It is designed to provide an exceptional range, cutting-edge features, and a comfortable driving experience.",
+    "intro_hindi": "महिंद्रा बीई.06 एक भविष्यवादी इलेक्ट्रिक एसयूवी कॉन्सेप्ट है जिसमें शानदार डिज़ाइन, उन्नत ईवी तकनीक और एक विशाल केबिन है। इसे असाधारण रेंज, आधुनिक सुविधाओं और आरामदायक ड्राइविंग अनुभव प्रदान करने के लिए डिज़ाइन किया गया है।",
+    "titleSlug": "be6",
+    "brand": "Mahindra",
+    "brand_hindi": "महिंद्रा",
+    "brandSlug": "mahindra-cars",
+    "brand_id": "64c9032e17efebb6360e632b",
+    "featured": "new",
+    "bodytype": "Coupe",
+    "bodytype_hindi": "एसयूवी",
+    "usagetype": "New Car",
+    "usagetype_hindi": "इलेक्ट्रिक कार",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1737132597/carwale/carImages/mahindra/be-6e-exterior-right-front-three-quarter-5_yqjwdm.webp",
+    "specifications": {
+      "price": 2000000,
+      "mileage": "450 km (range)",
+      "mileage_hindi": "450 किमी (रेंज)",
+      "engine": "Electric Motor",
+      "engine_hindi": "इलेक्ट्रिक मोटर",
+      "fueltype": ["Electric"],
+      "fueltype_hindi": ["इलेक्ट्रिक"],
+      "transmission": ["Automatic"],
+      "transmission_hindi": ["ऑटोमैटिक"],
+      "seatingcapacity": 5,
+      "seatingcapacity_hindi": "5 सीटें"
+    },
+    "keyfeatures": [
+      "Advanced driver-assistance systems (ADAS)",
+      "360-degree camera",
+      "Dual-tone alloy wheels",
+      "Panoramic sunroof",
+      "Wireless smartphone charging",
+      "AI-powered voice assistant",
+      "12.3-inch digital instrument cluster",
+      "Premium sound system",
+      "Over-the-air updates",
+      "Connected car features"
+    ],
+    "keyfeatures_hindi": [
+      "एडवांस ड्राइवर-असिस्टेंस सिस्टम (एडीएएस)",
+      "360-डिग्री कैमरा",
+      "ड्यूल-टोन अलॉय व्हील्स",
+      "पैनोरमिक सनरूफ",
+      "वायरलेस स्मार्टफोन चार्जिंग",
+      "एआई-पावर्ड वॉयस असिस्टेंट",
+      "12.3-इंच डिजिटल इंस्ट्रूमेंट क्लस्टर",
+      "प्रीमियम साउंड सिस्टम",
+      "ओवर-द-एयर अपडेट्स",
+      "कनेक्टेड कार फीचर्स"
+    ],
+    "prosandcons": [
+      {
+        "pros": [
+          "Futuristic design - Looks modern and appealing",
+          "Long range - Designed for extended travel with a 450 km range",
+          "Advanced features - Offers a host of new-age technology and connectivity",
+          "Sustainability - Fully electric vehicle with zero emissions"
+        ],
+        "pros_hindi": [
+          "भविष्यवादी डिज़ाइन - आधुनिक और आकर्षक दिखता है",
+          "लंबी रेंज - 450 किमी रेंज के साथ विस्तारित यात्रा के लिए डिज़ाइन किया गया",
+          "उन्नत सुविधाएं - नई पीढ़ी की तकनीक और कनेक्टिविटी प्रदान करता है",
+          "सस्टेनेबिलिटी - पूरी तरह से इलेक्ट्रिक वाहन जो शून्य उत्सर्जन करता है"
+        ],
+        "cons": [
+          "High cost - Premium pricing may not be accessible to all",
+          "Limited charging infrastructure - EVs depend on the availability of fast chargers",
+          "Unproven model - Being a new concept, real-world performance is yet to be tested"
+        ],
+        "cons_hindi": [
+          "उच्च लागत - प्रीमियम कीमत हर किसी के लिए सुलभ नहीं हो सकती",
+          "सीमित चार्जिंग इन्फ्रास्ट्रक्चर - ईवी तेज चार्जर की उपलब्धता पर निर्भर करते हैं",
+          "अपरिक्षित मॉडल - एक नए कॉन्सेप्ट के रूप में, वास्तविक प्रदर्शन का अभी परीक्षण किया जाना बाकी है"
+        ]
+      }
+    ],
+    "verdict": "The Mahindra BE.06 promises to be a game-changer in the electric SUV segment with its futuristic design, advanced technology, and sustainable approach. While it comes with a premium price tag, it is set to deliver an unparalleled experience for eco-conscious buyers.",
+    "verdict_hindi": "महिंद्रा बीई.06 इलेक्ट्रिक एसयूवी सेगमेंट में अपने भविष्यवादी डिज़ाइन, उन्नत तकनीक और स्थायी दृष्टिकोण के साथ एक गेम-चेंजर होने का वादा करता है। यह प्रीमियम कीमत के साथ आता है, लेकिन पर्यावरण-सचेत खरीदारों के लिए एक बेजोड़ अनुभव प्रदान करने के लिए तैयार है।",
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the expected price of Mahindra BE.06?",
+            "question_hindi": "महिंद्रा बीई.06 की अपेक्षित कीमत क्या है?",
+            "answer": "The expected price of Mahindra BE.06 is around ₹ 20 lakh.",
+            "answer_hindi": "महिंद्रा बीई.06 की अपेक्षित कीमत लगभग ₹ 20 लाख है।"
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the expected range of Mahindra BE.06?",
+            "question_hindi": "महिंद्रा बीई.06 की अपेक्षित रेंज क्या है?",
+            "answer": "Mahindra BE.06 is expected to offer a range of 450 km on a single charge.",
+            "answer_hindi": "महिंद्रा बीई.06 एक बार चार्ज करने पर 450 किमी की रेंज देने की उम्मीद है।"
+          }
+        ],
+        "features": [
+          {
+            "question": "Does Mahindra BE.06 have a panoramic sunroof?",
+            "question_hindi": "क्या महिंद्रा बीई.06 में पैनोरमिक सनरूफ है?",
+            "answer": "Yes, Mahindra BE.06 is expected to come with a panoramic sunroof.",
+            "answer_hindi": "हां, महिंद्रा बीई.06 में पैनोरमिक सनरूफ होने की उम्मीद है।"
+          },
+          {
+            "question": "Does Mahindra BE.06 support fast charging?",
+            "question_hindi": "क्या महिंद्रा बीई.06 फास्ट चार्जिंग का समर्थन करता है?",
+            "answer": "Yes, Mahindra BE.06 is expected to support fast charging for quicker recharges.",
+            "answer_hindi": "हां, महिंद्रा बीई.06 तेज चार्जिंग का समर्थन करने की उम्मीद है।"
+          }
+        ],
+        "safety": [
+          {
+            "question": "How many airbags will Mahindra BE.06 have?",
+            "question_hindi": "महिंद्रा बीई.06 में कितने एयरबैग होंगे?",
+            "answer": "Mahindra BE.06 is expected to feature 6 airbags for enhanced safety.",
+            "answer_hindi": "महिंद्रा बीई.06 में 6 एयरबैग होने की उम्मीद है जो सुरक्षा को बढ़ाता है।"
+          },
+          {
+            "question": "Does Mahindra BE.06 come with ADAS?",
+            "question_hindi": "क्या महिंद्रा बीई.06 एडवांस ड्राइवर-असिस्टेंस सिस्टम (एडीएएस) के साथ आता है?",
+            "answer": "Yes, Mahindra BE.06 is expected to include advanced driver-assistance systems (ADAS).",
+            "answer_hindi": "हां, महिंद्रा बीई.06 में एडवांस ड्राइवर-असिस्टेंस सिस्टम (एडीएएस) शामिल होने की उम्मीद है।"
           }
         ]
       }
@@ -2387,6 +2630,121 @@
     ]
   },
   {
+    "title": "MG ZS EV",
+    "title_hindi": "एमजी जेडएस ईवी",
+    "intro": "The MG ZS EV is a modern electric SUV offering a combination of performance, comfort, and cutting-edge technology. It provides a long driving range, spacious interiors, and advanced safety features.",
+    "intro_hindi": "एमजी जेडएस ईवी एक आधुनिक इलेक्ट्रिक एसयूवी है जो प्रदर्शन, आराम और अत्याधुनिक तकनीक का संयोजन प्रदान करती है। यह लंबी ड्राइविंग रेंज, विशाल इंटीरियर्स और उन्नत सुरक्षा सुविधाएं प्रदान करती है।",
+    "titleSlug": "zs-ev",
+    "brand": "MG Motors",
+    "brand_hindi": "एमजी मोटर्स",
+    "brandSlug": "mg-cars",
+    "brand_id": "64c9032e17efebb6360e632b",
+    "featured": "trending",
+    "bodytype": "SUV",
+    "bodytype_hindi": "इलेक्ट्रिक एसयूवी",
+    "usagetype": "New Car",
+    "usagetype_hindi": "नई कार",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1737132554/carwale/carImages/mg/zs-ev-exterior-right-front-three-quarter-69_kp80ff.webp",
+    "specifications": {
+      "price": 2036000,
+      "price_hindi": "₹ 23,98,000",
+      "mileage": 461,
+      "mileage_hindi": "461 किमी (सिंगल चार्ज)",
+      "engine": "Electric",
+      "engine_hindi": "इलेक्ट्रिक",
+      "fueltype": ["Electric"],
+      "fueltype_hindi": ["इलेक्ट्रिक"],
+      "transmission": ["Automatic"],
+      "transmission_hindi": ["ऑटोमैटिक"],
+      "seatingcapacity": 5,
+      "seatingcapacity_hindi": "5 सीटें"
+    },
+    "keyfeatures": [
+      "Panoramic sunroof",
+      "i-SMART connectivity system",
+      "PM 2.5 air filter",
+      "6 airbags",
+      "360-degree camera",
+      "Rain sensing wipers",
+      "Auto-dimming rearview mirror",
+      "Hill descent control",
+      "Wireless phone charging",
+      "Automatic climate control",
+      "Fast charging capability"
+    ],
+    "keyfeatures_hindi": [
+      "पैनोरमिक सनरूफ",
+      "आई-स्मार्ट कनेक्टिविटी सिस्टम",
+      "पीएम 2.5 एयर फ़िल्टर",
+      "6 एयरबैग",
+      "360 डिग्री कैमरा",
+      "रेन सेंसिंग वाइपर्स",
+      "ऑटो-डिमिंग रियरव्यू मिरर",
+      "हिल डिसेंट कंट्रोल",
+      "वायरलेस फोन चार्जिंग",
+      "ऑटोमैटिक क्लाइमेट कंट्रोल",
+      "फास्ट चार्जिंग क्षमता"
+    ],
+    "prosandcons": [
+      {
+        "pros": [
+          "Impressive driving range and fast-charging options",
+          "Premium interiors with high-tech features",
+          "Smooth and silent driving experience",
+          "Advanced safety features including 6 airbags and 360-degree camera",
+          "Environmentally friendly with zero emissions"
+        ],
+        "pros_hindi": [
+          "प्रभावशाली ड्राइविंग रेंज और फास्ट-चार्जिंग विकल्प",
+          "उच्च तकनीकी सुविधाओं के साथ प्रीमियम इंटीरियर्स",
+          "स्मूथ और साइलेंट ड्राइविंग अनुभव",
+          "6 एयरबैग और 360-डिग्री कैमरा जैसी उन्नत सुरक्षा सुविधाएं",
+          "शून्य उत्सर्जन के साथ पर्यावरण के अनुकूल"
+        ],
+        "cons": [
+          "Higher upfront cost compared to petrol/diesel SUVs",
+          "Limited charging infrastructure in certain regions",
+          "Long charging time for standard chargers"
+        ],
+        "cons_hindi": [
+          "पेट्रोल/डीजल एसयूवी की तुलना में उच्च प्रारंभिक लागत",
+          "कुछ क्षेत्रों में सीमित चार्जिंग इन्फ्रास्ट्रक्चर",
+          "मानक चार्जर्स के लिए लंबा चार्जिंग समय"
+        ]
+      }
+    ],
+    "verdict": "The MG ZS EV is an excellent choice for those seeking an eco-friendly, feature-packed electric SUV. With its impressive range, safety features, and premium feel, it stands out in the growing EV market.",
+    "verdict_hindi": "एमजी जेडएस ईवी एक पर्यावरण के अनुकूल, सुविधाओं से भरपूर इलेक्ट्रिक एसयूवी की तलाश करने वालों के लिए एक उत्कृष्ट विकल्प है। इसकी प्रभावशाली रेंज, सुरक्षा सुविधाएं और प्रीमियम फील इसे बढ़ते ईवी बाजार में अलग बनाती है।",
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the on-road price of MG ZS EV base model?",
+            "question_hindi": "एमजी जेडएस ईवी बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer": "The on-road price of the MG ZS EV base model is ₹23.98 Lakh, including registration and insurance charges.",
+            "answer_hindi": "एमजी जेडएस ईवी बेस मॉडल की ऑन-रोड कीमत ₹23.98 लाख है, जिसमें पंजीकरण और बीमा शुल्क शामिल हैं।"
+          }
+        ],
+        "features": [
+          {
+            "question": "Does the MG ZS EV have a sunroof?",
+            "question_hindi": "क्या एमजी जेडएस ईवी में सनरूफ है?",
+            "answer": "Yes, the MG ZS EV comes with a panoramic sunroof in its higher variants.",
+            "answer_hindi": "हां, एमजी जेडएस ईवी के उच्च वेरिएंट में पैनोरमिक सनरूफ है।"
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the range of the MG ZS EV?",
+            "question_hindi": "एमजी जेडएस ईवी की रेंज क्या है?",
+            "answer": "The MG ZS EV offers a driving range of 461 km on a full charge.",
+            "answer_hindi": "एमजी जेडएस ईवी पूरी चार्जिंग पर 461 किमी की ड्राइविंग रेंज प्रदान करती है।"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "Renault Kwid",
     "intro": "The Kwid impresses with its SUV-inspired looks and ample ground clearance, paired with an absorbent ride. It offers reasonable tech and features, along with its small size, light controls, adequate power, and AMT convenience, making driving effortless.",
     "titleSlug": "kwid",
@@ -2511,6 +2869,171 @@
           {
             "question": "Does Renault Kwid get ABS?",
             "answer": "Yes, all variants of Renault Kwid have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Mercedes-Benz AMG GLC43 Coupe",
+    "title_hindi": "मर्सिडीज-बेंज एएमजी जीएलसी43 कूपे",
+    "intro": "The Mercedes-Benz AMG GLC43 Coupe is a luxury performance SUV that blends dynamic styling with thrilling performance. Powered by a robust AMG engine and equipped with cutting-edge technology, it delivers a perfect mix of comfort, speed, and sophistication.",
+    "intro_hindi": "मर्सिडीज-बेंज एएमजी जीएलसी43 कूपे एक लक्जरी प्रदर्शन एसयूवी है जो गतिशील डिज़ाइन और रोमांचकारी प्रदर्शन का मिश्रण प्रस्तुत करती है। शक्तिशाली एएमजी इंजन और अत्याधुनिक तकनीक से लैस, यह आराम, गति और परिष्कार का आदर्श संयोजन प्रदान करता है।",
+    "titleSlug": "mercedes-amg-glc43-coupe",
+    "brand": "Mercedes-Benz",
+    "brand_hindi": "मर्सिडीज-बेंज",
+    "brandSlug": "mercedes-benz-cars",
+    "brand_id": "64c9032e17efebb6360e632d",
+    "featured": "luxury",
+    "bodytype": "Coupe",
+    "bodytype_hindi": "एसयूवी कूपे",
+    "usagetype": "Luxury Performance Car",
+    "usagetype_hindi": "लक्जरी प्रदर्शन कार",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1737222211/carwale/carImages/mercedes/amg-glc43-coupe-exterior-right-front-three-quarter-3_dghd49.webp",
+    "specifications": {
+      "price": 11180000,
+      "price_hindi": "₹ 87,00,000",
+      "mileage": 10,
+      "mileage_hindi": "10.4 किमी/लीटर",
+      "engine": 1991,
+      "engine_hindi": "3.0L V6 बाई-टर्बो",
+      "fueltype": ["Petrol"],
+      "fueltype_hindi": ["पेट्रोल"],
+      "transmission": ["Automatic"],
+      "transmission_hindi": ["ऑटोमैटिक"],
+      "seatingcapacity": 5,
+      "seatingcapacity_hindi": "5 सीटें"
+    },
+    "keyfeatures": [
+      "AMG-enhanced V6 bi-turbo engine",
+      "4MATIC+ all-wheel drive",
+      "Panoramic sunroof",
+      "Burmester surround sound system",
+      "MBUX infotainment system with voice control",
+      "19-inch AMG alloy wheels",
+      "Sports suspension with adaptive damping",
+      "LED high-performance headlights",
+      "360-degree parking camera",
+      "Multiple driving modes (Comfort, Sport, Sport+)"
+    ],
+    "keyfeatures_hindi": [
+      "एएमजी-एन्हांस्ड V6 बाई-टर्बो इंजन",
+      "4MATIC+ ऑल-व्हील ड्राइव",
+      "पैनोरमिक सनरूफ",
+      "बर्मेस्टर सराउंड साउंड सिस्टम",
+      "एमबीयूएक्स इंफोटेनमेंट सिस्टम वॉयस कंट्रोल के साथ",
+      "19-इंच एएमजी अलॉय व्हील्स",
+      "स्पोर्ट्स सस्पेंशन अडैप्टिव डैम्पिंग के साथ",
+      "एलईडी हाई-परफॉर्मेंस हेडलाइट्स",
+      "360-डिग्री पार्किंग कैमरा",
+      "कई ड्राइविंग मोड (कंफर्ट, स्पोर्ट, स्पोर्ट+)"
+    ],
+    "prosandcons": [
+      {
+        "pros": [
+          "Dynamic performance with AMG tuning",
+          "Luxurious interior with premium materials",
+          "Advanced driver assistance features",
+          "Smooth ride quality even at high speeds",
+          "Distinctive coupe-style design"
+        ],
+        "pros_hindi": [
+          "एएमजी ट्यूनिंग के साथ गतिशील प्रदर्शन",
+          "प्रीमियम सामग्री के साथ शानदार इंटीरियर",
+          "उन्नत चालक सहायता सुविधाएं",
+          "उच्च गति पर भी स्मूथ राइड क्वालिटी",
+          "अद्वितीय कूपे-स्टाइल डिज़ाइन"
+        ],
+        "cons": [
+          "High price point compared to competitors",
+          "Limited rear headroom due to coupe design",
+          "Fuel efficiency could be better",
+          "Cost of maintenance and repairs is high"
+        ],
+        "cons_hindi": [
+          "प्रतिस्पर्धियों की तुलना में उच्च कीमत",
+          "कूपे डिज़ाइन के कारण सीमित रियर हेडरूम",
+          "ईंधन दक्षता बेहतर हो सकती थी",
+          "रखरखाव और मरम्मत की लागत अधिक है"
+        ]
+      }
+    ],
+    "verdict": "The Mercedes-Benz AMG GLC43 Coupe is a top-tier luxury SUV for those who value style, speed, and sophistication. While it comes with a premium price, its performance, technology, and comfort make it a standout in the segment.",
+    "verdict_hindi": "मर्सिडीज-बेंज एएमजी जीएलसी43 कूपे उन लोगों के लिए एक बेहतरीन लक्जरी एसयूवी है जो शैली, गति और परिष्कार को महत्व देते हैं। हालांकि इसकी कीमत प्रीमियम है, लेकिन इसका प्रदर्शन, तकनीक और आराम इसे सेगमेंट में उत्कृष्ट बनाते हैं।",
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the price of Mercedes-Benz AMG GLC43 Coupe?",
+            "answer": "The price of Mercedes-Benz AMG GLC43 Coupe starts at ₹ 1.1 crore."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the engine specification of AMG GLC43 Coupe?",
+            "answer": "The AMG GLC43 Coupe is powered by a 3.0L V6 bi-turbo engine."
+          },
+          {
+            "question": "What is the top speed of the AMG GLC43 Coupe?",
+            "answer": "The top speed of the AMG GLC43 Coupe is 250 km/h (electronically limited)."
+          }
+        ],
+        "features": [
+          {
+            "question": "Does the AMG GLC43 Coupe have a panoramic sunroof?",
+            "answer": "Yes, the AMG GLC43 Coupe comes equipped with a panoramic sunroof."
+          },
+          {
+            "question": "Does the AMG GLC43 Coupe support MBUX?",
+            "answer": "Yes, the AMG GLC43 Coupe features the MBUX infotainment system with voice control."
+          }
+        ],
+        "safety": [
+          {
+            "question": "What safety features are included in the AMG GLC43 Coupe?",
+            "answer": "The AMG GLC43 Coupe includes features like multiple airbags, ABS, electronic stability control, and advanced driver assistance systems."
+          },
+          {
+            "question": "Does the AMG GLC43 Coupe have 360-degree parking assistance?",
+            "answer": "Yes, the AMG GLC43 Coupe is equipped with a 360-degree parking camera for enhanced convenience."
+          }
+        ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "मर्सिडीज-बेंज एएमजी जीएलसी43 कूपे की कीमत क्या है?",
+            "answer_hindi": "मर्सिडीज-बेंज एएमजी जीएलसी43 कूपे की कीमत ₹ 1.1 cr से शुरू होती है।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "एएमजी जीएलसी43 कूपे का इंजन स्पेसिफिकेशन क्या है?",
+            "answer_hindi": "एएमजी जीएलसी43 कूपे 3.0L V6 बाई-टर्बो इंजन से लैस है।"
+          },
+          {
+            "question_hindi": "एएमजी जीएलसी43 कूपे की टॉप स्पीड क्या है?",
+            "answer_hindi": "एएमजी जीएलसी43 कूपे की टॉप स्पीड 250 किमी/घंटा (इलेक्ट्रॉनिक रूप से सीमित) है।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "क्या एएमजी जीएलसी43 कूपे में पैनोरमिक सनरूफ है?",
+            "answer_hindi": "हां, एएमजी जीएलसी43 कूपे पैनोरमिक सनरूफ के साथ आता है।"
+          },
+          {
+            "question_hindi": "क्या एएमजी जीएलसी43 कूपे एमबीयूएक्स का समर्थन करता है?",
+            "answer_hindi": "हां, एएमजी जीएलसी43 कूपे वॉयस कंट्रोल के साथ एमबीयूएक्स इंफोटेनमेंट सिस्टम के साथ आता है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "एएमजी जीएलसी43 कूपे में कौन-कौन सी सुरक्षा सुविधाएं हैं?",
+            "answer_hindi": "एएमजी जीएलसी43 कूपे में मल्टीपल एयरबैग्स, एबीएस, इलेक्ट्रॉनिक स्टेबिलिटी कंट्रोल और उन्नत चालक सहायता प्रणाली जैसी सुविधाएं शामिल हैं।"
+          },
+          {
+            "question_hindi": "क्या एएमजी जीएलसी43 कूपे में 360-डिग्री पार्किंग असिस्टेंस है?",
+            "answer_hindi": "हां, एएमजी जीएलसी43 कूपे बढ़ी हुई सुविधा के लिए 360-डिग्री पार्किंग कैमरा के साथ आता है।"
           }
         ]
       }

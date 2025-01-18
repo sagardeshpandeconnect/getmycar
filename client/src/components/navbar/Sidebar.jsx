@@ -1,25 +1,24 @@
-import { Flex, Text, Icon, Box, Image } from "@chakra-ui/react";
 import { forwardRef } from "react";
-import { IoHomeOutline, IoWalletOutline } from "react-icons/io5";
+import { Link as RouteLink } from "react-router-dom"; // Import RouteLink for internal links
+import { Flex, Text, Icon, Box, Image } from "@chakra-ui/react";
+import { IoHomeOutline } from "react-icons/io5";
 import { AiOutlineDollar } from "react-icons/ai";
 import { MdMotionPhotosPaused } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { LanguageChangeIcon } from "@assets/Icons";
 import getItOnGooglePlay from "@assets/getItOnGooglePlay.svg";
 import downloadOnTheAppStore from "@assets/downloadOnTheAppStore.svg";
-import { Link as RouteLink } from "react-router-dom"; // Import RouteLink for internal links
 
 const Sidebar = forwardRef((props, ref) => {
   const menuItems = [
-    { icon: IoHomeOutline, label: "Home", link: "/" }, // Add link property
-    { icon: MdMotionPhotosPaused, label: "Used Cars", link: "/used-cars" }, // Add link property
-    { icon: IoWalletOutline, label: "Car Loan", link: "/car-loan" }, // Add link property
-    { icon: AiOutlineDollar, label: "Sell Car", link: "/sell-car" }, // Add link property
+    { icon: IoHomeOutline, label: "Home", link: "/" },
+    { icon: MdMotionPhotosPaused, label: "Used Cars", link: "/used-cars" },
+    { icon: AiOutlineDollar, label: "Sell Car", link: "/sell-car" },
     {
       icon: LanguageChangeIcon,
       label: "Change Language",
       link: "/change-language",
-    }, // Add link property
+    },
   ];
 
   const phoneNumber = "08068441441";

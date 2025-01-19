@@ -84,7 +84,7 @@ import { useTranslation } from "react-i18next";
 import React, { useEffect } from "react";
 import { LanguageChangeIcon } from "@assets/Icons";
 import { useDispatch, useSelector } from "react-redux";
-import { setLanguage } from "../../features/language/languageSlice"; // Update the path based on your file structure
+import { setLanguage } from "../../../features/language/languageSlice"; // Update the path based on your file structure
 import { useState } from "react";
 
 const LanguageChange = () => {

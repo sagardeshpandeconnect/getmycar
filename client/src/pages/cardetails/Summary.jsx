@@ -1,7 +1,7 @@
 import { Box, Text } from "@chakra-ui/react";
 import { v4 as uuid } from "uuid";
 import ReadMore from "./ReadMore";
-import HeadingText from "@components/HeadingText";
+import HeadingText from "@components/ui/HeadingText";
 
 const Summary = ({ data }) => {
   const content = data[0]?.summary;

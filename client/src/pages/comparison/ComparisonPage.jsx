@@ -4,7 +4,7 @@ import {
   removeFromComparison,
   resetStore,
 } from "@features/comparison/comparisonSlice";
-import Wrapper from "@components/Wrapper";
+import Wrapper from "@components/layout/Wrapper";
 import {
   Box,
   Collapse,

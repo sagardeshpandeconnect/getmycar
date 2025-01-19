@@ -35,9 +35,9 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useTranslation } from "react-i18next";
-import ComponentHeading from "@components/HeadingText";
-import TabsContainer from "@components/TabsContainer";
-import Wrapper from "@components/Wrapper";
+import ComponentHeading from "@components/ui/HeadingText";
+import TabsContainer from "@components/layout/TabsContainer";
+import Wrapper from "@components/layout/Wrapper";
 import FeaturedCarType from "./FeaturedCarType";
 import useLanguageLoading from "@hooks/useLanguageLoading";
 

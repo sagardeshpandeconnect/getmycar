@@ -1,22 +1,16 @@
 import { useState, useRef, useEffect } from "react";
-import { Link as RouteLink } from "react-router-dom";
 import { useSelector } from "react-redux";
+import { useTranslation } from "react-i18next";
+import { Link as RouteLink } from "react-router-dom";
 import { Flex, Image, Box, Link, Text, useDisclosure } from "@chakra-ui/react";
 import logo from "@assets/carwaleLogo.svg";
-import {
-  LanguageChangeIcon,
-  LocationIcon,
-  MenuIcon,
-  SearchIcon,
-  UserIcon,
-} from "@assets/Icons";
+import { LocationIcon, MenuIcon, SearchIcon, UserIcon } from "@assets/Icons";
 import SearchBar from "./SearchBar";
 import Sidebar from "./Sidebar";
 import useOnClickOutside from "@hooks/useOnClickOutside";
-import ProfileCard from "@components/ProfileCard";
-import SignInModal from "@components/SignInModal";
+import ProfileCard from "@components/common/navbar/ProfileCard";
+import SignInModal from "@components/common/navbar/SignInModal";
 import LanguageChange from "./LanguageChange";
-import { useTranslation } from "react-i18next";
 import useLanguageLoading from "@hooks/useLanguageLoading";
 
 const Navbar = () => {

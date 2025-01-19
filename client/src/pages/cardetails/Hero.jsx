@@ -16,7 +16,7 @@ import EMICalculator from "./EMICalculator/EMICalculator";
 import useOnClickOutside from "@hooks/useOnClickOutside";
 import { calculateEMI } from "@utils/calculateEMI";
 import { convertPrice } from "@utils/convertPrice";
-import HeadingText from "@components/HeadingText";
+import HeadingText from "@components/ui/HeadingText";
 import { useSelector } from "react-redux";
 
 const Hero = ({ data, isLoading }) => {

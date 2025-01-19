@@ -9,7 +9,7 @@ import {
   HStack,
 } from "@chakra-ui/react";
 import { FaTrash, FaEdit } from "react-icons/fa"; // Import trash and edit icons
-import IconButton from "@components/IconButton";
+import IconButton from "@components/ui/IconButton";
 import { Link as RouteLink } from "react-router-dom"; // Import RouteLink for internal links
 
 const ManageYourLisingsCard = ({ carData, onDelete }) => {

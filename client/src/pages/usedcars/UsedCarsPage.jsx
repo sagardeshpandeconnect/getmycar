@@ -2,7 +2,7 @@ import React from "react";
 import { useQuery } from "@tanstack/react-query";
 import { Container, VStack } from "@chakra-ui/react";
 import { getData } from "@services/apiClient";
-import UsedCarCard from "@components/UsedCarCard";
+import UsedCarCard from "@components/ui/UsedCarCard";
 
 const UsedCarsPage = () => {
   const getUsedCars = async function () {

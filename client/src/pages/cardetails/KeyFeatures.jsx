@@ -1,4 +1,4 @@
-import HeadingText from "@components/HeadingText";
+import HeadingText from "@components/ui/HeadingText";
 import ReadMore from "./ReadMore";
 import { Box } from "@chakra-ui/react";
 

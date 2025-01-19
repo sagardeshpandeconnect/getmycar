@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { ThumbsUpIcon, ThumbsDownIcon } from "@assets/Icons";
 import { v4 as uuid } from "uuid";
-import HeadingText from "@components/HeadingText";
+import HeadingText from "@components/ui/HeadingText";
 import { useSelector } from "react-redux";
 
 const ProsAndCons = ({ data }) => {

@@ -1,7 +1,7 @@
-import ComponentHeading from "@components/HeadingText";
-import Wrapper from "@components/Wrapper";
+import ComponentHeading from "@components/ui/HeadingText";
+import Wrapper from "@components/layout/Wrapper";
 import ComparionCardParent from "./ComparionCardParent";
-import Carousel from "@components/Carousel";
+import Carousel from "@components/layout/Carousel";
 import { Box, useBreakpointValue } from "@chakra-ui/react";
 import { useTranslation } from "react-i18next";
 

@@ -12,7 +12,7 @@ import {
 import { textCombiner } from "@utils/textCombiner";
 import SpecsWrapper from "./SpecsWrapper";
 import { convertPrice } from "@utils/convertPrice";
-import HeadingText from "@components/HeadingText";
+import HeadingText from "@components/ui/HeadingText";
 
 const Specifications = ({ data }) => {
   const { t } = useTranslation();

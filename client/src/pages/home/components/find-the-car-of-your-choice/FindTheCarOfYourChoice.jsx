@@ -1,12 +1,12 @@
 import { useTranslation } from "react-i18next";
-import TabsContainer from "@components/TabsContainer";
-import Wrapper from "@components/Wrapper";
+import TabsContainer from "@components/layout/TabsContainer";
+import Wrapper from "@components/layout/Wrapper";
 import BodyType from "./data/BodyType";
 import FuelType from "./data/FuelType";
 import Budget from "./data/Budget";
 import Transmission from "./data/TransmissionType";
 import SeatingCapacity from "./data/SeatingCapacity";
-import ComponentHeading from "@components/HeadingText";
+import ComponentHeading from "@components/ui/HeadingText";
 import useLanguageLoading from "@hooks/useLanguageLoading";
 
 const FindTheCarOfYourChoice = () => {

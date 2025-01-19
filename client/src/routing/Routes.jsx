@@ -1,26 +1,47 @@
-import { createBrowserRouter, Outlet } from "react-router-dom";
+import React from "react";
+import {
+  createBrowserRouter,
+  Outlet,
+  isRouteErrorResponse,
+  useRouteError,
+} from "react-router-dom";
+import { Flex, Box, Heading, Text, Button } from "@chakra-ui/react";
 import Home from "@src/pages/home/Home";
 import CarDetailsPage from "@pages/cardetails/CarDetailsPage";
 import NotFoundPage from "@src/pages/notfound/NotFoundPage";
-import Navbar from "@src/components/navbar/Navbar";
+import Navbar from "@src/components/common/navbar/Navbar";
 import SpecificBrandPage from "@pages/specificbrand/SpecificBrandPage";
 import FilteredCarsPage from "@pages/filteredcars/FilteredCarsPage";
 import ComparisonPage from "@pages/comparison/ComparisonPage";
-import Footer from "@components/Footer";
+import Footer from "@components/common/Footer";
 import ManageYourListings from "@pages/manageyourlistings/ManageYourListings";
 import UsedCarsPage from "@pages/usedcars/UsedCarsPage";
-import UsedCarForm from "@components/UsedCarForm";
-import { Flex } from "@chakra-ui/react";
+import UsedCarForm from "@pages/usedcars/UsedCarForm";
 
-const Layout = () => {
+const Layout = () => (
+  <Flex direction={"column"} minHeight={"100vh"}>
+    <Navbar />
+    <main>
+      <Outlet />
+    </main>
+    <Footer />
+  </Flex>
+);
+
+// Custom Error Boundary to handle loader errors and unmatched routes
+const ErrorBoundary = () => {
+  const error = useRouteError();
+
+  if (isRouteErrorResponse(error) && error.status === 404) {
+    return <NotFoundPage />;
+  }
+
   return (
-    <Flex direction={"column"} minHeight={"100vh"}>
-      <Navbar />
-      <main>
-        <Outlet />
-      </main>
-      <Footer />
-    </Flex>
+    <Box textAlign="center" mt={10}>
+      <Heading>Error</Heading>
+      <Text>Something went wrong!</Text>
+      <Button onClick={() => (window.location.href = "/")}>Go Home</Button>
+    </Box>
   );
 };
 
@@ -28,6 +49,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
+    errorElement: <ErrorBoundary />, // Use the custom error boundary
     children: [
       {
         path: "/",
@@ -58,116 +80,25 @@ const router = createBrowserRouter([
         element: <ManageYourListings />,
       },
       {
-        path: ":brandSlug",
-        element: <SpecificBrandPage />,
-      },
-      {
         path: ":brandSlug/:titleSlug",
         element: <CarDetailsPage />,
       },
       {
-        path: "*",
-        element: <NotFoundPage />, // Create a NotFoundPage component
+        path: ":brandSlug",
+        element: <SpecificBrandPage />,
+        loader: async ({ params }) => {
+          const validBrands = ["toyota", "honda", "bmw", "audi"];
+          if (!validBrands.includes(params.brandSlug)) {
+            throw new Response("Not Found", { status: 404 });
+          }
+        },
+      },
+      {
+        path: "*", // Catch-all route for unmatched paths
+        element: <NotFoundPage />,
       },
     ],
   },
 ]);
 
 export default router;
-
-// import { createBrowserRouter, Outlet, useParams } from "react-router-dom";
-// import Home from "@src/pages/home/Home";
-// import CarDetailsPage from "@pages/cardetails/CarDetailsPage";
-// import NotFoundPage from "@src/pages/notfound/NotFoundPage";
-// import Navbar from "@src/components/navbar/Navbar";
-// import SpecificBrandPage from "@pages/specificbrand/SpecificBrandPage";
-// import FilteredCarsPage from "@pages/filteredcars/FilteredCarsPage";
-// import ComparisonPage from "@pages/comparison/ComparisonPage";
-// import Footer from "@components/Footer";
-// import ManageYourListings from "@pages/manageyourlistings/ManageYourListings";
-// import UsedCarsPage from "@pages/usedcars/UsedCarsPage";
-// import UsedCarForm from "@components/UsedCarForm";
-// import { Flex } from "@chakra-ui/react";
-// import i18n from "../i18n/i18n"; // Assuming you've set up i18next for translations
-// import React from "react";
-
-// // Layout Component
-// const Layout = () => {
-//   return (
-//     <Flex direction={"column"} minHeight={"100vh"}>
-//       <Navbar />
-//       <main>
-//         <Outlet />
-//       </main>
-//       <Footer />
-//     </Flex>
-//   );
-// };
-
-// // Wrapper to Handle Language
-// const LanguageWrapper = ({ children }) => {
-//   const { lang } = useParams();
-
-//   React.useEffect(() => {
-//     // Change language based on URL
-//     i18n.changeLanguage(lang === "hi" ? "hi" : "");
-//   }, [lang]);
-
-//   return children;
-// };
-
-// // Router Configuration
-// const router = createBrowserRouter([
-//   {
-//     path: "/:lang?", // Optional language prefix
-//     element: (
-//       <LanguageWrapper>
-//         <Layout />
-//       </LanguageWrapper>
-//     ),
-//     children: [
-//       {
-//         index: true, // Marks this as the default route for the parent
-//         element: <Home />,
-//       },
-//       {
-//         path: "compare-cars",
-//         element: <ComparisonPage />,
-//       },
-//       {
-//         path: "new/:slug",
-//         element: <FilteredCarsPage />,
-//       },
-//       {
-//         path: "used-cars",
-//         element: <UsedCarsPage />,
-//       },
-//       {
-//         path: "sell-your-car",
-//         element: <UsedCarForm />,
-//       },
-//       {
-//         path: "edit-used-car/:carId",
-//         element: <UsedCarForm />,
-//       },
-//       {
-//         path: "manage-your-listings/:userId",
-//         element: <ManageYourListings />,
-//       },
-//       {
-//         path: ":brandSlug",
-//         element: <SpecificBrandPage />,
-//       },
-//       {
-//         path: ":brandSlug/:titleSlug",
-//         element: <CarDetailsPage />,
-//       },
-//       {
-//         path: "*",
-//         element: <NotFoundPage />,
-//       },
-//     ],
-//   },
-// ]);
-
-// export default router;

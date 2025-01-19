@@ -19,7 +19,7 @@ import {
 } from "@chakra-ui/react";
 import { FaUser, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 import { useSelector } from "react-redux";
-import SignInModal from "./SignInModal";
+import SignInModal from "../common/navbar/SignInModal";
 
 const UsedCarCard = ({ data }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();

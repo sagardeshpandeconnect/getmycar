@@ -11,8 +11,8 @@ import {
   Text,
 } from "@chakra-ui/react";
 import { v4 as uuid } from "uuid";
-import HeadingText from "@components/HeadingText";
-import QuestionText from "@components/QuestionText";
+import HeadingText from "@components/ui/HeadingText";
+import QuestionText from "@components/ui/QuestionText";
 
 const FAQs = ({ data }) => {
   const { t } = useTranslation();

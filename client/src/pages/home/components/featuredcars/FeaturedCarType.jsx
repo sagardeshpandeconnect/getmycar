@@ -1,8 +1,8 @@
 import { useQuery } from "@tanstack/react-query";
 import { useBreakpointValue, Box, Skeleton } from "@chakra-ui/react";
 
-import Carousel from "@components/Carousel";
-import VCard from "@components/VCard";
+import Carousel from "@components/layout/Carousel";
+import VCard from "@components/ui/VCard";
 import { getData } from "@services/apiClient";
 
 const FeaturedCarType = ({ featuredType }) => {

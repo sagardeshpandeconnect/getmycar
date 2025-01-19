@@ -1,9 +1,9 @@
 import { SimpleGrid } from "@chakra-ui/react";
 import { useQuery } from "@tanstack/react-query";
 import { getData } from "@services/apiClient";
-import Wrapper from "@components/Wrapper";
+import Wrapper from "@components/layout/Wrapper";
 import SingleBrand from "./SingleBrand";
-import ComponentHeading from "@components/HeadingText";
+import ComponentHeading from "@components/ui/HeadingText";
 import { useTranslation } from "react-i18next";
 
 const AllBrands = () => {

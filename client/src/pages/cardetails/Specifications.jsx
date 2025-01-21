@@ -10,15 +10,15 @@ import {
   MileageIcon,
 } from "@assets/Icons";
 import { textCombiner } from "@utils/textCombiner";
-import SpecsWrapper from "./SpecsWrapper";
 import { convertPrice } from "@utils/convertPrice";
+import SpecsWrapper from "@components/layout/SpecsWrapper";
 import HeadingText from "@components/ui/HeadingText";
 
 const Specifications = ({ data }) => {
+  console.log(data);
   const { t } = useTranslation();
   const currentLang = useSelector((state) => state.entities.language); // Get language from Redux store
 
-  const carData = data[0];
   const {
     specifications: {
       price,
@@ -32,7 +32,7 @@ const Specifications = ({ data }) => {
     } = {},
     title,
     title_hindi,
-  } = carData;
+  } = data;
 
   const getText = (valueEn, valueHi) =>
     currentLang === "en"
@@ -55,7 +55,9 @@ const Specifications = ({ data }) => {
     {
       icon: <MileageIcon />,
       label: t("specifications.mileage"),
-      value: `${mileage} ${currentLang === "en" ? "kmpl" : "किमी प्रति लीटर"}`,
+      value: `${mileage} ${
+        currentLang === "en" ? "Kilometre per Litre" : "किमी प्रति लीटर"
+      }`,
     },
     {
       icon: <FuelTypeIcon />,

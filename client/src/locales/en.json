@@ -40,6 +40,9 @@
     "transmission": "Transmission",
     "seatingCapacity": "Seating Capacity"
   },
+  "keyFeatures": {
+    "keyFeatures": "Key Features"
+  },
   "prosAndCons": {
     "title": "How is {{title}} car?",
     "pros": "Pros",

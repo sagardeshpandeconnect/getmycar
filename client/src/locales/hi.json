@@ -40,6 +40,9 @@
     "transmission": "ट्रैंस्मिशन",
     "seatingCapacity": "बैठने की क्षमता"
   },
+  "keyFeatures": {
+    "keyFeatures": "की प्रमुख विशेषताऐं"
+  },
   "prosAndCons": {
     "title": "{{title}} कार कैसी है?",
     "pros": "अच्छी बातें",

@@ -1,19 +1,19 @@
-import { Container, Stack } from "@chakra-ui/react";
-import Specifications from "./Specifications";
 import { useParams } from "react-router-dom";
-import Summary from "./Summary";
-import KeyFeatures from "./KeyFeatures";
-import Hero from "./Hero";
-import ProsAndCons from "./ProsAndCons";
 import { useQuery } from "@tanstack/react-query";
-import FAQs from "./FAQs";
+import { Container } from "@chakra-ui/react";
 import { getData } from "@services/apiClient";
+import Hero from "./Hero";
+import Specifications from "./Specifications";
+import KeyFeatures from "./KeyFeatures";
+import ProsAndCons from "./ProsAndCons";
+import FAQ from "./FAQ";
+import Summary from "./Summary";
+import Verdict from "./Verdict";
 
 const CarDetailsPage = () => {
-  const brandSlug = useParams().brandSlug;
-  const titleSlug = useParams().titleSlug;
+  const { brandSlug, titleSlug } = useParams();
 
-  const getCarDetails = async function () {
+  const getCarDetails = async () => {
     return getData(`/newcars/${brandSlug}/${titleSlug}`);
   };
 
@@ -21,22 +21,25 @@ const CarDetailsPage = () => {
     queryKey: [`${brandSlug}/${titleSlug}`],
     queryFn: getCarDetails,
   });
-  // console.log(data);
+
+  // Extract carData only when data is available
+  const carData = data?.[0] || null;
 
   return (
     <>
       {error ? (
         "Something went wrong!"
       ) : (
-        <Container maxWidth={"1050"} marginInline={"auto"} overflowX="hidden">
-          <Hero data={data || []} isLoading={isLoading} />
-          {!isLoading && data && (
+        <Container maxWidth="1050" marginInline="auto" overflowX="hidden">
+          <Hero data={carData || []} isLoading={isLoading} />
+          {!isLoading && carData && (
             <>
-              <Specifications data={data} />
-              <KeyFeatures data={data} />
-              <ProsAndCons data={data} />
-              <Summary data={data} />
-              <FAQs data={data} />
+              <Specifications data={carData} />
+              <KeyFeatures data={carData} />
+              <ProsAndCons data={carData} />
+              <Summary data={carData} />
+              <FAQ data={carData} />
+              <Verdict data={carData} />
             </>
           )}
         </Container>

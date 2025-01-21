@@ -14,15 +14,14 @@ import { v4 as uuid } from "uuid";
 import HeadingText from "@components/ui/HeadingText";
 import QuestionText from "@components/ui/QuestionText";
 
-const FAQs = ({ data }) => {
+const FAQ = ({ data }) => {
   const { t } = useTranslation();
   const currentLang = useSelector((state) => state.entities.language);
 
-  const carData = data[0];
-  const title = currentLang === "en" ? carData?.title : carData?.title_hindi;
+  const title = currentLang === "en" ? data?.title : data?.title_hindi;
 
   // Select the appropriate FAQ object based on the current language
-  const faqObject = currentLang === "en" ? carData.faq[0] : carData.faq[1];
+  const faqObject = currentLang === "en" ? data.faq[0] : data.faq[1];
 
   const renderFAQCategory = (categoryName, categoryData) => {
     if (!categoryData || categoryData.length === 0) return null;
@@ -90,4 +89,4 @@ const FAQs = ({ data }) => {
   }
 };
 
-export default FAQs;
+export default FAQ;

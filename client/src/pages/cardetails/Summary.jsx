@@ -1,10 +1,9 @@
 import { Box, Text } from "@chakra-ui/react";
-import { v4 as uuid } from "uuid";
-import ReadMore from "./ReadMore";
+import ReadMore from "../../components/layout/ReadMore";
 import HeadingText from "@components/ui/HeadingText";
 
 const Summary = ({ data }) => {
-  const content = data[0]?.summary;
+  const content = data?.summary;
 
   // Conditionally render null if no content
   if (!content || content.length === 0) {
@@ -13,10 +12,10 @@ const Summary = ({ data }) => {
 
   return (
     <>
-      <HeadingText>{data[0]?.title} Summary</HeadingText>
+      <HeadingText>{data?.title} Summary</HeadingText>
       <ReadMore>
-        {content.map((faq) => (
-          <Box key={uuid()}>
+        {content.map((faq, index) => (
+          <Box key={index}>
             <Text as={"b"}>{faq.question}</Text>
             <Text paddingBottom={"4"}>{faq.answer}</Text>
           </Box>

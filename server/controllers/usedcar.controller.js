@@ -1,5 +1,6 @@
 const UsedCar = require("../models/usedCar.model");
 const cloudinary = require("../configs/cloudinary.config");
+const { handleRequest } = require("./errorHandling");
 
 const uploadUsedCar = async (req, res) => {
   try {
@@ -48,23 +49,32 @@ const uploadUsedCar = async (req, res) => {
   }
 };
 
+// const getUsedCars = async (req, res) => {
+//   try {
+//     const usedcars = await UsedCar.find();
+//     res.status(200).json(usedcars);
+//   } catch (err) {
+//     res.status(404).json({ message: err.message });
+//   }
+// };
+
 const getUsedCars = async (req, res) => {
-  try {
-    const usedcars = await UsedCar.find();
-    res.status(200).json(usedcars);
-  } catch (err) {
-    res.status(404).json({ message: err.message });
-  }
+  await handleRequest(res, () => UsedCar.find());
 };
 
+// const getUsedCarsOfSpecificUser = async (req, res) => {
+//   // console.log(req.params);
+//   try {
+//     const usedcars = await UsedCar.find({ userId: req.params.userId });
+//     res.status(200).json(usedcars);
+//   } catch (err) {
+//     res.status(404).json({ message: err.message });
+//   }
+// };
+
 const getUsedCarsOfSpecificUser = async (req, res) => {
-  // console.log(req.params);
-  try {
-    const usedcars = await UsedCar.find({ userId: req.params.userId });
-    res.status(200).json(usedcars);
-  } catch (err) {
-    res.status(404).json({ message: err.message });
-  }
+  const { userId } = req.params;
+  await handleRequest(res, () => UsedCar.find({ userId }));
 };
 
 const deleteUsedCar = async (req, res) => {
@@ -133,14 +143,19 @@ const deleteImageFromCloudinary = async (req, res) => {
   }
 };
 
+// const getUsedCarDetailsById = async (req, res) => {
+//   // console.log(req.params);
+//   try {
+//     const usedcars = await UsedCar.findById(req.params.carId);
+//     res.status(200).json(usedcars);
+//   } catch (err) {
+//     res.status(404).json({ message: err.message });
+//   }
+// };
+
 const getUsedCarDetailsById = async (req, res) => {
-  // console.log(req.params);
-  try {
-    const usedcars = await UsedCar.findById(req.params.carId);
-    res.status(200).json(usedcars);
-  } catch (err) {
-    res.status(404).json({ message: err.message });
-  }
+  const { carId } = req.params;
+  await handleRequest(res, () => UsedCar.findById(carId));
 };
 
 const editUsedCar = async (req, res) => {

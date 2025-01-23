@@ -13,8 +13,6 @@ import { useQuery } from "@tanstack/react-query";
 import { BsChevronRight } from "react-icons/bs";
 import FilterContainer from "../FilterContainer";
 
-// !NEED TO ARRANGE THE JSON DATA IN PROPER ORDER
-
 const FuelType = () => {
   const getFuelTypesData = async function () {
     return getData(`/fueltype`);
@@ -40,7 +38,7 @@ const FuelType = () => {
             <Box key={item._id}>
               <Link
                 to={`/new/${item.fuelSlug}`}
-                state={{ fuelType: `${item.title}` }}
+                state={`/newcars/fueltype/${item.title}`}
               >
                 <FilterContainer itemData={item} />
               </Link>

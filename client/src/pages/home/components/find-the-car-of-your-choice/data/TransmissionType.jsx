@@ -20,7 +20,7 @@ const Transmission = () => {
   };
 
   const { data, error, isLoading } = useQuery({
-    queryKey: [`bodytype`],
+    queryKey: [`transmission`],
     queryFn: getTransmissionTypesData,
   });
 
@@ -40,7 +40,8 @@ const Transmission = () => {
               <Box key={item._id}>
                 <Link
                   to={`/new/${item.transmissionSlug}`}
-                  state={{ transmission: `${item.title}` }}
+                  // state={{ transmission: `${item.title}` }}
+                  state={`/newcars/transmission/${item.title}`}
                 >
                   <FilterContainer itemData={item} />
                 </Link>

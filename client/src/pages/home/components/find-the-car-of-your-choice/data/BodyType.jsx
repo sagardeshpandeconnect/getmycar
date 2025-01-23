@@ -1,10 +1,8 @@
+import { useQuery } from "@tanstack/react-query";
+import { Link } from "react-router-dom";
 import { SimpleGrid, Box } from "@chakra-ui/react";
 import { getData } from "@services/apiClient";
-import { useQuery } from "@tanstack/react-query";
 import FilterContainer from "../FilterContainer";
-import { Link } from "react-router-dom";
-
-// !NEED TO ARRANGE THE JSON DATA IN PROPER ORDER
 
 const BodyType = () => {
   const getBodyTypesData = async function () {
@@ -30,7 +28,7 @@ const BodyType = () => {
             <Box key={item._id}>
               <Link
                 to={`/new/${item.bodyTypeSlug}/`}
-                state={{ bodyType: `${item.title}` }}
+                state={`/newcars/bodytype/${item.title}`}
               >
                 <FilterContainer itemData={item} />
               </Link>

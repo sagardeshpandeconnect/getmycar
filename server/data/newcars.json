@@ -1,32 +1,37 @@
 [
   {
     "title": "Maruti Swift",
+    "title_hindi": "मारुति स्विफ्ट",
     "intro": "The Maruti Swift is a modern hatchback with a sporty design that is fun to drive. It has many contemporary features and an adequately spacious cabin and offers high mileage thanks to its efficient petrol engine.",
+    "intro_hindi": "मारुति स्विफ्ट एक आधुनिक हैचबैक है जिसका स्पोर्टी डिज़ाइन है और चलाने में मज़ेदार है। इसमें कई आधुनिक सुविधाएँ और पर्याप्त रूप से विशाल केबिन है और यह अपने कुशल पेट्रोल इंजन के कारण उच्च माइलेज प्रदान करता है।",
     "titleSlug": "swift",
     "brand": "Maruti Suzuki",
+    "brand_hindi": "मारुति सुजुकी",
     "brandSlug": "maruti-suzuki-cars",
-    "brand_id": "64c9032e17efebb6360e632a",
+    "featured": "popular",
     "bodytype": "Hatchback",
+    "bodytype_hindi": "हैचबैक",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1735571944/carwale/carImages/maruti/swift-exterior-right-front-three-quarter_mqauze.webp",
     "specifications": {
       "price": 599450,
-      "engine": 1197,
       "mileage": 22.38,
-      "safety": 2,
+      "engine": 1197,
       "fueltype": ["Petrol", "CNG"],
+      "fueltype_hindi": ["पेट्रोल", "सीएनजी"],
       "transmission": ["Manual", "Automatic"],
+      "transmission_hindi": ["मैनुअल", "ऑटोमैटिक"],
       "seatingcapacity": 5
     },
     "keyfeatures": [
       "Cruise control",
       "Full colour MID",
       "Steering mounted audio controls",
-      " 7.0-inch infotainment systrem",
+      "7.0-inch infotainment system",
       "15-inch diamond cut alloy wheels",
       "Climate control",
-      "Driver seat height adjustement",
-      "Height adjustement for steering",
+      "Driver seat height adjustment",
+      "Height adjustment for steering",
       "Button start",
       "Keyless entry",
       "Power windows",
@@ -36,99 +41,138 @@
       "LED DRLs",
       "Leather wrapped steering"
     ],
-    "summary": [
-      {
-        "question": "Latest Update",
-        "answer": "Maruti Suzuki has revised the prices for select models. The Grand Vitara and Swift have become dearer by up to Rs.25,000."
-      },
-      {
-        "question": "Price",
-        "answer": "Maruti Swift price ranges between Rs. 7.28 Lakh - Rs. 10.88 Lakh depending on the variant selected."
-      },
-      {
-        "question": "When was the Maruti Swift launched?",
-        "answer": "The updated Swift was launched in India on 1 April, 2023."
-      },
-      {
-        "question": "What variants does it get? ",
-        "answer": "The Maruti Swift is available in four variants – LXi, VXi, ZXi, and ZXi+."
-      },
-      {
-        "question": "What features are available in the Maruti Swift?",
-        "answer": "Exterior highlights of the Swift include LED DRLs, LED headlamps, 15-inch dual-tone alloy wheels, LED tail lights, fog lights, blacked-out ORVMs, C-pillar-mounted rear door handles, a rear wiper and washer, a conventional antenna, and an optional blacked-out roof. Inside, the hatchback gets features in the form of cruise control, an idle start-stop function, a SmartPlay Studio touchscreen infotainment system, steering-mounted controls, keyless entry, an engine start-stop button, dual airbags, ABS with EBD, and a reverse parking camera. The model has a seating capacity of five occupants."
-      },
-      {
-        "question": "What are the engine, performance, and specifications of the Maruti Swift?",
-        "answer": "The Swift is powered by the K12 series Dual Jet, Dual VVT engine that is tuned to generate an output of 89bhp and 113Nm of torque, and comes paired with a five-speed manual unit or an AMT unit. This motor has been updated and now complies with the latest emission norms"
-      },
-      {
-        "question": "Is the Maruti Swift a safe car?",
-        "answer": "The Swift hatchback has scored a one-star safety rating in the Global NCAP crash test."
-      },
-      {
-        "question": "What are the rivals to the Maruti Swift? ",
-        "answer": "Rivals to the Swift include the Hyundai Grand i10 Nios, Tata Tigor, and Renault Triber."
-      }
+    "keyfeatures_hindi": [
+      "क्रूज़ कंट्रोल",
+      "फुल कलर MID",
+      "स्टीयरिंग माउंटेड ऑडियो कंट्रोल",
+      "7.0-इंच इंफोटेनमेंट सिस्टम",
+      "15-इंच डायमंड कट अलॉय व्हील्स",
+      "क्लाइमेट कंट्रोल",
+      "ड्राइवर सीट ऊँचाई समायोजन",
+      "स्टीयरिंग के लिए ऊँचाई समायोजन",
+      "बटन स्टार्ट",
+      "कीलेस एंट्री",
+      "पावर विंडोज़",
+      "ऑटो फोल्डिंग ORVMs",
+      "60:40 स्प्लिट फोल्डिंग रियर सीट",
+      "एलईडी हेडलैंप्स",
+      "एलईडी डीआरएल",
+      "लेदर रैप्ड स्टीयरिंग"
     ],
     "prosandcons": [
       {
         "pros": [
-          "Fun to drive - Hatchback dimensions, light steering/controls, nimble road manners",
-          "Powerful engine - The Petrol motor is flexible, peppy, refined and fuel-efficient",
-          "Fairly spacious - By hatchback standards, one won't be left wanting for more space",
-          "Sporty design - It’s still one of the most stylish-looking hatchbacks in our country",
-          "Aftersales experience - Excellent service network and ready availability of spares"
+          "Sporty design - Looks attractive and modern",
+          "High mileage - Fuel-efficient petrol engine",
+          "Compact size - Easy to maneuver in urban areas",
+          "Features - Packed with contemporary equipment",
+          "Reliability - Backed by Maruti Suzuki's robust service network"
+        ],
+        "pros_hindi": [
+          "स्पोर्टी डिज़ाइन - आकर्षक और आधुनिक दिखता है",
+          "उच्च माइलेज - ईंधन कुशल पेट्रोल इंजन",
+          "कॉम्पैक्ट साइज - शहरी क्षेत्रों में चलाना आसान",
+          "सुविधाएं - आधुनिक उपकरणों से लैस",
+          "विश्वसनीयता - मारुति सुजुकी की मजबूत सेवा नेटवर्क द्वारा समर्थित"
         ],
         "cons": [
-          "Lacks modern features - Maruti could have offered new-age gizmos to delight buyers",
-          "Build quality - Lower cabin looks ordinary due to the 'average' plastic quality",
-          "Firm slow-speed ride quality - One can also hear the suspension working underneath"
+          "Safety rating - Scores only one star in Global NCAP crash test",
+          "Rear space - Limited legroom and headroom for rear passengers",
+          "Basic variants - Lower trims lack advanced features"
+        ],
+        "cons_hindi": [
+          "सुरक्षा रेटिंग - ग्लोबल एनसीएपी क्रैश टेस्ट में केवल एक स्टार स्कोर करता है",
+          "पीछे की जगह - पिछली सीट के यात्रियों के लिए सीमित लेगरूम और हेडरूम",
+          "मूल वेरिएंट - निचले ट्रिम्स में उन्नत सुविधाओं की कमी"
         ]
       }
     ],
-    "verdict": "What makes the Maruti Suzuki Swift such a fascinating proposition is that it's not only sporty to drive and look at, but also offers reasonable rear-seat space and equipment. All this makes it a genuinely comfortable family hatch for the masses.",
+    "verdict": "The Maruti Swift is a reliable and stylish hatchback with modern features and efficient performance, making it a strong contender in its segment.",
+    "verdict_hindi": "मारुति स्विफ्ट एक विश्वसनीय और स्टाइलिश हैचबैक है जिसमें आधुनिक सुविधाएँ और कुशल प्रदर्शन है, जो इसे अपने सेगमेंट में एक मजबूत दावेदार बनाता है।",
     "faq": [
       {
         "price": [
           {
-            "question": "What is the on road price of Maruti Suzuki Swift base model?",
-            "answer": "The on-road price of Maruti Suzuki Swift base model is Rs. 5.99 Lakh which includes a registration cost of Rs. 24808, insurance premium of Rs. 32817 and additional charges of Rs. 2000."
+            "question": "What is the price of Maruti Suzuki Swift base model?",
+            "answer": "The base model of Maruti Suzuki Swift is priced at Rs. 5.99 Lakh."
           },
           {
-            "question": "What is the on road price of Maruti Suzuki Swift top model?",
-            "answer": "The on-road price of Maruti Suzuki Swift top model is Rs. 9.03 Lakh which includes a registration cost of Rs. 64040, insurance premium of Rs. 42088 and additional charges of Rs. 2000."
+            "question": "What is the price of Maruti Suzuki Swift top model?",
+            "answer": "The top model of Maruti Suzuki Swift is priced at Rs. 8.85 Lakh."
           }
         ],
         "performance": [
           {
-            "question": "What is the real world versus claimed mileage of Maruti Suzuki Swift?",
-            "answer": "The company claimed mileage of Maruti Suzuki Swift is 22.38 to 30.9 kmpl. As per users, the mileage came to be 0 to 20.8 kmpl in the real world."
-          }
-        ],
-        "specifications": [
-          {
-            "question": "What is the seating capacity in Maruti Suzuki Swift?",
-            "answer": "Maruti Suzuki Swift has a seating capacity of 5 people."
-          },
-          {
-            "question": "What are the dimensions of Maruti Suzuki Swift?",
-            "answer": "The dimensions of Maruti Suzuki Swift include its length of 3845 mm, width of 1735 mm and height of 1530 mm. The wheelbase of the Maruti Suzuki Swift is 2450 mm."
+            "question": "What is the mileage of Maruti Suzuki Swift?",
+            "answer": "The claimed mileage of Maruti Suzuki Swift is 22.38 kmpl."
           }
         ],
         "features": [
           {
-            "question": "Is Maruti Suzuki Swift available in 4x4 version?",
-            "answer": "No, Maruti Suzuki Swift doesn't come with four wheel drive option."
+            "question": "Does Maruti Suzuki Swift have a sunroof?",
+            "answer": "No, Maruti Suzuki Swift does not come with a sunroof."
+          },
+          {
+            "question": "Does Maruti Suzuki Swift have cruise control?",
+            "answer": "Yes, cruise control is available in the higher variants of Maruti Suzuki Swift."
           }
         ],
         "safety": [
           {
-            "question": "How many airbags does Maruti Suzuki Swift get?",
-            "answer": "The top Model of Maruti Suzuki Swift has 2 airbags. The Swift has driver and passenger airbags."
+            "question": "What is the safety rating of Maruti Suzuki Swift?",
+            "answer": "The Swift has a one-star safety rating in the Global NCAP crash test."
           },
           {
-            "question": " Does Maruti Suzuki Swift get ABS?",
-            "answer": "Yes, all versions of Maruti Suzuki Swift have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+            "question": "Does Maruti Suzuki Swift come with ABS?",
+            "answer": "Yes, Maruti Suzuki Swift comes equipped with ABS across all variants."
+          }
+        ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "मारुति सुजुकी स्विफ्ट बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "मारुति सुजुकी स्विफ्ट बेस मॉडल की ऑन-रोड कीमत रु. 6.45 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          },
+          {
+            "question_hindi": "मारुति सुजुकी स्विफ्ट टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "मारुति सुजुकी स्विफ्ट टॉप मॉडल की ऑन-रोड कीमत रु. 9.15 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "मारुति सुजुकी स्विफ्ट की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने मारुति सुजुकी स्विफ्ट की माइलेज 22.38 किमी/लीटर होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 19 से 21 किमी/लीटर तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "मारुति सुजुकी स्विफ्ट में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "मारुति सुजुकी स्विफ्ट में 5 लोगों की बैठने की क्षमता है।"
+          },
+          {
+            "question_hindi": "मारुति सुजुकी स्विफ्ट के आयाम क्या हैं?",
+            "answer_hindi": "मारुति सुजुकी स्विफ्ट के आयाम 3845 मिमी लंबाई, 1735 मिमी चौड़ाई और 1530 मिमी ऊंचाई हैं। इसका व्हीलबेस 2450 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या मारुति सुजुकी स्विफ्ट में सनरूफ है?",
+            "answer_hindi": "नहीं, मारुति सुजुकी स्विफ्ट में सनरूफ नहीं है।"
+          },
+          {
+            "question_hindi": "क्या मारुति सुजुकी स्विफ्ट में क्रूज कंट्रोल है?",
+            "answer_hindi": "हां, मारुति सुजुकी स्विफ्ट के उच्च वेरिएंट्स में क्रूज कंट्रोल फंक्शन है। यह लंबी यात्रा के दौरान ड्राइविंग को आरामदायक बनाता है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "मारुति सुजुकी स्विफ्ट में कितने एयरबैग हैं?",
+            "answer_hindi": "मारुति सुजुकी स्विफ्ट के टॉप मॉडल में 2 एयरबैग हैं। इसमें ड्राइवर और फ्रंट पैसेंजर एयरबैग शामिल हैं।"
+          },
+          {
+            "question_hindi": "क्या मारुति सुजुकी स्विफ्ट में एबीएस है?",
+            "answer_hindi": "हां, मारुति सुजुकी स्विफ्ट के सभी वेरिएंट्स में एबीएस है। यह तकनीक तेज ब्रेकिंग के दौरान वाहन को स्थिर रखने में मदद करती है।"
           }
         ]
       }
@@ -136,22 +180,27 @@
   },
   {
     "title": "Maruti Eeco",
+    "title_hindi": "मारुति ईको",
     "intro": "The Eeco, a tall and versatile van, in 5 and 7-seater variants, combines CNG efficiency with sliding doors for easy access. Its peppy petrol engine ensures smooth driving, while its upright design enhances visibility. It is a favourite among taxi fleets.",
+    "intro_hindi": "ईको, एक लंबी और बहुउपयोगी वैन है, जो 5 और 7-सीटर वेरिएंट्स में उपलब्ध है। यह सीएनजी दक्षता को स्लाइडिंग दरवाजों के साथ जोड़ती है, जिससे प्रवेश और निकास आसान हो जाता है। इसका फुर्तीला पेट्रोल इंजन सुगम ड्राइविंग सुनिश्चित करता है, जबकि इसका सीधा डिज़ाइन दृश्यता को बढ़ाता है। यह टैक्सी बेड़े में पसंदीदा है।",
     "titleSlug": "eeco",
     "brand": "Maruti Suzuki",
+    "brand_hindi": "मारुति सुजुकी",
     "brandSlug": "maruti-suzuki-cars",
-    "brand_id": "64c9032e17efebb6360e632a",
+    "featured": "popular",
     "bodytype": "Minivan",
+    "bodytype_hindi": "मिनीवैन",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1737132450/carwale/carImages/maruti/eeco-exterior-right-front-three-quarter-2_etovut.webp",
     "specifications": {
       "price": 547000,
-      "engine": 1197,
       "mileage": 20.88,
-      "safety": 1,
+      "engine": 1197,
       "fueltype": ["Petrol", "CNG"],
+      "fueltype_hindi": ["पेट्रोल", "सीएनजी"],
       "transmission": ["Manual"],
-      "seatingcapacity": 2
+      "transmission_hindi": ["मैनुअल"],
+      "seatingcapacity": 5
     },
     "keyfeatures": [
       "Dual front airbags",
@@ -165,39 +214,17 @@
       "Large boot space",
       "High ground clearance"
     ],
-    "summary": [
-      {
-        "question": "Latest Update",
-        "answer": "Maruti Suzuki has introduced an updated version of the Eeco with minor feature enhancements and compliance with the latest emission norms."
-      },
-      {
-        "question": "Price",
-        "answer": "Maruti Eeco price ranges between Rs. 5.47 Lakh - Rs. 6.55 Lakh depending on the variant selected."
-      },
-      {
-        "question": "When was the Maruti Eeco launched?",
-        "answer": "The updated Eeco was launched in India on 10 December, 2023."
-      },
-      {
-        "question": "What variants does it get?",
-        "answer": "The Maruti Eeco is available in multiple configurations, including 5-seater, 7-seater, cargo, and ambulance variants."
-      },
-      {
-        "question": "What features are available in the Maruti Eeco?",
-        "answer": "Key features include dual front airbags, ABS with EBD, sliding doors, reverse parking sensors, manual AC, and a spacious cabin with flexible seating and storage options."
-      },
-      {
-        "question": "What are the engine, performance, and specifications of the Maruti Eeco?",
-        "answer": "The Eeco is powered by a 1.2-liter petrol engine producing 72 bhp and 98 Nm of torque. It also offers a CNG variant with slightly reduced power output for better efficiency. Both variants come with a 5-speed manual gearbox."
-      },
-      {
-        "question": "Is the Maruti Eeco a safe car?",
-        "answer": "The Eeco has basic safety features such as dual front airbags, ABS with EBD, and reverse parking sensors. However, it has not been tested by Global NCAP."
-      },
-      {
-        "question": "What are the rivals to the Maruti Eeco?",
-        "answer": "Rivals to the Eeco include the Tata Ace, Mahindra Jeeto, and Force Urbania in the commercial and multi-purpose vehicle segment."
-      }
+    "keyfeatures_hindi": [
+      "डुअल फ्रंट एयरबैग्स",
+      "एबीएस के साथ ईबीडी",
+      "रिवर्स पार्किंग सेंसर",
+      "इंजन इमोबिलाइज़र",
+      "आसान प्रवेश के लिए स्लाइडिंग दरवाजे",
+      "बहुउपयोगी केबिन",
+      "डिजिटल इंस्ट्रूमेंट क्लस्टर",
+      "मैनुअल एयर कंडीशनिंग",
+      "बड़ा बूट स्पेस",
+      "ऊँची ग्राउंड क्लीयरेंस"
     ],
     "prosandcons": [
       {
@@ -208,31 +235,46 @@
           "Sliding doors for easy ingress and egress",
           "Low maintenance cost and wide service network"
         ],
+        "pros_hindi": [
+          "किफायती और बजट-अनुकूल मूल्य निर्धारण",
+          "लचीले बैठने के विकल्पों के साथ विशाल केबिन",
+          "भरोसेमंद इंजन और अच्छी ईंधन दक्षता",
+          "आसान प्रवेश और निकास के लिए स्लाइडिंग दरवाजे",
+          "कम रखरखाव लागत और विस्तृत सेवा नेटवर्क"
+        ],
         "cons": [
           "Minimal safety features compared to modern standards",
           "Outdated interior design and features",
           "Limited refinement and comfort on long drives",
           "No automatic transmission option",
           "Low Global NCAP safety rating"
+        ],
+        "cons_hindi": [
+          "आधुनिक मानकों की तुलना में न्यूनतम सुरक्षा सुविधाएँ",
+          "पुराने इंटीरियर डिज़ाइन और सुविधाएँ",
+          "लंबी यात्रा में सीमित आराम",
+          "स्वचालित ट्रांसमिशन विकल्प नहीं है",
+          "कम ग्लोबल एनसीएपी सुरक्षा रेटिंग"
         ]
       }
     ],
     "verdict": "The Maruti Eeco is a practical and affordable choice for buyers looking for a versatile van for personal or commercial use. While it lacks modern features and advanced safety, its reliability, low maintenance cost, and spacious interiors make it a popular choice in its segment.",
+    "verdict_hindi": "मारुति ईको व्यक्तिगत या व्यावसायिक उपयोग के लिए बहुउपयोगी वैन की तलाश करने वाले खरीदारों के लिए एक व्यावहारिक और किफायती विकल्प है। हालाँकि इसमें आधुनिक सुविधाएँ और उन्नत सुरक्षा की कमी है, लेकिन इसकी विश्वसनीयता, कम रखरखाव लागत, और विशाल इंटीरियर इसे अपने सेगमेंट में एक लोकप्रिय विकल्प बनाते हैं।",
     "faq": [
       {
         "price": [
           {
-            "question": "What is the on road price of Maruti Suzuki Eeco base model?",
+            "question": "What is the on-road price of Maruti Suzuki Eeco base model?",
             "answer": "The on-road price of Maruti Suzuki Eeco base model is Rs. 5.47 Lakh, which includes a registration cost of Rs. 22800, insurance premium of Rs. 31200, and additional charges of Rs. 2000."
           },
           {
-            "question": "What is the on road price of Maruti Suzuki Eeco top model?",
+            "question": "What is the on-road price of Maruti Suzuki Eeco top model?",
             "answer": "The on-road price of Maruti Suzuki Eeco top model is Rs. 6.55 Lakh, which includes a registration cost of Rs. 27800, insurance premium of Rs. 36700, and additional charges of Rs. 2000."
           }
         ],
         "performance": [
           {
-            "question": "What is the real world versus claimed mileage of Maruti Suzuki Eeco?",
+            "question": "What is the real-world versus claimed mileage of Maruti Suzuki Eeco?",
             "answer": "The company-claimed mileage of the Eeco is 20.88 kmpl (petrol) and 27.05 km/kg (CNG). Users report a real-world mileage of 16-18 kmpl for petrol and 22-24 km/kg for CNG."
           }
         ],
@@ -248,7 +290,7 @@
         ],
         "features": [
           {
-            "question": "Is Maruti Suzuki Eeco available in 4x4 version?",
+            "question": "Is Maruti Suzuki Eeco available in a 4x4 version?",
             "answer": "No, Maruti Suzuki Eeco doesn't come with a four-wheel-drive option."
           }
         ],
@@ -262,17 +304,117 @@
             "answer": "Yes, all versions of the Maruti Suzuki Eeco are equipped with ABS with EBD as standard."
           }
         ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "मारुति ईको बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "मारुति ईको बेस मॉडल की ऑन-रोड कीमत रु. 5.13 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          },
+          {
+            "question_hindi": "मारुति ईको टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "मारुति ईको टॉप मॉडल की ऑन-रोड कीमत रु. 6.44 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "मारुति ईको की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने मारुति ईको की माइलेज 20.88 किमी/लीटर (पेट्रोल) और 26.78 किमी/किग्रा (सीएनजी) होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 18-19 किमी/लीटर (पेट्रोल) और 23-25 किमी/किग्रा (सीएनजी) तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "मारुति ईको में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "मारुति ईको में 5 से 7 लोगों की बैठने की क्षमता है, जो वेरिएंट पर निर्भर करती है।"
+          },
+          {
+            "question_hindi": "मारुति ईको के आयाम क्या हैं?",
+            "answer_hindi": "मारुति ईको के आयाम 3675 मिमी लंबाई, 1475 मिमी चौड़ाई और 1825 मिमी ऊंचाई हैं। इसका व्हीलबेस 2350 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या मारुति ईको में पावर स्टीयरिंग है?",
+            "answer_hindi": "हां, मारुति ईको के उच्च वेरिएंट्स में पावर स्टीयरिंग दी गई है।"
+          },
+          {
+            "question_hindi": "क्या मारुति ईको में एसी उपलब्ध है?",
+            "answer_hindi": "हां, मारुति ईको के कुछ वेरिएंट्स में एसी की सुविधा है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "मारुति ईको में कितने एयरबैग हैं?",
+            "answer_hindi": "मारुति ईको के नए वेरिएंट्स में 1 ड्राइवर एयरबैग शामिल है।"
+          },
+          {
+            "question_hindi": "क्या मारुति ईको में एबीएस है?",
+            "answer_hindi": "हां, मारुति ईको में एबीएस (एंटी-लॉक ब्रेकिंग सिस्टम) की सुविधा दी गई है।"
+          }
+        ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "मारुति इन्विक्टो बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "मारुति इन्विक्टो बेस मॉडल की ऑन-रोड कीमत रु. 24.79 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          },
+          {
+            "question_hindi": "मारुति इन्विक्टो टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "मारुति इन्विक्टो टॉप मॉडल की ऑन-रोड कीमत रु. 28.42 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "मारुति इन्विक्टो की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने मारुति इन्विक्टो की माइलेज 23.24 किमी/लीटर (हाइब्रिड पेट्रोल) होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 20-21 किमी/लीटर तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "मारुति इन्विक्टो में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "मारुति इन्विक्टो में 7 से 8 लोगों की बैठने की क्षमता है, जो वेरिएंट पर निर्भर करती है।"
+          },
+          {
+            "question_hindi": "मारुति इन्विक्टो के आयाम क्या हैं?",
+            "answer_hindi": "मारुति इन्विक्टो के आयाम 4755 मिमी लंबाई, 1850 मिमी चौड़ाई और 1795 मिमी ऊंचाई हैं। इसका व्हीलबेस 2850 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या मारुति इन्विक्टो में पावर स्टीयरिंग है?",
+            "answer_hindi": "हां, मारुति इन्विक्टो में पावर स्टीयरिंग स्टैंडर्ड फीचर के रूप में उपलब्ध है।"
+          },
+          {
+            "question_hindi": "क्या मारुति इन्विक्टो में एसी उपलब्ध है?",
+            "answer_hindi": "हां, मारुति इन्विक्टो में ऑटोमैटिक क्लाइमेट कंट्रोल के साथ एसी की सुविधा है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "मारुति इन्विक्टो में कितने एयरबैग हैं?",
+            "answer_hindi": "मारुति इन्विक्टो के सभी वेरिएंट्स में 6 एयरबैग दिए गए हैं।"
+          },
+          {
+            "question_hindi": "क्या मारुति इन्विक्टो में एबीएस है?",
+            "answer_hindi": "हां, मारुति इन्विक्टो में एबीएस (एंटी-लॉक ब्रेकिंग सिस्टम) और ईबीडी (इलेक्ट्रॉनिक ब्रेकफोर्स डिस्ट्रीब्यूशन) की सुविधा दी गई है।"
+          }
+        ]
       }
     ]
   },
   {
     "title": "Maruti Invicto",
+    "title_hindi": "मारुति इन्विक्टो",
     "intro": "The Invicto is the largest, the most premium and the most expensive vehicle Maruti Suzuki has ever sold. It's based on the Toyota Innova Hycross and follows the same principles, offering lots of space, features and a comfortable ride. The Invicto's interior lacks the premium look and feel its high price demands although you still get the same Toyota-developed hybrid system which makes it incredibly fuel efficient.",
+    "intro_hindi": "इन्विक्टो, मारुति सुजुकी की अब तक की सबसे बड़ी, सबसे प्रीमियम और सबसे महंगी गाड़ी है। यह टोयोटा इनोवा हाईक्रॉस पर आधारित है और उसी सिद्धांत का पालन करती है, जिसमें अधिक स्थान, सुविधाएँ और आरामदायक सवारी शामिल है। इन्विक्टो का इंटीरियर इसके उच्च मूल्य की मांगों के अनुरूप प्रीमियम नहीं लगता, हालांकि आपको वही टोयोटा-डेवलप्ड हाइब्रिड सिस्टम मिलता है जो इसे अविश्वसनीय रूप से ईंधन-कुशल बनाता है।",
     "titleSlug": "invicto",
     "brand": "Maruti Suzuki",
+    "brand_hindi": "मारुति सुजुकी",
     "brandSlug": "maruti-suzuki-cars",
     "brand_id": "64c9032e17efebb6360e632a",
     "bodytype": "Hatchback",
+    "bodytype_hindi": "हैचबैक",
     "featured": "just launched",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1693210238/carwale/carImages/maruti/invicto-exterior-right-front-three-quarter-2_dwz1ux.webp",
@@ -281,10 +423,35 @@
       "mileage": 23.24,
       "engine": 1987,
       "fueltype": ["Hybrid"],
+      "fueltype_hindi": ["हाइब्रिड"],
       "transmission": ["Automatic"],
+      "transmission_hindi": ["स्वचालित"],
       "seatingcapacity": 7
     },
-
+    "keyfeatures": [
+      "Toyota-developed hybrid system for high fuel efficiency",
+      "Spacious interiors with large well-cushioned seats",
+      "Pliant ride quality with well-tuned suspension",
+      "Lower price compared to Toyota Innova Hycross",
+      "Shorter waiting periods for delivery",
+      "Ample room and practical design",
+      "Well-tuned suspension for rough roads",
+      "High commanding view from the driver's seat",
+      "Large boot space",
+      "Advanced safety features like 6 airbags"
+    ],
+    "keyfeatures_hindi": [
+      "अत्यधिक ईंधन दक्षता के लिए टोयोटा-डेवलप्ड हाइब्रिड सिस्टम",
+      "विशाल इंटीरियर और बड़े, आरामदायक सीट्स",
+      "अच्छी तरह से ट्यून किया गया सस्पेंशन",
+      "टोयोटा इनोवा हाईक्रॉस की तुलना में कम कीमत",
+      "डिलीवरी के लिए कम प्रतीक्षा अवधि",
+      "व्यावहारिक डिजाइन और विशालता",
+      "खराब सड़कों के लिए उपयुक्त सस्पेंशन",
+      "ड्राइवर की सीट से उच्च कमांडिंग व्यू",
+      "बड़ा बूट स्पेस",
+      "6 एयरबैग्स जैसे उन्नत सुरक्षा फीचर्स"
+    ],
     "prosandcons": [
       {
         "pros": [
@@ -294,56 +461,117 @@
           "Well-tuned suspension creates a pliant ride quality even over broken roads.",
           "With both motors working together, overall performance is good."
         ],
+        "pros_hindi": [
+          "व्हीलबेस/चौड़ाई के कारण पर्याप्त जगह मिलती है। अत्यंत व्यावहारिक और अच्छी तरह से निर्मित।",
+          "बड़ी, अच्छी तरह से गद्दीदार सीटें जो बाहरी दृश्य का उच्च कमांडिंग व्यू प्रदान करती हैं।",
+          "टोयोटा हाईक्रॉस की तुलना में कम कीमत और छोटी प्रतीक्षा अवधि।",
+          "अच्छी तरह से ट्यून किया गया सस्पेंशन जो खराब सड़कों पर भी आरामदायक सवारी प्रदान करता है।",
+          "दोनों मोटर्स के साथ, समग्र प्रदर्शन अच्छा है।"
+        ],
         "cons": [
-          "The lower price is owing to a downsized feature list over the Toyota Hycross. ",
+          "The lower price is owing to a downsized feature list over the Toyota Hycross.",
           "Smaller wheels and tyres can make the Invicto look less attractive in profile.",
           "Maruti Suzuki does not sell its Invicto with a diesel powertrain option."
+        ],
+        "cons_hindi": [
+          "टोयोटा हाईक्रॉस की तुलना में कम कीमत फीचर सूची के घटने का परिणाम है।",
+          "छोटे पहिए और टायर इन्विक्टो को प्रोफाइल में कम आकर्षक बना सकते हैं।",
+          "मारुति सुजुकी इन्विक्टो को डीजल पावरट्रेन विकल्प के साथ नहीं बेचती है।"
         ]
       }
     ],
     "verdict": "The Maruti Invicto can be the better choice over the Toyota Innova Hycross if one isn't keen on waiting extensively for delivery, is bent on buying a hybrid from the Maruti stable, is more price conscious and is content with a shorter feature list.",
+    "verdict_hindi": "अगर आप डिलीवरी के लिए लंबा इंतजार नहीं करना चाहते, मारुति का हाइब्रिड खरीदना चाहते हैं, अधिक कीमत-संवेदनशील हैं और कम फीचर सूची के साथ संतुष्ट हैं, तो मारुति इन्विक्टो टोयोटा इनोवा हाईक्रॉस के मुकाबले बेहतर विकल्प हो सकता है।",
     "faq": [
       {
         "price": [
           {
-            "question": "What is the on road price of Maruti Suzuki Invicto base model?",
+            "question": "What is the on-road price of Maruti Suzuki Invicto base model?",
             "answer": "The on-road price of Maruti Suzuki Invicto base model is Rs. 24.79 Lakh which includes a registration cost of Rs. 251130, insurance premium of Rs. 97286 and additional charges of Rs. 2200."
           },
           {
-            "question": "What is the on road price of Maruti Suzuki Invicto  top model?",
+            "question": "What is the on-road price of Maruti Suzuki Invicto top model?",
             "answer": "The on-road price of Maruti Suzuki Invicto top model is Rs. 28.42 Lakh which includes a registration cost of Rs. 287430, insurance premium of Rs. 104236 and additional charges of Rs. 2200."
           }
         ],
         "performance": [
           {
-            "question": "What is the real world versus claimed mileage of Maruti Suzuki Invicto ?",
+            "question": "What is the real-world versus claimed mileage of Maruti Suzuki Invicto?",
             "answer": "The company claimed mileage of Maruti Suzuki Invicto is 23.24 kmpl. As per users, the mileage came to be 20 kmpl in the real world."
           }
         ],
         "specifications": [
           {
-            "question": "What is the seating capacity in Maruti Suzuki Invicto ?",
+            "question": "What is the seating capacity in Maruti Suzuki Invicto?",
             "answer": "Maruti Suzuki Swift has a seating capacity of 7 people."
           },
           {
-            "question": "What are the dimensions of Maruti Suzuki Invicto ?",
+            "question": "What are the dimensions of Maruti Suzuki Invicto?",
             "answer": "The dimensions of Maruti Suzuki Invicto include its length of 4755 mm, width of 1845 mm and height of 1795 mm. The wheelbase of the Maruti Suzuki Invicto is 2850 mm."
           }
         ],
         "features": [
           {
-            "question": "Is Maruti Suzuki Invicto available in 4x4 version?",
-            "answer": "No, Maruti Suzuki Invicto doesn't come with four wheel drive option."
+            "question": "Is Maruti Suzuki Invicto available in a 4x4 version?",
+            "answer": "No, Maruti Suzuki Invicto doesn't come with a four-wheel-drive option."
           }
         ],
         "safety": [
           {
             "question": "How many airbags does Maruti Suzuki Invicto get?",
-            "answer": "The top Model of Maruti Suzuki Invicto has 6 airbags. The Invicto has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
+            "answer": "The top model of Maruti Suzuki Invicto has 6 airbags. The Invicto has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
           },
           {
-            "question": " Does Maruti Suzuki Invicto get ABS?",
+            "question": "Does Maruti Suzuki Invicto get ABS?",
             "answer": "Yes, all versions of Maruti Suzuki Invicto have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "मारुति इन्विक्टो बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "मारुति इन्विक्टो बेस मॉडल की ऑन-रोड कीमत रु. 24.79 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          },
+          {
+            "question_hindi": "मारुति इन्विक्टो टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "मारुति इन्विक्टो टॉप मॉडल की ऑन-रोड कीमत रु. 28.42 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "मारुति इन्विक्टो की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने मारुति इन्विक्टो की माइलेज 23.24 किमी/लीटर (हाइब्रिड पेट्रोल) होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 20-21 किमी/लीटर तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "मारुति इन्विक्टो में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "मारुति इन्विक्टो में 7 से 8 लोगों की बैठने की क्षमता है, जो वेरिएंट पर निर्भर करती है।"
+          },
+          {
+            "question_hindi": "मारुति इन्विक्टो के आयाम क्या हैं?",
+            "answer_hindi": "मारुति इन्विक्टो के आयाम 4755 मिमी लंबाई, 1850 मिमी चौड़ाई और 1795 मिमी ऊंचाई हैं। इसका व्हीलबेस 2850 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या मारुति इन्विक्टो में पावर स्टीयरिंग है?",
+            "answer_hindi": "हां, मारुति इन्विक्टो में पावर स्टीयरिंग स्टैंडर्ड फीचर के रूप में उपलब्ध है।"
+          },
+          {
+            "question_hindi": "क्या मारुति इन्विक्टो में एसी उपलब्ध है?",
+            "answer_hindi": "हां, मारुति इन्विक्टो में ऑटोमैटिक क्लाइमेट कंट्रोल के साथ एसी की सुविधा है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "मारुति इन्विक्टो में कितने एयरबैग हैं?",
+            "answer_hindi": "मारुति इन्विक्टो के सभी वेरिएंट्स में 6 एयरबैग दिए गए हैं।"
+          },
+          {
+            "question_hindi": "क्या मारुति इन्विक्टो में एबीएस है?",
+            "answer_hindi": "हां, मारुति इन्विक्टो में एबीएस (एंटी-लॉक ब्रेकिंग सिस्टम) और ईबीडी (इलेक्ट्रॉनिक ब्रेकफोर्स डिस्ट्रीब्यूशन) की सुविधा दी गई है।"
           }
         ]
       }
@@ -351,19 +579,27 @@
   },
   {
     "title": "Maruti Brezza",
+    "title_hindi": "मारुति ब्रेज़ा",
     "intro": "The Brezza, a compact SUV, has fairly good quality and road presence. It has a lot of feel-good features, a spacious and comfortable cabin for five passengers and a large boot. Its petrol engine is fuel efficient, and the ride is stable and absorbent.",
+    "intro_hindi": "ब्रेज़ा, एक कॉम्पैक्ट एसयूवी है, जिसमें अच्छी गुणवत्ता और रोड प्रेजेंस है। इसमें कई आकर्षक फीचर्स, पाँच यात्रियों के लिए आरामदायक केबिन और एक बड़ा बूट स्पेस है। इसका पेट्रोल इंजन ईंधन कुशल है और इसकी राइड स्थिर और आरामदायक है।",
     "titleSlug": "brezza",
     "brand": "Maruti Suzuki",
+    "brand_hindi": "मारुति सुजुकी",
     "brandSlug": "maruti-suzuki-cars",
     "brand_id": "64c9032e17efebb6360e632a",
+    "featured": "popular",
     "bodytype": "Compact SUV",
+    "bodytype_hindi": "कॉम्पैक्ट एसयूवी",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1693211094/carwale/carImages/maruti/vitara-brezza-2022-exterior-right-front-three-quarter_mf8fph.webp",
     "specifications": {
       "price": 834000,
+      "mileage": 17.38,
       "engine": 1462,
       "fueltype": ["Petrol", "CNG"],
+      "fueltype_hindi": ["पेट्रोल", "सीएनजी"],
       "transmission": ["Manual", "Automatic"],
+      "transmission_hindi": ["मैनुअल", "ऑटोमैटिक"],
       "seatingcapacity": 5
     },
     "keyfeatures": [
@@ -383,6 +619,23 @@
       "Auto headlamps",
       "Alloy wheels"
     ],
+    "keyfeatures_hindi": [
+      "हेड अप डिस्प्ले",
+      "360 डिग्री कैमरा",
+      "ऊंचाई समायोज्य फ्रंट सीट बेल्ट्स",
+      "ऑटो डे/नाइट रियर व्यू मिरर",
+      "एआरकेएएमवाईएस सराउंड सेंस सिस्टम के साथ वायरलेस एंड्रॉइड ऑटो और एप्पल कारप्ले",
+      "ऑनबोर्ड वॉयस असिस्टेंट",
+      "वायरलेस चार्जिंग",
+      "फास्ट चार्जिंग यूएसबी -टाइप ए और सी (रियर)",
+      "सुजुकी कनेक्ट",
+      "स्टीयरिंग एडजस्ट - टिल्ट और टेलीस्कोपिक",
+      "इंजन पुश स्टार्ट/स्टॉप बटन",
+      "एंबिएंट इंटीरियर लाइट्स",
+      "सनरूफ",
+      "ऑटो हेडलैम्प्स",
+      "अलॉय व्हील्स"
+    ],
     "prosandcons": [
       {
         "pros": [
@@ -392,14 +645,27 @@
           "Ease of driving - Light controls and the compact proportions make it nimble",
           "Service network - Is backed by Maruti Suzuki's exhaustive and robust network"
         ],
+        "pros_hindi": [
+          "कई फीचर्स - सुविधाजनक बनाने के लिए कई प्रमुख फीचर्स",
+          "इंटीरियर स्पेस - केबिन हवादार और पर्याप्त स्टोरेज स्पेस के साथ",
+          "ऊंची सीटिंग - बेहतर बाहरी दृश्यता के साथ एक आरामदायक ड्राइविंग पोजीशन",
+          "ड्राइविंग में आसानी - हल्के कंट्रोल और कॉम्पैक्ट अनुपात",
+          "सेवा नेटवर्क - मारुति सुजुकी के मजबूत सेवा नेटवर्क द्वारा समर्थित"
+        ],
         "cons": [
           "Engine lacks punch - The mid-range grunt could have been more exciting",
           "Pricey - Top-end variants are expensive when stacked against segment rivals",
           "Ride quality at slow speeds - Conspicuous vertical movement over broken roads"
+        ],
+        "cons_hindi": [
+          "इंजन में उत्साह की कमी - मिड-रेंज परफॉर्मेंस अधिक रोमांचक हो सकता था",
+          "महंगा - टॉप-एंड वेरिएंट्स प्रतिस्पर्धियों की तुलना में महंगे",
+          "धीमी गति पर राइड क्वालिटी - टूटी सड़कों पर ऊर्ध्वाधर मूवमेंट"
         ]
       }
     ],
     "verdict": "The new Maruti Brezza has made considerable progress over the previous version. It now gets a nearly all-new design, comes equipped with a range of new features, packs a fairly good ride quality, and is more than just convenient to drive when you are running around the urban jungle.",
+    "verdict_hindi": "नई मारुति ब्रेज़ा ने पिछले संस्करण की तुलना में काफी प्रगति की है। इसमें लगभग नया डिज़ाइन है, नई सुविधाओं की एक श्रृंखला है, अच्छी राइड क्वालिटी है, और शहरी क्षेत्रों में चलाने के लिए यह काफी सुविधाजनक है।",
     "faq": [
       {
         "price": [
@@ -440,12 +706,60 @@
         ],
         "safety": [
           {
-            "question": "How many airbags does Maruti Brezza Swift get?",
+            "question": "How many airbags does Maruti Brezza get?",
             "answer": "The top Model of Maruti Suzuki Brezza has 6 airbags. The Brezza has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
           },
           {
             "question": " Does Maruti Suzuki Brezza get ABS?",
             "answer": "Yes, all versions of Maruti Suzuki Brezza have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "मारुति ब्रेज़ा बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "मारुति ब्रेज़ा बेस मॉडल की ऑन-रोड कीमत रु. 8.29 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          },
+          {
+            "question_hindi": "मारुति ब्रेज़ा टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "मारुति ब्रेज़ा टॉप मॉडल की ऑन-रोड कीमत रु. 13.98 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "मारुति ब्रेज़ा की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने मारुति ब्रेज़ा की माइलेज 20.15 किमी/लीटर होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 17 से 19 किमी/लीटर तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "मारुति ब्रेज़ा में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "मारुति ब्रेज़ा में 5 लोगों की बैठने की क्षमता है।"
+          },
+          {
+            "question_hindi": "मारुति ब्रेज़ा के आयाम क्या हैं?",
+            "answer_hindi": "मारुति ब्रेज़ा के आयाम 3995 मिमी लंबाई, 1790 मिमी चौड़ाई और 1685 मिमी ऊंचाई हैं। इसका व्हीलबेस 2500 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या मारुति ब्रेज़ा में सनरूफ है?",
+            "answer_hindi": "हां, मारुति ब्रेज़ा के उच्च वेरिएंट्स में इलेक्ट्रिक सनरूफ उपलब्ध है।"
+          },
+          {
+            "question_hindi": "क्या मारुति ब्रेज़ा में क्रूज कंट्रोल है?",
+            "answer_hindi": "हां, मारुति ब्रेज़ा में क्रूज कंट्रोल की सुविधा है, जो लंबी यात्रा के दौरान ड्राइविंग को आरामदायक बनाती है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "मारुति ब्रेज़ा में कितने एयरबैग हैं?",
+            "answer_hindi": "मारुति ब्रेज़ा के टॉप मॉडल में 6 एयरबैग हैं। इनमें ड्राइवर, फ्रंट पैसेंजर और साइड एयरबैग शामिल हैं।"
+          },
+          {
+            "question_hindi": "क्या मारुति ब्रेज़ा में एबीएस है?",
+            "answer_hindi": "हां, मारुति ब्रेज़ा के सभी वेरिएंट्स में एबीएस और ईबीडी की सुविधा है। यह तकनीक तेज ब्रेकिंग के दौरान वाहन को स्थिर रखने में मदद करती है।"
           }
         ]
       }
@@ -460,26 +774,20 @@
     "brand": "Maruti Suzuki",
     "brand_hindi": "मारुति सुजुकी",
     "brandSlug": "maruti-suzuki-cars",
-    "brand_id": "64c9032e17efebb6360e632a",
     "featured": "trending",
     "bodytype": "Compact SUV",
     "bodytype_hindi": "कॉम्पैक्ट एसयूवी",
     "usagetype": "New Car",
-    "usagetype_hindi": "नई कार",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1735572012/carwale/carImages/maruti/fronx-exterior-right-front-three-quarter-110_rwuvda.webp",
     "specifications": {
       "price": 746500,
-      "price_hindi": "\u0930\u0942. 7,46,500",
       "mileage": 20,
-      "mileage_hindi": "20 किमी प्रति लीटर",
       "engine": 998,
-      "engine_hindi": "998 सीसी",
       "fueltype": ["Petrol"],
       "fueltype_hindi": ["पेट्रोल"],
       "transmission": ["Manual", "Automatic"],
       "transmission_hindi": ["मैनुअल", "ऑटोमैटिक"],
-      "seatingcapacity": 5,
-      "seatingcapacity_hindi": "5 सीटें"
+      "seatingcapacity": 5
     },
     "keyfeatures": [
       "Side and curtain airbags",
@@ -646,12 +954,16 @@
   },
   {
     "title": "Hyundai Aura",
+    "title_hindi": "हुंडई ऑरा",
     "intro": "The Aura is a compact sedan featuring comfortable seats and an airy, well-finished cabin. It offers peppy performance from its smooth engine, a feature-laden interior, and excellent slow-speed ride quality. Additionally, it boasts good ground clearance for varied driving conditions.",
+    "intro_hindi": "ऑरा एक कॉम्पैक्ट सेडान है जिसमें आरामदायक सीटें और अच्छी तरह से तैयार केबिन है। यह अपने स्मूथ इंजन से उत्साही प्रदर्शन, सुविधाओं से भरा इंटीरियर और धीमी गति की उत्कृष्ट सवारी गुणवत्ता प्रदान करता है। इसके अतिरिक्त, यह विभिन्न ड्राइविंग परिस्थितियों के लिए अच्छा ग्राउंड क्लीयरेंस प्रदान करता है।",
     "titleSlug": "aura",
     "brand": "Hyundai",
+    "brand_hindi": "हुंडई",
     "brandSlug": "hyundai-cars",
-    "brand_id": "64c9032e17efebb6360e632b",
+    "featured": "popular",
     "bodytype": "Compact Sedan",
+    "bodytype_hindi": "कॉम्पैक्ट सेडान",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1737132400/carwale/carImages/hyundai/aura-exterior-right-front-three-quarter-5_lnbchm.webp",
     "specifications": {
@@ -660,7 +972,9 @@
       "mileage": 20.1,
       "safety": 2,
       "fueltype": ["Petrol", "CNG"],
+      "fueltype_hindi": ["पेट्रोल", "सीएनजी"],
       "transmission": ["Manual", "Automatic"],
+      "transmission_hindi": ["मैनुअल", "ऑटोमैटिक"],
       "seatingcapacity": 5
     },
     "keyfeatures": [
@@ -676,35 +990,18 @@
       "Driver and passenger airbags",
       "ISOFIX child seat mounts"
     ],
-    "summary": [
-      {
-        "question": "Latest Update",
-        "answer": "Hyundai Aura received a facelift in 2023, featuring design upgrades, new safety features, and RDE-compliant engines."
-      },
-      {
-        "question": "Price",
-        "answer": "Hyundai Aura price ranges between Rs. 6.54 Lakh to Rs. 10.58 Lakh, depending on the variant and city."
-      },
-      {
-        "question": "When was the Hyundai Aura launched?",
-        "answer": "The latest Hyundai Aura was launched in India in January 2023."
-      },
-      {
-        "question": "What variants does it get?",
-        "answer": "The Hyundai Aura is available in variants such as E, S, SX, SX Plus, and CNG options."
-      },
-      {
-        "question": "What are the engine and performance details of the Hyundai Aura?",
-        "answer": "The Aura is powered by a 1.2-litre petrol engine generating 82bhp and 114Nm of torque, available with a 5-speed manual or AMT. It also offers a CNG variant producing 68bhp and 95Nm of torque."
-      },
-      {
-        "question": "Is the Hyundai Aura a safe car?",
-        "answer": "The Hyundai Aura offers essential safety features like ABS with EBD, dual airbags, rear parking sensors, and ISOFIX child seat mounts. It is compliant with Indian safety standards."
-      },
-      {
-        "question": "What are the rivals to the Hyundai Aura?",
-        "answer": "Competitors of the Hyundai Aura include Maruti Suzuki Dzire, Honda Amaze, and Tata Tigor."
-      }
+    "keyfeatures_hindi": [
+      "8.0-इंच टचस्क्रीन इंफोटेनमेंट सिस्टम जिसमें एंड्रॉइड ऑटो और एप्पल कारप्ले है",
+      "प्रोजेक्टर हेडलैंप्स एलईडी डीआरएल के साथ",
+      "डिजिटल इंस्ट्रूमेंट क्लस्टर",
+      "वायरलेस चार्जिंग",
+      "टायर प्रेशर मॉनिटरिंग सिस्टम (TPMS)",
+      "क्रूज़ कंट्रोल",
+      "रियर एसी वेंट्स",
+      "रियर-व्यू कैमरा",
+      "एबीएस विद ईबीडी",
+      "ड्राइवर और पैसेंजर एयरबैग्स",
+      "आईएसओफिक्स चाइल्ड सीट माउंट्स"
     ],
     "prosandcons": [
       {
@@ -715,14 +1012,27 @@
           "Good low-speed ride quality for city conditions",
           "Variety of engine and transmission options, including CNG and AMT"
         ],
+        "pros_hindi": [
+          "आरामदायक बैठने के साथ विस्तृत और अच्छी तरह से तैयार केबिन",
+          "तेज और स्मूथ इंजन प्रदर्शन, विशेष रूप से पेट्रोल वेरिएंट में",
+          "प्रीमियम टच के साथ फीचर से भरपूर इंटीरियर",
+          "शहरी परिस्थितियों के लिए धीमी गति की अच्छी सवारी गुणवत्ता",
+          "सीएनजी और एएमटी सहित इंजन और ट्रांसमिशन विकल्पों की विविधता"
+        ],
         "cons": [
           "Boot space could be more generous for a compact sedan",
           "Rear seat width makes it uncomfortable for three adults on long journeys",
           "CNG variant lacks automatic transmission option"
+        ],
+        "cons_hindi": [
+          "कॉम्पैक्ट सेडान के लिए बूट स्पेस अधिक हो सकता है",
+          "पीछे की सीट की चौड़ाई तीन वयस्कों के लिए लंबी यात्रा पर असुविधाजनक बनाती है",
+          "सीएनजी वेरिएंट में ऑटोमैटिक ट्रांसमिशन विकल्प की कमी"
         ]
       }
     ],
     "verdict": "The Hyundai Aura offers an excellent blend of comfort, performance, and features at a competitive price, making it an ideal choice for city dwellers seeking a compact sedan with versatility and style.",
+    "verdict_hindi": "हुंडई ऑरा आराम, प्रदर्शन और सुविधाओं का उत्कृष्ट मिश्रण एक प्रतिस्पर्धी कीमत पर प्रदान करता है, जो इसे बहुमुखी प्रतिभा और शैली के साथ एक कॉम्पैक्ट सेडान की तलाश करने वाले शहरी निवासियों के लिए आदर्श विकल्प बनाता है।",
     "faq": [
       {
         "price": [
@@ -733,14 +1043,6 @@
           {
             "question": "What is Aura base model price?",
             "answer": "Hyundai Aura base model E price starts from Rs. 7.79 Lakh and goes up to Rs. 8.66 Lakh. The entry-level E variant has features like Anti-Lock Braking System (ABS), Tyre Pressure Monitoring System (TPMS), Anti-glare Mirrors, Daytime Running Lights."
-          },
-          {
-            "question": "What is Hyundai Aura CNG price?",
-            "answer": "The cheapest CNG variant for Aura, E 1.2 CNG, would cost Rs. 8.66 Lakh in Kolhapur. All Aura CNG variants come with a 1.2 L engine and in manual gearbox. The top-end CNG option Aura SX 1.2 CNG is priced at Rs. 10.4 Lakh and it has Anti-Lock Braking System (ABS), Tyre Pressure Monitoring System (TPMS), Anti-glare Mirrors, Daytime Running Lights."
-          },
-          {
-            "question": "What is Aura automatic price?",
-            "answer": "The cheapest automatic Aura, SX Plus 1.2 AMT Petrol, costs Rs. 10.58 Lakh in Kolhapur. The Aura is available in - Automatic (AMT) petrol."
           }
         ],
         "performance": [
@@ -765,24 +1067,79 @@
             "answer": "Yes, all variants of Hyundai Aura come with ABS and EBD as standard safety features."
           }
         ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "हुंडई ऑरा बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "हुंडई ऑरा बेस मॉडल की ऑन-रोड कीमत रु. 6.32 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          },
+          {
+            "question_hindi": "हुंडई ऑरा टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "हुंडई ऑरा टॉप मॉडल की ऑन-रोड कीमत रु. 9.57 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "हुंडई ऑरा की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने हुंडई ऑरा की माइलेज 25.4 किमी/लीटर (डीजल) और 20.5 किमी/लीटर (पेट्रोल) होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 18 से 22 किमी/लीटर तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "हुंडई ऑरा में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "हुंडई ऑरा में 5 लोगों की बैठने की क्षमता है।"
+          },
+          {
+            "question_hindi": "हुंडई ऑरा के आयाम क्या हैं?",
+            "answer_hindi": "हुंडई ऑरा के आयाम 3995 मिमी लंबाई, 1680 मिमी चौड़ाई और 1520 मिमी ऊंचाई हैं। इसका व्हीलबेस 2450 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या हुंडई ऑरा में सनरूफ है?",
+            "answer_hindi": "नहीं, हुंडई ऑरा में सनरूफ उपलब्ध नहीं है।"
+          },
+          {
+            "question_hindi": "क्या हुंडई ऑरा में क्रूज कंट्रोल है?",
+            "answer_hindi": "नहीं, हुंडई ऑरा में क्रूज कंट्रोल की सुविधा नहीं है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "हुंडई ऑरा में कितने एयरबैग हैं?",
+            "answer_hindi": "हुंडई ऑरा के टॉप मॉडल में 4 एयरबैग हैं। इनमें ड्राइवर, फ्रंट पैसेंजर और साइड एयरबैग शामिल हैं।"
+          },
+          {
+            "question_hindi": "क्या हुंडई ऑरा में एबीएस है?",
+            "answer_hindi": "हां, हुंडई ऑरा के सभी वेरिएंट्स में एबीएस और ईबीडी की सुविधा है। यह तकनीक तेज ब्रेकिंग के दौरान वाहन को स्थिर रखने में मदद करती है।"
+          }
+        ]
       }
     ]
   },
   {
     "title": "Hyundai Venue",
+    "title_hindi": "ह्युंडई वेन्यू",
     "intro": "The Venue, a compact SUV renowned for its feature-rich variants, offers three fuel-efficient engines and five gearbox options. It has the signature Hyundai quality, attractive design, and space to comfortably seat four occupants.",
+    "intro_hindi": "ह्युंडई वेन्यू, एक कॉम्पैक्ट एसयूवी है जो अपने फीचर-समृद्ध वेरिएंट्स के लिए प्रसिद्ध है। यह तीन ईंधन-कुशल इंजनों और पांच गियरबॉक्स विकल्पों के साथ आता है। इसमें ह्युंडई की गुणवत्ता, आकर्षक डिज़ाइन और चार लोगों को आराम से बैठाने के लिए पर्याप्त जगह है।",
     "titleSlug": "venue",
     "brand": "Hyundai",
+    "brand_hindi": "ह्युंडई",
     "brandSlug": "hyundai-cars",
-    "brand_id": "64c9032e17efebb6360e632b",
+    "featured": "popular",
     "bodytype": "Compact SUV",
+    "bodytype_hindi": "कॉम्पैक्ट एसयूवी",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1693209718/carwale/carImages/hyundai/venue-exterior-right-front-three-quarter_tlvrhu.webp",
     "specifications": {
       "price": 794100,
+      "mileage": 18,
       "engine": 998,
       "fueltype": ["Petrol", "Diesel"],
+      "fueltype_hindi": ["पेट्रोल", "डीजल"],
       "transmission": ["Manual", "Automatic", "clutchless Manual (IMT)"],
+      "transmission_hindi": ["मैनुअल", "ऑटोमैटिक", "क्लचलेस मैनुअल (आईएमटी)"],
       "seatingcapacity": 5
     },
     "keyfeatures": [
@@ -802,6 +1159,23 @@
       "Auto headlamps",
       "Alloy wheels"
     ],
+    "keyfeatures_hindi": [
+      "हेड अप डिस्प्ले",
+      "360 डिग्री कैमरा",
+      "फ्रंट सीट बेल्ट की ऊंचाई समायोज्य",
+      "ऑटो डे/नाइट रियर व्यू मिरर",
+      "ARKAMYS सराउंड सेंस सिस्टम विथ वायरलेस एंड्रॉइड ऑटो और एप्पल कारप्ले",
+      "ऑनबोर्ड वॉयस असिस्टेंट",
+      "वायरलेस चार्जिंग",
+      "फास्ट चार्जिंग यूएसबी - टाइप ए और सी (रियर)",
+      "ह्युंडई कनेक्ट",
+      "स्टीयरिंग एडजस्ट - टिल्ट और टेलीस्कोपिक",
+      "इंजन पुश स्टार्ट/स्टॉप बटन",
+      "एम्बिएंट इंटीरियर लाइट्स",
+      "सनरूफ",
+      "ऑटो हेडलैंप्स",
+      "अलॉय व्हील्स"
+    ],
     "prosandcons": [
       {
         "pros": [
@@ -809,62 +1183,89 @@
           "Interior space - The cabin feels airy with ample storage spaces all over",
           "Tall seating - Offers a commanding driving position with good outward visibility",
           "Ease of driving - Light controls and the compact proportions make it nimble",
-          "Service network - Is backed by Maruti Suzuki's exhaustive and robust network"
+          "Service network - Is backed by Hyundai's exhaustive and robust network"
+        ],
+        "pros_hindi": [
+          "कई विशेषताएँ - सुविधाजनक उपयोग के लिए कई उल्लेखनीय विशेषताएँ",
+          "इंटीरियर स्पेस - केबिन हवादार लगता है और हर जगह पर्याप्त स्टोरेज स्पेस",
+          "लंबी सीटिंग - अच्छी बाहरी दृश्यता के साथ एक प्रभावी ड्राइविंग स्थिति प्रदान करता है",
+          "ड्राइविंग में आसानी - हल्के कंट्रोल और कॉम्पैक्ट अनुपात इसे फुर्तीला बनाते हैं",
+          "सेवा नेटवर्क - ह्युंडई के मजबूत और व्यापक नेटवर्क द्वारा समर्थित"
         ],
         "cons": [
           "Engine lacks punch - The mid-range grunt could have been more exciting",
           "Pricey - Top-end variants are expensive when stacked against segment rivals",
           "Ride quality at slow speeds - Conspicuous vertical movement over broken roads"
+        ],
+        "cons_hindi": [
+          "इंजन की कमी - मिड-रेंज में और अधिक उत्साहजनक हो सकता था",
+          "महंगा - शीर्ष वेरिएंट्स खंड प्रतिद्वंद्वियों की तुलना में महंगे हैं",
+          "धीमी गति पर सवारी की गुणवत्ता - टूटे हुए रास्तों पर ऊर्ध्वाधर हलचल"
         ]
       }
     ],
-    "verdict": "The new Maruti Brezza has made considerable progress over the previous version. It now gets a nearly all-new design, comes equipped with a range of new features, packs a fairly good ride quality, and is more than just convenient to drive when you are running around the urban jungle.",
+    "verdict": "The Hyundai Venue is a feature-packed compact SUV with impressive design and excellent utility, making it a strong contender in its category.",
+    "verdict_hindi": "ह्युंडई वेन्यू एक विशेषताओं से भरपूर कॉम्पैक्ट एसयूवी है जिसमें प्रभावशाली डिज़ाइन और उत्कृष्ट उपयोगिता है, जो इसे अपने वर्ग में एक मजबूत दावेदार बनाती है।",
     "faq": [
       {
         "price": [
           {
-            "question": "What is the on road price of Maruti Suzuki Brezza base model?",
-            "answer": "The on-road price of Maruti Suzuki Brezza base model is Rs. 8.29 Lakh which includes a registration cost of Rs. 58860, insurance premium of Rs. 38800 and additional charges of Rs. 2000."
-          },
-          {
-            "question": "What is the on road price of Maruti Suzuki Brezza top model?",
-            "answer": "The on-road price of Maruti Suzuki Brezza top model is Rs. 14.14 Lakh which includes a registration cost of Rs. 142230, insurance premium of Rs. 56100 and additional charges of Rs. 2000."
-          }
-        ],
-        "performance": [
-          {
-            "question": "What is the real world versus claimed mileage of Maruti Suzuki Brezza?",
-            "answer": "The company claimed mileage of Maruti Suzuki Brezza is 17.38 to 25.51 kmpl. As per users, the mileage came to be 0 to 19.45 kmpl in the real world."
-          }
-        ],
-        "specifications": [
-          {
-            "question": "What is the seating capacity in Maruti Suzuki Brezza?",
-            "answer": "Maruti Suzuki Brezza has a seating capacity of 5 people."
-          },
-          {
-            "question": "What are the dimensions of Maruti Suzuki Brezza?",
-            "answer": "The dimensions of Maruti Suzuki Brezza include its length of 3995 mm, width of 1790 mm and height of 1685 mm. The wheelbase of the Maruti Suzuki Brezza is 2500 mm."
+            "question": "What is the on-road price of Hyundai Venue base model?",
+            "answer": "The on-road price of Hyundai Venue base model is Rs. 7.94 Lakh."
           }
         ],
         "features": [
           {
-            "question": "Does Maruti Suzuki Brezza get a sunroof?",
-            "answer": "Yes, 10 out of 15 versions of Maruti Suzuki Brezza have Sunroof."
+            "question": "Does Hyundai Venue have a sunroof?",
+            "answer": "Yes, Hyundai Venue comes with a sunroof in select variants."
+          }
+        ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "हुंडई वेन्यू बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "हुंडई वेन्यू बेस मॉडल की ऑन-रोड कीमत रु. 7.77 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
           },
           {
-            "question": " Does Maruti Suzuki Brezza have cruise control?",
-            "answer": "Yes, 10 out of 15 versions of Maruti Suzuki Brezza have cruise control function. With the Cruise control enabled you can take your foot off the accelerator and move at a fixed speed constantly provided the road system permits this."
+            "question_hindi": "हुंडई वेन्यू टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "हुंडई वेन्यू टॉप मॉडल की ऑन-रोड कीमत रु. 13.48 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
           }
         ],
-        "safety": [
+        "परफ़ॉर्मेंस": [
           {
-            "question": "How many airbags does Maruti Brezza get?",
-            "answer": "The top Model of Maruti Suzuki Brezza has 6 airbags. The Brezza has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
+            "question_hindi": "हुंडई वेन्यू की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने हुंडई वेन्यू की माइलेज 23.4 किमी/लीटर (डीजल) और 18.1 किमी/लीटर (पेट्रोल) होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 20 से 22 किमी/लीटर (डीजल) और 16 से 17 किमी/लीटर (पेट्रोल) तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "हुंडई वेन्यू में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "हुंडई वेन्यू में 5 लोगों की बैठने की क्षमता है।"
           },
           {
-            "question": " Does Maruti Suzuki Brezza get ABS?",
-            "answer": "Yes, all versions of Maruti Suzuki Brezza have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+            "question_hindi": "हुंडई वेन्यू के आयाम क्या हैं?",
+            "answer_hindi": "हुंडई वेन्यू के आयाम 3995 मिमी लंबाई, 1770 मिमी चौड़ाई और 1617 मिमी ऊंचाई हैं। इसका व्हीलबेस 2500 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या हुंडई वेन्यू में सनरूफ है?",
+            "answer_hindi": "हां, हुंडई वेन्यू के उच्च वेरिएंट्स में इलेक्ट्रिक सनरूफ उपलब्ध है।"
+          },
+          {
+            "question_hindi": "क्या हुंडई वेन्यू में क्रूज कंट्रोल है?",
+            "answer_hindi": "हां, हुंडई वेन्यू में क्रूज कंट्रोल की सुविधा है, जो लंबी यात्रा के दौरान ड्राइविंग को आरामदायक बनाती है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "हुंडई वेन्यू में कितने एयरबैग हैं?",
+            "answer_hindi": "हुंडई वेन्यू के टॉप मॉडल में 6 एयरबैग हैं। इनमें ड्राइवर, फ्रंट पैसेंजर, साइड और कर्टेन एयरबैग शामिल हैं।"
+          },
+          {
+            "question_hindi": "क्या हुंडई वेन्यू में एबीएस है?",
+            "answer_hindi": "हां, हुंडई वेन्यू के सभी वेरिएंट्स में एबीएस और ईबीडी की सुविधा है। यह तकनीक तेज ब्रेकिंग के दौरान वाहन को स्थिर रखने में मदद करती है।"
           }
         ]
       }
@@ -872,22 +1273,51 @@
   },
   {
     "title": "Hyundai Exter",
+    "title_hindi": "हुंडई एक्सटर",
     "intro": "The Exter, a micro crossover, offers the form factor of an SUV for the price of a hatchback. Its tall-boy design enhances cabin space and the boot is quite large, too. The Exter’s USP includes paddle shifters for the AMT version and a sunroof.",
+    "intro_hindi": "एक्सटर, एक माइक्रो क्रॉसओवर, एसयूवी के फॉर्म फैक्टर को हैचबैक की कीमत में पेश करता है। इसका टॉल-बॉय डिज़ाइन केबिन स्पेस को बढ़ाता है और बूट भी काफी बड़ा है। एक्सटर की विशेषताओं में एएमटी संस्करण के लिए पैडल शिफ्टर्स और सनरूफ शामिल हैं।",
     "titleSlug": "exter",
     "brand": "Hyundai",
+    "brand_hindi": "हुंडई",
     "brandSlug": "hyundai-cars",
     "brand_id": "64c9032e17efebb6360e632b",
     "bodytype": "Compact SUV",
+    "bodytype_hindi": "कॉम्पैक्ट एसयूवी",
     "featured": "popular",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1693209440/carwale/carImages/hyundai/exter-exterior-right-front-three-quarter-21_vlzwmb.webp",
     "specifications": {
       "price": 612800,
+      "mileage": 27.1,
       "engine": 1197,
       "fueltype": ["Petrol", "CNG"],
+      "fueltype_hindi": ["पेट्रोल", "सीएनजी"],
       "transmission": ["Manual", "Automatic"],
+      "transmission_hindi": ["मैनुअल", "ऑटोमैटिक"],
       "seatingcapacity": 5
     },
+    "keyfeatures": [
+      "Six airbags",
+      "Paddle shifters for AMT version",
+      "Sunroof",
+      "LED DRLs",
+      "Touchscreen infotainment system",
+      "Rear parking camera",
+      "Climate control",
+      "ABS with EBD",
+      "Height-adjustable driver seat"
+    ],
+    "keyfeatures_hindi": [
+      "छह एयरबैग",
+      "एएमटी संस्करण के लिए पैडल शिफ्टर्स",
+      "सनरूफ",
+      "एलईडी डीआरएल",
+      "टचस्क्रीन इंफोटेनमेंट सिस्टम",
+      "रियर पार्किंग कैमरा",
+      "क्लाइमेट कंट्रोल",
+      "ईबीडी के साथ एबीएस",
+      "हाइट एडजस्टेबल ड्राइवर सीट"
+    ],
     "prosandcons": [
       {
         "pros": [
@@ -897,19 +1327,32 @@
           "Superb AMT calibration, there are no AMT jerks at sedate driving",
           "You will appreciate the Exter's spacious and practical cabin"
         ],
+        "pros_hindi": [
+          "हुंडई एक्सटर में कई सेगमेंट फर्स्ट फीचर्स हैं",
+          "छह एयरबैग्स का सेफ्टी नेट एक्सटर में स्टैंडर्ड आता है",
+          "उपयोगकर्ता-अनुकूल ड्राइविंग नियंत्रण के कारण इसे चलाना आसान है",
+          "एएमटी कैलिब्रेशन शानदार है, सामान्य ड्राइविंग में एएमटी झटके नहीं होते",
+          "एक्सटर का विशाल और व्यावहारिक केबिन सराहनीय है"
+        ],
         "cons": [
           "The Exter's radical design can be discouraging for some buyers",
           "The Hyundai Exter is not the fun-to-drive car one would expect to be",
           "The range-topping version can be quite expensive to buy"
+        ],
+        "cons_hindi": [
+          "एक्सटर का क्रांतिकारी डिज़ाइन कुछ खरीदारों के लिए हतोत्साहित कर सकता है",
+          "हुंडई एक्सटर वह मजेदार ड्राइविंग अनुभव नहीं देता जिसकी उम्मीद की जाती है",
+          "टॉप वर्जन खरीदना काफी महंगा हो सकता है"
         ]
       }
     ],
     "verdict": "The Exter is a well thought out all-around product. Be it its price, features, space utilisation, quality levels, ergonomics and ease of driving. If one can get over the radical looks, this is one to plonk for.",
+    "verdict_hindi": "एक्सटर एक अच्छा और संतुलित प्रोडक्ट है। इसकी कीमत, फीचर्स, स्पेस उपयोग, गुणवत्ता स्तर, एर्गोनॉमिक्स और ड्राइविंग की आसानी सभी अच्छे हैं। अगर आप इसके क्रांतिकारी लुक को नजरअंदाज कर सकते हैं, तो यह एक बेहतरीन विकल्प है।",
     "faq": [
       {
         "price": [
           {
-            "question": "What is the on road price of Hyundai Exter  base model?",
+            "question": "What is the on road price of Hyundai Exter base model?",
             "answer": "The on-road price of Hyundai Exter base model is Rs. 6.00 Lakh which includes a registration cost of Rs. 28996, insurance premium of Rs. 36101 and additional charges of Rs. 2000."
           },
           {
@@ -935,7 +1378,7 @@
         ],
         "features": [
           {
-            "question": " Is Hyundai Exter available in 4x4 version?",
+            "question": "Is Hyundai Exter available in 4x4 version?",
             "answer": "No, Hyundai Exter doesn't come with four wheel drive option."
           }
         ],
@@ -945,8 +1388,56 @@
             "answer": "The top Model of Hyundai Exter has 6 airbags. The Exter has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
           },
           {
-            "question": " Does Hyundai Exter get ABS?",
+            "question": "Does Hyundai Exter get ABS?",
             "answer": "Yes, all versions of Hyundai Exter have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "ह्युंडई एक्सटर बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "ह्युंडई एक्सटर बेस मॉडल की ऑन-रोड कीमत रु. 6.25 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          },
+          {
+            "question_hindi": "ह्युंडई एक्सटर टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "ह्युंडई एक्सटर टॉप मॉडल की ऑन-रोड कीमत रु. 10.10 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "ह्युंडई एक्सटर की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने ह्युंडई एक्सटर की माइलेज 19.4 किमी/लीटर होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 17 से 18.5 किमी/लीटर तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "ह्युंडई एक्सटर में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "ह्युंडई एक्सटर में 5 लोगों की बैठने की क्षमता है।"
+          },
+          {
+            "question_hindi": "ह्युंडई एक्सटर के आयाम क्या हैं?",
+            "answer_hindi": "ह्युंडई एक्सटर के आयाम 3815 मिमी लंबाई, 1710 मिमी चौड़ाई और 1631 मिमी ऊंचाई हैं। इसका व्हीलबेस 2450 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या ह्युंडई एक्सटर में सनरूफ है?",
+            "answer_hindi": "हां, ह्युंडई एक्सटर के उच्च वेरिएंट्स में इलेक्ट्रिक सनरूफ उपलब्ध है।"
+          },
+          {
+            "question_hindi": "क्या ह्युंडई एक्सटर में क्रूज कंट्रोल है?",
+            "answer_hindi": "हां, ह्युंडई एक्सटर में क्रूज कंट्रोल की सुविधा है, जो लंबी यात्रा के दौरान ड्राइविंग को आरामदायक बनाती है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "ह्युंडई एक्सटर में कितने एयरबैग हैं?",
+            "answer_hindi": "ह्युंडई एक्सटर के सभी वेरिएंट्स में 6 एयरबैग स्टैंडर्ड फीचर के रूप में उपलब्ध हैं।"
+          },
+          {
+            "question_hindi": "क्या ह्युंडई एक्सटर में एबीएस है?",
+            "answer_hindi": "हां, ह्युंडई एक्सटर के सभी वेरिएंट्स में एबीएस और ईबीडी की सुविधा है। यह तकनीक तेज ब्रेकिंग के दौरान वाहन को स्थिर रखने में मदद करती है।"
           }
         ]
       }
@@ -954,22 +1445,42 @@
   },
   {
     "title": "Hyundai Creta",
+    "title_hindi": "ह्यूंदई क्रेटा",
     "intro": "The Creta does a lot of things right. This SUV feels premium and maintains consistent quality levels. It boasts a spacious interior, is loaded with modern features, gets petrol and diesel powertrains with smooth gearboxes, and drives exceedingly well.",
+    "intro_hindi": "क्रेटा कई चीजों में सही है। यह एसयूवी प्रीमियम महसूस होती है और गुणवत्ता के स्तर को निरंतर बनाए रखती है। इसमें एक विशाल इंटीरियर्स है, यह आधुनिक सुविधाओं से लैस है, पेट्रोल और डीजल पावरट्रेन के साथ स्मूथ गियरबॉक्स मिलते हैं, और यह अत्यधिक अच्छा ड्राइव करता है।",
     "titleSlug": "creta",
     "brand": "Hyundai",
+    "brand_hindi": "ह्यूंदई",
     "brandSlug": "hyundai-cars",
-    "brand_id": "64c9032e17efebb6360e632b",
-    "bodytype": "SUV",
     "featured": "trending",
+    "bodytype": "SUV",
+    "bodytype_hindi": "एसयूवी",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1735572357/carwale/carImages/hyundai/creta-exterior-right-front-three-quarter-4_bjkd8c.webp",
     "specifications": {
       "price": 1099900,
+      "mileage": 17,
       "engine": 1497,
       "fueltype": ["Petrol", "Diesel"],
+      "fueltype_hindi": ["पेट्रोल", "डीजल"],
       "transmission": ["Manual", "Automatic"],
+      "transmission_hindi": ["मैनुअल", "ऑटोमैटिक"],
       "seatingcapacity": 5
     },
+    "keyfeatures": [
+      "Heavily refreshed feature list.",
+      "Spacious cabin and comfortable seats.",
+      "The updated design looks sharp and appealing.",
+      "Powertrains have adequate grunt for most driving situations.",
+      "Hyundai spares/service availability and resale value."
+    ],
+    "keyfeatures_hindi": [
+      "नई सुविधाओं की सूची को पूरी तरह से ताजगी दी गई है।",
+      "विशाल केबिन और आरामदायक सीटें।",
+      "अपडेटेड डिज़ाइन तेज और आकर्षक दिखता है।",
+      "पावरट्रेन अधिकांश ड्राइविंग स्थितियों के लिए पर्याप्त ताकत प्रदान करते हैं।",
+      "ह्यूंदई स्पेयर/सर्विस उपलब्धता और पुनर्विक्रय मूल्य।"
+    ],
     "prosandcons": [
       {
         "pros": [
@@ -979,12 +1490,25 @@
           "Powertrains have adequate grunt for most driving situations.",
           "Hyundai spares/service availability and resale value."
         ],
+        "pros_hindi": [
+          "नई सुविधाओं की सूची को पूरी तरह से ताजगी दी गई है।",
+          "विशाल केबिन और आरामदायक सीटें।",
+          "अपडेटेड डिज़ाइन तेज और आकर्षक दिखता है।",
+          "पावरट्रेन अधिकांश ड्राइविंग स्थितियों के लिए पर्याप्त ताकत प्रदान करते हैं।",
+          "ह्यूंदई स्पेयर/सर्विस उपलब्धता और पुनर्विक्रय मूल्य।"
+        ],
         "cons": [
           "Restrictive headspace for tall occupants.",
           "Top-end models are mostly expensive."
+        ],
+        "cons_hindi": [
+          "लंबे व्यक्तियों के लिए सीमित हेडस्पेस।",
+          "टॉप-एंड मॉडल ज्यादातर महंगे होते हैं।"
         ]
       }
     ],
+    "verdict": "The Hyundai Creta is a premium SUV with a modern design, offering excellent comfort, a spacious cabin, and a strong set of features, making it an excellent choice in its segment.",
+    "verdict_hindi": "ह्यूंदई क्रेटा एक प्रीमियम एसयूवी है जिसमें आधुनिक डिज़ाइन है, उत्कृष्ट आराम, विशाल केबिन और मजबूत सुविधाओं का सेट है, जो इसे अपने सेगमेंट में एक बेहतरीन विकल्प बनाता है।",
     "faq": [
       {
         "price": [
@@ -1026,11 +1550,59 @@
         "safety": [
           {
             "question": "How many airbags does Hyundai Creta get?",
-            "answer": "The top Model of Hyundai Creta  has 6 airbags. The Exter has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
+            "answer": "The top Model of Hyundai Creta has 6 airbags. The Exter has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
           },
           {
-            "question": " Does Hyundai Creta get ABS?",
+            "question": "Does Hyundai Creta get ABS?",
             "answer": "Yes, all versions of Hyundai Creta have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "ह्युंडई क्रेटा बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "ह्युंडई क्रेटा बेस मॉडल की ऑन-रोड कीमत रु. 10.65 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          },
+          {
+            "question_hindi": "ह्युंडई क्रेटा टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "ह्युंडई क्रेटा टॉप मॉडल की ऑन-रोड कीमत रु. 17.70 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "ह्युंडई क्रेटा की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने ह्युंडई क्रेटा की माइलेज 17.4 किमी/लीटर होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 15 से 17 किमी/लीटर तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "ह्युंडई क्रेटा में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "ह्युंडई क्रेटा में 5 लोगों की बैठने की क्षमता है।"
+          },
+          {
+            "question_hindi": "ह्युंडई क्रेटा के आयाम क्या हैं?",
+            "answer_hindi": "ह्युंडई क्रेटा के आयाम 4300 मिमी लंबाई, 1790 मिमी चौड़ाई और 1620 मिमी ऊंचाई हैं। इसका व्हीलबेस 2610 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या ह्युंडई क्रेटा में सनरूफ है?",
+            "answer_hindi": "हां, ह्युंडई क्रेटा के उच्च वेरिएंट्स में पैनोरमिक सनरूफ उपलब्ध है।"
+          },
+          {
+            "question_hindi": "क्या ह्युंडई क्रेटा में क्रूज कंट्रोल है?",
+            "answer_hindi": "हां, ह्युंडई क्रेटा के उच्च वेरिएंट्स में क्रूज कंट्रोल की सुविधा है, जो लंबी यात्रा के दौरान ड्राइविंग को आरामदायक बनाती है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "ह्युंडई क्रेटा में कितने एयरबैग हैं?",
+            "answer_hindi": "ह्युंडई क्रेटा के टॉप मॉडल में 6 एयरबैग हैं। इनमें ड्राइवर, फ्रंट पैसेंजर और साइड एयरबैग शामिल हैं।"
+          },
+          {
+            "question_hindi": "क्या ह्युंडई क्रेटा में एबीएस है?",
+            "answer_hindi": "हां, ह्युंडई क्रेटा के सभी वेरिएंट्स में एबीएस और ईबीडी की सुविधा है। यह तकनीक तेज ब्रेकिंग के दौरान वाहन को स्थिर रखने में मदद करती है।"
           }
         ]
       }
@@ -1038,20 +1610,25 @@
   },
   {
     "title": "Tata Harrier",
+    "title_hindi": "टाटा हैरियर",
     "intro": "The Harrier is a sturdy and imposing SUV, built on a Land Rover platform, and boasts a five-star safety rating. Its spacious and comfortable cabin is replete with tech, features, and a big boot. Driving it is an engaging experience thanks to a potent engine and well-balanced handling.",
+    "intro_hindi": "हैरियर एक मजबूत और प्रभावशाली एसयूवी है, जो लैंड रोवर प्लेटफ़ॉर्म पर बनी है, और इसमें पाँच स्टार सुरक्षा रेटिंग है। इसका विशाल और आरामदायक केबिन तकनीकी सुविधाओं से भरा हुआ है और इसमें एक बड़ा बूट है। इसे चलाना एक दिलचस्प अनुभव है, इसके शक्तिशाली इंजन और संतुलित हैंडलिंग के कारण।",
     "titleSlug": "harrier",
     "brand": "Tata",
+    "brand_hindi": "टाटा",
     "brandSlug": "tata-cars",
-    "brand_id": "64c9032e17efebb6360e632c",
     "bodytype": "SUV",
-    "featured": "popular",
+    "bodytype_hindi": "एसयूवी",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1703422808/carwale/carImages/tata/harrier-facelift-exterior-right-front-three-quarter-5_h71bnf.webp",
     "specifications": {
       "price": 1549000,
+      "mileage": 15,
       "engine": 1956,
       "fueltype": ["Diesel"],
+      "fueltype_hindi": ["डीज़ल"],
       "transmission": ["Manual", "Automatic"],
+      "transmission_hindi": ["मैनुअल", "ऑटोमैटिक"],
       "seatingcapacity": 5
     },
     "keyfeatures": [
@@ -1084,6 +1661,36 @@
       "Wireless charger",
       "Driver doze off warning"
     ],
+    "keyfeatures_hindi": [
+      "टिल्ट और टेलीस्कोपिक समायोज्य स्टीयरिंग व्हील",
+      "प्रोजेक्टर हेडलाइट्स",
+      "टर्न इंडिकेटर्स के साथ ड्यूल फंक्शन DRLs",
+      "ड्यूल एयरबैग्स",
+      "सेंट्रल लॉकिंग",
+      "सभी पावर विंडो",
+      "3 यूएसबी पोर्ट्स",
+      "मल्टीपल ड्राइव मोड्स",
+      "टचस्क्रीन इंफोटेनमेंट स्क्रीन",
+      "स्टीयरिंग व्हील्स विथ कंट्रोल्स",
+      "पावर ORVMs",
+      "पावर्ड ड्राइवर सीट्स",
+      "वेंटिलेटेड फ्रंट सीट्स",
+      "इलुमिनेटेड पैनोरमिक सनरूफ",
+      "वायरलेस एंड्रॉयड ऑटो और एप्पल कारप्ले",
+      "वर्षा सेंसिंग वाइपर",
+      "200+ वॉयस कमांड्स",
+      "ऑटोमेटिक टेम्परेचर कंट्रोल",
+      "360-डिग्री कैमरा",
+      "ADAS",
+      "क्रूज कंट्रोल",
+      "एयर प्यूरीफायर",
+      "लेदर रैप्ड स्टीयरिंग व्हील और गियर नॉब",
+      "9 JBL स्पीकर्स",
+      "18-इंच डायमंड कट अलॉय व्हील्स",
+      "इलेक्ट्रॉनिक पार्किंग ब्रेक्स",
+      "वायरलेस चार्जर",
+      "ड्राइवर डोज़ ऑफ़ वार्निंग"
+    ],
     "prosandcons": [
       {
         "pros": [
@@ -1093,14 +1700,27 @@
           "Comfortable cabin - There are acres of space with large well-cushioned seats",
           "Storage spaces - Lots of space to stash one's stuff on the dash, doors and armrests"
         ],
+        "pros_hindi": [
+          "BS6 Phase 2 - RDE compliant, ADAS फंक्शन्स, अपडेटेड इंफोटेनमेंट/इंस्ट्रूमेंट कंसोल",
+          "शक्तिशाली इंजन - यह एक तेज़ एसयूवी है जिसमें परिष्कृत आचरण और बहुत कम NVH है",
+          "ऑटोमैटिक गियरबॉक्स - यह चिकनी पावर डिलीवरी प्रदान करता है और शिफ्ट्स में कोई अंतराल नहीं होता",
+          "आरामदायक केबिन - यहाँ विशाल जगह है और बड़ी, अच्छी तरह से कुशन वाली सीटें हैं",
+          "संग्रहण स्थान - डैश, दरवाजों और आर्मरेस्ट्स में सामान रखने के लिए ढेर सारी जगह है"
+        ],
         "cons": [
           "Quality isn't consistent - Some sections feel inferior in terms of quality and fit/finish",
           "Taut ride - The ride quality when driving at slow speeds can feel slightly firm",
           "Centre-console storage - Storing items here is not an easy affair and requires effort"
+        ],
+        "cons_hindi": [
+          "गुणवत्ता में असंगति - कुछ हिस्सों में गुणवत्ता और फिट/फिनिश के मामले में कमी महसूस होती है",
+          "कठोर सवारी - धीमी गति से चलाते समय सवारी की गुणवत्ता थोड़ी कठोर लग सकती है",
+          "केंद्र कंसोल भंडारण - यहाँ सामान रखना आसान नहीं है और इसके लिए प्रयास की आवश्यकता है"
         ]
       }
     ],
     "verdict": "The Tata Harrier is certainly a looker. And that combined with the Land Rover-derived underpinnings, dynamics, spacious interiors and a long equipment list, makes for a potent package overall.",
+    "verdict_hindi": "टाटा हैरियर निश्चित रूप से आकर्षक है। और लैंड रोवर से प्राप्त आधार, गतिशीलताएँ, विशाल आंतरिक और लंबी सुविधाओं की सूची के साथ यह एक शक्तिशाली पैकेज बनाता है।",
     "faq": [
       {
         "price": [
@@ -1145,6 +1765,54 @@
             "answer": "Yes, all versions of Tata Harrier have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
           }
         ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "टाटा हैरियर बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "टाटा हैरियर बेस मॉडल की ऑन-रोड कीमत रु. 16.99 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          },
+          {
+            "question_hindi": "टाटा हैरियर टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "टाटा हैरियर टॉप मॉडल की ऑन-रोड कीमत रु. 24.49 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "टाटा हैरियर की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने टाटा हैरियर की माइलेज 17.0 किमी/लीटर होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 14 से 16 किमी/लीटर तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "टाटा हैरियर में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "टाटा हैरियर में 5 लोगों की बैठने की क्षमता है।"
+          },
+          {
+            "question_hindi": "टाटा हैरियर के आयाम क्या हैं?",
+            "answer_hindi": "टाटा हैरियर के आयाम 4598 मिमी लंबाई, 1894 मिमी चौड़ाई और 1706 मिमी ऊंचाई हैं। इसका व्हीलबेस 2741 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या टाटा हैरियर में सनरूफ है?",
+            "answer_hindi": "हां, टाटा हैरियर के उच्च वेरिएंट्स में इलेक्ट्रिक सनरूफ उपलब्ध है।"
+          },
+          {
+            "question_hindi": "क्या टाटा हैरियर में क्रूज कंट्रोल है?",
+            "answer_hindi": "हां, टाटा हैरियर में क्रूज कंट्रोल की सुविधा है, जो लंबी यात्रा के दौरान ड्राइविंग को आरामदायक बनाती है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "टाटा हैरियर में कितने एयरबैग हैं?",
+            "answer_hindi": "टाटा हैरियर के टॉप मॉडल में 6 एयरबैग हैं। इनमें ड्राइवर, फ्रंट पैसेंजर और साइड एयरबैग शामिल हैं।"
+          },
+          {
+            "question_hindi": "क्या टाटा हैरियर में एबीएस है?",
+            "answer_hindi": "हां, टाटा हैरियर के सभी वेरिएंट्स में एबीएस और ईबीडी की सुविधा है। यह तकनीक तेज ब्रेकिंग के दौरान वाहन को स्थिर रखने में मदद करती है।"
+          }
+        ]
       }
     ]
   },
@@ -1166,9 +1834,7 @@
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1737132640/carwale/carImages/tata/tiago-ev-exterior-right-front-three-quarter-13_wul0t4.webp",
     "specifications": {
       "price": 900000,
-      "price_hindi": "₹ 9,00,000",
       "mileage": "315 km (range)",
-      "mileage_hindi": "315 किमी (रेंज)",
       "engine": "Electric Motor",
       "engine_hindi": "इलेक्ट्रिक मोटर",
       "fueltype": ["Electric"],
@@ -1235,45 +1901,81 @@
         "price": [
           {
             "question": "What is the price of Tata Tiago EV?",
-            "question_hindi": "टाटा टियागो ईवी की कीमत क्या है?",
-            "answer": "The price of Tata Tiago EV starts at ₹ 9 lakh.",
-            "answer_hindi": "टाटा टियागो ईवी की कीमत ₹ 9 लाख से शुरू होती है।"
+            "answer": "The price of Tata Tiago EV starts at ₹ 9 lakh."
           }
         ],
         "performance": [
           {
             "question": "What is the range of Tata Tiago EV?",
-            "question_hindi": "टाटा टियागो ईवी की रेंज क्या है?",
-            "answer": "The Tata Tiago EV offers a range of 315 km on a single charge.",
-            "answer_hindi": "टाटा टियागो ईवी एक बार चार्ज करने पर 315 किमी की रेंज प्रदान करता है।"
+            "answer": "The Tata Tiago EV offers a range of 315 km on a single charge."
           }
         ],
         "features": [
           {
             "question": "Does Tata Tiago EV support fast charging?",
-            "question_hindi": "क्या टाटा टियागो ईवी फास्ट चार्जिंग का समर्थन करता है?",
-            "answer": "Yes, Tata Tiago EV supports fast charging for quick recharges.",
-            "answer_hindi": "हां, टाटा टियागो ईवी तेज चार्जिंग का समर्थन करता है।"
+            "answer": "Yes, Tata Tiago EV supports fast charging for quick recharges."
           },
           {
             "question": "Does Tata Tiago EV have a reverse parking camera?",
-            "question_hindi": "क्या टाटा टियागो ईवी में रिवर्स पार्किंग कैमरा है?",
-            "answer": "Yes, Tata Tiago EV comes equipped with a reverse parking camera.",
-            "answer_hindi": "हां, टाटा टियागो ईवी रिवर्स पार्किंग कैमरा के साथ आता है।"
+            "answer": "Yes, Tata Tiago EV comes equipped with a reverse parking camera."
           }
         ],
         "safety": [
           {
             "question": "How many airbags does Tata Tiago EV have?",
-            "question_hindi": "टाटा टियागो ईवी में कितने एयरबैग हैं?",
-            "answer": "The Tata Tiago EV features dual airbags for enhanced safety.",
-            "answer_hindi": "टाटा टियागो ईवी में सुरक्षा बढ़ाने के लिए ड्यूल एयरबैग्स हैं।"
+            "answer": "The Tata Tiago EV features dual airbags for enhanced safety."
           },
           {
             "question": "Does Tata Tiago EV have regenerative braking?",
-            "question_hindi": "क्या टाटा टियागो ईवी में पुनर्योजी ब्रेकिंग है?",
-            "answer": "Yes, Tata Tiago EV is equipped with a regenerative braking system.",
-            "answer_hindi": "हां, टाटा टियागो ईवी पुनर्योजी ब्रेकिंग सिस्टम के साथ सुसज्जित है।"
+            "answer": "Yes, Tata Tiago EV is equipped with a regenerative braking system."
+          }
+        ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "टाटा टियागो ईवी बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "टाटा टियागो ईवी बेस मॉडल की ऑन-रोड कीमत रु. 8.49 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          },
+          {
+            "question_hindi": "टाटा टियागो ईवी टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "टाटा टियागो ईवी टॉप मॉडल की ऑन-रोड कीमत रु. 11.79 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "टाटा टियागो ईवी की वास्तविक और दावा की गई रेंज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने टाटा टियागो ईवी की रेंज 250 किमी (ARAI प्रमाणित) होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक रेंज 220 से 240 किमी तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "टाटा टियागो ईवी में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "टाटा टियागो ईवी में 5 लोगों की बैठने की क्षमता है।"
+          },
+          {
+            "question_hindi": "टाटा टियागो ईवी के आयाम क्या हैं?",
+            "answer_hindi": "टाटा टियागो ईवी के आयाम 3768 मिमी लंबाई, 1677 मिमी चौड़ाई और 1537 मिमी ऊंचाई हैं। इसका व्हीलबेस 2400 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या टाटा टियागो ईवी में सनरूफ है?",
+            "answer_hindi": "नहीं, टाटा टियागो ईवी में सनरूफ नहीं है।"
+          },
+          {
+            "question_hindi": "क्या टाटा टियागो ईवी में क्रूज कंट्रोल है?",
+            "answer_hindi": "नहीं, टाटा टियागो ईवी में क्रूज कंट्रोल की सुविधा नहीं है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "टाटा टियागो ईवी में कितने एयरबैग हैं?",
+            "answer_hindi": "टाटा टियागो ईवी के टॉप मॉडल में 2 एयरबैग हैं। इनमें ड्राइवर और फ्रंट पैसेंजर एयरबैग शामिल हैं।"
+          },
+          {
+            "question_hindi": "क्या टाटा टियागो ईवी में एबीएस है?",
+            "answer_hindi": "हां, टाटा टियागो ईवी के सभी वेरिएंट्स में एबीएस और ईबीडी की सुविधा है। यह तकनीक तेज ब्रेकिंग के दौरान वाहन को स्थिर रखने में मदद करती है।"
           }
         ]
       }
@@ -1281,20 +1983,27 @@
   },
   {
     "title": "Tata Nexon",
+    "title_hindi": "टाटा नेक्सॉन",
     "intro": "The Nexon is an attractive, spacious, and comfortable SUV packed with modern features and boasts a five-star safety rating. With engine options offering adequate power, its ride quality and high-speed stability are also commendable.",
+    "intro_hindi": "टाटा नेक्सॉन एक आकर्षक, विशाल और आरामदायक एसयूवी है जिसमें आधुनिक सुविधाओं का समावेश है और इसे फाइव-स्टार सुरक्षा रेटिंग प्राप्त है। इसके इंजन विकल्प पर्याप्त पावर प्रदान करते हैं और इसकी सवारी की गुणवत्ता और हाई-स्पीड स्थिरता भी सराहनीय है।",
     "titleSlug": "nexon",
     "brand": "Tata",
+    "brand_hindi": "टाटा",
     "brandSlug": "tata-cars",
     "brand_id": "64c9032e17efebb6360e632c",
     "bodytype": "Compact SUV",
+    "bodytype_hindi": "कॉम्पैक्ट एसयूवी",
     "featured": "trending",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1711895370/carwale/carImages/tata/nexon-exterior-right-front-three-quarter-71_zjdgnh.webp",
     "specifications": {
       "price": 814990,
+      "mileage": 18,
       "engine": 1199,
       "fueltype": ["Petrol", "Diesel", "CNG"],
+      "fueltype_hindi": ["पेट्रोल", "डीजल", "सीएनजी"],
       "transmission": ["Manual", "Automatic"],
+      "transmission_hindi": ["मैनुअल", "ऑटोमैटिक"],
       "seatingcapacity": 5
     },
     "keyfeatures": [
@@ -1327,6 +2036,36 @@
       "Wireless charger",
       "Driver doze off warning"
     ],
+    "keyfeatures_hindi": [
+      "झुकाव और टेलिस्कोपिक समायोज्य स्टीयरिंग व्हील",
+      "प्रोजेक्टर हेडलैंप",
+      "टर्न इंडिकेटर्स के साथ ड्यूल फंक्शन डीआरएल",
+      "ड्यूल एयरबैग्स",
+      "सेंट्रल लॉकिंग",
+      "सभी पावर विंडोज़",
+      "3 यूएसबी पोर्ट्स",
+      "एकाधिक ड्राइव मोड्स",
+      "टचस्क्रीन इंफोटेनमेंट स्क्रीन",
+      "स्टीयरिंग पर नियंत्रण",
+      "पावर ओआरवीएम्स",
+      "पावर्ड ड्राइवर सीट्स",
+      "वेंटिलेटेड फ्रंट सीट्स",
+      "प्रकाशित पैनोरमिक सनरूफ",
+      "वायरलेस एंड्रॉइड ऑटो और एप्पल कारप्ले",
+      "रेन सेंसिंग वाइपर्स",
+      "200+ वॉइस कमांड्स",
+      "स्वचालित तापमान नियंत्रण",
+      "360-डिग्री कैमरा",
+      "एडीएएस",
+      "क्रूज कंट्रोल",
+      "एयर प्यूरिफायर",
+      "लेदर रैप्ड स्टीयरिंग व्हील और गियर नॉब",
+      "9 जेबीएल स्पीकर",
+      "18-इंच डायमंड कट अलॉय व्हील्स",
+      "इलेक्ट्रॉनिक पार्किंग ब्रेक्स",
+      "वायरलेस चार्जर",
+      "ड्राइवर डोज़ ऑफ वार्निंग"
+    ],
     "prosandcons": [
       {
         "pros": [
@@ -1336,12 +2075,25 @@
           "The suspension setup offers an overall comfortable ride.",
           "Exterior design is attractive, sharp and modern."
         ],
+        "pros_hindi": [
+          "ऑल-ब्लैक केबिन को फिर से डिज़ाइन किया गया है और इसमें कई आधुनिक सुविधाएँ हैं।",
+          "छह एयरबैग मानक हैं, इसमें 5-स्टार सुरक्षा रेटिंग है।",
+          "मजबूत मिड-रेंज, हाई-स्पीड स्थिरता, लचीला गियरबॉक्स।",
+          "सस्पेंशन सेटअप कुल मिलाकर आरामदायक सवारी प्रदान करता है।",
+          "बाहरी डिज़ाइन आकर्षक, तीखा और आधुनिक है।"
+        ],
         "cons": [
           "Diesel motor can do with more refinement.",
           "The fit and finish in some areas."
+        ],
+        "cons_hindi": [
+          "डीजल इंजन में अधिक परिष्करण की आवश्यकता हो सकती है।",
+          "कुछ क्षेत्रों में फिट और फिनिश।"
         ]
       }
     ],
+    "verdict": "The Nexon is a well-rounded SUV with modern features, robust safety, and commendable comfort.",
+    "verdict_hindi": "नेक्सॉन एक सर्वांगीण एसयूवी है जिसमें आधुनिक सुविधाएँ, मजबूत सुरक्षा और सराहनीय आराम है।",
     "faq": [
       {
         "price": [
@@ -1390,17 +2142,69 @@
             "answer": "Yes, all versions of Tata Nexon have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
           }
         ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "टाटा नेक्सन बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "टाटा नेक्सन बेस मॉडल की ऑन-रोड कीमत रु. 8.10 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          },
+          {
+            "question_hindi": "टाटा नेक्सन टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "टाटा नेक्सन टॉप मॉडल की ऑन-रोड कीमत रु. 15.50 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "टाटा नेक्सन की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने टाटा नेक्सन की माइलेज 24.07 किमी/लीटर (डीजल) और 17.4 किमी/लीटर (पेट्रोल) होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 20-22 किमी/लीटर (डीजल) और 15-16 किमी/लीटर (पेट्रोल) तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "टाटा नेक्सन में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "टाटा नेक्सन में 5 लोगों की बैठने की क्षमता है।"
+          },
+          {
+            "question_hindi": "टाटा नेक्सन के आयाम क्या हैं?",
+            "answer_hindi": "टाटा नेक्सन के आयाम 3993 मिमी लंबाई, 1811 मिमी चौड़ाई और 1606 मिमी ऊंचाई हैं। इसका व्हीलबेस 2498 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या टाटा नेक्सन में सनरूफ है?",
+            "answer_hindi": "हां, टाटा नेक्सन के उच्च वेरिएंट्स में इलेक्ट्रिक सनरूफ की सुविधा है।"
+          },
+          {
+            "question_hindi": "क्या टाटा नेक्सन में क्रूज कंट्रोल है?",
+            "answer_hindi": "हां, टाटा नेक्सन में क्रूज कंट्रोल की सुविधा है, जो लंबी यात्रा के दौरान ड्राइविंग को आरामदायक बनाती है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "टाटा नेक्सन में कितने एयरबैग हैं?",
+            "answer_hindi": "टाटा नेक्सन के टॉप मॉडल में 6 एयरबैग हैं। इनमें ड्राइवर, फ्रंट पैसेंजर और साइड एयरबैग शामिल हैं।"
+          },
+          {
+            "question_hindi": "क्या टाटा नेक्सन में एबीएस है?",
+            "answer_hindi": "हां, टाटा नेक्सन के सभी वेरिएंट्स में एबीएस और ईबीडी की सुविधा है। यह तकनीक तेज ब्रेकिंग के दौरान वाहन को स्थिर रखने में मदद करती है।"
+          }
+        ]
       }
     ]
   },
   {
     "title": "Kia Seltos",
+    "title_hindi": "किया सेल्टोस",
     "intro": "The 2023 Kia Seltos is a better-rounded package than the pre-facelift model. It's also a good choice among the eight other vehicles in this mid-size SUV segment. This car gets a new turbo-petrol engine option, new segment-first features, Level 2 ADAS, and cosmetic changes.",
+    "intro_hindi": "2023 किया सेल्टोस एक अधिक संतुलित पैकेज है, जो प्री-फेसलिफ्ट मॉडल की तुलना में बेहतर है। यह मिड-साइज़ एसयूवी सेगमेंट में आठ अन्य वाहनों के बीच एक अच्छा विकल्प है। इसमें एक नया टर्बो-पेट्रोल इंजन विकल्प, सेगमेंट-फर्स्ट सुविधाएँ, लेवल 2 एडीएएस और कॉस्मेटिक बदलाव हैं।",
     "titleSlug": "seltos",
     "brand": "Kia",
+    "brand_hindi": "किया",
     "brandSlug": "kia-cars",
     "brand_id": "64c9032e17efebb6360e6331",
     "bodytype": "SUV",
+    "bodytype_hindi": "एसयूवी",
     "featured": "just launched",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1735572285/carwale/carImages/kia/seltos-exterior-right-front-three-quarter_czcron.webp",
@@ -1410,26 +2214,41 @@
       "engine": 1482,
       "safety": 3,
       "fueltype": ["Petrol", "Diesel"],
+      "fueltype_hindi": ["पेट्रोल", "डीजल"],
       "transmission": ["Manual", "clutchless Manual (IMT)", "Automatic"],
+      "transmission_hindi": ["मैनुअल", "क्लचलेस मैनुअल (आईएमटी)", "ऑटोमैटिक"],
       "seatingcapacity": 5
     },
     "prosandcons": [
       {
         "pros": [
-          "The recent updates showcase a mild redesign of both the front and rear sections of the Seltos. ",
+          "The recent updates showcase a mild redesign of both the front and rear sections of the Seltos.",
           "Offers an extensive selection of engines, gearboxes, and variants to cater to a variety of buyers.",
           "The new Petrol powertrain provides users with a refreshing boost of turbo-power.",
           "Practical and spacious cabin, has a range of useful new features and level-2 ADAS suite.",
-          "Kia has accomplished a commendable task in terms of the overall interior quality and fit/finish. "
+          "Kia has accomplished a commendable task in terms of the overall interior quality and fit/finish."
+        ],
+        "pros_hindi": [
+          "हाल के अपडेट ने सेल्टोस के फ्रंट और रियर सेक्शन में हल्के री-डिज़ाइन को दर्शाया है।",
+          "यह विभिन्न खरीदारों की आवश्यकताओं को पूरा करने के लिए इंजन, गियरबॉक्स और वेरिएंट्स का विस्तृत चयन प्रदान करता है।",
+          "नया पेट्रोल पावरट्रेन उपयोगकर्ताओं को टर्बो-पावर का ताज़ा अनुभव प्रदान करता है।",
+          "व्यावहारिक और विशाल केबिन, जिसमें उपयोगी नई सुविधाएँ और लेवल-2 एडीएएस सुइट है।",
+          "किया ने समग्र आंतरिक गुणवत्ता और फिट / फिनिश के मामले में सराहनीय कार्य किया है।"
         ],
         "cons": [
           "The ride quality has a firm edge, so one should exercise caution when driving on bumpy roads.",
           "No significant styling changes and the top-end variants do not offer a manual gearbox option.",
           "Certain top-end variants can become quite expensive and may appear overly costly."
+        ],
+        "cons_hindi": [
+          "सवारी की गुणवत्ता में कठोरता है, इसलिए ऊबड़-खाबड़ सड़कों पर सावधानी बरतनी चाहिए।",
+          "कोई महत्वपूर्ण स्टाइलिंग परिवर्तन नहीं हैं और टॉप-एंड वेरिएंट मैनुअल गियरबॉक्स विकल्प प्रदान नहीं करते हैं।",
+          "कुछ टॉप-एंड वेरिएंट काफी महंगे हो सकते हैं और अत्यधिक मूल्यवान लग सकते हैं।"
         ]
       }
     ],
-    "verdict": "The Seltos facelift improves upon its predecessor by integrating all the features that current owners have desired or requested, resulting in a more comprehensive and",
+    "verdict": "The Seltos facelift improves upon its predecessor by integrating all the features that current owners have desired or requested, resulting in a more comprehensive and versatile SUV.",
+    "verdict_hindi": "सेल्टोस फेसलिफ्ट ने अपने पूर्ववर्ती पर सुधार किया है, जिसमें वर्तमान मालिकों द्वारा मांगी या अनुरोधित सभी सुविधाएँ शामिल हैं, जिससे यह एक अधिक व्यापक और बहुमुखी एसयूवी बन गई है।",
     "faq": [
       {
         "price": [
@@ -1450,7 +2269,7 @@
         ],
         "specifications": [
           {
-            "question": "What is the seating capacity in Kia Seltos ?",
+            "question": "What is the seating capacity in Kia Seltos?",
             "answer": "Kia Seltos has a seating capacity of 5 people."
           },
           {
@@ -1474,25 +2293,80 @@
             "answer": "Yes, all versions of Kia Seltos have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
           }
         ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "किआ सेल्टोस बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "किआ सेल्टोस बेस मॉडल की ऑन-रोड कीमत रु. 11.29 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          },
+          {
+            "question_hindi": "किआ सेल्टोस टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "किआ सेल्टोस टॉप मॉडल की ऑन-रोड कीमत रु. 20.85 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "किआ सेल्टोस की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने किआ सेल्टोस की माइलेज 20.7 किमी/लीटर होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 18 से 20 किमी/लीटर तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "किआ सेल्टोस में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "किआ सेल्टोस में 5 लोगों की बैठने की क्षमता है।"
+          },
+          {
+            "question_hindi": "किआ सेल्टोस के आयाम क्या हैं?",
+            "answer_hindi": "किआ सेल्टोस के आयाम 4315 मिमी लंबाई, 1800 मिमी चौड़ाई और 1645 मिमी ऊंचाई हैं। इसका व्हीलबेस 2610 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या किआ सेल्टोस में सनरूफ है?",
+            "answer_hindi": "हां, किआ सेल्टोस के उच्च वेरिएंट्स में पैनोरमिक सनरूफ उपलब्ध है।"
+          },
+          {
+            "question_hindi": "क्या किआ सेल्टोस में क्रूज कंट्रोल है?",
+            "answer_hindi": "हां, किआ सेल्टोस में क्रूज कंट्रोल की सुविधा है, जो लंबी यात्रा के दौरान ड्राइविंग को आरामदायक बनाती है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "किआ सेल्टोस में कितने एयरबैग हैं?",
+            "answer_hindi": "किआ सेल्टोस के टॉप मॉडल में 6 एयरबैग हैं। इनमें ड्राइवर, फ्रंट पैसेंजर, साइड और कर्टेन एयरबैग शामिल हैं।"
+          },
+          {
+            "question_hindi": "क्या किआ सेल्टोस में एबीएस है?",
+            "answer_hindi": "हां, किआ सेल्टोस के सभी वेरिएंट्स में एबीएस और ईबीडी की सुविधा है। यह तकनीक तेज ब्रेकिंग के दौरान वाहन को स्थिर रखने में मदद करती है।"
+          }
+        ]
       }
     ]
   },
   {
     "title": "Mahindra Thar",
+    "title_hindi": "महिंद्रा थार",
     "intro": "The Thar is a two-door, serious off-roader that drives reasonably well on the road. It stands out with its rugged stance, modern design, and durable construction. The powertrains are powerful, with the petrol option being superbly refined and entertaining for a Mahindra.",
+    "intro_hindi": "थार एक दो-द्वार, गंभीर ऑफ-रोडर है जो सड़क पर भी अच्छी तरह से चलता है। यह अपने रग्ड स्टांस, आधुनिक डिज़ाइन और टिकाऊ निर्माण के साथ खड़ा है। इसके पावरट्रेन शक्तिशाली हैं, और पेट्रोल विकल्प महिंद्रा के लिए बेहद परिष्कृत और मनोरंजक है।",
     "titleSlug": "thar",
     "brand": "Mahindra",
+    "brand_hindi": "महिंद्रा",
     "brandSlug": "mahindra-cars",
     "brand_id": "64e22d26ec17fb97d11656bd",
     "featured": "trending",
     "bodytype": "SUV",
+    "bodytype_hindi": "एसयूवी",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1712162347/carwale/carImages/mahindra/thar-exterior-right-front-three-quarter-35_owgqxx.webp",
     "specifications": {
       "price": 1125000,
+      "mileage": 15.5,
       "engine": 1497,
       "fueltype": ["Petrol", "Diesel"],
+      "fueltype_hindi": ["पेट्रोल", "डीजल"],
       "transmission": ["Manual", "Automatic"],
+      "transmission_hindi": ["मैनुअल", "ऑटोमैटिक"],
       "seatingcapacity": 4
     },
     "keyfeatures": [
@@ -1510,6 +2384,49 @@
       "Seating configurations - 7/9 seater with captain chair",
       "Touch screen infotainment with Bluetooth/USB/Aux"
     ],
+    "keyfeatures_hindi": [
+      "ड्यूल एयरबैग",
+      "रियर पार्किंग सेंसर",
+      "पैनिक ब्रेक इंडिकेशन",
+      "पूरी तरह से स्वचालित तापमान नियंत्रण",
+      "गियर शिफ्ट इंडिकेटर",
+      "माइक्रो हाइब्रिड तकनीक",
+      "इलेक्ट्रिक ORVM",
+      "दूसरी पंक्ति एसी वेंट",
+      "टिल्ट स्टीयरिंग",
+      "ऊँचाई समायोज्य ड्राइवर सीट",
+      "स्टीयरिंग व्हील कंट्रोल",
+      "बैठने की संरचनाएँ - कैप्टन चेयर के साथ 7/9 सीटर",
+      "ब्लूटूथ/यूएसबी/ऑक्स के साथ टच स्क्रीन इंफोटेनमेंट"
+    ],
+    "prosandcons": [
+      {
+        "pros": [
+          "Rugged stance - Appeals to off-road enthusiasts",
+          "Powerful engine options - Great for diverse terrains",
+          "Iconic design - Retains the charm of the classic Thar",
+          "Customizable seating configurations"
+        ],
+        "pros_hindi": [
+          "रग्ड स्टांस - ऑफ-रोड उत्साही लोगों को आकर्षित करता है",
+          "शक्तिशाली इंजन विकल्प - विविध इलाकों के लिए बेहतरीन",
+          "आइकोनिक डिज़ाइन - क्लासिक थार का आकर्षण बनाए रखता है",
+          "कस्टमाइज़ेबल सीटिंग कॉन्फ़िगरेशन"
+        ],
+        "cons": [
+          "Limited seating capacity - Only 4 seats",
+          "High price point - Expensive for its class",
+          "Lack of advanced safety features in base variants"
+        ],
+        "cons_hindi": [
+          "सीटिंग क्षमता सीमित - केवल 4 सीटें",
+          "उच्च कीमत - अपनी श्रेणी के लिए महंगा",
+          "बेस वेरिएंट्स में उन्नत सुरक्षा सुविधाओं की कमी"
+        ]
+      }
+    ],
+    "verdict": "The Mahindra Thar is a capable off-roader with a rugged design, making it ideal for adventure enthusiasts while offering decent road manners.",
+    "verdict_hindi": "महिंद्रा थार एक सक्षम ऑफ-रोडर है जिसका रग्ड डिज़ाइन इसे साहसिक प्रेमियों के लिए आदर्श बनाता है, जबकि यह सड़क पर अच्छी परफॉर्मेंस देता है।",
     "faq": [
       {
         "price": [
@@ -1558,6 +2475,54 @@
             "answer": "Yes, all versions of Mahindra Thar have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
           }
         ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "महिंद्रा थार बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "महिंद्रा थार बेस मॉडल की ऑन-रोड कीमत रु. 10.98 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          },
+          {
+            "question_hindi": "महिंद्रा थार टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "महिंद्रा थार टॉप मॉडल की ऑन-रोड कीमत रु. 16.78 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "महिंद्रा थार की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने महिंद्रा थार की माइलेज 15.2 किमी/लीटर होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 12 से 14 किमी/लीटर तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "महिंद्रा थार में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "महिंद्रा थार में 4 लोगों की बैठने की क्षमता है।"
+          },
+          {
+            "question_hindi": "महिंद्रा थार के आयाम क्या हैं?",
+            "answer_hindi": "महिंद्रा थार के आयाम 3985 मिमी लंबाई, 1855 मिमी चौड़ाई और 1844 मिमी ऊंचाई हैं। इसका व्हीलबेस 2450 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या महिंद्रा थार में सनरूफ है?",
+            "answer_hindi": "नहीं, महिंद्रा थार में सनरूफ की सुविधा नहीं है।"
+          },
+          {
+            "question_hindi": "क्या महिंद्रा थार में क्रूज कंट्रोल है?",
+            "answer_hindi": "नहीं, महिंद्रा थार में क्रूज कंट्रोल की सुविधा उपलब्ध नहीं है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "महिंद्रा थार में कितने एयरबैग हैं?",
+            "answer_hindi": "महिंद्रा थार के टॉप मॉडल में 2 एयरबैग हैं। इनमें ड्राइवर और फ्रंट पैसेंजर एयरबैग शामिल हैं।"
+          },
+          {
+            "question_hindi": "क्या महिंद्रा थार में एबीएस है?",
+            "answer_hindi": "हां, महिंद्रा थार के सभी वेरिएंट्स में एबीएस की सुविधा है। यह तकनीक तेज ब्रेकिंग के दौरान वाहन को स्थिर रखने में मदद करती है।"
+          }
+        ]
       }
     ]
   },
@@ -1568,9 +2533,7 @@
     "intro_hindi": "महिंद्रा बीई.06 एक भविष्यवादी इलेक्ट्रिक एसयूवी कॉन्सेप्ट है जिसमें शानदार डिज़ाइन, उन्नत ईवी तकनीक और एक विशाल केबिन है। इसे असाधारण रेंज, आधुनिक सुविधाओं और आरामदायक ड्राइविंग अनुभव प्रदान करने के लिए डिज़ाइन किया गया है।",
     "titleSlug": "be6",
     "brand": "Mahindra",
-    "brand_hindi": "महिंद्रा",
     "brandSlug": "mahindra-cars",
-    "brand_id": "64c9032e17efebb6360e632b",
     "featured": "new",
     "bodytype": "Coupe",
     "bodytype_hindi": "एसयूवी",
@@ -1647,45 +2610,79 @@
         "price": [
           {
             "question": "What is the expected price of Mahindra BE.06?",
-            "question_hindi": "महिंद्रा बीई.06 की अपेक्षित कीमत क्या है?",
-            "answer": "The expected price of Mahindra BE.06 is around ₹ 20 lakh.",
-            "answer_hindi": "महिंद्रा बीई.06 की अपेक्षित कीमत लगभग ₹ 20 लाख है।"
+            "answer": "The expected price of Mahindra BE.06 is around ₹ 20 lakh."
           }
         ],
         "performance": [
           {
             "question": "What is the expected range of Mahindra BE.06?",
-            "question_hindi": "महिंद्रा बीई.06 की अपेक्षित रेंज क्या है?",
-            "answer": "Mahindra BE.06 is expected to offer a range of 450 km on a single charge.",
-            "answer_hindi": "महिंद्रा बीई.06 एक बार चार्ज करने पर 450 किमी की रेंज देने की उम्मीद है।"
+            "answer": "Mahindra BE.06 is expected to offer a range of 450 km on a single charge."
           }
         ],
         "features": [
           {
             "question": "Does Mahindra BE.06 have a panoramic sunroof?",
-            "question_hindi": "क्या महिंद्रा बीई.06 में पैनोरमिक सनरूफ है?",
-            "answer": "Yes, Mahindra BE.06 is expected to come with a panoramic sunroof.",
-            "answer_hindi": "हां, महिंद्रा बीई.06 में पैनोरमिक सनरूफ होने की उम्मीद है।"
+            "answer": "Yes, Mahindra BE.06 is expected to come with a panoramic sunroof."
           },
           {
             "question": "Does Mahindra BE.06 support fast charging?",
-            "question_hindi": "क्या महिंद्रा बीई.06 फास्ट चार्जिंग का समर्थन करता है?",
-            "answer": "Yes, Mahindra BE.06 is expected to support fast charging for quicker recharges.",
-            "answer_hindi": "हां, महिंद्रा बीई.06 तेज चार्जिंग का समर्थन करने की उम्मीद है।"
+            "answer": "Yes, Mahindra BE.06 is expected to support fast charging for quicker recharges."
           }
         ],
         "safety": [
           {
             "question": "How many airbags will Mahindra BE.06 have?",
             "question_hindi": "महिंद्रा बीई.06 में कितने एयरबैग होंगे?",
-            "answer": "Mahindra BE.06 is expected to feature 6 airbags for enhanced safety.",
-            "answer_hindi": "महिंद्रा बीई.06 में 6 एयरबैग होने की उम्मीद है जो सुरक्षा को बढ़ाता है।"
+            "answer": "Mahindra BE.06 is expected to feature multiple airbags for enhanced safety.",
+            "answer_hindi": "महिंद्रा बीई.06 में उन्नत सुरक्षा के लिए कई एयरबैग होने की उम्मीद है।"
+          }
+        ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "महिंद्रा BE06 बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "महिंद्रा BE06 बेस मॉडल की ऑन-रोड कीमत रु. 29.50 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
           },
           {
-            "question": "Does Mahindra BE.06 come with ADAS?",
-            "question_hindi": "क्या महिंद्रा बीई.06 एडवांस ड्राइवर-असिस्टेंस सिस्टम (एडीएएस) के साथ आता है?",
-            "answer": "Yes, Mahindra BE.06 is expected to include advanced driver-assistance systems (ADAS).",
-            "answer_hindi": "हां, महिंद्रा बीई.06 में एडवांस ड्राइवर-असिस्टेंस सिस्टम (एडीएएस) शामिल होने की उम्मीद है।"
+            "question_hindi": "महिंद्रा BE06 टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "महिंद्रा BE06 टॉप मॉडल की ऑन-रोड कीमत रु. 35.80 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "महिंद्रा BE06 की वास्तविक और दावा की गई रेंज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने महिंद्रा BE06 की रेंज 450 किमी प्रति चार्ज होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक रेंज 400 से 420 किमी प्रति चार्ज तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "महिंद्रा BE06 में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "महिंद्रा BE06 में 5 लोगों की बैठने की क्षमता है।"
+          },
+          {
+            "question_hindi": "महिंद्रा BE06 के आयाम क्या हैं?",
+            "answer_hindi": "महिंद्रा BE06 के आयाम 4630 मिमी लंबाई, 1910 मिमी चौड़ाई और 1660 मिमी ऊंचाई हैं। इसका व्हीलबेस 2800 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या महिंद्रा BE06 में पैनोरमिक सनरूफ है?",
+            "answer_hindi": "हां, महिंद्रा BE06 में पैनोरमिक सनरूफ की सुविधा है।"
+          },
+          {
+            "question_hindi": "क्या महिंद्रा BE06 में एडवांस्ड ड्राइवर असिस्टेंस सिस्टम (ADAS) है?",
+            "answer_hindi": "हां, महिंद्रा BE06 में एडवांस्ड ड्राइवर असिस्टेंस सिस्टम (ADAS) उपलब्ध है, जिसमें ऑटोमेटिक इमरजेंसी ब्रेकिंग और लेन कीपिंग असिस्ट जैसे फीचर्स शामिल हैं।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "महिंद्रा BE06 में कितने एयरबैग हैं?",
+            "answer_hindi": "महिंद्रा BE06 के टॉप मॉडल में 6 एयरबैग हैं, जो ड्राइवर, फ्रंट पैसेंजर और साइड सुरक्षा प्रदान करते हैं।"
+          },
+          {
+            "question_hindi": "क्या महिंद्रा BE06 में इलेक्ट्रॉनिक स्टेबिलिटी प्रोग्राम (ESP) है?",
+            "answer_hindi": "हां, महिंद्रा BE06 के सभी वेरिएंट्स में इलेक्ट्रॉनिक स्टेबिलिटी प्रोग्राम (ESP) की सुविधा है, जो वाहन को अस्थिर परिस्थितियों में स्थिर रखने में मदद करता है।"
           }
         ]
       }
@@ -1693,20 +2690,26 @@
   },
   {
     "title": "Mahindra Scorpio",
+    "title_hindi": "महिंद्रा स्कॉर्पियो",
     "intro": "The Mahindra Scorpio, unlike the Scorpio Classic, is a more luxurious, full-size three-row SUV that still exudes a rugged charm. It offers a dominant presence on the road, ample space in the first two rows, and a plethora of features. It's good for city and highway driving with big engines, smooth automatic transmissions, and an absorbent ride.",
+    "intro_hindi": "महिंद्रा स्कॉर्पियो, स्कॉर्पियो क्लासिक से अलग, एक अधिक शानदार, फुल-साइज तीन-पंक्ति एसयूवी है जो अभी भी एक मजबूत आकर्षण बनाए रखती है। यह सड़क पर एक प्रभावशाली उपस्थिति प्रदान करती है, पहले दो पंक्तियों में पर्याप्त जगह और कई विशेषताओं के साथ। यह शहरी और राजमार्ग ड्राइविंग के लिए उपयुक्त है जिसमें बड़े इंजन, स्मूथ ऑटोमैटिक ट्रांसमिशन और आरामदायक सवारी शामिल हैं।",
     "titleSlug": "scorpio",
     "brand": "Mahindra",
+    "brand_hindi": "महिंद्रा",
     "brandSlug": "mahindra-cars",
-    "brand_id": "64e22d26ec17fb97d11656bd",
     "featured": "trending",
     "bodytype": "SUV",
+    "bodytype_hindi": "एसयूवी",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1692798988/carwale/carImages/mahindra/scorpio-exterior-right-front-three-quarter-46_rpambd.webp",
     "specifications": {
       "price": 1325100,
+      "mileage": 15.19,
       "engine": 2184,
       "fueltype": ["Diesel"],
+      "fueltype_hindi": ["डीजल"],
       "transmission": ["Manual"],
+      "transmission_hindi": ["मैनुअल"],
       "seatingcapacity": 7
     },
     "keyfeatures": [
@@ -1724,23 +2727,51 @@
       "Seating configurations - 7/9 seater with captain chair",
       "Touch screen infotainment with Bluetooth/USB/Aux"
     ],
+    "keyfeatures_hindi": [
+      "डुअल एयरबैग्स",
+      "रियर पार्किंग सेंसर",
+      "पैनिक ब्रेक इंडिकेशन",
+      "पूरी तरह से स्वचालित तापमान नियंत्रण",
+      "गियर शिफ्ट इंडिकेटर",
+      "माइक्रो हाइब्रिड तकनीक",
+      "इलेक्ट्रिक ओआरवीएम",
+      "दूसरी पंक्ति के एसी वेंट्स",
+      "टिल्ट स्टीयरिंग",
+      "ऊंचाई समायोज्य ड्राइवर सीट",
+      "स्टीयरिंग व्हील कंट्रोल",
+      "सीटिंग कॉन्फ़िगरेशन - कप्तान चेयर के साथ 7/9 सीटिंग",
+      "ब्लूटूथ/यूएसबी/ऑक्स के साथ टच स्क्रीन इंफोटेनमेंट"
+    ],
     "prosandcons": [
       {
         "pros": [
-          "Visibility - Tall seating position, unintrusive pillars and large unhindered glass area ",
-          "Tough build quality - Sturdy/robust, built like it will stand the test of time ",
-          "Engine - The mHawk 130 diesel motor offers solid drivability/frugality ",
+          "Visibility - Tall seating position, unintrusive pillars and large unhindered glass area",
+          "Tough build quality - Sturdy/robust, built like it will stand the test of time",
+          "Engine - The mHawk 130 diesel motor offers solid drivability/frugality",
           "Rugged nature - The ladder on frame chassis can take on any terrain effortlessly",
           "Mahindra service - Owners get a nationwide extensive sales, spares and service network"
+        ],
+        "pros_hindi": [
+          "दृश्यता - ऊंचा बैठने की स्थिति, बिना रुकावट वाले स्तंभ और बड़ा खुला ग्लास क्षेत्र",
+          "मजबूत निर्माण गुणवत्ता - मजबूत/मजबूत, ऐसा लगता है कि यह समय की कसौटी पर खरा उतरेगा",
+          "इंजन - mHawk 130 डीजल मोटर ठोस ड्राइविंग/ईंधन दक्षता प्रदान करता है",
+          "कठोर प्रकृति - लैडर-ऑन-फ्रेम चेसिस किसी भी इलाके को आसानी से संभाल सकता है",
+          "महिंद्रा सेवा - मालिकों को व्यापक बिक्री, स्पेयर पार्ट्स और सेवा नेटवर्क मिलता है"
         ],
         "cons": [
           "Fit/finish - Not up to segment standards, awry ergonomics since it isn't user friendly",
           "Unsorted ride quality - It feels bumpy and not entirely settled at higher speeds",
           "Outdated looks - The design is still an unmistakable embodiment of the first iteration"
+        ],
+        "cons_hindi": [
+          "फिट/फिनिश - सेगमेंट मानकों के अनुरूप नहीं, उपयोगकर्ता के अनुकूल नहीं होने के कारण खराब एर्गोनॉमिक्स",
+          "अनसुलझी सवारी गुणवत्ता - यह ऊंची गति पर अस्थिर और अस्थिर महसूस होती है",
+          "पुराने डिजाइन - डिज़ाइन अभी भी पहले संस्करण का अविश्वसनीय अवतार है"
         ]
       }
     ],
     "verdict": "For those who prefer the older Scorpio over the new 'N', the brand has kept things rolling with the latest Scorpio Classic.",
+    "verdict_hindi": "उन लोगों के लिए जो नई 'एन' के बजाय पुरानी स्कॉर्पियो को पसंद करते हैं, ब्रांड ने नवीनतम स्कॉर्पियो क्लासिक के साथ चीजों को जारी रखा है।",
     "faq": [
       {
         "price": [
@@ -1785,18 +2816,70 @@
             "answer": "Yes, all versions of Mahindra Scorpio have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
           }
         ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "महिंद्रा स्कॉर्पियो बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "महिंद्रा स्कॉर्पियो बेस मॉडल की ऑन-रोड कीमत रु. 13.25 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          },
+          {
+            "question_hindi": "महिंद्रा स्कॉर्पियो टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "महिंद्रा स्कॉर्पियो टॉप मॉडल की ऑन-रोड कीमत रु. 24.05 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "महिंद्रा स्कॉर्पियो की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने महिंद्रा स्कॉर्पियो की माइलेज 15 किमी/लीटर होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 12 से 14 किमी/लीटर तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "महिंद्रा स्कॉर्पियो में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "महिंद्रा स्कॉर्पियो में 7 से 9 लोगों की बैठने की क्षमता है, जो वेरिएंट के अनुसार बदलती है।"
+          },
+          {
+            "question_hindi": "महिंद्रा स्कॉर्पियो के आयाम क्या हैं?",
+            "answer_hindi": "महिंद्रा स्कॉर्पियो के आयाम 4662 मिमी लंबाई, 1917 मिमी चौड़ाई और 1857 मिमी ऊंचाई हैं। इसका व्हीलबेस 2750 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या महिंद्रा स्कॉर्पियो में सनरूफ है?",
+            "answer_hindi": "हां, महिंद्रा स्कॉर्पियो एन के उच्च वेरिएंट्स में इलेक्ट्रिक सनरूफ उपलब्ध है।"
+          },
+          {
+            "question_hindi": "क्या महिंद्रा स्कॉर्पियो में क्रूज कंट्रोल है?",
+            "answer_hindi": "हां, महिंद्रा स्कॉर्पियो एन में क्रूज कंट्रोल की सुविधा है, जो लंबी यात्रा को आरामदायक बनाती है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "महिंद्रा स्कॉर्पियो में कितने एयरबैग हैं?",
+            "answer_hindi": "महिंद्रा स्कॉर्पियो एन के टॉप मॉडल में 6 एयरबैग हैं, जिनमें ड्राइवर, फ्रंट पैसेंजर और साइड एयरबैग शामिल हैं।"
+          },
+          {
+            "question_hindi": "क्या महिंद्रा स्कॉर्पियो में एबीएस है?",
+            "answer_hindi": "हां, महिंद्रा स्कॉर्पियो के सभी वेरिएंट्स में एबीएस और ईबीडी की सुविधा है। यह ब्रेकिंग के दौरान वाहन को स्थिरता प्रदान करता है।"
+          }
+        ]
       }
     ]
   },
   {
     "title": "Toyota Vellfire",
+    "title_hindi": "टोयोटा वेलफायर",
     "intro": "The price of Toyota Vellfire, a 7 seater MUV, ranges from Rs. 1.22 - 1.33 Crore. It is available in 2 variants, with an engine of 2487 cc and a choice of 1 transmission: Automatic. Vellfire comes with 6 airbags. Toyota Vellfire is available in 3 colours. Users have reported a mileage of 19.28 kmpl for Vellfire.",
+    "intro_hindi": "टोयोटा वेलफायर, एक 7-सीटर एमयूवी है जिसकी कीमत 1.22 - 1.33 करोड़ रुपये के बीच है। यह 2 वेरिएंट्स में उपलब्ध है, जिसमें 2487 सीसी का इंजन और 1 ऑटोमैटिक ट्रांसमिशन का विकल्प है। वेलफायर 6 एयरबैग्स के साथ आती है और 3 रंगों में उपलब्ध है। उपयोगकर्ताओं ने वेलफायर के लिए 19.28 किमी/लीटर माइलेज की सूचना दी है।",
     "titleSlug": "vellfire",
     "brand": "Toyota",
+    "brand_hindi": "टोयोटा",
     "brandSlug": "toyota-cars",
     "brand_id": "64e22d26ec17fb97d11656bf",
     "featured": "just launched",
     "bodytype": "MUV",
+    "bodytype_hindi": "एमयूवी",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1692800208/carwale/carImages/toyota/vellfire-exterior-right-front-three-quarter_cjstep.webp",
     "specifications": {
@@ -1804,10 +2887,30 @@
       "mileage": 19.28,
       "engine": 2487,
       "fueltype": ["Hybrid"],
+      "fueltype_hindi": ["हाइब्रिड"],
       "safety": 5,
       "transmission": ["Automatic"],
+      "transmission_hindi": ["स्वचालित"],
       "seatingcapacity": 7
     },
+    "keyfeatures": [
+      "Hybrid powertrain",
+      "Luxurious cabin",
+      "Advanced safety features",
+      "Electric sliding doors",
+      "Touchscreen infotainment system",
+      "Six airbags",
+      "Four-wheel drive"
+    ],
+    "keyfeatures_hindi": [
+      "हाइब्रिड पावरट्रेन",
+      "शानदार केबिन",
+      "उन्नत सुरक्षा सुविधाएँ",
+      "इलेक्ट्रिक स्लाइडिंग दरवाजे",
+      "टचस्क्रीन इंफोटेनमेंट सिस्टम",
+      "छह एयरबैग",
+      "फोर-व्हील ड्राइव"
+    ],
     "prosandcons": [
       {
         "pros": [
@@ -1815,10 +2918,17 @@
           "Cabin is extremely luxurious and spacious",
           "Reliability from being a Toyota"
         ],
-        "cons": ["Steep cost", "Doesn't possess an air of elitism"]
+        "pros_hindi": [
+          "ताजा बाहरी स्टाइलिंग, संशोधित किट और नए इंटीरियर थीम",
+          "केबिन बेहद शानदार और विशाल है",
+          "टोयोटा होने की विश्वसनीयता"
+        ],
+        "cons": ["Steep cost", "Doesn't possess an air of elitism"],
+        "cons_hindi": ["ऊंची कीमत", "एक विशिष्टता का आभास नहीं है"]
       }
     ],
     "verdict": "The Toyota Vellfire appeals to the wealthy since they value exclusivity, status, and personal luxury space, and it undoubtedly delivers on all of these fronts. The new car has also seen exterior/interior upgrades, refreshed features and cabin colour themes. It may not have the snob value like the German brands, but all-in-all makes for a reliable alternative that's environment friendly due to its hybrid propulsion.",
+    "verdict_hindi": "टोयोटा वेलफायर अमीरों को पसंद आती है क्योंकि वे विशिष्टता, प्रतिष्ठा और व्यक्तिगत लक्ज़री स्थान को महत्व देते हैं, और यह सभी पहलुओं पर खरा उतरती है। नई कार में बाहरी और आंतरिक उन्नयन, ताज़ा सुविधाएँ और केबिन रंग थीम शामिल हैं। इसमें जर्मन ब्रांड्स की तरह प्रतिष्ठा नहीं हो सकती है, लेकिन यह एक विश्वसनीय और पर्यावरण-अनुकूल विकल्प बनाती है।",
     "faq": [
       {
         "price": [
@@ -1863,25 +2973,79 @@
             "answer": "Yes, all versions of Toyota Vellfire have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
           }
         ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "टोयोटा वेलफायर बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "टोयोटा वेलफायर बेस मॉडल की ऑन-रोड कीमत रु. 1.22 करोड़ है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          },
+          {
+            "question_hindi": "टोयोटा वेलफायर टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "टोयोटा वेलफायर टॉप मॉडल की ऑन-रोड कीमत रु. 1.30 करोड़ है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "टोयोटा वेलफायर की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने टोयोटा वेलफायर की माइलेज 16.35 किमी/लीटर होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 12 से 14 किमी/लीटर तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "टोयोटा वेलफायर में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "टोयोटा वेलफायर में 7 लोगों की बैठने की क्षमता है। इसमें कैप्टन सीट्स के साथ एक प्रीमियम केबिन मिलता है।"
+          },
+          {
+            "question_hindi": "टोयोटा वेलफायर के आयाम क्या हैं?",
+            "answer_hindi": "टोयोटा वेलफायर के आयाम 4935 मिमी लंबाई, 1850 मिमी चौड़ाई और 1895 मिमी ऊंचाई हैं। इसका व्हीलबेस 3000 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या टोयोटा वेलफायर में सनरूफ है?",
+            "answer_hindi": "हां, टोयोटा वेलफायर में ड्यूल पैनोरमिक सनरूफ है।"
+          },
+          {
+            "question_hindi": "क्या टोयोटा वेलफायर में क्रूज कंट्रोल है?",
+            "answer_hindi": "हां, टोयोटा वेलफायर में एडवांस्ड क्रूज कंट्रोल की सुविधा है, जो लंबी यात्रा को आरामदायक बनाता है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "टोयोटा वेलफायर में कितने एयरबैग हैं?",
+            "answer_hindi": "टोयोटा वेलफायर में 7 एयरबैग्स हैं, जो ड्राइवर, फ्रंट पैसेंजर और साइड पैसेंजर को सुरक्षा प्रदान करते हैं।"
+          },
+          {
+            "question_hindi": "क्या टोयोटा वेलफायर में एबीएस है?",
+            "answer_hindi": "हां, टोयोटा वेलफायर में एबीएस, ईबीडी और ब्रेक असिस्ट की सुविधा है। यह तकनीक तेज ब्रेकिंग के दौरान वाहन को स्थिर और सुरक्षित बनाती है।"
+          }
+        ]
       }
     ]
   },
   {
     "title": "Toyota Hilux",
+    "title_hindi": "टोयोटा हिलक्स",
     "intro": "The Toyota Hilux is a premium lifestyle pickup truck that combines rugged off-road capability with a luxurious and feature-rich cabin. Known for its robust build quality, powerful engine options, and reliability, the Hilux is a versatile vehicle suitable for adventure enthusiasts and utility needs alike.",
+    "intro_hindi": "टोयोटा हिलक्स एक प्रीमियम लाइफस्टाइल पिकअप ट्रक है जो कठोर ऑफ-रोड क्षमताओं को एक शानदार और फीचर-समृद्ध केबिन के साथ जोड़ता है। अपनी मजबूत निर्माण गुणवत्ता, शक्तिशाली इंजन विकल्पों और विश्वसनीयता के लिए जाना जाता है, हिलक्स एक बहुमुखी वाहन है जो रोमांच प्रेमियों और उपयोगिता आवश्यकताओं के लिए समान रूप से उपयुक्त है।",
     "titleSlug": "hilux",
     "brand": "Toyota",
+    "brand_hindi": "टोयोटा",
     "brandSlug": "toyota-cars",
+    "featured": "trending",
     "bodytype": "Truck",
+    "bodytype_hindi": "ट्रक",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1737132487/carwale/carImages/toyota/hilux-exterior-right-front-three-quarter-2_f2bzzc.webp",
     "specifications": {
       "price": 3300000,
       "engine": 2755,
       "mileage": 10.5,
-      "safety": 5,
       "fueltype": ["Diesel"],
+      "fueltype_hindi": ["डीजल"],
       "transmission": ["Manual", "Automatic"],
+      "transmission_hindi": ["मैनुअल", "ऑटोमेटिक"],
       "seatingcapacity": 5
     },
     "keyfeatures": [
@@ -1896,31 +3060,17 @@
       "Rear differential lock",
       "Automatic climate control"
     ],
-    "summary": [
-      {
-        "question": "Latest Update",
-        "answer": "Toyota Hilux received minor updates for 2023, including new features and color options, along with RDE-compliant engines."
-      },
-      {
-        "question": "Price",
-        "answer": "The Toyota Hilux price ranges from Rs. 33 Lakh to Rs. 36.80 Lakh, depending on the variant."
-      },
-      {
-        "question": "What are the engine options available?",
-        "answer": "The Toyota Hilux is powered by a 2.8L turbo-diesel engine, paired with either a 6-speed manual or 6-speed automatic transmission."
-      },
-      {
-        "question": "What are the rivals of Toyota Hilux?",
-        "answer": "Key competitors include Isuzu D-Max V-Cross and Jeep Meridian (as an SUV alternative)."
-      },
-      {
-        "question": "What variants does it come in?",
-        "answer": "The Toyota Hilux is available in two main trims: Standard and High, with options for manual and automatic transmissions."
-      },
-      {
-        "question": "Is the Toyota Hilux fuel-efficient?",
-        "answer": "With a mileage of 10.5 kmpl (manual) and around 9.5 kmpl (automatic), the Hilux prioritizes performance over fuel efficiency."
-      }
+    "keyfeatures_hindi": [
+      "2.8L टर्बो-डीजल इंजन के साथ 201 बीएचपी और 500 एनएम टॉर्क",
+      "हाई/लो रेंज ट्रांसफर केस के साथ फोर-व्हील-ड्राइव",
+      "एप्पल कारप्ले और एंड्रॉइड ऑटो के साथ 8.0 इंच का टचस्क्रीन इंफोटेनमेंट",
+      "वेंटिलेटेड फ्रंट सीट्स के साथ लेदर अपहोल्स्ट्री",
+      "क्रूज कंट्रोल",
+      "डीआरएल के साथ एलईडी प्रोजेक्टर हेडलैंप",
+      "ड्राइवर नी एयरबैग सहित 7 एयरबैग",
+      "हिल-स्टार्ट असिस्ट और डाउनहिल असिस्ट कंट्रोल",
+      "रियर डिफरेंशियल लॉक",
+      "ऑटोमैटिक क्लाइमेट कंट्रोल"
     ],
     "prosandcons": [
       {
@@ -1931,15 +3081,29 @@
           "Toyota's legendary reliability and build quality",
           "Ample load-carrying capacity for utility and adventure"
         ],
+        "pros_hindi": [
+          "मजबूत 4x4 सिस्टम के साथ असाधारण ऑफ-रोड क्षमताएं",
+          "शक्तिशाली और विश्वसनीय डीजल इंजन",
+          "उन्नत सुविधाओं के साथ विशाल और प्रीमियम केबिन",
+          "टोयोटा की प्रसिद्ध विश्वसनीयता और निर्माण गुणवत्ता",
+          "उपयोगिता और रोमांच के लिए पर्याप्त भार वहन क्षमता"
+        ],
         "cons": [
           "High price compared to some competitors",
           "Fuel efficiency could be better",
           "Large size makes it challenging to maneuver in tight spaces",
           "Lacks some luxury features like a sunroof"
+        ],
+        "cons_hindi": [
+          "कुछ प्रतियोगियों की तुलना में उच्च कीमत",
+          "ईंधन दक्षता बेहतर हो सकती है",
+          "बड़ा आकार तंग जगहों में चलाना चुनौतीपूर्ण बनाता है",
+          "कुछ लक्ज़री सुविधाओं की कमी जैसे सनरूफ"
         ]
       }
     ],
     "verdict": "The Toyota Hilux is a capable and rugged pickup truck that delivers excellent performance, versatility, and reliability. It's a great choice for those who need a premium off-roader with utility features, though its size and fuel efficiency may not suit urban environments.",
+    "verdict_hindi": "टोयोटा हिलक्स एक सक्षम और कठोर पिकअप ट्रक है जो उत्कृष्ट प्रदर्शन, बहुमुखी प्रतिभा और विश्वसनीयता प्रदान करता है। यह उन लोगों के लिए एक बढ़िया विकल्प है जिन्हें उपयोगिता सुविधाओं के साथ एक प्रीमियम ऑफ-रोडर की आवश्यकता है, हालांकि इसका आकार और ईंधन दक्षता शहरी वातावरण के लिए उपयुक्त नहीं हो सकती है।",
     "faq": [
       {
         "price": [
@@ -1958,6 +3122,12 @@
             "answer": "In real-world conditions, users report a mileage of around 9-10 kmpl."
           }
         ],
+        "specifications": [
+          {
+            "question": "What are the engine options available in Toyota Hilux?",
+            "answer": "The Toyota Hilux is powered by a 2.8L turbo-diesel engine, paired with either a 6-speed manual or 6-speed automatic transmission."
+          }
+        ],
         "features": [
           {
             "question": "Does Toyota Hilux have a sunroof?",
@@ -1974,28 +3144,97 @@
             "answer": "Yes, the Toyota Hilux is equipped with ABS with EBD as standard."
           }
         ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "टोयोटा हाइलक्स बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "टोयोटा हाइलक्स बेस मॉडल की ऑन-रोड कीमत रु. 30.40 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          },
+          {
+            "question_hindi": "टोयोटा हाइलक्स टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "टोयोटा हाइलक्स टॉप मॉडल की ऑन-रोड कीमत रु. 37.90 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "टोयोटा हाइलक्स की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने टोयोटा हाइलक्स की माइलेज 10 किमी/लीटर होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 8 से 9 किमी/लीटर तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "टोयोटा हाइलक्स में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "टोयोटा हाइलक्स में 5 लोगों की बैठने की क्षमता है।"
+          },
+          {
+            "question_hindi": "टोयोटा हाइलक्स के आयाम क्या हैं?",
+            "answer_hindi": "टोयोटा हाइलक्स के आयाम 5325 मिमी लंबाई, 1855 मिमी चौड़ाई और 1815 मिमी ऊंचाई हैं। इसका व्हीलबेस 3085 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या टोयोटा हाइलक्स में सनरूफ है?",
+            "answer_hindi": "नहीं, टोयोटा हाइलक्स में सनरूफ की सुविधा नहीं है।"
+          },
+          {
+            "question_hindi": "क्या टोयोटा हाइलक्स में क्रूज कंट्रोल है?",
+            "answer_hindi": "हां, टोयोटा हाइलक्स के उच्च वेरिएंट्स में क्रूज कंट्रोल की सुविधा है, जो लंबी यात्रा के दौरान ड्राइविंग को आरामदायक बनाती है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "टोयोटा हाइलक्स में कितने एयरबैग हैं?",
+            "answer_hindi": "टोयोटा हाइलक्स में 7 एयरबैग हैं। इनमें ड्राइवर, फ्रंट पैसेंजर, साइड, कर्टन और ड्राइवर के घुटने के एयरबैग शामिल हैं।"
+          },
+          {
+            "question_hindi": "क्या टोयोटा हाइलक्स में एबीएस है?",
+            "answer_hindi": "हां, टोयोटा हाइलक्स के सभी वेरिएंट्स में एबीएस और ईबीडी की सुविधा है। यह तकनीक तेज ब्रेकिंग के दौरान वाहन को स्थिर रखने में मदद करती है।"
+          }
+        ]
       }
     ]
   },
   {
     "title": "Toyota Rumion",
+    "title_hindi": "टोयोटा रूमियन",
     "intro": "The price of Toyota Rumion, a 7 seater MUV, ranges from Rs. 10.44 - 13.73 Lakh. It is available in 7 variants, with an engine of 1462 cc and a choice of 2 transmissions: Manual and Automatic. Rumion comes with 4 airbags. Toyota Rumion is available in 5 colours. Users have reported a mileage of 20.11 to 26.11 kmpl for Rumion.",
+    "intro_hindi": "टोयोटा रूमियन, एक 7-सीटर एमयूवी है, जिसकी कीमत रु. 10.44 लाख से रु. 13.73 लाख के बीच है। यह 7 वेरिएंट्स में उपलब्ध है, जिसमें 1462 सीसी का इंजन और 2 ट्रांसमिशन विकल्प: मैनुअल और ऑटोमैटिक हैं। रूमियन में 4 एयरबैग्स हैं और यह 5 रंगों में उपलब्ध है। उपयोगकर्ताओं ने रूमियन की माइलेज 20.11 से 26.11 किमी/लीटर बताई है।",
     "titleSlug": "rumion",
     "brand": "Toyota",
+    "brand_hindi": "टोयोटा",
     "brandSlug": "toyota-cars",
     "brand_id": "64e22d26ec17fb97d11656bf",
     "featured": "upcoming",
     "bodytype": "Compact SUV",
+    "bodytype_hindi": "कॉम्पैक्ट एसयूवी",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1692799289/carwale/carImages/toyota/rumion-exterior-right-front-three-quarter-2_blqvss.webp",
     "specifications": {
       "price": 1029000,
       "engine": 1462,
+      "mileage": 20,
       "fueltype": ["Petrol", "CNG"],
+      "fueltype_hindi": ["पेट्रोल", "सीएनजी"],
       "transmission": ["Manual", "Automatic"],
+      "transmission_hindi": ["मैनुअल", "ऑटोमैटिक"],
       "seatingcapacity": 7,
       "powerandtorque": "87 bhp & 136 Nm"
     },
+    "keyfeatures": [
+      "4 airbags",
+      "7-seater configuration",
+      "Cruise Control in selected variants",
+      "Fuel-efficient engine",
+      "Compact size for urban driving"
+    ],
+    "keyfeatures_hindi": [
+      "4 एयरबैग्स",
+      "7-सीटर कॉन्फ़िगरेशन",
+      "चयनित वेरिएंट्स में क्रूज कंट्रोल",
+      "ईंधन-किफायती इंजन",
+      "शहरी ड्राइविंग के लिए कॉम्पैक्ट आकार"
+    ],
     "prosandcons": [
       {
         "pros": [
@@ -2003,12 +3242,23 @@
           "Comfortable seats, decent boot (last row folded).",
           "Tweaked to look like a scaled-down Innova Hycross."
         ],
+        "pros_hindi": [
+          "अधिकांश 7-सीटर वाहनों की तुलना में चलाने में आसान।",
+          "आरामदायक सीटें, अच्छा बूट स्पेस (आखिरी पंक्ति फोल्ड की जा सकती है)।",
+          "इनोवा हाईक्रॉस के छोटे संस्करण की तरह दिखने के लिए डिज़ाइन किया गया।"
+        ],
         "cons": [
           "Restrictive third-row legroom.",
           "Not as spacious as the Innova/Marazzo."
+        ],
+        "cons_hindi": [
+          "तीसरी पंक्ति में सीमित लेगरूम।",
+          "इनोवा/मराज़ो जितना विशाल नहीं।"
         ]
       }
     ],
+    "verdict": "Toyota Rumion is a practical and compact 7-seater with decent features, ideal for urban families.",
+    "verdict_hindi": "टोयोटा रूमियन एक व्यावहारिक और कॉम्पैक्ट 7-सीटर है जिसमें अच्छे फीचर्स हैं, जो शहरी परिवारों के लिए आदर्श है।",
     "faq": [
       {
         "price": [
@@ -2021,22 +3271,14 @@
             "answer": "The on road price of Toyota Rumion top model is Rs. 17.03 Lakh which includes a registration cost of Rs. 260085, insurance premium of Rs. 49164 and additional charges of Rs. 2000."
           }
         ],
+
         "performance": [
           {
             "question": "What is the real world versus claimed mileage of Toyota Rumion?",
             "answer": "The company claimed mileage of Toyota Rumion is 20.11 to 26.11 kmpl. As per users, the mileage came to be 24 kmpl in the real world."
           }
         ],
-        "specifications": [
-          {
-            "question": "What is the seating capacity in Toyota Rumion?",
-            "answer": "Toyota Rumion has a seating capacity of 7 people."
-          },
-          {
-            "question": "What are the dimensions of Toyota Rumion?",
-            "answer": "The dimensions of Toyota Rumion include its length of 4420 mm, width of 1735 mm and height of 1690 mm. The wheelbase of the Toyota Rumion is 2740 mm."
-          }
-        ],
+
         "features": [
           {
             "question": "Does Toyota Rumion get a sunroof?",
@@ -2047,6 +3289,7 @@
             "answer": "Yes, 2 out of 7 variants of Toyota Rumion have cruise control function. With the Cruise control enabled you can take your foot off the accelerator and move at a fixed speed constantly provided the road system permits this."
           }
         ],
+
         "safety": [
           {
             "question": "How many airbags does Toyota Rumion get?",
@@ -2057,88 +3300,135 @@
             "answer": "Yes, all variants of Toyota Rumion have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
           }
         ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "टोयोटा रूमियन बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "टोयोटा रूमियन बेस मॉडल की ऑन-रोड कीमत रु. 8.77 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          },
+          {
+            "question_hindi": "टोयोटा रूमियन टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "टोयोटा रूमियन टॉप मॉडल की ऑन-रोड कीमत रु. 13.00 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "टोयोटा रूमियन की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने टोयोटा रूमियन की माइलेज 20.51 किमी/लीटर (पेट्रोल) और 26.11 किमी/किग्रा (सीएनजी) होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज पेट्रोल पर 18-19 किमी/लीटर और सीएनजी पर 23-25 किमी/किग्रा तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "टोयोटा रूमियन में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "टोयोटा रूमियन में 7 लोगों की बैठने की क्षमता है।"
+          },
+          {
+            "question_hindi": "टोयोटा रूमियन के आयाम क्या हैं?",
+            "answer_hindi": "टोयोटा रूमियन के आयाम 4395 मिमी लंबाई, 1735 मिमी चौड़ाई और 1690 मिमी ऊंचाई हैं। इसका व्हीलबेस 2740 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या टोयोटा रूमियन में सनरूफ है?",
+            "answer_hindi": "नहीं, टोयोटा रूमियन में सनरूफ उपलब्ध नहीं है।"
+          },
+          {
+            "question_hindi": "क्या टोयोटा रूमियन में क्रूज कंट्रोल है?",
+            "answer_hindi": "नहीं, टोयोटा रूमियन में क्रूज कंट्रोल उपलब्ध नहीं है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "टोयोटा रूमियन में कितने एयरबैग हैं?",
+            "answer_hindi": "टोयोटा रूमियन के सभी वेरिएंट्स में ड्यूल फ्रंट एयरबैग्स की सुविधा है।"
+          },
+          {
+            "question_hindi": "क्या टोयोटा रूमियन में एबीएस है?",
+            "answer_hindi": "हां, टोयोटा रूमियन के सभी वेरिएंट्स में एबीएस और ईबीडी की सुविधा है। यह तकनीक तेज ब्रेकिंग के दौरान वाहन को स्थिर रखने में मदद करती है।"
+          }
+        ]
       }
     ]
   },
   {
     "title": "Toyota Innova Crysta",
+    "title_hindi": "टोयोटा इनोवा क्रिस्टा",
     "intro": "The Innova Crysta is a modern-day multi-purpose vehicle with bulletproof reliability, strong chassis, and an efficient but powerful diesel engine. The Crysta also offers a large cabin, seating for up to eight people, and plenty of storage options.",
+    "intro_hindi": "इनोवा क्रिस्टा एक आधुनिक एमपीवी है जिसमें बुलेटप्रूफ विश्वसनीयता, मजबूत चेसिस, और एक शक्तिशाली लेकिन कुशल डीजल इंजन है। क्रिस्टा में बड़े केबिन, आठ लोगों के बैठने की क्षमता और कई स्टोरेज विकल्प उपलब्ध हैं।",
     "titleSlug": "innova-crysta",
     "brand": "Toyota",
+    "brand_hindi": "टोयोटा",
     "brandSlug": "toyota-cars",
-    "brand_id": "64e22d26ec17fb97d11656bf",
     "bodytype": "MUV",
+    "bodytype_hindi": "एमपीवी",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1715015050/carwale/carImages/toyota/innova-crysta-exterior-right-front-three-quarter-2_map38a.webp",
     "specifications": {
       "price": 1999000,
+      "mileage": 14,
       "engine": 2393,
       "fueltype": ["Diesel"],
+      "fueltype_hindi": ["डीजल"],
       "transmission": ["Manual"],
+      "transmission_hindi": ["मैनुअल"],
       "seatingcapacity": 7,
       "power": "87 bhp"
     },
-    "summary": [
-      {
-        "question": "Latest Update",
-        "answer": "The GX Plus variant fills in above the GX variant and is priced Rs 1.3 lakh above the latter"
-      },
-      {
-        "question": "Price",
-        "answer": "Toyota Innova Crysta price ranges between Rs. 25.05 Lakh - Rs. 33.10 Lakh depending on the variant selected."
-      },
-      {
-        "question": "When was the 2023 Toyota Innova Crysta launched?",
-        "answer": "The updated Innova Crysta was launched in India on 2 May."
-      },
-      {
-        "question": "What variants does it get? ",
-        "answer": "The 2023 Innova Crysta is offered in four variants: G, GX, VX, and ZX."
-      },
-      {
-        "question": "What features are available in the 2023 Toyota Innova Crysta?",
-        "answer": "On the outside, the 2023 Innova Crysta gets a tweaked front face with more chrome highlights. The front grille gets a horizontal chrome stripe, while the bumper gets a chrome insert on the chin and around the fog lamp housing. Also up for offer is a black insert between the tail lights."
-      },
-      {
-        "question": "What are the engine, performance, and specifications of the 2023 Toyota Innova Crysta?",
-        "answer": "At the heart of the facelifted Innova Crysta is a 2.4-litre diesel engine generating a maximum power output of 148bhp and 343Nm of torque. This motor is mated exclusively to a five-speed manual transmission."
-      },
-      {
-        "question": "Is the 2023 Toyota Innova Crysta a safe car?",
-        "answer": "The Toyota Innova Crysta scored a four-star rating in the ASEAN NCAP crash test."
-      },
-      {
-        "question": "What are the rivals to the 2023 Toyota Innova Crysta?",
-        "answer": "The Toyota Innova Crysta facelift rivals the Mahindra XUV700, Tata Safari, Hyundai Alcazar, Kia Carens, and MG Hector Plus."
-      }
+    "keyfeatures": [
+      "Bulletproof reliability",
+      "Large cabin with spacious seating",
+      "Efficient but powerful diesel engine",
+      "Strong chassis for improved safety",
+      "Dependable service network"
+    ],
+    "keyfeatures_hindi": [
+      "बुलेटप्रूफ विश्वसनीयता",
+      "बड़े केबिन में विशाल बैठने की सुविधा",
+      "कुशल लेकिन शक्तिशाली डीजल इंजन",
+      "बेहतर सुरक्षा के लिए मजबूत चेसिस",
+      "विश्वसनीय सेवा नेटवर्क"
     ],
     "prosandcons": [
       {
         "pros": [
           "Bulletproof reliability",
-          "Spacious, comfortable seats with sensible adjustability.",
-          "Adequate grunt throughout the rev range.",
-          "Scores high in terms of overall practicality.",
+          "Spacious, comfortable seats with sensible adjustability",
+          "Adequate grunt throughout the rev range",
+          "Scores high in terms of overall practicality",
           "Dependable sales/service/resale"
         ],
+        "pros_hindi": [
+          "बुलेटप्रूफ विश्वसनीयता",
+          "आरामदायक और समायोज्य सीटिंग व्यवस्था",
+          "पूरे रेव रेंज में पर्याप्त शक्ति",
+          "कुल व्यावहारिकता में उच्च स्कोर करता है",
+          "विश्वसनीय बिक्री/सेवा/पुनर्विक्रय"
+        ],
         "cons": [
-          "Not equipped with modern features.",
-          "Boot space when all seats are in use.",
-          "Expensive to buy."
+          "Not equipped with modern features",
+          "Boot space when all seats are in use",
+          "Expensive to buy"
+        ],
+        "cons_hindi": [
+          "आधुनिक सुविधाओं से लैस नहीं",
+          "सभी सीटें उपयोग में होने पर बूट स्पेस कम",
+          "खरीदने में महंगा"
         ]
       }
     ],
     "verdict": "People swear by the Toyota Innova Crysta. And that's for a reason. Be it the spacious and practical cabin, rock-solid reliability or an unreal resale value.",
+    "verdict_hindi": "लोग टोयोटा इनोवा क्रिस्टा पर भरोसा करते हैं। और इसके पीछे कारण है। चाहे वह विशाल और व्यावहारिक केबिन हो, मजबूत विश्वसनीयता हो या अविश्वसनीय पुनर्विक्रय मूल्य।",
     "faq": [
       {
         "price": [
           {
             "question": "What is the on road price of Toyota Innova Crysta base model?",
-            "answer": "The on road price of Toyota Innova Crysta base model is Rs. 25.05 Lakh which includes a registration cost of Rs. 378211, insurance premium of Rs. 99866 and additional charges of Rs. 2000."
+            "answer": "The on-road price of Toyota Innova Crysta base model is Rs. 25.05 Lakh which includes a registration cost of Rs. 378211, insurance premium of Rs. 99866 and additional charges of Rs. 2000."
           },
           {
             "question": "What is the on road price of Toyota Innova Crysta top model?",
-            "answer": "The on road price of Toyota Innova Crysta top model is Rs. 33.10 Lakh which includes a registration cost of Rs. 526474, insurance premium of Rs. 120100 and additional charges of Rs. 2000."
+            "answer": "The on-road price of Toyota Innova Crysta top model is Rs. 33.10 Lakh which includes a registration cost of Rs. 526474, insurance premium of Rs. 120100 and additional charges of Rs. 2000."
           }
         ],
         "performance": [
@@ -2166,11 +3456,59 @@
         "safety": [
           {
             "question": "How many airbags does Toyota Innova Crysta get?",
-            "answer": "The top Model of Toyota Innova Crysta has 7 airbags. The Innova Crysta has driver, front passenger, 2 curtain, driver knee, driver side and front passenger side airbags."
+            "answer": "The top model of Toyota Innova Crysta has 2 airbags. It has driver and passenger airbags."
           },
           {
             "question": "Does Toyota Innova Crysta get ABS?",
-            "answer": "Yes, all variants of Toyota Innova Crysta have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+            "answer": "Yes, all versions of Toyota Innova Crysta have ABS. ABS prevents skidding while braking hard."
+          }
+        ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "टोयोटा इनोवा क्रिस्टा बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "टोयोटा इनोवा क्रिस्टा बेस मॉडल की ऑन-रोड कीमत रु. 19.99 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          },
+          {
+            "question_hindi": "टोयोटा इनोवा क्रिस्टा टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "टोयोटा इनोवा क्रिस्टा टॉप मॉडल की ऑन-रोड कीमत रु. 25.43 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "टोयोटा इनोवा क्रिस्टा की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने टोयोटा इनोवा क्रिस्टा की माइलेज 14.5 किमी/लीटर (डीजल) होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 12 से 13.5 किमी/लीटर तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "टोयोटा इनोवा क्रिस्टा में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "टोयोटा इनोवा क्रिस्टा में 7 और 8 सीटों के विकल्प उपलब्ध हैं।"
+          },
+          {
+            "question_hindi": "टोयोटा इनोवा क्रिस्टा के आयाम क्या हैं?",
+            "answer_hindi": "टोयोटा इनोवा क्रिस्टा के आयाम 4735 मिमी लंबाई, 1830 मिमी चौड़ाई और 1795 मिमी ऊंचाई हैं। इसका व्हीलबेस 2750 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या टोयोटा इनोवा क्रिस्टा में सनरूफ है?",
+            "answer_hindi": "नहीं, टोयोटा इनोवा क्रिस्टा में सनरूफ उपलब्ध नहीं है।"
+          },
+          {
+            "question_hindi": "क्या टोयोटा इनोवा क्रिस्टा में क्रूज कंट्रोल है?",
+            "answer_hindi": "हां, टोयोटा इनोवा क्रिस्टा के उच्च वेरिएंट्स में क्रूज कंट्रोल की सुविधा उपलब्ध है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "टोयोटा इनोवा क्रिस्टा में कितने एयरबैग हैं?",
+            "answer_hindi": "टोयोटा इनोवा क्रिस्टा के टॉप मॉडल में 7 एयरबैग हैं। इनमें ड्राइवर, फ्रंट पैसेंजर, साइड और कर्टेन एयरबैग शामिल हैं।"
+          },
+          {
+            "question_hindi": "क्या टोयोटा इनोवा क्रिस्टा में एबीएस है?",
+            "answer_hindi": "हां, टोयोटा इनोवा क्रिस्टा के सभी वेरिएंट्स में एबीएस और ईबीडी की सुविधा है। यह तकनीक तेज ब्रेकिंग के दौरान वाहन को स्थिर रखने में मदद करती है।"
           }
         ]
       }
@@ -2178,21 +3516,44 @@
   },
   {
     "title": "Honda Elevate",
+    "title_hindi": "होंडा एलेवेट",
     "intro": "The Elevate has a handsome design and ample interior space, prioritising comfort and longevity. While lacking in excitement, its sufficient power ensures a smooth driving experience. Equipped with a range of comfort and ADAS features, it offers convenience and reliability.",
+    "intro_hindi": "एलेवेट का आकर्षक डिज़ाइन और पर्याप्त आंतरिक स्थान है, जो आराम और दीर्घायु को प्राथमिकता देता है। रोमांच की कमी के बावजूद, इसका पर्याप्त पावर एक आरामदायक ड्राइविंग अनुभव सुनिश्चित करता है। यह आराम और एडीएएस सुविधाओं की एक श्रृंखला से लैस है, जो सुविधा और विश्वसनीयता प्रदान करता है।",
     "titleSlug": "elevate",
     "brand": "Honda",
+    "brand_hindi": "होंडा",
     "brandSlug": "honda-cars",
     "featured": "popular",
     "bodytype": "MUV",
+    "bodytype_hindi": "एमयूवी",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1711980378/carwale/carImages/honda/elevate-exterior-right-front-three-quarter-21_mxvp4z.webp",
     "specifications": {
       "price": 1157900,
+      "mileage": 14.55,
       "engine": 1498,
       "fueltype": ["Petrol"],
+      "fueltype_hindi": ["पेट्रोल"],
       "transmission": ["Manual", "Automatic"],
+      "transmission_hindi": ["मैनुअल", "ऑटोमेटिक"],
       "seatingcapacity": 5
     },
+    "keyfeatures": [
+      "Level 2 ADAS hardware",
+      "Six airbags",
+      "Wireless smartphone integration",
+      "Modern connectivity options",
+      "Manual and CVT transmission options",
+      "Exceptional boot space of 458 litres"
+    ],
+    "keyfeatures_hindi": [
+      "लेवल 2 एडीएएस हार्डवेयर",
+      "छह एयरबैग्स",
+      "वायरलेस स्मार्टफोन इंटीग्रेशन",
+      "आधुनिक कनेक्टिविटी विकल्प",
+      "मैनुअल और सीवीटी ट्रांसमिशन विकल्प",
+      "458 लीटर का शानदार बूट स्पेस"
+    ],
     "prosandcons": [
       {
         "pros": [
@@ -2202,14 +3563,29 @@
           "Offered with a selection of manual and CVT automatic transmission options.",
           "Leading the segment with an exceptional boot space of 458 litres."
         ],
+        "pros_hindi": [
+          "यह अपने साथी C-SUV प्रतियोगियों के बराबर है, यह कुछ के आयामों से भी अधिक है।",
+          "टॉप-टियर वेरिएंट में लेवल 2 एडीएएस हार्डवेयर और कुल छह एयरबैग्स शामिल हैं।",
+          "टच स्क्रीन में वायरलेस स्मार्टफोन इंटीग्रेशन और आधुनिक कनेक्टिविटी विकल्प हैं।",
+          "यह मैनुअल और सीवीटी ऑटोमेटिक ट्रांसमिशन विकल्पों के साथ पेश किया गया है।",
+          "458 लीटर के शानदार बूट स्पेस के साथ सेगमेंट में सबसे आगे।"
+        ],
         "cons": [
           "No variety in engine selection, as the hybrid and diesel engine alternatives are omitted.",
           "Lacks premium features such as a 360-degree camera, panoramic sunroof, heads-up display (HUD), and ventilated seats.",
           "Features may not be comprehensive in the lower trims.",
           "The GNCAP rating is currently unavailable."
+        ],
+        "cons_hindi": [
+          "इंजन चयन में कोई विविधता नहीं है, क्योंकि हाइब्रिड और डीजल इंजन विकल्प हटा दिए गए हैं।",
+          "360 डिग्री कैमरा, पैनोरमिक सनरूफ, हेड्स-अप डिस्प्ले (HUD) और वेंटिलेटेड सीट्स जैसी प्रीमियम सुविधाओं की कमी है।",
+          "कम ट्रिम्स में सुविधाएँ पूरी तरह से नहीं हो सकती हैं।",
+          "GNCAP रेटिंग वर्तमान में अनुपलब्ध है।"
         ]
       }
     ],
+    "verdict": "The Honda Elevate offers a good balance of comfort and practicality but lacks excitement in its performance.",
+    "verdict_hindi": "होंडा एलेवेट आराम और व्यावहारिकता का अच्छा संतुलन प्रदान करता है, लेकिन इसके प्रदर्शन में रोमांच की कमी है।",
     "faq": [
       {
         "price": [
@@ -2250,8 +3626,56 @@
             "answer": "The top Model of Honda Elevate has 6 airbags. The Exter has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
           },
           {
-            "question": " Does Honda Elevate get ABS?",
+            "question": "Does Honda Elevate get ABS?",
             "answer": "Yes, all versions of Honda Elevate have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "होंडा एलेवेट बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "होंडा एलेवेट बेस मॉडल की ऑन-रोड कीमत रु. 11.50 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          },
+          {
+            "question_hindi": "होंडा एलेवेट टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "होंडा एलेवेट टॉप मॉडल की ऑन-रोड कीमत रु. 16.75 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "होंडा एलेवेट की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने होंडा एलेवेट की माइलेज 16.70 किमी/लीटर होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 14 से 16 किमी/लीटर तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "होंडा एलेवेट में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "होंडा एलेवेट में 5 लोगों की बैठने की क्षमता है।"
+          },
+          {
+            "question_hindi": "होंडा एलेवेट के आयाम क्या हैं?",
+            "answer_hindi": "होंडा एलेवेट के आयाम 4370 मिमी लंबाई, 1795 मिमी चौड़ाई और 1655 मिमी ऊंचाई हैं। इसका व्हीलबेस 2630 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या होंडा एलेवेट में सनरूफ है?",
+            "answer_hindi": "हां, होंडा एलेवेट के उच्च वेरिएंट्स में इलेक्ट्रिक सनरूफ उपलब्ध है।"
+          },
+          {
+            "question_hindi": "क्या होंडा एलेवेट में क्रूज कंट्रोल है?",
+            "answer_hindi": "हां, होंडा एलेवेट में क्रूज कंट्रोल की सुविधा है, जो लंबी यात्रा के दौरान ड्राइविंग को आरामदायक बनाती है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "होंडा एलेवेट में कितने एयरबैग हैं?",
+            "answer_hindi": "होंडा एलेवेट के टॉप मॉडल में 6 एयरबैग हैं। इनमें ड्राइवर, फ्रंट पैसेंजर और साइड एयरबैग शामिल हैं।"
+          },
+          {
+            "question_hindi": "क्या होंडा एलेवेट में एबीएस है?",
+            "answer_hindi": "हां, होंडा एलेवेट के सभी वेरिएंट्स में एबीएस और ईबीडी की सुविधा है। यह तकनीक तेज ब्रेकिंग के दौरान वाहन को स्थिर रखने में मदद करती है।"
           }
         ]
       }
@@ -2259,20 +3683,26 @@
   },
   {
     "title": "Honda Amaze",
+    "title_hindi": "होंडा अमेज़",
     "intro": "Honda Cars India has introduced the new-generation Amaze in the country. The third generation of the sub-four-metre sedan gets a segment-first Level 2 ADAS suite. It is heavily inspired by the current iteration of the City.",
+    "intro_hindi": "होंडा कार्स इंडिया ने देश में नई पीढ़ी का अमेज़ लॉन्च किया है। सब-फोर-मीटर सेडान की तीसरी पीढ़ी को सेगमेंट-फर्स्ट लेवल 2 एडीएएस सूट मिलता है। यह वर्तमान सिटी के मॉडल से प्रेरित है।",
     "titleSlug": "amaze",
     "brand": "Honda",
+    "brand_hindi": "होंडा",
     "brandSlug": "honda-cars",
+    "featured": "trending",
     "bodytype": "Compact Sedan",
+    "bodytype_hindi": "कॉम्पैक्ट सेडान",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1737132335/carwale/carImages/honda/amaze-exterior-right-front-three-quarter-3_cspzmb.webp",
     "specifications": {
       "price": 720000,
-      "engine": 1199,
       "mileage": 18.6,
-      "safety": 4,
+      "engine": 1199,
       "fueltype": ["Petrol"],
+      "fueltype_hindi": ["पेट्रोल"],
       "transmission": ["Manual", "Automatic"],
+      "transmission_hindi": ["मैनुअल", "ऑटोमेटिक"],
       "seatingcapacity": 5
     },
     "keyfeatures": [
@@ -2287,31 +3717,17 @@
       "Dual airbags",
       "ISOFIX child seat mounts"
     ],
-    "summary": [
-      {
-        "question": "Latest Update",
-        "answer": "The 2023 Honda Amaze received minor updates with new color options, improved interiors, and RDE-compliant engines."
-      },
-      {
-        "question": "Price",
-        "answer": "The Honda Amaze price ranges from Rs. 7.20 Lakh to Rs. 10.10 Lakh, depending on the variant and location."
-      },
-      {
-        "question": "What are the engine options available?",
-        "answer": "The Honda Amaze is available with a 1.2L petrol engine generating 89bhp and 110Nm, and a 1.5L diesel engine producing 98bhp and 200Nm (manual)."
-      },
-      {
-        "question": "What are the rivals of Honda Amaze?",
-        "answer": "Key competitors include Maruti Suzuki Dzire, Hyundai Aura, and Tata Tigor."
-      },
-      {
-        "question": "What variants does it come in?",
-        "answer": "The Honda Amaze is available in variants like E, S, V, and VX."
-      },
-      {
-        "question": "Is the Honda Amaze a fuel-efficient car?",
-        "answer": "Yes, the petrol variant offers a mileage of 18.6 kmpl (manual) and 18.3 kmpl (CVT), while the diesel variant provides up to 24.7 kmpl."
-      }
+    "keyfeatures_hindi": [
+      "7.0 इंच टचस्क्रीन इंफोटेनमेंट सिस्टम के साथ एंड्रॉयड ऑटो और एप्पल कारप्ले",
+      "स्वचालित जलवायु नियंत्रण",
+      "एलईडी डीआरएल और प्रक्षिप्त हेडलाइट्स",
+      "क्रूज कंट्रोल",
+      "कैमरे के साथ रियर पार्किंग सेंसर्स",
+      "पुश-बटन स्टार्ट/स्टॉप",
+      "इलेक्ट्रिकली एडजस्टेबल और फोल्डेबल ओआरवीएम",
+      "एबीएस और ईबीडी",
+      "डुअल एयरबैग्स",
+      "आईसोफिक्स चाइल्ड सीट माउंट्स"
     ],
     "prosandcons": [
       {
@@ -2322,14 +3738,27 @@
           "Fuel-efficient diesel and petrol engines",
           "Reliable Honda build quality and brand trust"
         ],
+        "pros_hindi": [
+          "विशाल केबिन जिसमें पर्याप्त लेगरूम और हेडरूम है",
+          "स्मूद और परिष्कृत इंजन विकल्प",
+          "हाई-क्वालिटी मैटीरियल्स के साथ फीचर-रिच इंटीरियर्स",
+          "ईंधन दक्ष डीजल और पेट्रोल इंजन",
+          "विश्वसनीय होंडा निर्माण गुणवत्ता और ब्रांड का विश्वास"
+        ],
         "cons": [
           "Boot space is smaller compared to some rivals",
           "Diesel engine is slightly noisy under heavy acceleration",
           "Missing a few premium features like a sunroof"
+        ],
+        "cons_hindi": [
+          "बूट स्पेस कुछ प्रतिद्वंद्वियों के मुकाबले छोटा है",
+          "डीजल इंजन भारी त्वरण पर थोड़ी शोर करता है",
+          "कुछ प्रीमियम फीचर्स जैसे सनरूफ की कमी है"
         ]
       }
     ],
     "verdict": "The Honda Amaze is a well-rounded compact sedan offering a spacious cabin, reliable performance, and excellent fuel efficiency. It’s ideal for families and those seeking a stylish, comfortable, and practical car for everyday use.",
+    "verdict_hindi": "होंडा अमेज़ एक अच्छी तरह से संतुलित कॉम्पैक्ट सेडान है, जो एक विशाल केबिन, विश्वसनीय प्रदर्शन और उत्कृष्ट ईंधन दक्षता प्रदान करता है। यह परिवारों और उन लोगों के लिए आदर्श है जो रोज़मर्रा के उपयोग के लिए एक स्टाइलिश, आरामदायक और व्यावहारिक कार चाहते हैं।",
     "faq": [
       {
         "price": [
@@ -2364,42 +3793,113 @@
             "answer": "Yes, ABS with EBD is standard across all variants of the Honda Amaze."
           }
         ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "होंडा अमेज़ बेस मॉडल की कीमत क्या है?",
+            "answer_hindi": "होंडा अमेज़ का बेस मॉडल E की कीमत रु. 7.20 लाख है, जिसमें एबीएस और ईबीडी, ड्यूल एयरबैग्स और मैन्युअल एयर कंडीशनिंग जैसी सुविधाएं हैं।"
+          },
+          {
+            "question_hindi": "होंडा अमेज़ के टॉप-एंड वेरिएंट की कीमत क्या है?",
+            "answer_hindi": "होंडा अमेज़ का टॉप-एंड VX वेरिएंट की कीमत रु. 10.10 लाख है और इसमें टचस्क्रीन इंफोटेनमेंट सिस्टम, क्रूज कंट्रोल और रियर पार्किंग सेंसर्स के साथ कैमरा जैसी सुविधाएं हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "होंडा अमेज़ की वास्तविक माइलेज क्या है?",
+            "answer_hindi": "वास्तविक दुनिया की परिस्थितियों में, उपयोगकर्ता पेट्रोल के लिए लगभग 17 किमी/लीटर और डीजल के लिए 22 किमी/लीटर की माइलेज रिपोर्ट करते हैं।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या होंडा अमेज़ में सनरूफ है?",
+            "answer_hindi": "नहीं, होंडा अमेज़ में किसी भी वेरिएंट में सनरूफ नहीं है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "होंडा अमेज़ में कितने एयरबैग्स हैं?",
+            "answer_hindi": "होंडा अमेज़ में ड्यूल एयरबैग्स स्टैण्डर्ड हैं, और उच्च वेरिएंट्स में साइड एयरबैग्स उपलब्ध हैं।"
+          },
+          {
+            "question_hindi": "क्या होंडा अमेज़ में एबीएस है?",
+            "answer_hindi": "हां, होंडा अमेज़ के सभी वेरिएंट्स में एबीएस और ईबीडी स्टैण्डर्ड हैं।"
+          }
+        ]
       }
     ]
   },
   {
     "title": "Skoda Slavia",
+    "title_hindi": "स्कोडा स्लाविया",
     "intro": "The Slavia not only looks good but offers a thrilling driving experience, be it in the city or highway, due to its peppy engines and good handling. There's ample comfort, and space, plus remarkable boot capacity and versatility uncommon in sedans.",
+    "intro_hindi": "स्लाविया न केवल दिखने में आकर्षक है, बल्कि इसके जोशीले इंजन और अच्छी हैंडलिंग के कारण शहर और राजमार्ग में शानदार ड्राइविंग अनुभव प्रदान करता है। इसमें पर्याप्त आराम और स्थान है, साथ ही सिडान्स में असामान्य रूप से शानदार बूट क्षमता और बहुपरकारीता है।",
     "titleSlug": "slavia",
     "brand": "Skoda",
+    "brand_hindi": "स्कोडा",
     "brandSlug": "skoda-cars",
     "featured": "popular",
     "bodytype": "Sedan",
+    "bodytype_hindi": "सिडान",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1711987749/carwale/carImages/skoda/slavia-exterior-right-front-three-quarter-6_acb5no.webp",
     "specifications": {
       "price": 1153400,
+      "mileage": 18.5,
       "engine": 999,
       "fueltype": ["Petrol"],
+      "fueltype_hindi": ["पेट्रोल"],
       "transmission": ["Manual", "Automatic"],
+      "transmission_hindi": ["मैनुअल", "ऑटोमैटिक"],
       "seatingcapacity": 5
     },
+    "keyfeatures": [
+      "BS6 2 compliance",
+      "Dual-tone for lower versions",
+      "Comfortable and spacious cabin",
+      "Entertaining to drive",
+      "Good ground clearance",
+      "Largest boot capacity among sedans"
+    ],
+    "keyfeatures_hindi": [
+      "BS6 2 अनुपालन",
+      "निम्न संस्करणों के लिए ड्यूल-टोन",
+      "आरामदायक और विशाल केबिन",
+      "ड्राइव करने में मजेदार",
+      "अच्छी ग्राउंड क्लीयरेंस",
+      "सिडान्स में सबसे बड़ा बूट क्षमता"
+    ],
     "prosandcons": [
       {
         "pros": [
-          "2023 update - BS6 2 compliance improves fuel efficiency, dual-tone for lower versions",
-          "Comfortable and spacious cabin - Be it the front or the rear",
-          "Entertaining to drive - The steering is reasonably quick with just enough feedback",
-          "Ride - A nice balance between being slightly firm and absorbent, good ground clearance",
-          "Fantastic boot - Easily the largest amongst sedans, gets split/folding rear seats"
+          "BS6 2 compliance improves fuel efficiency",
+          "Comfortable and spacious cabin",
+          "Entertaining to drive",
+          "Good balance between firm and absorbent ride",
+          "Large boot capacity with split/folding rear seats"
+        ],
+        "pros_hindi": [
+          "BS6 2 अनुपालन से ईंधन दक्षता में सुधार होता है",
+          "आरामदायक और विशाल केबिन",
+          "ड्राइव करने में मजेदार",
+          "थोड़ा कड़ा और अवशोषक राइड के बीच अच्छा संतुलन",
+          "स्प्लिट/फोल्डिंग रियर सीट्स के साथ बड़ा बूट क्षमता"
         ],
         "cons": [
-          "Thigh support - The rear split-folding bench lacks the appropriate thigh support",
-          "Overall quality - Skoda's staggering quality levels are absent in this sedan",
-          "Engine refinement - The 1-litre motor is not the quietest or the most refined"
+          "Rear bench lacks appropriate thigh support",
+          "Quality is not up to Skoda's usual standards",
+          "Engine refinement is lacking"
+        ],
+        "cons_hindi": [
+          "रियर बेंच में उचित थाई सपोर्ट की कमी है",
+          "गुणवत्ता स्कोडा के सामान्य मानकों तक नहीं है",
+          "इंजन रिफाइनमेंट की कमी है"
         ]
       }
     ],
+    "verdict": "The Skoda Slavia combines performance, comfort, and practicality, making it a strong contender in the sedan segment.",
+    "verdict_hindi": "स्कोडा स्लाविया प्रदर्शन, आराम और व्यावहारिकता का संयोजन करती है, जिससे यह सिडान सेगमेंट में एक मजबूत प्रतियोगी बनती है।",
     "faq": [
       {
         "price": [
@@ -2415,13 +3915,13 @@
         "performance": [
           {
             "question": "What is the real world versus claimed mileage of Skoda Slavia?",
-            "answer": "TThe company claimed mileage of Skoda Slavia is 18.73 to 20.32 kmpl. As per users, the mileage came to be 18.5 kmpl in the real world."
+            "answer": "The company claimed mileage of Skoda Slavia is 18.73 to 20.32 kmpl. As per users, the mileage came to be 18.5 kmpl in the real world."
           }
         ],
         "specifications": [
           {
             "question": "What is the seating capacity in Skoda Slavia?",
-            "answer": " Skoda Slavia? has a seating capacity of 5 people."
+            "answer": "Skoda Slavia has a seating capacity of 5 people."
           },
           {
             "question": "What are the dimensions of Skoda Slavia?",
@@ -2435,17 +3935,55 @@
           },
           {
             "question": "Does Skoda Slavia have cruise control?",
-            "answer": "Yes, 19 out of 20 variants of Skoda Slavia have cruise control function. With the Cruise control enabled you can take your foot off the accelerator and move at a fixed speed constantly provided the road system permits this."
+            "answer": "Yes, 19 out of 20 variants of Skoda Slavia have cruise control function."
           }
         ],
         "safety": [
           {
             "question": "How many airbags does Skoda Slavia get?",
-            "answer": "The top Model of Skoda Slavia has 6 airbags. The Exter has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
+            "answer": "The top Model of Skoda Slavia has 6 airbags."
           },
           {
-            "question": " Does Skoda Slavia get ABS?",
-            "answer": "Yes, all versions of Skoda Slavia have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+            "question": "Does Skoda Slavia get ABS?",
+            "answer": "Yes, all versions of Skoda Slavia have ABS."
+          }
+        ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "स्कोडा स्लाविया बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "स्कोडा स्लाविया बेस मॉडल की ऑन-रोड कीमत रु. 14.33 लाख है, जिसमें पंजीकरण शुल्क रु. 221310, बीमा प्रीमियम रु. 44393 और अतिरिक्त शुल्क रु. 2000 शामिल हैं।"
+          },
+          {
+            "question_hindi": "स्कोडा स्लाविया टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "स्कोडा स्लाविया टॉप मॉडल की ऑन-रोड कीमत रु. 23.72 लाख है, जिसमें पंजीकरण शुल्क रु. 364457, बीमा प्रीमियम रु. 74698 और अतिरिक्त शुल्क रु. 2000 शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "स्कोडा स्लाविया की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने स्कोडा स्लाविया की माइलेज 18.73 से 20.32 किमी/लीटर होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 18.5 किमी/लीटर रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "क्या स्कोडा स्लाविया में सनरूफ है?",
+            "answer_hindi": "हां, स्कोडा स्लाविया के 13 में से 20 वेरिएंट्स में सनरूफ है।"
+          },
+          {
+            "question_hindi": "क्या स्कोडा स्लाविया में क्रूज कंट्रोल है?",
+            "answer_hindi": "हां, स्कोडा स्लाविया के 19 में से 20 वेरिएंट्स में क्रूज कंट्रोल है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "स्कोडा स्लाविया में कितने एयरबैग हैं?",
+            "answer_hindi": "स्कोडा स्लाविया के टॉप मॉडल में 6 एयरबैग हैं।"
+          },
+          {
+            "question_hindi": "क्या स्कोडा स्लाविया में एबीएस है?",
+            "answer_hindi": "हां, स्कोडा स्लाविया के सभी वेरिएंट्स में एबीएस है।"
           }
         ]
       }
@@ -2453,19 +3991,26 @@
   },
   {
     "title": "Volkswagen Virtus",
+    "title_hindi": "फॉक्सवैगन वर्टस",
     "intro": "The Volkswagen Virtus offers a spacious cabin, comfortable interior with ample legroom, and modern features like a large infotainment and powered and ventilated front seats. It boasts excellent fuel efficiency, safety features, reliability, and a smooth driving experience.",
+    "intro_hindi": "फॉक्सवैगन वर्टस एक विशाल केबिन, आरामदायक इंटीरियर्स और पर्याप्त लेगरूम के साथ आता है, और इसमें एक बड़ा इंफोटेनमेंट और पावर्ड और वेंटिलेटेड फ्रंट सीट्स जैसी आधुनिक विशेषताएं हैं। यह उत्कृष्ट ईंधन दक्षता, सुरक्षा सुविधाएं, विश्वसनीयता और एक सहज ड्राइविंग अनुभव प्रदान करता है।",
     "titleSlug": "virtus",
     "brand": "Volkswagen",
+    "brand_hindi": "फॉक्सवैगन",
     "brandSlug": "volkswagen-cars",
     "featured": "popular",
     "bodytype": "Sedan",
+    "bodytype_hindi": "सेडान",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1711990055/carwale/carImages/volkswagen/virtus-exterior-right-front-three-quarter-7_oininv.webp",
     "specifications": {
       "price": 1155900,
+      "mileage": 17.2,
       "engine": 1498,
       "fueltype": ["Petrol"],
+      "fueltype_hindi": ["पेट्रोल"],
       "transmission": ["Manual", "Automatic"],
+      "transmission_hindi": ["मैनुअल", "स्वचालित"],
       "seatingcapacity": 5
     },
     "keyfeatures": [
@@ -2484,6 +4029,22 @@
       "Auto headlamps",
       "Rain-sensing wipers"
     ],
+    "keyfeatures_hindi": [
+      "वेंटिलेटेड फ्रंट सीट्स",
+      "सनरूफ",
+      "वायरलेस चार्जर",
+      "10-इंच टचस्क्रीन इंफोटेनमेंट",
+      "लाल रंग की एम्बिएंट लाइटिंग",
+      "8-इंच डिजिटल इंस्ट्रूमेंट क्लस्टर",
+      "माई फॉक्सवैगन कनेक्ट टेलीमैटिक्स",
+      "टच-बेस्ड क्लाइमेट कंट्रोल",
+      "ऑटो-डिमिंग IRVM",
+      "ठंडी ग्लवबॉक्स",
+      "6 एयरबैग",
+      "5 स्टार GNCAP सुरक्षा रेटिंग",
+      "ऑटो हेडलैंप्स",
+      "रेन-सेंसिंग वाइपर्स"
+    ],
     "prosandcons": [
       {
         "pros": [
@@ -2493,14 +4054,27 @@
           "Mature ride quality - The ride too impresses with its absorbent and settled quality",
           "Sorted steering - Predictable/linear steering response, the reasonably quick turn-in"
         ],
+        "pros_hindi": [
+          "2023 मॉडल अपडेट - नई सुविधाएं, पावरट्रेन अब BS6 Phase 2/RDE compliant हैं",
+          "ड्राइव करना आसान - पावरट्रेन नियमित ड्राइव के लिए पर्याप्त पावर और सहज ड्राइव प्रदान करते हैं",
+          "विशाल/आरामदायक - बड़ी कार की दृश्यता कमरेदार इंटीरियर्स और बड़ा बूट में बदल जाती है",
+          "परिपक्व राइड गुणवत्ता - राइड भी अपनी अवशोषित और सुलझी हुई गुणवत्ता से प्रभावित करती है",
+          "सही स्टीयरिंग - अनुमानित/रैखिक स्टीयरिंग प्रतिक्रिया, उचित रूप से त्वरित मोड़"
+        ],
         "cons": [
           "Fit and finish - VW needs to up the quality, and fit and finish game in a few areas",
           "Driver information system - The DIS could do with a better interface to aid operability",
           "Its a sedan - Virtus comes at a time when SUV sales are going through the roof"
+        ],
+        "cons_hindi": [
+          "फिट और फिनिश - VW को कुछ क्षेत्रों में गुणवत्ता और फिट और फिनिश को सुधारने की जरूरत है",
+          "ड्राइवर सूचना प्रणाली - DIS को बेहतर इंटरफेस की आवश्यकता है जिससे संचालन में मदद मिले",
+          "यह सेडान है - वर्टस उस समय आता है जब एसयूवी की बिक्री बहुत बढ़ रही है"
         ]
       }
     ],
     "verdict": "The 2023 Volkswagen Virtus is a well-rounded car. Agreed, it needs to up the quality, plus fit and finish in a few areas. However, on other counts, there’s very little to complain about. It not only drives and rides well, but it’s also well-specced.",
+    "verdict_hindi": "2023 फॉक्सवैगन वर्टस एक अच्छी तरह से संतुलित कार है। सहमत हैं, इसे कुछ क्षेत्रों में गुणवत्ता, फिट और फिनिश को सुधारने की आवश्यकता है। हालांकि, अन्य मामलों में, शिकायत करने के लिए बहुत कुछ नहीं है। यह न केवल अच्छा ड्राइव करता है और राइड करता है, बल्कि इसमें शानदार फीचर्स भी हैं।",
     "faq": [
       {
         "price": [
@@ -2522,7 +4096,7 @@
         "specifications": [
           {
             "question": "What is the seating capacity in Volkswagon Virtus?",
-            "answer": " Volkswagon Virtus has a seating capacity of 5 people."
+            "answer": "Volkswagon Virtus has a seating capacity of 5 people."
           },
           {
             "question": "What are the dimensions of Volkswagon Virtus?",
@@ -2541,8 +4115,56 @@
             "answer": "The top Model of Volkswagen Virtus has 6 airbags. The Exter has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
           },
           {
-            "question": "Does Volkswagen Virtus  get ABS?",
+            "question": "Does Volkswagen Virtus get ABS?",
             "answer": "Yes, all versions of Volkswagen Virtus have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "फोक्सवैगन वर्टस बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "फोक्सवैगन वर्टस बेस मॉडल की ऑन-रोड कीमत रु. 11.12 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          },
+          {
+            "question_hindi": "फोक्सवैगन वर्टस टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "फोक्सवैगन वर्टस टॉप मॉडल की ऑन-रोड कीमत रु. 17.92 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "फोक्सवैगन वर्टस की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने फोक्सवैगन वर्टस की माइलेज 18.6 किमी/लीटर होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 16 से 18 किमी/लीटर तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "फोक्सवैगन वर्टस में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "फोक्सवैगन वर्टस में 5 लोगों की बैठने की क्षमता है।"
+          },
+          {
+            "question_hindi": "फोक्सवैगन वर्टस के आयाम क्या हैं?",
+            "answer_hindi": "फोक्सवैगन वर्टस के आयाम 4561 मिमी लंबाई, 1759 मिमी चौड़ाई और 1507 मिमी ऊंचाई हैं। इसका व्हीलबेस 2651 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या फोक्सवैगन वर्टस में सनरूफ है?",
+            "answer_hindi": "हां, फोक्सवैगन वर्टस के उच्च वेरिएंट्स में इलेक्ट्रिक सनरूफ उपलब्ध है।"
+          },
+          {
+            "question_hindi": "क्या फोक्सवैगन वर्टस में क्रूज कंट्रोल है?",
+            "answer_hindi": "हां, फोक्सवैगन वर्टस में क्रूज कंट्रोल की सुविधा है, जो लंबी यात्रा के दौरान ड्राइविंग को आरामदायक बनाती है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "फोक्सवैगन वर्टस में कितने एयरबैग हैं?",
+            "answer_hindi": "फोक्सवैगन वर्टस के टॉप मॉडल में 6 एयरबैग हैं। इनमें ड्राइवर, फ्रंट पैसेंजर और साइड एयरबैग शामिल हैं।"
+          },
+          {
+            "question_hindi": "क्या फोक्सवैगन वर्टस में एबीएस है?",
+            "answer_hindi": "हां, फोक्सवैगन वर्टस के सभी वेरिएंट्स में एबीएस और ईबीडी की सुविधा है। यह तकनीक तेज ब्रेकिंग के दौरान वाहन को स्थिर रखने में मदद करती है।"
           }
         ]
       }
@@ -2550,21 +4172,44 @@
   },
   {
     "title": "MG Hector",
+    "title_hindi": "एमजी हेफ़्टर",
     "intro": "The MG Hector is a stylish and spacious SUV that offers a comfortable ride with its plush interior. It boasts a large touchscreen infotainment system with connected features, ADAS functionality, and a powerful engine line-up, delivering a smooth and enjoyable driving experience.",
+    "intro_hindi": "एमजी हेफ़्टर एक स्टाइलिश और विशाल एसयूवी है जो अपने शानदार इंटीरियर्स के साथ एक आरामदायक सवारी प्रदान करती है। इसमें एक बड़ा टचस्क्रीन इंफोटेनमेंट सिस्टम है जिसमें कनेक्टेड फीचर्स, एडीएएस कार्यक्षमता और एक शक्तिशाली इंजन लाइन-अप है, जो एक स्मूथ और आनंददायक ड्राइविंग अनुभव प्रदान करता है।",
     "titleSlug": "hector",
-    "brand": "mg",
+    "brand": "MG",
+    "brand_hindi": "एमजी",
     "brandSlug": "mg-cars",
     "featured": "popular",
     "bodytype": "MUV",
+    "bodytype_hindi": "एमयूवी",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1712844960/carwale/carImages/mg/hector-exterior-right-front-three-quarter-75_agqfvm.webp",
     "specifications": {
       "price": 1398800,
+      "mileage": 14.75,
       "engine": 1451,
       "fueltype": ["Petrol", "Diesel"],
+      "fueltype_hindi": ["पेट्रोल", "डीजल"],
       "transmission": ["Manual", "Automatic"],
+      "transmission_hindi": ["मैनुअल", "ऑटोमैटिक"],
       "seatingcapacity": 5
     },
+    "keyfeatures": [
+      "ADAS functions",
+      "Bold and commanding road stance",
+      "Roomy interior with easy access",
+      "Refined drivetrains",
+      "Ideal long-distance cruiser",
+      "Large touchscreen infotainment system"
+    ],
+    "keyfeatures_hindi": [
+      "एडीएएस कार्यक्षमता",
+      "साहसी और प्रभावशाली सड़क स्थिति",
+      "आसानी से प्रवेश करने वाला विशाल इंटीरियर्स",
+      "परिष्कृत ड्राइवट्रेन",
+      "दीर्घ-दूरी यात्रा के लिए आदर्श क्रूजर",
+      "बड़ा टचस्क्रीन इंफोटेनमेंट सिस्टम"
+    ],
     "prosandcons": [
       {
         "pros": [
@@ -2574,14 +4219,27 @@
           "Refined drivetrains with sufficient power.",
           "Ideal long-distance cruiser."
         ],
+        "pros_hindi": [
+          "एडीएएस कार्यक्षमता और फीचर्स आकर्षक हैं।",
+          "साहसी और प्रभावशाली सड़क स्थिति।",
+          "विशाल, आसानी से प्रवेश करने योग्य, बड़ा ग्लास क्षेत्र।",
+          "परिष्कृत ड्राइवट्रेन पर्याप्त शक्ति के साथ।",
+          "दीर्घ-दूरी यात्रा के लिए आदर्श क्रूजर।"
+        ],
         "cons": [
           "Touchscreen operation is distracting for the driver.",
           "Body motion at highway speeds.",
           "Not exciting to drive overall."
+        ],
+        "cons_hindi": [
+          "टचस्क्रीन संचालन चालक के लिए विघटनकारी है।",
+          "हाईवे की गति पर शरीर की गति।",
+          "कुल मिलाकर ड्राइव करने में रोमांचक नहीं है।"
         ]
       }
     ],
     "verdict": "In the little time that the MG Hector has spent in our market, it has undoubtedly proved its mettle. Now, with the latest updates and ADAS enhancements, this MG continues to excel as a package.",
+    "verdict_hindi": "एमजी हेफ़्टर ने हमारे बाजार में थोड़े समय में ही अपनी क्षमता साबित कर दी है। अब, नवीनतम अपडेट्स और एडीएएस सुधारों के साथ, यह एमजी एक पैकेज के रूप में उत्कृष्ट बना हुआ है।",
     "faq": [
       {
         "price": [
@@ -2622,8 +4280,52 @@
             "answer": "The top Model of MG Hector has 6 airbags. The Hector has driver, front passenger, 2 curtain, driver side and front passenger side airbags."
           },
           {
-            "question": " Does MG Hector get ABS?",
+            "question": "Does MG Hector get ABS?",
             "answer": "Yes, all versions of MG Hector have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "एमजी हेफ़्टर बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "एमजी हेफ़्टर बेस मॉडल की ऑन-रोड कीमत 17.27 लाख रुपये है जिसमें पंजीकरण शुल्क 246796 रुपये, बीमा प्रीमियम 65502 रुपये और अतिरिक्त शुल्क 2000 रुपये शामिल हैं।"
+          },
+          {
+            "question_hindi": "एमजी हेफ़्टरr टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "एमजी हेफ़्टर टॉप मॉडल की ऑन-रोड कीमत 27.46 लाख रुपये है जिसमें पंजीकरण शुल्क 411664 रुपये, बीमा प्रीमियम 95533 रुपये और अतिरिक्त शुल्क 2000 रुपये शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "एमजी हेफ़्टर की वास्तविक माइलेज क्या है?",
+            "answer_hindi": "उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 14.75 किमी/लीटर है।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "एमजी हेफ़्टर में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "एमजी हेफ़्टर में 5 लोगों की बैठने की क्षमता है।"
+          },
+          {
+            "question_hindi": "एमजी हेफ़्टर के आयाम क्या हैं?",
+            "answer_hindi": "एमजी हेफ़्टर के आयाम 4655 मिमी लंबाई, 1835 मिमी चौड़ाई और 1760 मिमी ऊंचाई हैं। इसका व्हीलबेस 2750 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या एमजी हेफ़्टर में 4x4 वेरिएंट है?",
+            "answer_hindi": "नहीं, एमजी हेफ़्टर में चार पहिया ड्राइव विकल्प नहीं है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "एमजी हेफ़्टर में कितने एयरबैग हैं?",
+            "answer_hindi": "एमजी हेफ़्टर के टॉप मॉडल में 6 एयरबैग्स हैं। इसमें ड्राइवर, फ्रंट पैसेंजर, 2 कर्टन, ड्राइवर साइड और फ्रंट पैसेंजर साइड एयरबैग्स शामिल हैं।"
+          },
+          {
+            "question_hindi": "क्या एमजी हेफ़्टर में ABS है?",
+            "answer_hindi": "हां, एमजी हेफ़्टर के सभी वेरिएंट्स में ABS है। ABS एक प्रभावशाली दुर्घटना रोकथाम तकनीक है, जो तेज ब्रेकिंग के दौरान ड्राइवरों को स्टीयर करने की अनुमति देती है।"
           }
         ]
       }
@@ -2720,25 +4422,67 @@
         "price": [
           {
             "question": "What is the on-road price of MG ZS EV base model?",
-            "question_hindi": "एमजी जेडएस ईवी बेस मॉडल की ऑन रोड कीमत क्या है?",
-            "answer": "The on-road price of the MG ZS EV base model is ₹23.98 Lakh, including registration and insurance charges.",
-            "answer_hindi": "एमजी जेडएस ईवी बेस मॉडल की ऑन-रोड कीमत ₹23.98 लाख है, जिसमें पंजीकरण और बीमा शुल्क शामिल हैं।"
+            "answer": "The on-road price of the MG ZS EV base model is ₹23.98 Lakh, including registration and insurance charges."
           }
         ],
         "features": [
           {
             "question": "Does the MG ZS EV have a sunroof?",
-            "question_hindi": "क्या एमजी जेडएस ईवी में सनरूफ है?",
-            "answer": "Yes, the MG ZS EV comes with a panoramic sunroof in its higher variants.",
-            "answer_hindi": "हां, एमजी जेडएस ईवी के उच्च वेरिएंट में पैनोरमिक सनरूफ है।"
+            "answer": "Yes, the MG ZS EV comes with a panoramic sunroof in its higher variants."
           }
         ],
         "performance": [
           {
             "question": "What is the range of the MG ZS EV?",
-            "question_hindi": "एमजी जेडएस ईवी की रेंज क्या है?",
-            "answer": "The MG ZS EV offers a driving range of 461 km on a full charge.",
-            "answer_hindi": "एमजी जेडएस ईवी पूरी चार्जिंग पर 461 किमी की ड्राइविंग रेंज प्रदान करती है।"
+            "answer": "The MG ZS EV offers a driving range of 461 km on a full charge."
+          }
+        ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "एमजी जेडएस ईवी बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "एमजी जेडएस ईवी बेस मॉडल की ऑन-रोड कीमत रु. 22.00 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          },
+          {
+            "question_hindi": "एमजी जेडएस ईवी टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "एमजी जेडएस ईवी टॉप मॉडल की ऑन-रोड कीमत रु. 27.00 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "एमजी जेडएस ईवी की वास्तविक और दावा की गई रेंज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने एमजी जेडएस ईवी की रेंज 419 किमी होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक रेंज 350 से 370 किमी तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "एमजी जेडएस ईवी में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "एमजी जेडएस ईवी में 5 लोगों की बैठने की क्षमता है।"
+          },
+          {
+            "question_hindi": "एमजी जेडएस ईवी के आयाम क्या हैं?",
+            "answer_hindi": "एमजी जेडएस ईवी के आयाम 4323 मिमी लंबाई, 1809 मिमी चौड़ाई और 1644 मिमी ऊंचाई हैं। इसका व्हीलबेस 2585 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या एमजी जेडएस ईवी में सनरूफ है?",
+            "answer_hindi": "हां, एमजी जेडएस ईवी के टॉप वेरिएंट्स में इलेक्ट्रिक सनरूफ है।"
+          },
+          {
+            "question_hindi": "क्या एमजी जेडएस ईवी में क्रूज कंट्रोल है?",
+            "answer_hindi": "हां, एमजी जेडएस ईवी में क्रूज कंट्रोल है, जो लंबी यात्रा के दौरान आरामदायक ड्राइविंग का अनुभव देता है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "एमजी जेडएस ईवी में कितने एयरबैग हैं?",
+            "answer_hindi": "एमजी जेडएस ईवी के टॉप मॉडल में 6 एयरबैग हैं, जिसमें ड्राइवर, को-ड्राइवर और साइड एयरबैग्स शामिल हैं।"
+          },
+          {
+            "question_hindi": "क्या एमजी जेडएस ईवी में एबीएस है?",
+            "answer_hindi": "हां, एमजी जेडएस ईवी के सभी वेरिएंट्स में एबीएस है। यह तकनीक तेज ब्रेकिंग के दौरान वाहन को स्थिर रखने में मदद करती है।"
           }
         ]
       }
@@ -2746,21 +4490,25 @@
   },
   {
     "title": "Renault Kwid",
+    "title_hindi": "रेनो क्विड",
     "intro": "The Kwid impresses with its SUV-inspired looks and ample ground clearance, paired with an absorbent ride. It offers reasonable tech and features, along with its small size, light controls, adequate power, and AMT convenience, making driving effortless.",
+    "intro_hindi": "क्विड अपनी एसयूवी-प्रेरित लुक और पर्याप्त ग्राउंड क्लीयरेंस के साथ प्रभावित करता है, जिसे एक आरामदायक सवारी से जोड़ा गया है। यह अपनी छोटी आकार, हल्के नियंत्रण, पर्याप्त शक्ति और एएमटी सुविधा के साथ ड्राइविंग को आसान बनाता है।",
     "titleSlug": "kwid",
     "brand": "Renault",
+    "brand_hindi": "रेनो",
     "brandSlug": "renault-cars",
-    "brand_id": "64c9032e17efebb6360e632b",
     "bodytype": "Hatchback",
+    "bodytype_hindi": "हैचबैक",
     "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1736013321/carwale/carImages/renault/kwid-exterior-right-front-three-quarter-3_aeeu5l.webp",
     "specifications": {
       "price": 469500,
-      "engine": 999,
       "mileage": 22.0,
-      "safety": 2,
+      "engine": 999,
       "fueltype": ["Petrol"],
+      "fueltype_hindi": ["पेट्रोल"],
       "transmission": ["Manual", "Automatic"],
+      "transmission_hindi": ["मैनुअल", "ऑटोमैटिक"],
       "seatingcapacity": 5
     },
     "keyfeatures": [
@@ -2776,39 +4524,18 @@
       "Driver and passenger airbags",
       "Reverse parking sensors"
     ],
-    "summary": [
-      {
-        "question": "Latest Update",
-        "answer": "Renault has introduced the BS6 phase 2-compliant Kwid with enhanced safety features and updated powertrains."
-      },
-      {
-        "question": "Price",
-        "answer": "Renault Kwid price ranges between Rs. 4.69 Lakh - Rs. 7.68 Lakh depending on the variant selected."
-      },
-      {
-        "question": "When was the Renault Kwid launched?",
-        "answer": "The latest iteration of Renault Kwid was launched in India on 1 April, 2023."
-      },
-      {
-        "question": "What variants does it get?",
-        "answer": "The Renault Kwid is available in multiple variants, including RXE, RXL, RXT, and Climber."
-      },
-      {
-        "question": "What features are available in the Renault Kwid?",
-        "answer": "The Kwid features SUV-inspired styling, LED DRLs, an 8.0-inch touchscreen with Android Auto and Apple CarPlay, a digital instrument cluster, dual airbags, ABS with EBD, and reverse parking sensors."
-      },
-      {
-        "question": "What are the engine, performance, and specifications of the Renault Kwid?",
-        "answer": "The Renault Kwid is powered by a 1.0-litre petrol engine generating 67bhp and 91Nm of torque, mated to either a 5-speed manual or AMT gearbox."
-      },
-      {
-        "question": "Is the Renault Kwid a safe car?",
-        "answer": "The Renault Kwid has a 2-star safety rating in Global NCAP tests, offering essential safety features like dual airbags and ABS with EBD."
-      },
-      {
-        "question": "What are the rivals to the Renault Kwid?",
-        "answer": "Rivals to the Renault Kwid include the Maruti Suzuki Alto K10, Hyundai Santro, and Datsun Redi-GO."
-      }
+    "keyfeatures_hindi": [
+      "8.0-इंच टचस्क्रीन इंफोटेनमेंट सिस्टम",
+      "एलईडी डीआरएल",
+      "डिजिटल इंस्ट्रूमेंट क्लस्टर",
+      "स्टीयरिंग-माउंटेड ऑडियो कंट्रोल",
+      "रियर-व्यू कैमरा",
+      "ड्यूल-टोन एक्सटीरियर ऑप्शन",
+      "फ्रंट पावर विंडोज",
+      "मैनुअल एयर कंडीशनिंग",
+      "एबीएस के साथ ईबीडी",
+      "ड्राइवर और पैसेंजर एयरबैग्स",
+      "रिवर्स पार्किंग सेंसर्स"
     ],
     "prosandcons": [
       {
@@ -2819,14 +4546,27 @@
           "Compact footprint - Tight overall dimensions help with constraints to park/navigate",
           "Powertrain options – Two small capacity frugal motors with manual/AMT gearboxes"
         ],
+        "pros_hindi": [
+          "2023 अपडेट - BS6 फेज़ 2 (RDE) अनुपालन, मानक के रूप में अतिरिक्त सुरक्षा किट, अधिक सुविधाएं",
+          "चालित करना आसान - हल्के स्टीयरिंग/क्लच से लैस, काफी स्मूथ गियर शिफ्ट",
+          "आरामदायक सवारी गुणवत्ता - लम्बी यात्रा शॉक एब्जॉर्बर्स से सुसज्जित, जो मुलायम रूप से समायोजित हैं",
+          "संकीर्ण आकार - पार्किंग/नेविगेट करने में सहायता करने के लिए संकुचित कुल आयाम",
+          "पावरट्रेन विकल्प – दो छोटे क्षमता वाले ईंधन दक्ष मोटर मैनुअल/AMT गियरबॉक्स के साथ"
+        ],
         "cons": [
           "Strict four-seater - Being compact, only 2 adults can be seated comfortably at the rear",
           "Not dynamically sorted - Slow steering, lots of up and down movement at higher speeds",
           "Quality - Inconsistent levels of quality, fit and finish are below expectations"
+        ],
+        "cons_hindi": [
+          "कठोर चार-सीटर - कॉम्पैक्ट होने के कारण, केवल 2 वयस्कों को पीछे आराम से बैठने की जगह मिलती है",
+          "संचालन में असंगत - धीमी स्टीयरिंग, उच्च गति पर बहुत अधिक उछाल और उतार चढ़ाव",
+          "गुणवत्ता - गुणवत्ता स्तर में असंगति, फिट और फिनिश उम्मीदों से कम हैं"
         ]
       }
     ],
     "verdict": "The Renault Kwid stands out for its SUV-inspired design, ease of driving, and excellent ground clearance, making it a perfect choice for city commutes and occasional highway trips.",
+    "verdict_hindi": "रेनो क्विड अपनी एसयूवी-प्रेरित डिजाइन, चलाने में आसान और बेहतरीन ग्राउंड क्लीयरेंस के लिए प्रसिद्ध है, जो इसे शहरी यातायात और कभी-कभार राजमार्ग यात्रा के लिए एक आदर्श विकल्प बनाता है।",
     "faq": [
       {
         "price": [
@@ -2869,6 +4609,54 @@
           {
             "question": "Does Renault Kwid get ABS?",
             "answer": "Yes, all variants of Renault Kwid have ABS. ABS is a great accident prevention technology, allowing drivers to steer while braking hard."
+          }
+        ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "रेनॉल्ट क्विड बेस मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "रेनॉल्ट क्विड बेस मॉडल की ऑन-रोड कीमत रु. 4.69 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          },
+          {
+            "question_hindi": "रेनॉल्ट क्विड टॉप मॉडल की ऑन रोड कीमत क्या है?",
+            "answer_hindi": "रेनॉल्ट क्विड टॉप मॉडल की ऑन-रोड कीमत रु. 6.24 लाख है, जिसमें पंजीकरण शुल्क, बीमा प्रीमियम और अन्य शुल्क शामिल हैं।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "रेनॉल्ट क्विड की वास्तविक और दावा की गई माइलेज में क्या अंतर है?",
+            "answer_hindi": "कंपनी ने रेनॉल्ट क्विड की माइलेज 22.3 किमी/लीटर होने का दावा किया है। उपयोगकर्ताओं के अनुसार, वास्तविक माइलेज 19 से 21 किमी/लीटर तक रही।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "रेनॉल्ट क्विड में बैठने की क्षमता कितनी है?",
+            "answer_hindi": "रेनॉल्ट क्विड में 5 लोगों की बैठने की क्षमता है।"
+          },
+          {
+            "question_hindi": "रेनॉल्ट क्विड के आयाम क्या हैं?",
+            "answer_hindi": "रेनॉल्ट क्विड के आयाम 3670 मिमी लंबाई, 1579 मिमी चौड़ाई और 1474 मिमी ऊंचाई हैं। इसका व्हीलबेस 2423 मिमी है।"
+          }
+        ],
+        "फ़ीचर्स": [
+          {
+            "question_hindi": "क्या रेनॉल्ट क्विड में सनरूफ है?",
+            "answer_hindi": "नहीं, रेनॉल्ट क्विड में सनरूफ नहीं है।"
+          },
+          {
+            "question_hindi": "क्या रेनॉल्ट क्विड में क्रूज कंट्रोल है?",
+            "answer_hindi": "नहीं, रेनॉल्ट क्विड में क्रूज कंट्रोल का फीचर नहीं है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "रेनॉल्ट क्विड में कितने एयरबैग हैं?",
+            "answer_hindi": "रेनॉल्ट क्विड के टॉप मॉडल में 2 एयरबैग हैं। इसमें ड्राइवर और फ्रंट पैसेंजर एयरबैग शामिल हैं।"
+          },
+          {
+            "question_hindi": "क्या रेनॉल्ट क्विड में एबीएस है?",
+            "answer_hindi": "हां, रेनॉल्ट क्विड के सभी वेरिएंट्स में एबीएस है। यह तकनीक तेज ब्रेकिंग के दौरान वाहन को स्थिर रखने में मदद करती है।"
           }
         ]
       }
@@ -3019,21 +4807,21 @@
         "विशेषताएं": [
           {
             "question_hindi": "क्या एएमजी जीएलसी43 कूपे में पैनोरमिक सनरूफ है?",
-            "answer_hindi": "हां, एएमजी जीएलसी43 कूपे पैनोरमिक सनरूफ के साथ आता है।"
+            "answer_hindi": "हां, एएमजी जीएलसी43 कूपे में पैनोरमिक सनरूफ है।"
           },
           {
-            "question_hindi": "क्या एएमजी जीएलसी43 कूपे एमबीयूएक्स का समर्थन करता है?",
-            "answer_hindi": "हां, एएमजी जीएलसी43 कूपे वॉयस कंट्रोल के साथ एमबीयूएक्स इंफोटेनमेंट सिस्टम के साथ आता है।"
+            "question_hindi": "क्या एएमजी जीएलसी43 कूपे एमबीयूएक्स को सपोर्ट करता है?",
+            "answer_hindi": "हां, एएमजी जीएलसी43 कूपे में वॉयस कंट्रोल के साथ एमबीयूएक्स इंफोटेनमेंट सिस्टम है।"
           }
         ],
         "सुरक्षा": [
           {
-            "question_hindi": "एएमजी जीएलसी43 कूपे में कौन-कौन सी सुरक्षा सुविधाएं हैं?",
-            "answer_hindi": "एएमजी जीएलसी43 कूपे में मल्टीपल एयरबैग्स, एबीएस, इलेक्ट्रॉनिक स्टेबिलिटी कंट्रोल और उन्नत चालक सहायता प्रणाली जैसी सुविधाएं शामिल हैं।"
+            "question_hindi": "एएमजी जीएलसी43 कूपे में कौन सी सुरक्षा सुविधाएं हैं?",
+            "answer_hindi": "एएमजी जीएलसी43 कूपे में कई एयरबैग्स, एबीएस, इलेक्ट्रॉनिक स्थिरता नियंत्रण और उन्नत चालक सहायता सिस्टम जैसी सुविधाएं हैं।"
           },
           {
-            "question_hindi": "क्या एएमजी जीएलसी43 कूपे में 360-डिग्री पार्किंग असिस्टेंस है?",
-            "answer_hindi": "हां, एएमजी जीएलसी43 कूपे बढ़ी हुई सुविधा के लिए 360-डिग्री पार्किंग कैमरा के साथ आता है।"
+            "question_hindi": "क्या एएमजी जीएलसी43 कूपे में 360-डिग्री पार्किंग सहायता है?",
+            "answer_hindi": "हां, एएमजी जीएलसी43 कूपे में बेहतर सुविधा के लिए 360-डिग्री पार्किंग कैमरा है।"
           }
         ]
       }

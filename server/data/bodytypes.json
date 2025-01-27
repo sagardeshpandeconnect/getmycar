@@ -49,10 +49,5 @@
     "title": "MUV",
     "bodyTypeSlug": "best-muvs",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1695314591/carwale/bodyTypes/suv_clr_bbsrw7.svg"
-  },
-  {
-    "title": "Station Wagon",
-    "bodyTypeSlug": "best-station-wagons",
-    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1695314601/carwale/bodyTypes/wagon_clr_rk61bu.svg"
   }
 ]

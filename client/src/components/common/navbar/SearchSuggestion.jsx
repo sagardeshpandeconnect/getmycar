@@ -26,8 +26,7 @@ const SearchSuggestion = ({ result, query, onClick }) => {
       borderBottom={"1px"}
       cursor={"pointer"}
       _hover={{
-        background: "green",
-        color: "teal.500",
+        background: "rgba(0,0,0,0.1)",
       }}
     >
       <Text>{highlightMatch(title, query)}</Text>

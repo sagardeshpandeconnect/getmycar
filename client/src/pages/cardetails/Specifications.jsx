@@ -17,7 +17,7 @@ import HeadingText from "@components/ui/HeadingText";
 const Specifications = ({ data }) => {
   console.log(data);
   const { t } = useTranslation();
-  const currentLang = useSelector((state) => state.entities.language); // Get language from Redux store
+  const currentLang = useSelector((state) => state.entities.language);
 
   const {
     specifications: {
@@ -39,6 +39,20 @@ const Specifications = ({ data }) => {
       ? textCombiner(valueEn, currentLang)
       : textCombiner(valueHi, currentLang);
 
+  // Check if fueltype array includes "Electric"
+  const isElectric = Array.isArray(fueltype) && fueltype.includes("Electric");
+
+  const getMileageText = () => {
+    if (isElectric) {
+      return `${mileage} ${
+        currentLang === "en" ? "Kilometre Range" : "किमी रेंज"
+      }`;
+    }
+    return `${mileage} ${
+      currentLang === "en" ? "Kilometre per Litre" : "किमी प्रति लीटर"
+    }`;
+  };
+
   const specsList = [
     {
       icon: <CurrencyIcon />,
@@ -55,9 +69,7 @@ const Specifications = ({ data }) => {
     {
       icon: <MileageIcon />,
       label: t("specifications.mileage"),
-      value: `${mileage} ${
-        currentLang === "en" ? "Kilometre per Litre" : "किमी प्रति लीटर"
-      }`,
+      value: getMileageText(),
     },
     {
       icon: <FuelTypeIcon />,

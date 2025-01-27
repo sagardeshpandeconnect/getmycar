@@ -2,13 +2,13 @@ import React from "react";
 import {
   createBrowserRouter,
   Outlet,
-  isRouteErrorResponse,
   useRouteError,
+  useNavigate,
 } from "react-router-dom";
-import { Flex, Box, Heading, Text, Button } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import Home from "@src/pages/home/Home";
 import CarDetailsPage from "@pages/cardetails/CarDetailsPage";
-import NotFoundPage from "@src/pages/notfound/NotFoundPage";
+import NotFoundPage from "@pages/notfound/NotFoundPage";
 import Navbar from "@src/components/common/navbar/Navbar";
 import SpecificBrandPage from "@pages/specificbrand/SpecificBrandPage";
 import FilteredCarsPage from "@pages/filteredcars/FilteredCarsPage";
@@ -28,35 +28,32 @@ const Layout = () => (
   </Flex>
 );
 
-// Custom Error Boundary to handle loader errors and unmatched routes
 const ErrorBoundary = () => {
   const error = useRouteError();
+  const navigate = useNavigate();
 
-  if (isRouteErrorResponse(error) && error.status === 404) {
-    return <NotFoundPage />;
-  }
+  console.log("ErrorBoundary triggered:", error);
 
-  return (
-    <Box textAlign="center" mt={10}>
-      <Heading>Error</Heading>
-      <Text>Something went wrong!</Text>
-      <Button onClick={() => (window.location.href = "/")}>Go Home</Button>
-    </Box>
-  );
+  React.useEffect(() => {
+    // Force navigation to NotFoundPage for any routing error
+    navigate("/not-found", { replace: true });
+  }, [navigate]);
+
+  return null;
 };
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
-    errorElement: <ErrorBoundary />, // Use the custom error boundary
+    errorElement: <ErrorBoundary />,
     children: [
       {
-        path: "/",
+        index: true,
         element: <Home />,
       },
       {
-        path: "compare-cars/",
+        path: "compare-cars",
         element: <ComparisonPage />,
       },
       {
@@ -86,18 +83,16 @@ const router = createBrowserRouter([
       {
         path: ":brandSlug",
         element: <SpecificBrandPage />,
-        loader: async ({ params }) => {
-          const validBrands = ["toyota", "honda", "bmw", "audi"];
-          if (!validBrands.includes(params.brandSlug)) {
-            throw new Response("Not Found", { status: 404 });
-          }
-        },
       },
       {
-        path: "*", // Catch-all route for unmatched paths
+        path: "not-found",
         element: <NotFoundPage />,
       },
     ],
+  },
+  {
+    path: "*",
+    element: <ErrorBoundary />,
   },
 ]);
 

@@ -3,38 +3,12 @@ import { useLocation } from "react-router-dom";
 import { Text, Grid } from "@chakra-ui/react";
 import { getData } from "@services/apiClient";
 import { useQuery } from "@tanstack/react-query";
-import NewCarCard from "@pages/specificbrand/NewCarCard";
+import NewCarCard from "@components/ui/NewCarCard";
 
 const FilteredCarsPage = () => {
   const { state } = useLocation();
   const url = state;
   console.log(url);
-  // const price = location.state.price;
-  // const bodyType = location.state.bodyType;
-  // const fuelType = location.state.fuelType;
-  // const transmission = location.state.transmission;
-  // const seat = location.state.seat;
-
-  // const [url, setUrl] = useState("");
-
-  // useEffect(() => {
-  //   if (price) {
-  //     const convertedPrice = location.state.price * 100000;
-  //     setUrl(`/newcars/price/${convertedPrice}`);
-  //   }
-  //   if (location.state.bodyType) {
-  //     setUrl(`/bodytype/${bodyType}`);
-  //   }
-  //   if (location.state.fuelType) {
-  //     setUrl(`/fueltype/${fuelType}`);
-  //   }
-  //   if (location.state.transmission) {
-  //     setUrl(`/transmission/${transmission}`);
-  //   }
-  //   if (location.state.seat) {
-  //     setUrl(`/newcars/seatingcapacity/${seat}`);
-  //   }
-  // }, [location.state]);
 
   const getCarsByFilterType = async function () {
     return getData(url);
@@ -54,6 +28,8 @@ const FilteredCarsPage = () => {
           md: "repeat(2, 1fr)",
           lg: "repeat(2, 1fr)",
         }}
+        gap={6}
+        paddingX={4}
       >
         {error
           ? "Something went wrong!"

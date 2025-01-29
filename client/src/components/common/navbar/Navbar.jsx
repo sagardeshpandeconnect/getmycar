@@ -127,9 +127,7 @@ const Navbar = () => {
                 </Box>
               )}
             </Box>
-            <Box>
-              <LocationIcon />
-            </Box>
+
             <Box hideBelow="md">
               <LanguageChange />
             </Box>

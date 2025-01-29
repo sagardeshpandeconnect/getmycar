@@ -48,9 +48,6 @@ const Budget = () => {
           label={t("findCar.tabs.budgetValue", { price: formatPrice(price) })}
         />
       ))}
-      <Link>
-        <Button {...buttonStyles}>{t("findCar.tabs.luxuryCars")}</Button>
-      </Link>
     </SimpleGrid>
   );
 };

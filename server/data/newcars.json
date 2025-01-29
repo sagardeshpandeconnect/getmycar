@@ -4674,16 +4674,12 @@
     "featured": "luxury",
     "bodytype": "Coupe",
     "bodytype_hindi": "एसयूवी कूपे",
-    "usagetype": "Luxury Performance Car",
-    "usagetype_hindi": "लक्जरी प्रदर्शन कार",
+    "usagetype": "New Car",
     "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1737222211/carwale/carImages/mercedes/amg-glc43-coupe-exterior-right-front-three-quarter-3_dghd49.webp",
     "specifications": {
       "price": 11180000,
-      "price_hindi": "₹ 87,00,000",
       "mileage": 10,
-      "mileage_hindi": "10.4 किमी/लीटर",
       "engine": 1991,
-      "engine_hindi": "3.0L V6 बाई-टर्बो",
       "fueltype": ["Petrol"],
       "fueltype_hindi": ["पेट्रोल"],
       "transmission": ["Automatic"],
@@ -4821,6 +4817,315 @@
           {
             "question_hindi": "क्या एएमजी जीएलसी43 कूपे में 360-डिग्री पार्किंग सहायता है?",
             "answer_hindi": "हां, एएमजी जीएलसी43 कूपे में बेहतर सुविधा के लिए 360-डिग्री पार्किंग कैमरा है।"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Mercedes-Benz CLE Cabriolet",
+    "title_hindi": "मर्सिडीज-बेंज सीएलई कैब्रियोलेट",
+    "intro": "The Mercedes-Benz CLE Cabriolet is a luxurious convertible that combines elegant design with cutting-edge technology. With a powerful engine, advanced features, and a refined interior, it offers an exhilarating driving experience with the freedom of open-top motoring.",
+    "intro_hindi": "मर्सिडीज-बेंज सीएलई कैब्रियोलेट एक लक्जरी कन्वर्टिबल कार है जो स्टाइलिश डिज़ाइन और अत्याधुनिक तकनीक को जोड़ती है। शक्तिशाली इंजन, उन्नत सुविधाओं और परिष्कृत इंटीरियर के साथ, यह ओपन-टॉप ड्राइविंग का आनंद प्रदान करती है।",
+    "titleSlug": "mercedes-cle-cabriolet",
+    "brand": "Mercedes-Benz",
+    "brandSlug": "mercedes-benz-cars",
+    "featured": "luxury",
+    "bodytype": "Convertible",
+    "usagetype": "Luxury",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1738087355/carwale/carImages/mercedes/cle-cabriolet-exterior-right-front-three-quarter-3_lcbeey.webp",
+    "specifications": {
+      "price": 9500000,
+      "mileage": 12,
+      "engine": 1999,
+      "engine_hindi": "2.0L टर्बोचार्ज्ड इंजन",
+      "fueltype": ["Petrol"],
+      "fueltype_hindi": ["पेट्रोल"],
+      "transmission": ["Automatic"],
+      "transmission_hindi": ["ऑटोमैटिक"],
+      "seatingcapacity": 4,
+      "seatingcapacity_hindi": "4 सीटें"
+    },
+    "keyfeatures": [
+      "Retractable soft-top roof",
+      "Turbocharged 2.0L engine",
+      "MBUX infotainment system with voice control",
+      "12.3-inch digital instrument cluster",
+      "Ambient lighting with multiple color options",
+      "Active safety features",
+      "Heated and ventilated seats",
+      "Wireless smartphone charging",
+      "Adaptive suspension system",
+      "360-degree parking camera"
+    ],
+    "keyfeatures_hindi": [
+      "रिट्रैक्टेबल सॉफ्ट-टॉप रूफ",
+      "टर्बोचार्ज्ड 2.0L इंजन",
+      "एमबीयूएक्स इंफोटेनमेंट सिस्टम वॉयस कंट्रोल के साथ",
+      "12.3-इंच डिजिटल इंस्ट्रूमेंट क्लस्टर",
+      "कई रंग विकल्पों के साथ एम्बिएंट लाइटिंग",
+      "सक्रिय सुरक्षा सुविधाएं",
+      "हीटेड और वेंटिलेटेड सीटें",
+      "वायरलेस स्मार्टफोन चार्जिंग",
+      "अडैप्टिव सस्पेंशन सिस्टम",
+      "360-डिग्री पार्किंग कैमरा"
+    ],
+    "prosandcons": [
+      {
+        "pros": [
+          "Elegant and sporty design",
+          "Advanced technology and infotainment",
+          "Comfortable and luxurious interior",
+          "Smooth and powerful performance",
+          "Retractable roof for open-air driving"
+        ],
+        "pros_hindi": [
+          "एलीगेंट और स्पोर्टी डिज़ाइन",
+          "उन्नत तकनीक और इंफोटेनमेंट",
+          "आरामदायक और लक्जरी इंटीरियर",
+          "स्मूथ और शक्तिशाली प्रदर्शन",
+          "ओपन-एयर ड्राइविंग के लिए रिट्रैक्टेबल रूफ"
+        ],
+        "cons": [
+          "Limited rear seat space",
+          "High maintenance costs",
+          "Fuel efficiency could be better",
+          "Expensive compared to competitors"
+        ],
+        "cons_hindi": [
+          "सीमित रियर सीट स्पेस",
+          "उच्च रखरखाव लागत",
+          "ईंधन दक्षता बेहतर हो सकती है",
+          "प्रतिस्पर्धियों की तुलना में महंगा"
+        ]
+      }
+    ],
+    "verdict": "The Mercedes-Benz CLE Cabriolet is a perfect blend of luxury, performance, and style. It is ideal for those who seek a premium convertible with advanced features and a thrilling driving experience.",
+    "verdict_hindi": "मर्सिडीज-बेंज सीएलई कैब्रियोलेट लक्जरी, प्रदर्शन और स्टाइल का आदर्श संयोजन है। यह उन लोगों के लिए बिल्कुल सही है जो उन्नत सुविधाओं और रोमांचकारी ड्राइविंग अनुभव के साथ एक प्रीमियम कन्वर्टिबल चाहते हैं।",
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the price of Mercedes-Benz CLE Cabriolet?",
+            "answer": "The price of Mercedes-Benz CLE Cabriolet starts at ₹ 95 lakh."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the engine specification of CLE Cabriolet?",
+            "answer": "The CLE Cabriolet is powered by a 2.0L turbocharged engine."
+          },
+          {
+            "question": "What is the top speed of the CLE Cabriolet?",
+            "answer": "The top speed of the CLE Cabriolet is 240 km/h."
+          }
+        ],
+        "features": [
+          {
+            "question": "Does the CLE Cabriolet have a retractable roof?",
+            "answer": "Yes, the CLE Cabriolet features a retractable soft-top roof."
+          },
+          {
+            "question": "Does the CLE Cabriolet support MBUX?",
+            "answer": "Yes, the CLE Cabriolet comes with the MBUX infotainment system."
+          }
+        ],
+        "safety": [
+          {
+            "question": "What safety features are included in the CLE Cabriolet?",
+            "answer": "The CLE Cabriolet includes features like multiple airbags, ABS, electronic stability control, and advanced driver assistance systems."
+          },
+          {
+            "question": "Does the CLE Cabriolet have a 360-degree parking camera?",
+            "answer": "Yes, the CLE Cabriolet is equipped with a 360-degree parking camera."
+          }
+        ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "मर्सिडीज-बेंज सीएलई कैब्रियोलेट की कीमत क्या है?",
+            "answer_hindi": "मर्सिडीज-बेंज सीएलई कैब्रियोलेट की कीमत ₹ 95 लाख से शुरू होती है।"
+          }
+        ],
+        "परफ़ॉर्मेंस": [
+          {
+            "question_hindi": "सीएलई कैब्रियोलेट का इंजन स्पेसिफिकेशन क्या है?",
+            "answer_hindi": "सीएलई कैब्रियोलेट 2.0L टर्बोचार्ज्ड इंजन से लैस है।"
+          },
+          {
+            "question_hindi": "सीएलई कैब्रियोलेट की टॉप स्पीड क्या है?",
+            "answer_hindi": "सीएलई कैब्रियोलेट की टॉप स्पीड 240 किमी/घंटा है।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "क्या सीएलई कैब्रियोलेट में रिट्रैक्टेबल रूफ है?",
+            "answer_hindi": "हां, सीएलई कैब्रियोलेट में रिट्रैक्टेबल सॉफ्ट-टॉप रूफ है।"
+          },
+          {
+            "question_hindi": "क्या सीएलई कैब्रियोलेट एमबीयूएक्स को सपोर्ट करता है?",
+            "answer_hindi": "हां, सीएलई कैब्रियोलेट में एमबीयूएक्स इंफोटेनमेंट सिस्टम है।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "सीएलई कैब्रियोलेट में कौन सी सुरक्षा सुविधाएं हैं?",
+            "answer_hindi": "सीएलई कैब्रियोलेट में कई एयरबैग्स, एबीएस, इलेक्ट्रॉनिक स्थिरता नियंत्रण और उन्नत चालक सहायता सिस्टम जैसी सुविधाएं हैं।"
+          },
+          {
+            "question_hindi": "क्या सीएलई कैब्रियोलेट में 360-डिग्री पार्किंग कैमरा है?",
+            "answer_hindi": "हां, सीएलई कैब्रियोलेट में 360-डिग्री पार्किंग कैमरा है।"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Mercedes-Benz AMG E53 Cabriolet",
+    "title_hindi": "मर्सिडीज-बेंज एएमजी ई53 कैब्रियोलेट",
+    "intro": "The Mercedes-Benz AMG E53 Cabriolet is a high-performance luxury convertible that combines AMG's sporty DNA with sophisticated elegance. Featuring a powerful mild-hybrid powertrain, advanced technology, and premium craftsmanship, it delivers an exceptional open-top driving experience with the perfect balance of comfort and dynamism.",
+    "intro_hindi": "मर्सिडीज-बेंज एएमजी ई53 कैब्रियोलेट एक हाई-परफॉर्मेंस लक्जरी कन्वर्टिबल है जो एएमजी के स्पोर्टी डीएनए को परिष्कृत एलिगेंस के साथ जोड़ती है। शक्तिशाली माइल्ड-हाइब्रिड पावरट्रेन, उन्नत तकनीक और प्रीमियम कारीगरी के साथ, यह आराम और गतिशीलता के बीच संतुलन के साथ एक असाधारण ओपन-टॉप ड्राइविंग अनुभव प्रदान करती है।",
+    "titleSlug": "mercedes-amg-e53-cabriolet",
+    "brand": "Mercedes-Benz",
+    "brandSlug": "mercedes-benz-cars",
+    "featured": "performance",
+    "bodytype": "Convertible",
+    "usagetype": "New Car",
+    "image": "https://res.cloudinary.com/dbrbokt4s/image/upload/v1738087808/carwale/carImages/mercedes/amg-e53-cabriolet-exterior-right-front-three-quarter-8_mlppdy.webp",
+    "specifications": {
+      "price": 12000000,
+      "mileage": 11,
+      "engine": 2999,
+      "fueltype": ["Petrol"],
+      "fueltype_hindi": ["पेट्रोल"],
+      "transmission": ["Automatic"],
+      "transmission_hindi": ["ऑटोमैटिक"],
+      "seatingcapacity": 4,
+      "seatingcapacity_hindi": "4 सीटें"
+    },
+    "keyfeatures": [
+      "AMG-enhanced 3.0L inline-6 engine with EQ Boost",
+      "AMG SPEEDSHIFT TCT 9-speed transmission",
+      "AMG DYNAMIC SELECT driving modes",
+      "AMG RIDE CONTROL+ air suspension",
+      "Widescreen cockpit with dual 12.3-inch displays",
+      "AIRSCARF neck-level heating system",
+      "AMG Performance steering wheel",
+      "Burmester surround sound system",
+      "AIRCAP wind deflector",
+      "AMG Track Pace telemetry system"
+    ],
+    "keyfeatures_hindi": [
+      "एएमजी-एन्हांस्ड 3.0L इनलाइन-6 इंजन ईक्यू बूस्ट के साथ",
+      "एएमजी स्पीडशिफ्ट टीसीटी 9-स्पीड ट्रांसमिशन",
+      "एएमजी डायनामिक सेलेक्ट ड्राइविंग मोड्स",
+      "एएमजी राइड कंट्रोल+ एयर सस्पेंशन",
+      "वाइडस्क्रीन कॉकपिट दोहरी 12.3-इंच डिस्प्ले के साथ",
+      "एयरस्कार्फ नेक-लेवल हीटिंग सिस्टम",
+      "एएमजी परफॉर्मेंस स्टीयरिंग व्हील",
+      "बर्मेस्टर सराउंड साउंड सिस्टम",
+      "एयरकैप विंड डिफ्लेक्टर",
+      "एएमजी ट्रैक पेस टेलीमेट्री सिस्टम"
+    ],
+    "prosandcons": [
+      {
+        "pros": [
+          "Exceptional performance with mild-hybrid efficiency",
+          "Premium build quality and materials",
+          "Advanced AMG-specific features",
+          "Sophisticated comfort technologies",
+          "Impressive handling capabilities"
+        ],
+        "pros_hindi": [
+          "माइल्ड-हाइब्रिड दक्षता के साथ असाधारण प्रदर्शन",
+          "प्रीमियम बिल्ड क्वालिटी और सामग्री",
+          "उन्नत एएमजी-विशिष्ट सुविधाएं",
+          "परिष्कृत आराम तकनीक",
+          "प्रभावशाली हैंडलिंग क्षमताएं"
+        ],
+        "cons": [
+          "Very high purchase price",
+          "Expensive maintenance",
+          "Limited cargo space with roof down",
+          "Higher fuel consumption than non-AMG models"
+        ],
+        "cons_hindi": [
+          "बहुत अधिक खरीद मूल्य",
+          "महंगा रखरखाव",
+          "छत नीचे होने पर सीमित कार्गो स्पेस",
+          "नॉन-एएमजी मॉडल्स की तुलना में अधिक ईंधन खपत"
+        ]
+      }
+    ],
+    "verdict": "The Mercedes-AMG E53 Cabriolet represents the pinnacle of open-top performance luxury, offering an impressive blend of AMG performance, sophisticated technology, and refined comfort. It's perfect for enthusiasts seeking a powerful yet luxurious convertible experience.",
+    "verdict_hindi": "मर्सिडीज-एएमजी ई53 कैब्रियोलेट ओपन-टॉप परफॉर्मेंस लक्जरी का शिखर है, जो एएमजी प्रदर्शन, परिष्कृत तकनीक और उन्नत आराम का प्रभावशाली मिश्रण प्रदान करती है। यह शौकीनों के लिए एकदम सही है जो एक शक्तिशाली लेकिन लक्जरी कन्वर्टिबल अनुभव चाहते हैं।",
+    "faq": [
+      {
+        "price": [
+          {
+            "question": "What is the price of Mercedes-AMG E53 Cabriolet?",
+            "answer": "The price of Mercedes-AMG E53 Cabriolet starts at ₹ 1.20 crore."
+          }
+        ],
+        "performance": [
+          {
+            "question": "What is the engine specification of AMG E53 Cabriolet?",
+            "answer": "The AMG E53 Cabriolet features a 3.0L inline-6 turbocharged engine with EQ Boost mild-hybrid technology."
+          },
+          {
+            "question": "What is the top speed of the AMG E53 Cabriolet?",
+            "answer": "The top speed of the AMG E53 Cabriolet is electronically limited to 250 km/h."
+          }
+        ],
+        "features": [
+          {
+            "question": "What special AMG features does the E53 Cabriolet have?",
+            "answer": "The E53 Cabriolet includes AMG RIDE CONTROL+ suspension, AMG DYNAMIC SELECT driving modes, and AMG Track Pace telemetry system."
+          },
+          {
+            "question": "Does the E53 Cabriolet have special comfort features?",
+            "answer": "Yes, it includes AIRSCARF neck-level heating, AIRCAP wind deflector, and heated/ventilated seats."
+          }
+        ],
+        "safety": [
+          {
+            "question": "What safety features are included in the AMG E53 Cabriolet?",
+            "answer": "It includes Active Brake Assist, PRE-SAFE system, multiple airbags, roll-over protection, and advanced driver assistance systems."
+          }
+        ]
+      },
+      {
+        "कीमत": [
+          {
+            "question_hindi": "मर्सिडीज-एएमजी ई53 कैब्रियोलेट की कीमत क्या है?",
+            "answer_hindi": "मर्सिडीज-एएमजी ई53 कैब्रियोलेट की कीमत ₹ 1.20 करोड़ से शुरू होती है।"
+          }
+        ],
+        "परफॉर्मेंस": [
+          {
+            "question_hindi": "एएमजी ई53 कैब्रियोलेट का इंजन स्पेसिफिकेशन क्या है?",
+            "answer_hindi": "एएमजी ई53 कैब्रियोलेट में ईक्यू बूस्ट माइल्ड-हाइब्रिड तकनीक के साथ 3.0L इनलाइन-6 टर्बोचार्ज्ड इंजन है।"
+          },
+          {
+            "question_hindi": "एएमजी ई53 कैब्रियोलेट की टॉप स्पीड क्या है?",
+            "answer_hindi": "एएमजी ई53 कैब्रियोलेट की टॉप स्पीड इलेक्ट्रॉनिक रूप से 250 किमी/घंटा तक सीमित है।"
+          }
+        ],
+        "विशेषताएं": [
+          {
+            "question_hindi": "ई53 कैब्रियोलेट में कौन सी विशेष एएमजी सुविधाएं हैं?",
+            "answer_hindi": "ई53 कैब्रियोलेट में एएमजी राइड कंट्रोल+ सस्पेंशन, एएमजी डायनामिक सेलेक्ट ड्राइविंग मोड्स और एएमजी ट्रैक पेस टेलीमेट्री सिस्टम शामिल हैं।"
+          },
+          {
+            "question_hindi": "क्या ई53 कैब्रियोलेट में विशेष आराम सुविधाएं हैं?",
+            "answer_hindi": "हां, इसमें एयरस्कार्फ नेक-लेवल हीटिंग, एयरकैप विंड डिफ्लेक्टर और हीटेड/वेंटिलेटेड सीटें शामिल हैं।"
+          }
+        ],
+        "सुरक्षा": [
+          {
+            "question_hindi": "एएमजी ई53 कैब्रियोलेट में कौन सी सुरक्षा सुविधाएं शामिल हैं?",
+            "answer_hindi": "इसमें एक्टिव ब्रेक असिस्ट, प्री-सेफ सिस्टम, कई एयरबैग्स, रोल-ओवर प्रोटेक्शन और उन्नत चालक सहायता सिस्टम शामिल हैं।"
           }
         ]
       }

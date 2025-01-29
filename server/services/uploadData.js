@@ -1,16 +1,15 @@
 const { MongoClient } = require("mongodb");
 const fs = require("fs");
-const path = require("path");
 
 const loadEnvironmentVariables = require("../configs/env.config");
 
 loadEnvironmentVariables();
 
 const sourceDataPath = "./data/newcars.json";
-// const sourceDataPath = "./data/bodytypes.json";
+// const sourceDataPath = "./data/fueltypes.json";
 
 const mongoUrl = process.env.MONGO_URL;
-// console.log(mongoUrl);
+console.log(mongoUrl);
 
 // Function to read data from source
 function readDataFromSource(sourceDataPath) {
@@ -24,9 +23,9 @@ async function uploadDataToDatabase() {
     await client.connect();
     console.log("successfully connected to database");
     // Configure your Atlas collection
-    const database = client.db("carwale");
+    const database = client.db("getmycar");
     const collection = database.collection("newcars");
-    // const collection = database.collection("bodytypes");
+    // const collection = database.collection("fueltypes");
 
     // Ensure that the collection is empty
     await collection.deleteMany({});

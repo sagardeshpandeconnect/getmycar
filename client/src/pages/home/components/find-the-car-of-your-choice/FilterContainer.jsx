@@ -1,4 +1,3 @@
-import React from "react";
 import { BsChevronRight } from "react-icons/bs";
 import { Grid, GridItem, Image, Icon, Text, Box } from "@chakra-ui/react";
 
@@ -23,7 +22,6 @@ const FilterContainer = ({ itemData }) => {
           src={image}
           alt={title}
           marginX={{ sm: 28, md: 16, lg: 10 }}
-          // marginY={"6"}
         />
       </GridItem>
 

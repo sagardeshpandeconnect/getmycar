@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import { getData } from "@services/apiClient";
 import { Grid } from "@chakra-ui/react";
-import NewCarCard from "./NewCarCard";
+import NewCarCard from "../../components/ui/NewCarCard";
 
 const SpecificBrandPage = () => {
   const brandSlug = useParams().brandSlug;

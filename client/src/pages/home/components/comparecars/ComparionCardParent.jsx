@@ -10,6 +10,7 @@ import { useTranslation } from "react-i18next";
 
 const ComparionCardParent = ({ titleSlugs }) => {
   const { t } = useTranslation();
+  // console.log(titleSlugs);
 
   const [allData, setAllData] = useState([]);
 
@@ -21,6 +22,7 @@ const ComparionCardParent = ({ titleSlugs }) => {
       setAllData(responses.map((innerArray) => innerArray[0]));
     });
   }, []);
+  // console.log(allData);
 
   const dispatch = useDispatch();
 

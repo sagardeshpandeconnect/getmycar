@@ -1,5 +1,7 @@
 const NewCar = require("../models/newCar.model");
 const { handleRequest } = require("./errorHandling");
+const paginate = require("../middlewares/pagination.middleware");
+const { catchAsync } = require("../utils/catchAsync");
 
 // Constants for Field Names
 const FIELDS = {
@@ -10,9 +12,6 @@ const FIELDS = {
 };
 
 // Controllers
-const getAllCars = async (req, res) => {
-  await handleRequest(res, () => NewCar.find());
-};
 
 const getAllCarsOfSpecificBrand = async (req, res) => {
   const { brandSlug } = req.params;
@@ -36,12 +35,15 @@ const getCarsByBodyType = async (req, res) => {
   await handleRequest(res, () => NewCar.find({ bodytype: bodyType }));
 };
 
-const getCarsByFuelType = async (req, res) => {
+const getCarsByFuelType = catchAsync(async (req, res) => {
   const { fuelType } = req.params;
-  await handleRequest(res, () =>
-    NewCar.find({ [FIELDS.FUEL_TYPE]: { $in: [fuelType] } })
-  );
-};
+
+  const cars = await NewCar.find({ [FIELDS.FUEL_TYPE]: { $in: [fuelType] } });
+  if (!cars) {
+    return next(new AppError("No cars found with that fueltype", 404));
+  }
+  res.status(200).json(cars);
+});
 
 const getCarsByTransmissionType = async (req, res) => {
   const { transmission } = req.params;
@@ -58,7 +60,6 @@ const getCarsBySeatingCapacity = async (req, res) => {
 };
 
 module.exports = {
-  getAllCars,
   getAllCarsOfSpecificBrand,
   getSingleCarDetails,
   getCarsByPrice,

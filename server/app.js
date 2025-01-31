@@ -14,6 +14,8 @@ const {
   authRoute,
   usedCarRoute,
 } = require("./routes");
+const errorHandler = require("./middlewares/errorHandler.middleware");
+const AppError = require("./utils/AppError");
 
 const app = express();
 
@@ -22,6 +24,8 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(corsConfig);
 app.use(helmet());
+// Error-handling middleware
+app.use(errorHandler);
 
 // Routes
 app.use("/brands", brandRoute);
@@ -34,5 +38,9 @@ app.use("/transmission", transmissionRoute);
 app.use("/comparison", comparisonRoute);
 app.use("/auth", authRoute);
 app.use("/usedcars", usedCarRoute);
+// Handle 404 routes
+app.all("*", (req, res, next) => {
+  next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
+});
 
 module.exports = app;

@@ -1,9 +1,11 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useLocation } from "react-router-dom";
-import { Text, Grid } from "@chakra-ui/react";
+import { Text, Grid, Button, HStack } from "@chakra-ui/react";
 import { getData } from "@services/apiClient";
 import { useQuery } from "@tanstack/react-query";
 import NewCarCard from "@components/ui/NewCarCard";
+
+const ITEMS_PER_PAGE = 6;
 
 const FilteredCarsPage = () => {
   const { state } = useLocation();
@@ -19,9 +21,25 @@ const FilteredCarsPage = () => {
     queryFn: getCarsByFilterType,
   });
 
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const totalCars = data ? data.length : 0;
+  const totalPages = Math.ceil(totalCars / ITEMS_PER_PAGE);
+
+  const currentData = data
+    ? data.slice(
+        (currentPage - 1) * ITEMS_PER_PAGE,
+        currentPage * ITEMS_PER_PAGE
+      )
+    : [];
+
+  const handlePageChange = (newPage) => {
+    setCurrentPage(newPage);
+  };
+
   return (
     <>
-      {data && <Text>{data.length} Cars Found</Text>}
+      {data && <Text>{totalCars} Cars Found</Text>}
       <Grid
         templateColumns={{
           base: "repeat(1, 1fr)",
@@ -35,10 +53,35 @@ const FilteredCarsPage = () => {
           ? "Something went wrong!"
           : isLoading
           ? "loading.........."
-          : data.map((car) => {
+          : currentData.map((car) => {
               return <NewCarCard carData={car} key={car._id} />;
             })}
       </Grid>
+      {totalPages > 1 && (
+        <HStack spacing={2} marginY={4} justifyContent="center">
+          <Button
+            onClick={() => handlePageChange(currentPage - 1)}
+            isDisabled={currentPage === 1}
+          >
+            Previous
+          </Button>
+          {[...Array(totalPages)].map((_, index) => (
+            <Button
+              key={index + 1}
+              onClick={() => handlePageChange(index + 1)}
+              isActive={currentPage === index + 1}
+            >
+              {index + 1}
+            </Button>
+          ))}
+          <Button
+            onClick={() => handlePageChange(currentPage + 1)}
+            isDisabled={currentPage === totalPages}
+          >
+            Next
+          </Button>
+        </HStack>
+      )}
     </>
   );
 };

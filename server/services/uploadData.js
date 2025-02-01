@@ -1,12 +1,8 @@
 const { MongoClient } = require("mongodb");
 const fs = require("fs");
 
-const loadEnvironmentVariables = require("../configs/env.config");
-
-loadEnvironmentVariables();
-
 // const sourceDataPath = "./data/newcars.json";
-const sourceDataPath = "./data/transmissions.json";
+const sourceDataPath = "./data/brands.json";
 
 const mongoUrl = process.env.MONGO_URL;
 console.log(mongoUrl);
@@ -25,7 +21,7 @@ async function uploadDataToDatabase() {
     // Configure your Atlas collection
     const database = client.db("getmycar");
     // const collection = database.collection("newcars");
-    const collection = database.collection("transmissions");
+    const collection = database.collection("brands");
 
     // Ensure that the collection is empty
     await collection.deleteMany({});

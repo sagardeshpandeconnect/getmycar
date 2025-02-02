@@ -295,7 +295,7 @@ const UsedCarForm = () => {
           <FormControl isInvalid={!!errors.brand}>
             <FormLabel>Brand</FormLabel>
             <Select {...register("brand")}>
-              {["Toyota", "Honda", "Ford", "BMW", "Other"].map((brand) => (
+              {BRANDS.map((brand) => (
                 <option key={brand} value={brand}>
                   {brand}
                 </option>

@@ -2,7 +2,18 @@ import { useState, useRef, useEffect } from "react";
 import { useSelector } from "react-redux";
 import { useTranslation } from "react-i18next";
 import { Link as RouteLink } from "react-router-dom";
-import { Flex, Image, Box, Link, Text, useDisclosure } from "@chakra-ui/react";
+import {
+  Flex,
+  Image,
+  Box,
+  Link,
+  Text,
+  useDisclosure,
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+  Stack,
+} from "@chakra-ui/react";
 import logo from "@assets/carwaleLogo.svg";
 import { LocationIcon, MenuIcon, SearchIcon, UserIcon } from "@assets/Icons";
 import SearchBar from "./SearchBar";
@@ -86,9 +97,55 @@ const Navbar = () => {
             </Link>
           </Flex>
           <Box hideBelow={"md"}>
-            <Link as={RouteLink} to="used-cars">
-              <Text fontWeight="semibold">{t("navbar.usedCars")}</Text>
-            </Link>
+            <Popover trigger={"hover"} placement={"bottom-start"}>
+              <PopoverTrigger>
+                <Box
+                  p={2}
+                  _hover={{
+                    textDecoration: "none",
+                    cursor: "pointer",
+                  }}
+                  // hideBelow={"md"}
+                >
+                  <Text textStyle="lg" fontWeight="semibold">
+                    {t("navbar.usedCars")}
+                  </Text>
+                </Box>
+              </PopoverTrigger>
+              <PopoverContent
+                border={0}
+                boxShadow={"xl"}
+                p={2}
+                rounded={"xl"}
+                width={"12rem"}
+              >
+                <Box>
+                  <RouteLink style={{ textDecoration: "none" }} to="used-cars">
+                    <Flex
+                      alignItems={"center"}
+                      gap={3}
+                      paddingY={2}
+                      borderBottom={"1px solid gray"}
+                    >
+                      <Text>Browse Used Cars</Text>
+                    </Flex>
+                  </RouteLink>
+                  <RouteLink
+                    to={"/sell-your-car"}
+                    style={{ textDecoration: "none" }}
+                  >
+                    <Flex
+                      alignItems={"center"}
+                      gap={3}
+                      paddingY={2}
+                      onClick={onClose}
+                    >
+                      <Text>Sell Your Car</Text>
+                    </Flex>
+                  </RouteLink>
+                </Box>
+              </PopoverContent>
+            </Popover>
           </Box>
           <Flex
             gap={{ base: 3, md: 6 }}

@@ -12,8 +12,8 @@ import {
   SkeletonText,
 } from "@chakra-ui/react";
 
-import Modal from "./Modal";
-import EMICalculator from "./EMICalculator/EMICalculator";
+import Modal from "@components/ui/Modal";
+import EMICalculator from "./EMICalculator";
 import useOnClickOutside from "@hooks/useOnClickOutside";
 import { calculateEMI } from "@utils/calculateEMI";
 import { convertPrice } from "@utils/convertPrice";

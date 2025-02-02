@@ -18,9 +18,6 @@ const ManageYourLisingsCard = ({ carData, onDelete }) => {
     price,
     year,
     month,
-    name,
-    email,
-    mobile,
     updatedAt,
     picture,
     city,
@@ -74,7 +71,7 @@ const ManageYourLisingsCard = ({ carData, onDelete }) => {
             {brand} {carName}
           </chakra.h3>
           <chakra.h3 fontSize={{ base: "lg", md: "xl" }} fontWeight="bold">
-            {price}
+            Rs. {price}
           </chakra.h3>
         </Flex>
         <Box>

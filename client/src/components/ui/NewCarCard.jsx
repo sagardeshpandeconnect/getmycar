@@ -1,6 +1,6 @@
+import { Link } from "react-router-dom";
 import { Flex, Text, Image, Button, Heading, Grid } from "@chakra-ui/react";
 import { convertPrice } from "@utils/convertPrice";
-import { Link } from "react-router-dom";
 
 const NewCarCard = ({ carData }) => {
   const { specifications, title, image, titleSlug, brandSlug } = carData;

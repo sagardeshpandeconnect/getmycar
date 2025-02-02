@@ -1,4 +1,11 @@
-export const BRANDS = ["Toyota", "Honda", "Ford", "BMW", "Other"];
+export const BRANDS = [
+  "Maruti Suzuki",
+  "Hyundai",
+  "Toyota",
+  "Honda",
+  "Tata",
+  "Other",
+];
 export const MONTHS = [
   "January",
   "February",

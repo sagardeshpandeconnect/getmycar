@@ -61,7 +61,6 @@ const UsedCarCard = ({ data }) => {
       overflow="hidden"
       position="relative"
     >
-      {/* here was important */}
       <Flex marginLeft="0 ">
         <Image
           rounded="md"
@@ -76,7 +75,6 @@ const UsedCarCard = ({ data }) => {
         direction="column"
         spacing={2}
         width="100%"
-        // here was importnat
         marginTop={{ base: "5px ", sm: 0 }}
       >
         <Flex justifyContent="space-between">
@@ -84,7 +82,7 @@ const UsedCarCard = ({ data }) => {
             {brand} {carName}
           </chakra.h3>
           <chakra.h3 fontSize={{ base: "lg", md: "xl" }} fontWeight="bold">
-            {price}
+            Rs. {price}
           </chakra.h3>
         </Flex>
         <Box>
@@ -109,9 +107,8 @@ const UsedCarCard = ({ data }) => {
           alignItems={{ base: "flex-start", sm: "center" }}
         >
           <Text fontSize="sm" marginTop={{ base: 1, sm: 0 }}>
-            Updated on : {formattedDate}
+            Listed / Updated on : {formattedDate}
           </Text>
-          {/* here was importnat */}
           <Stack direction="row" spacing={1} marginBottom="0 ">
             {isUserSignedIn ? (
               <Popover placement="top">

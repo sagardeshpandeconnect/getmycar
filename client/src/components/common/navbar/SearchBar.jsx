@@ -1,6 +1,5 @@
 import { forwardRef, useEffect, useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-
 import {
   Flex,
   InputGroup,
@@ -9,11 +8,11 @@ import {
   InputRightElement,
   Stack,
 } from "@chakra-ui/react";
-
-import useOnClickOutside from "@hooks/useOnClickOutside";
-import { getData } from "@services/apiClient";
 import SearchSuggestion from "./SearchSuggestion";
+import { getData } from "@services/apiClient";
 import { SearchIcon } from "@assets/Icons";
+import useDebounce from "@hooks/useDebounce";
+import useOnClickOutside from "@hooks/useOnClickOutside";
 
 const SearchBar = forwardRef((props, ref) => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -21,6 +20,9 @@ const SearchBar = forwardRef((props, ref) => {
   const [focusedIndex, setFocusedIndex] = useState(-1);
   const resultContainer = useRef(null);
   const navigate = useNavigate();
+
+  // Use the useDebounce hook to debounce the searchQuery
+  const debouncedSearchQuery = useDebounce(searchQuery, 300);
 
   const clearSearchQuery = function () {
     setSearchQuery("");
@@ -30,30 +32,37 @@ const SearchBar = forwardRef((props, ref) => {
     const { key } = event;
     let nextIndexCount = 0;
 
-    // move down
-    if (key === "ArrowDown")
-      nextIndexCount = (focusedIndex + 1) % searchedCars.length;
+    switch (key) {
+      case "ArrowDown":
+        // Move down
+        nextIndexCount = (focusedIndex + 1) % searchedCars.length;
+        break;
 
-    // move up
-    if (key === "ArrowUp")
-      nextIndexCount =
-        (focusedIndex + searchedCars.length - 1) % searchedCars.length;
+      case "ArrowUp":
+        // Move up
+        nextIndexCount =
+          (focusedIndex + searchedCars.length - 1) % searchedCars.length;
+        break;
 
-    // hide search results
-    if (key === "Escape") {
-      clearSearchQuery();
-    }
+      case "Escape":
+        // Hide search results
+        clearSearchQuery();
+        break;
 
-    // select the current item
+      case "Enter":
+        // Select the current item
+        event.preventDefault();
+        goToDetailsPage();
+        hideSearchBar();
+        clearSearchQuery();
+        console.log(
+          `/${searchedCars[focusedIndex].brandSlug}/${searchedCars[focusedIndex].titleSlug}`
+        );
+        break;
 
-    if (key === "Enter") {
-      event.preventDefault();
-      goToDetailsPage();
-      hideSearchBar();
-      clearSearchQuery();
-      console.log(
-        `/${searchedCars[focusedIndex].brandSlug}/${searchedCars[focusedIndex].titleSlug}`
-      );
+      default:
+        // Do nothing for other keys
+        break;
     }
 
     setFocusedIndex(nextIndexCount);
@@ -67,19 +76,21 @@ const SearchBar = forwardRef((props, ref) => {
     const fetchSuggestions = async () => {
       const responseData = await getData(`/search`, {
         params: {
-          title: searchQuery,
+          title: debouncedSearchQuery,
         },
       });
 
-      // Filter suggestions based on searchQuery
+      // Filter suggestions based on debouncedSearchQuery
       const exactMatches = responseData.filter(
         (suggestion) =>
-          suggestion.title.toLowerCase() === searchQuery.toLowerCase()
+          suggestion.title.toLowerCase() === debouncedSearchQuery.toLowerCase()
       );
 
       const otherMatches = responseData.filter(
         (suggestion) =>
-          suggestion.title.toLowerCase().includes(searchQuery.toLowerCase()) &&
+          suggestion.title
+            .toLowerCase()
+            .includes(debouncedSearchQuery.toLowerCase()) &&
           !exactMatches.includes(suggestion)
       );
 
@@ -87,11 +98,10 @@ const SearchBar = forwardRef((props, ref) => {
       const filteredSuggestions = [...exactMatches, ...otherMatches];
       setSearchedCars(filteredSuggestions);
 
-      // setSearchedCars(responseData);
       console.log(responseData);
     };
-    if (searchQuery.length > 0) fetchSuggestions();
-  }, [searchQuery]);
+    if (debouncedSearchQuery.length > 0) fetchSuggestions();
+  }, [debouncedSearchQuery]); // Depend on debouncedSearchQuery instead of searchQuery
 
   useOnClickOutside(ref, clearSearchQuery);
 
@@ -143,7 +153,7 @@ const SearchBar = forwardRef((props, ref) => {
             </Box>
           </InputRightElement>
         </InputGroup>
-        {searchQuery.length > 0 && (
+        {debouncedSearchQuery.length > 0 && (
           <Flex
             width={{ base: "100%", md: "100%", lg: "305px" }}
             direction={"column"}
@@ -165,7 +175,7 @@ const SearchBar = forwardRef((props, ref) => {
                 >
                   <SearchSuggestion
                     result={car}
-                    query={searchQuery}
+                    query={debouncedSearchQuery}
                     onClick={() => {
                       navigate(`/${car.brandSlug}/${car.titleSlug}`);
                       hideSearchBar();

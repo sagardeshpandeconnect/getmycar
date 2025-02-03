@@ -15,7 +15,7 @@ import {
   Stack,
 } from "@chakra-ui/react";
 import logo from "@assets/carwaleLogo.svg";
-import { LocationIcon, MenuIcon, SearchIcon, UserIcon } from "@assets/Icons";
+import { MenuIcon, SearchIcon, UserIcon } from "@assets/Icons";
 import SearchBar from "./SearchBar";
 import Sidebar from "./Sidebar";
 import useOnClickOutside from "@hooks/useOnClickOutside";
@@ -130,19 +130,31 @@ const Navbar = () => {
                       <Text>Browse Used Cars</Text>
                     </Flex>
                   </RouteLink>
-                  <RouteLink
-                    to={"/sell-your-car"}
-                    style={{ textDecoration: "none" }}
-                  >
-                    <Flex
-                      alignItems={"center"}
-                      gap={3}
-                      paddingY={2}
-                      onClick={onClose}
+
+                  {isUserSignedIn ? (
+                    <RouteLink
+                      to={"/sell-your-car"}
+                      style={{ textDecoration: "none" }}
                     >
+                      <Flex
+                        alignItems={"center"}
+                        gap={3}
+                        paddingY={2}
+                        onClick={onClose}
+                      >
+                        <Text>Sell Your Car</Text>
+                      </Flex>
+                    </RouteLink>
+                  ) : (
+                    <Box onClick={onOpen} cursor={"pointer"} paddingY={2}>
                       <Text>Sell Your Car</Text>
-                    </Flex>
-                  </RouteLink>
+                      <SignInModal
+                        isOpen={isOpen}
+                        onClose={onClose}
+                        navigateTo="/sell-your-car"
+                      />
+                    </Box>
+                  )}
                 </Box>
               </PopoverContent>
             </Popover>

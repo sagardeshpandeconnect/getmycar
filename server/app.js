@@ -15,7 +15,7 @@ const {
   usedCarRoute,
 } = require("./routes");
 const errorHandler = require("./middlewares/errorHandler.middleware");
-const AppError = require("./utils/AppError");
+const AppError = require("./utils/appError");
 
 const app = express();
 

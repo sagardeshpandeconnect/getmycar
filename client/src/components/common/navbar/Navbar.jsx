@@ -12,7 +12,6 @@ import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-  Stack,
 } from "@chakra-ui/react";
 import logo from "@assets/carwaleLogo.svg";
 import { MenuIcon, SearchIcon, UserIcon } from "@assets/Icons";
@@ -20,40 +19,47 @@ import SearchBar from "./SearchBar";
 import Sidebar from "./Sidebar";
 import useOnClickOutside from "@hooks/useOnClickOutside";
 import ProfileCard from "@components/common/navbar/ProfileCard";
-import SignInModal from "@components/common/navbar/SignInModal";
+import SignInModal from "@components/ui/SignInModal";
 import LanguageChange from "./LanguageChange";
 import useLanguageLoading from "@hooks/useLanguageLoading";
 
 const Navbar = () => {
   const { t } = useTranslation();
+  const loading = useLanguageLoading();
 
-  const loading = useLanguageLoading(); // Use the custom hook to get the loading state
-
-  // If language is not loaded, show a loading state
-
-  const { isOpen, onOpen, onClose } = useDisclosure();
+  // State for modal control
+  const [signInNavigateTo, setSignInNavigateTo] = useState("/");
+  const {
+    isOpen: isSignInOpen,
+    onOpen: openSignIn,
+    onClose: closeSignIn,
+  } = useDisclosure();
 
   const authStore = useSelector((state) => state.entities.auth);
   const isUserSignedIn = authStore.isUserSignedIn;
-  // console.log(authStore);
 
-  const [shoudlShowSearchBar, setShoudlShowSearchBar] = useState(false);
+  const [shouldShowSearchBar, setShouldShowSearchBar] = useState(false);
   const [shouldShowSidebar, setShouldShowSidebar] = useState(false);
   const inputRef = useRef();
   const sidebarRef = useRef();
 
-  const hideSearchBar = () => setShoudlShowSearchBar(false);
+  const hideSearchBar = () => setShouldShowSearchBar(false);
   const hideSidebar = () => setShouldShowSidebar(false);
   const showSearchBar = () => {
-    setShoudlShowSearchBar(true);
+    setShouldShowSearchBar(true);
     inputRef.current.focus();
   };
 
-  // Disable scrolling when the sidebar or modal is open
+  // Handler for opening sign in modal with different navigation targets
+  const handleSignInClick = (navigateTo) => {
+    setSignInNavigateTo(navigateTo);
+    openSignIn();
+  };
+
   useEffect(() => {
     if (shouldShowSidebar) {
       document.body.style.overflow = "hidden";
-      document.body.style.touchAction = "none"; // Prevent touch scrolling on mobile
+      document.body.style.touchAction = "none";
     } else {
       document.body.style.overflow = "auto";
       document.body.style.touchAction = "auto";
@@ -69,7 +75,7 @@ const Navbar = () => {
   useOnClickOutside(inputRef, hideSearchBar);
 
   if (loading) {
-    return <div>Loading...</div>; // You can replace this with a spinner or a custom loading component
+    return <div>Loading...</div>;
   }
 
   return (
@@ -96,6 +102,7 @@ const Navbar = () => {
               <Image width={"9rem"} src={logo} alt="logo" />
             </Link>
           </Flex>
+
           <Box hideBelow={"md"}>
             <Popover trigger={"hover"} placement={"bottom-start"}>
               <PopoverTrigger>
@@ -105,7 +112,6 @@ const Navbar = () => {
                     textDecoration: "none",
                     cursor: "pointer",
                   }}
-                  // hideBelow={"md"}
                 >
                   <Text textStyle="lg" fontWeight="semibold">
                     {t("navbar.usedCars")}
@@ -136,29 +142,24 @@ const Navbar = () => {
                       to={"/sell-your-car"}
                       style={{ textDecoration: "none" }}
                     >
-                      <Flex
-                        alignItems={"center"}
-                        gap={3}
-                        paddingY={2}
-                        onClick={onClose}
-                      >
+                      <Flex alignItems={"center"} gap={3} paddingY={2}>
                         <Text>Sell Your Car</Text>
                       </Flex>
                     </RouteLink>
                   ) : (
-                    <Box onClick={onOpen} cursor={"pointer"} paddingY={2}>
+                    <Box
+                      onClick={() => handleSignInClick("/sell-your-car")}
+                      cursor={"pointer"}
+                      paddingY={2}
+                    >
                       <Text>Sell Your Car</Text>
-                      <SignInModal
-                        isOpen={isOpen}
-                        onClose={onClose}
-                        navigateTo="/sell-your-car"
-                      />
                     </Box>
                   )}
                 </Box>
               </PopoverContent>
             </Popover>
           </Box>
+
           <Flex
             gap={{ base: 3, md: 6 }}
             justifyContent={"space-between"}
@@ -171,7 +172,7 @@ const Navbar = () => {
               <Box hideFrom="md" onClick={showSearchBar}>
                 <SearchIcon />
               </Box>
-              {shoudlShowSearchBar && (
+              {shouldShowSearchBar && (
                 <Box
                   position={"absolute"}
                   margin={"0.5"}
@@ -204,13 +205,19 @@ const Navbar = () => {
             {isUserSignedIn ? (
               <ProfileCard userName={authStore.user.username} />
             ) : (
-              <Box onClick={onOpen}>
+              <Box onClick={() => handleSignInClick("/")}>
                 <UserIcon />
-                <SignInModal isOpen={isOpen} onClose={onClose} />
               </Box>
             )}
           </Flex>
         </Flex>
+
+        {/* Single SignInModal instance */}
+        <SignInModal
+          isOpen={isSignInOpen}
+          onClose={closeSignIn}
+          navigateTo={signInNavigateTo}
+        />
       </nav>
     </header>
   );

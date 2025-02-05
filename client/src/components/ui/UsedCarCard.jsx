@@ -19,10 +19,14 @@ import {
 } from "@chakra-ui/react";
 import { FaUser, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 import { useSelector } from "react-redux";
-import SignInModal from "../common/navbar/SignInModal";
+import SignInModal from "./SignInModal";
 
 const UsedCarCard = ({ data }) => {
-  const { isOpen, onOpen, onClose } = useDisclosure();
+  const {
+    isOpen: isSignInOpen,
+    onOpen: openSignIn,
+    onClose: closeSignIn,
+  } = useDisclosure();
   const {
     brand,
     price,
@@ -196,14 +200,18 @@ const UsedCarCard = ({ data }) => {
                   size={"sm"}
                   backgroundColor="green.500"
                   color="white"
-                  onClick={onOpen}
+                  onClick={openSignIn}
                   leftIcon={<Icon as={FaUser} width={4} height={4} />}
                   _hover={{ backgroundColor: "green.600" }}
                 >
                   Sign In to View Details
                 </Button>
 
-                <SignInModal isOpen={isOpen} onClose={onClose} />
+                <SignInModal
+                  isOpen={isSignInOpen}
+                  onClose={closeSignIn}
+                  navigateTo="/used-cars"
+                />
               </Box>
             )}
           </Stack>

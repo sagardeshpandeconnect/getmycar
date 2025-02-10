@@ -124,7 +124,7 @@ const SearchBar = forwardRef((props, ref) => {
 
   return (
     <Stack backgroundColor={"white"}>
-      <Box ref={ref}>
+      <Box ref={ref} padding={{ base: 2, md: 0 }} marginY={{ base: 1, md: 0 }}>
         <InputGroup>
           <Input
             autoFocus={autoFocus}

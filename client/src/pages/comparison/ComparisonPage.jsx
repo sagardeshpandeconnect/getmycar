@@ -5,23 +5,7 @@ import {
   resetStore,
 } from "@features/comparison/comparisonSlice";
 import Wrapper from "@components/layout/Wrapper";
-import {
-  Box,
-  Collapse,
-  HStack,
-  Heading,
-  Table,
-  TableContainer,
-  Thead,
-  Tr,
-  Th,
-  Td,
-  Tbody,
-  Button,
-  Grid,
-  Flex,
-  Text,
-} from "@chakra-ui/react";
+import { Box, HStack, Heading } from "@chakra-ui/react";
 // import { textCombiner } from "@utils/textCombiner";
 import { convertPrice } from "@utils/convertPrice";
 import TextComparison from "./components/TextComparison";
@@ -79,7 +63,6 @@ const ComparisonPage = () => {
         <HStack>
           {comparisonStore &&
             comparisonStore.map((car, index) => {
-              // const carData = car[0];
               return (
                 <Box key={index}>
                   <Heading as="h1" size="lg">

@@ -1,4 +1,3 @@
-import React from "react";
 import {
   chakra,
   Box,
@@ -61,26 +60,24 @@ const UsedCarCard = ({ data }) => {
       borderColor="gray.400"
       padding={2}
       rounded="md"
-      width={{ base: "auto", md: "2xl" }}
+      width={{ base: "full", md: "4xl" }} // Ensure uniform width
       overflow="hidden"
       position="relative"
     >
-      <Flex marginLeft="0 ">
+      {/* Image Container with Fixed Width */}
+      <Flex minWidth="18rem" flexShrink={0} justifyContent="center">
         <Image
           rounded="md"
-          width={{ base: "100%", md: "18rem" }}
-          maxHeight={"180px"}
+          width="21rem" // Fixed width for consistency
+          height="180px" // Ensure uniform height
           objectFit="cover"
           src={picture.url}
           alt="product image"
         />
       </Flex>
-      <Stack
-        direction="column"
-        spacing={2}
-        width="100%"
-        marginTop={{ base: "5px ", sm: 0 }}
-      >
+
+      {/* Car Details */}
+      <Stack direction="column" spacing={2} flex="1">
         <Flex justifyContent="space-between">
           <chakra.h3 fontSize={{ base: "lg", md: "xl" }} fontWeight="bold">
             {brand} {carName}
@@ -96,14 +93,12 @@ const UsedCarCard = ({ data }) => {
         </Box>
         <Flex alignItems="center" color="gray.500">
           <Text fontSize={{ base: "sm", sm: "md" }}>
-            Manufacturing : {month} {year}
+            Manufacturing: {month} {year}
           </Text>
         </Flex>
         <HStack alignItems="center" color="gray.500" spacing={3}>
           <Text fontSize={{ base: "sm", sm: "md" }}>{ownerType} Owner</Text>
-          <Text fontSize={{ base: "sm", sm: "md" }}>
-            km driven : {kmDriven}
-          </Text>
+          <Text fontSize={{ base: "sm", sm: "md" }}>km driven: {kmDriven}</Text>
         </HStack>
         <Stack
           direction={{ base: "column-reverse", sm: "row" }}
@@ -111,14 +106,14 @@ const UsedCarCard = ({ data }) => {
           alignItems={{ base: "flex-start", sm: "center" }}
         >
           <Text fontSize="sm" marginTop={{ base: 1, sm: 0 }}>
-            Listed / Updated on : {formattedDate}
+            Listed / Updated on: {formattedDate}
           </Text>
-          <Stack direction="row" spacing={1} marginBottom="0 ">
+          <Stack direction="row" spacing={1}>
             {isUserSignedIn ? (
               <Popover placement="top">
                 <PopoverTrigger>
                   <Button
-                    size={"sm"}
+                    size="sm"
                     backgroundColor="green.500"
                     color="white"
                     leftIcon={<Icon as={FaUser} width={4} height={4} />}
@@ -127,11 +122,10 @@ const UsedCarCard = ({ data }) => {
                     Show Seller Details
                   </Button>
                 </PopoverTrigger>
-
                 <PopoverContent>
                   <PopoverArrow />
                   <PopoverCloseButton />
-                  <PopoverBody backgroundColor={"green.100"} paddingTop={"2"}>
+                  <PopoverBody backgroundColor="green.100" paddingTop="2">
                     <Stack spacing={3}>
                       <Flex align="center">
                         <Icon
@@ -144,11 +138,11 @@ const UsedCarCard = ({ data }) => {
                           fontWeight="bold"
                           color="gray.700"
                           fontSize="md"
-                          marginLeft={"2"}
+                          ml="2"
                         >
                           Name:
                         </Text>
-                        <Text marginLeft={2} color="gray.800">
+                        <Text ml={2} color="gray.800">
                           {name}
                         </Text>
                       </Flex>
@@ -163,11 +157,11 @@ const UsedCarCard = ({ data }) => {
                           fontWeight="bold"
                           color="gray.700"
                           fontSize="md"
-                          marginLeft={2}
+                          ml={2}
                         >
                           Mobile:
                         </Text>
-                        <Text marginLeft={2} color="gray.800">
+                        <Text ml={2} color="gray.800">
                           {mobile}
                         </Text>
                       </Flex>
@@ -182,11 +176,11 @@ const UsedCarCard = ({ data }) => {
                           fontWeight="bold"
                           color="gray.700"
                           fontSize="md"
-                          marginLeft={2}
+                          ml={2}
                         >
                           Email:
                         </Text>
-                        <Text marginLeft={2} color="gray.800">
+                        <Text ml={2} color="gray.800">
                           {email}
                         </Text>
                       </Flex>
@@ -197,7 +191,7 @@ const UsedCarCard = ({ data }) => {
             ) : (
               <Box>
                 <Button
-                  size={"sm"}
+                  size="sm"
                   backgroundColor="green.500"
                   color="white"
                   onClick={openSignIn}
@@ -206,7 +200,6 @@ const UsedCarCard = ({ data }) => {
                 >
                   Sign In to View Details
                 </Button>
-
                 <SignInModal
                   isOpen={isSignInOpen}
                   onClose={closeSignIn}

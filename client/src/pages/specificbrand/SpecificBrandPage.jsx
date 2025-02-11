@@ -4,6 +4,7 @@ import { useQuery } from "@tanstack/react-query";
 import { getData } from "@services/apiClient";
 import { Grid } from "@chakra-ui/react";
 import NewCarCard from "../../components/ui/NewCarCard";
+import { Container, VStack } from "@chakra-ui/react";
 
 const SpecificBrandPage = () => {
   const brandSlug = useParams().brandSlug;
@@ -20,13 +21,7 @@ const SpecificBrandPage = () => {
 
   return (
     <>
-      <Grid
-        templateColumns={{
-          base: "repeat(1, 1fr)",
-          md: "repeat(2, 1fr)",
-          lg: "repeat(2, 1fr)",
-        }}
-      >
+      {/* <Grid templateColumns="repeat(1,1fr)" gap={6} p={5}>
         {error
           ? "Something went wrong!"
           : isLoading
@@ -34,7 +29,19 @@ const SpecificBrandPage = () => {
           : data?.map((car) => {
               return <NewCarCard carData={car} key={car._id} />;
             })}
-      </Grid>
+      </Grid> */}
+
+      <Container padding={{ base: 4, md: 8 }} margin="0 auto">
+        <VStack spacing={6}>
+          {error
+            ? "Something went wrong!"
+            : isLoading
+            ? "loading.........."
+            : data?.map((car) => {
+                return <NewCarCard carData={car} key={car._id} />;
+              })}
+        </VStack>
+      </Container>
     </>
   );
 };

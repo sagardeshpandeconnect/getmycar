@@ -57,7 +57,7 @@ const ProfileCard = ({ userName }) => {
         >
           <ModalCloseButton />
           <ModalBody>
-            <Box backgroundColor={"white"}>
+            <Box backgroundColor={"white"} marginTop={{ base: "6", md: "0" }}>
               <Box>
                 <RouteLink style={{ textDecoration: "none" }}>
                   <Flex
